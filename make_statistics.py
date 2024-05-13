@@ -6,7 +6,7 @@ import os
 import sys
 from collections import defaultdict
 
-OUTPUT_HTML = "."
+OUTPUT_HTML = "./github-pages"
 
 os.makedirs(OUTPUT_HTML, exist_ok=True)
 os.makedirs(OUTPUT_HTML + "/modules", exist_ok=True)
