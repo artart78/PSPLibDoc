@@ -2,10 +2,15 @@
 
 import psp_libdoc
 import glob
+import os
 import sys
 from collections import defaultdict
 
-OUTPUT_HTML = "./"
+OUTPUT_HTML = "."
+
+os.makedirs(OUTPUT_HTML, exist_ok=True)
+os.makedirs(OUTPUT_HTML + "/modules", exist_ok=True)
+
 HTML_STATUS = [
     # for both obfuscated and non-obfuscated
     ("known", "green", "matching the name hash"),
@@ -19,6 +24,11 @@ HTML_STATUS = [
     ("unknown_obf", "grey", "unknown but obfuscated")
 ]
 
+def find_html_status(status):
+    for (s, color, desc) in HTML_STATUS:
+        if s == status:
+            return (color, desc)
+
 def html_header(versions):
     header = """<!DOCTYPE html>
 <html>
@@ -26,7 +36,7 @@ def html_header(versions):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-.w3-container, .w3-panel {
+.w3-table .w3-container {
     padding: 0em 0px;
 }
 .w3-col {
@@ -34,7 +44,14 @@ def html_header(versions):
 }
 </style>
 <body>
-<div class="w3-container" style="height:100vh; width:100vw; overflow: scroll;">"""
+<div class="w3-container" style="height:100vh; width:100vw; overflow: scroll;">
+<h1>PSP NID Status</h1>
+<p>
+This page contains the status of all the NIDs from the PSP official firmwares. <br />
+To get more details about a library, click its name to see its list of NIDs. <br />
+On later firmwares, some kernel NIDs were randomized. A star indicates (most of) the library's NIDs were (re-)randomized at that firmware version. <br />
+Hover a color to get the numbers and the definition of its status.
+</p>"""
     header += """<table class="w3-table"><tr><th>Module name</th><th>Library name</th>"""
     for ver in versions:
         header += f"<th>{ver}</th>"
@@ -45,7 +62,7 @@ def html_footer():
     return """</table></div></body></html>"""
 
 def html_module(module, lib, stats_byver, versions):
-    output = f"<tr><td>{module}</td><td>{lib}</td>"
+    output = f"""<tr><td>{module}</td><td><a href="modules/{module}_{lib}.html">{lib}</a></td>"""
     for ver in versions:
         if ver not in stats_byver:
             output += "<td></td>"
@@ -73,7 +90,44 @@ def html_module(module, lib, stats_byver, versions):
         output += f"{obf_str}</div></td>"
     return output
 
-def make_stats(module, lib, version, obfuscated, cur_nids, prev_nonobf, prev_ok, stats_bynid):
+def html_single_module(module, lib, stats_bynid, versions):
+    output = f"""<!DOCTYPE html>
+<html>
+<title>PSP NID Status for {lib} in {module}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container" style="height:100vh; width:100vw; overflow: scroll;">
+<h1>{module}: {lib}</h1>
+<p>
+This page contains the status of all the NIDs from the {lib} library inside the {module} module.<br />
+Hover a cell to know the meaning of the color. <br />
+"..." means the given name is the same as the one on its left. <br />
+</p>
+"""
+    output += """<table class="w3-table"><tr><th>NID</th>"""
+    for v in versions:
+        output += f"<th>{v}</th>"
+    output += '</tr>'
+    for nid in sorted(stats_bynid):
+        output += f"<tr><td>{nid}</td>"
+        last_name = None
+        for v in versions:
+            if v not in stats_bynid[nid]:
+                output += "<td></td>"
+            else:
+                (status, name) = stats_bynid[nid][v]
+                show_name = name
+                if name == last_name:
+                    show_name = '...'
+                last_name = name
+                (color, desc) = find_html_status(status)
+                output += f"""<td class="w3-{color}"><div class="w3-tooltip">{show_name}<span style="position:absolute;left:0;bottom:18px" class="w3-text w3-tag">NID is {desc}</span></div></td>"""
+        output += "</tr>"
+    output += "</table></div></body></html>"
+    return output
+
+def make_stats(module, lib, version, obfuscated, cur_nids, prev_nonobf, prev_ok):
     unk_nids = []
     nok_nids = []
     ok_nids = []
@@ -150,7 +204,6 @@ def main():
         prev_nonobf = {}
         prev_ok = {}
         stats_byver = {vers[0]: (make_stats(libinfo[0], lib, vers[0], now_obfuscated, nid_bylib[lib][vers[0]], prev_nonobf, prev_ok), False)}
-        stats_bynid = {}
         for (v1, v2) in zip(vers, vers[1:]):
             v1_nids = set([x[0] for x in nid_bylib[lib][v1]])
             v2_nids = set([x[0] for x in nid_bylib[lib][v2]])
@@ -171,10 +224,21 @@ def main():
             if is_obfuscated:
                 kept = len(v1_nids & v2_nids)
                 now_obfuscated = True
-            stats_byver[v2] = (make_stats(libinfo[0], lib, v2, now_obfuscated, nid_bylib[lib][v2], prev_nonobf, prev_ok, stats_bynid), is_obfuscated)
+            stats_byver[v2] = (make_stats(libinfo[0], lib, v2, now_obfuscated, nid_bylib[lib][v2], prev_nonobf, prev_ok), is_obfuscated)
         html_output += html_module(libinfo[0], lib, stats_byver, versions)
+
+        stats_bynid = defaultdict(dict)
+        for v in vers:
+            for status in stats_byver[v][0]:
+                if status == "total":
+                    continue
+                for (nid, name) in stats_byver[v][0][status]:
+                    stats_bynid[nid][v] = (status, name)
+        with open(OUTPUT_HTML + '/modules/' + libinfo[0] + '_' + lib + '.html', 'w') as fd:
+            fd.write(html_single_module(libinfo[0], lib, stats_bynid, vers))
+
     html_output += html_footer()
-    with open(OUTPUT_HTML + '/' + index.html, 'w') as fd:
+    with open(OUTPUT_HTML + "/index.html", 'w') as fd:
         fd.write(html_output)
 
 if __name__ == '__main__':
