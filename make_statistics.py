@@ -109,7 +109,17 @@ Hover a cell to know the meaning of the color. <br />
     for v in versions:
         output += f"<th>{v}</th>"
     output += '</tr>'
-    for nid in sorted(stats_bynid):
+    sorted_nids = []
+    for v in versions:
+        ver_nids = []
+        for nid in stats_bynid:
+            if v in stats_bynid[nid]:
+                (_, name) = stats_bynid[nid][v]
+                ver_nids.append((name, nid))
+        for (_, nid) in sorted(ver_nids):
+            if nid not in sorted_nids:
+                sorted_nids.append(nid)
+    for nid in sorted_nids:
         output += f"<tr><td>{nid}</td>"
         last_name = None
         for v in versions:
