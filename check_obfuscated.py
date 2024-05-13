@@ -3,13 +3,6 @@
 import psp_libdoc
 import glob
 from collections import defaultdict
-import hashlib
-
-all_nids = defaultdict(set)
-all_unk_nids = []
-
-def compute_nid(name):
-    return hashlib.sha1(name.encode('ascii')).digest()[:4][::-1].hex().upper()
 
 def print_status(module, lib, version, obfuscated, cur_nids, prev_nonobf, prev_ok):
     #print("---", lib, version, obfuscated)
@@ -21,12 +14,9 @@ def print_status(module, lib, version, obfuscated, cur_nids, prev_nonobf, prev_o
             prev_nonobf[nid] = (version, name)
         if name.endswith(nid):
             unk_nids.append((nid, name))
-            all_unk_nids.append((nid, module, lib))
-        elif compute_nid(name) == nid:
+        elif psp_libdoc.compute_nid(name) == nid:
             ok_nids.append((nid, name))
-            all_nids[nid].add((name, module, lib))
         else:
-            all_unk_nids.append((nid, module, lib))
             nok_nids.append((nid, name))
     #print("out of %d %snids:" % (len(cur_nids), "obfuscated " if obfuscated else ""))
     if obfuscated:
@@ -73,7 +63,7 @@ def main():
     nid_bylib = defaultdict(lambda: defaultdict(set))
     lib_info = {}
 
-    filelist = glob.glob('PSPLibDoc/*/Export/**/*.xml', recursive=True)
+    filelist = glob.glob('ePSP*/*/Export/**/*.xml', recursive=True)
     for (idx, file) in enumerate(filelist):
         version = file.split('/')[1]
         entries = psp_libdoc.loadPSPLibdoc(file)
@@ -103,8 +93,7 @@ def main():
                     for (x, y) in nid_bylib[lib][v2]:
                         if x == n:
                             name = y
-                    realhash = hashlib.sha1(name.encode('ascii')).digest()[:4][::-1].hex().upper()
-                    if realhash == n and v1 != '5.55': # some exceptions exist for 5.55 (which misses functions from 5.51)
+                    if compute_nid(name) == n and v1 != '5.55': # some exceptions exist for 5.55 (which misses functions from 5.51)
                         #print('ERROR:', n, name)
                         is_obfuscated = False
             if is_obfuscated:
@@ -115,13 +104,6 @@ def main():
                 pass
                 #print(f"{lib} {v1} -> {v2} NOT obfuscated, {new_ratio*100:.0f}% new, {dis_ratio*100:.0f}% disappeared out of {len(v1_nids)}")
             print_status(libinfo[0], lib, v2, now_obfuscated, nid_bylib[lib][v2], prev_nonobf, prev_ok)
-    for (nid, mod, lib) in all_unk_nids:
-        if nid in all_nids:
-            if len(all_nids[nid]) > 1:
-                print("WARN: collision in NIDs?", nid, mod, lib, all_nids[nid])
-            else:
-                (name, mod2, lib2) = list(all_nids[nid])[0]
-                print(f"XXX [{mod}.{lib}/{mod2}.{lib2}: s/{lib}_{nid}/{name}/")
 
 if __name__ == '__main__':
     main()
