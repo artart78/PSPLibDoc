@@ -34,19 +34,15 @@ def get_raw_functions(binary_path):
     return funs
 
 def match_module_pair(path1, path2):
-    funs1 = {k: v for k, v in get_raw_functions(path1).items() if not k.startswith('sub_')}
-    funs2 = {k: v for k, v in get_raw_functions(path2).items() if not k.startswith('sub_')}
+    funs1 = {k: v for k, v in get_raw_functions(path1).items() if not (k.startswith('sub_') or k.startswith('loc_') or k.startswith('module_'))}
+    funs2 = {k: v for k, v in get_raw_functions(path2).items() if not (k.startswith('sub_') or k.startswith('loc_') or k.startswith('module_'))}
     result = {}
     while len(funs1) > 0 and len(funs2) > 0:
         closest_pair = None
         min_dist = None
         for (f1, c1) in funs1.items():
-            if f1.startswith('sub_'):
-                continue
             lib1 = f1[:-8]
             for (f2, c2) in funs2.items():
-                if f2.startswith('sub_'):
-                    continue
                 lib2 = f2[:-8]
                 if lib1 != lib2:
                     continue
@@ -54,6 +50,8 @@ def match_module_pair(path1, path2):
                 if min_dist is None or cur_dist < min_dist:
                     min_dist = cur_dist
                     closest_pair = (f1, f2)
+        if closest_pair is None: # could happen if the two remaining functions are in different libraries
+            break
         #print(closest_pair, min_dist)
         del funs1[closest_pair[0]]
         del funs2[closest_pair[1]]
