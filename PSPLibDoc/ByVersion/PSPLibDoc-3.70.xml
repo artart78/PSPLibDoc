@@ -26530,7 +26530,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E6AA271</NID>
-              <NAME>sceNetAdhocAuth_driver_2E6AA271</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_stop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x312BD812</NID>
@@ -26558,7 +26558,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x89F2A732</NID>
-              <NAME>sceNetAdhocAuth_driver_89F2A732</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_start</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAB06250</NID>
@@ -26566,7 +26566,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD144DA6</NID>
-              <NAME>sceNetAdhocAuth_driver_BD144DA6</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_peer_list</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF4D9BED</NID>
@@ -26592,7 +26592,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E6AA271</NID>
-              <NAME>sceNetAdhocAuth_lib_2E6AA271</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_stop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x312BD812</NID>
@@ -26620,7 +26620,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x89F2A732</NID>
-              <NAME>sceNetAdhocAuth_lib_89F2A732</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_start</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAB06250</NID>
@@ -26628,7 +26628,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD144DA6</NID>
-              <NAME>sceNetAdhocAuth_lib_BD144DA6</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_peer_list</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF4D9BED</NID>

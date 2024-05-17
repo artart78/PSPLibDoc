@@ -8790,7 +8790,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x515B4FAF</NID>
-              <NAME>sceKernelDcacheReadTag</NAME>
+              <NAME>sceKernelL1DcacheReadTag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x585F1C09</NID>
@@ -8798,7 +8798,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C7F2B1A</NID>
-              <NAME>sceKernelIcacheReadTag</NAME>
+              <NAME>sceKernelL1IcacheReadTag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x601E43E6</NID>
@@ -8890,7 +8890,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x99134C3F</NID>
-              <NAME>sceKernelDcachePurgeRange</NAME>
+              <NAME>sceKernelL1DcachePurgeRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E5C5086</NID>
@@ -9060,7 +9060,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x515B4FAF</NID>
-              <NAME>sceKernelDcacheReadTag</NAME>
+              <NAME>sceKernelL1DcacheReadTag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x585F1C09</NID>
@@ -9068,7 +9068,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C7F2B1A</NID>
-              <NAME>sceKernelIcacheReadTag</NAME>
+              <NAME>sceKernelL1IcacheReadTag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x601E43E6</NID>
@@ -9132,7 +9132,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x99134C3F</NID>
-              <NAME>sceKernelDcachePurgeRange</NAME>
+              <NAME>sceKernelL1DcachePurgeRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E5C5086</NID>

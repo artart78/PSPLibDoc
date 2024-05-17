@@ -30952,7 +30952,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E6AA271</NID>
-              <NAME>sceNetAdhocAuth_driver_2E6AA271</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_stop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x312BD812</NID>
@@ -30980,7 +30980,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x89F2A732</NID>
-              <NAME>sceNetAdhocAuth_driver_89F2A732</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_start</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAB06250</NID>
@@ -30988,7 +30988,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD144DA6</NID>
-              <NAME>sceNetAdhocAuth_driver_BD144DA6</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_peer_list</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF4D9BED</NID>
@@ -31014,7 +31014,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E6AA271</NID>
-              <NAME>sceNetAdhocAuth_lib_2E6AA271</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_stop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x312BD812</NID>
@@ -31042,7 +31042,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x89F2A732</NID>
-              <NAME>sceNetAdhocAuth_lib_89F2A732</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_start</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAB06250</NID>
@@ -31050,7 +31050,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD144DA6</NID>
-              <NAME>sceNetAdhocAuth_lib_BD144DA6</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_peer_list</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF4D9BED</NID>
@@ -34856,7 +34856,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x515B4FAF</NID>
-              <NAME>sceKernelDcacheReadTag</NAME>
+              <NAME>sceKernelL1DcacheReadTag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x585F1C09</NID>
@@ -34864,7 +34864,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C7F2B1A</NID>
-              <NAME>sceKernelIcacheReadTag</NAME>
+              <NAME>sceKernelL1IcacheReadTag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61E1E525</NID>
@@ -34944,7 +34944,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x99134C3F</NID>
-              <NAME>sceKernelDcachePurgeRange</NAME>
+              <NAME>sceKernelL1DcachePurgeRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E5C5086</NID>
@@ -35090,7 +35090,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x515B4FAF</NID>
-              <NAME>sceKernelDcacheReadTag</NAME>
+              <NAME>sceKernelL1DcacheReadTag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x585F1C09</NID>
@@ -35098,7 +35098,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C7F2B1A</NID>
-              <NAME>sceKernelIcacheReadTag</NAME>
+              <NAME>sceKernelL1IcacheReadTag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61E1E525</NID>
@@ -35154,7 +35154,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x99134C3F</NID>
-              <NAME>sceKernelDcachePurgeRange</NAME>
+              <NAME>sceKernelL1DcachePurgeRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E5C5086</NID>

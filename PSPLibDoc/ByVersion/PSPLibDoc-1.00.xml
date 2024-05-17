@@ -44,7 +44,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F05F48C</NID>
-              <NAME>sceAta_driver_1F05F48C</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x298DDC3D</NID>
@@ -124,7 +124,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x84E14690</NID>
-              <NAME>sceAta_driver_84E14690</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CADA96B</NID>
@@ -12408,7 +12408,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E6AA271</NID>
-              <NAME>sceNetAdhocAuth_driver_2E6AA271</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_stop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6074D8F1</NID>
@@ -12428,11 +12428,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x89F2A732</NID>
-              <NAME>sceNetAdhocAuth_driver_89F2A732</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_start</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD144DA6</NID>
-              <NAME>sceNetAdhocAuth_driver_BD144DA6</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_peer_list</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -12450,7 +12450,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E6AA271</NID>
-              <NAME>sceNetAdhocAuth_lib_2E6AA271</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_stop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6074D8F1</NID>
@@ -12470,11 +12470,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x89F2A732</NID>
-              <NAME>sceNetAdhocAuth_lib_89F2A732</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_start</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD144DA6</NID>
-              <NAME>sceNetAdhocAuth_lib_BD144DA6</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_peer_list</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
