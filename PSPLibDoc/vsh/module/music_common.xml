@@ -3150,13 +3150,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F465C92</NID>
-              <NAME>music_common_4F465C92</NAME>
+              <NAME>bXCeMemDestroy</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55C0DA63</NID>
@@ -3770,13 +3771,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1A7DF11</NID>
-              <NAME>music_common_C1A7DF11</NAME>
+              <NAME>bXCeMemInitialize</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC2365D1B</NID>

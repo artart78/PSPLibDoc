@@ -446,7 +446,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x01E7182E</NID>
-              <NAME>sceMlnBridge_01E7182E</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
@@ -454,6 +454,7 @@
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0303C580</NID>
@@ -569,7 +570,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4BC57FE4</NID>
-              <NAME>sceMlnBridge_4BC57FE4</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
@@ -577,6 +578,7 @@
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E5545D0</NID>
@@ -602,7 +604,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DA6C709</NID>
-              <NAME>sceMlnBridge_7DA6C709</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
@@ -610,6 +612,7 @@
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80695890</NID>
@@ -624,7 +627,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8AAA3162</NID>
-              <NAME>sceMlnBridge_8AAA3162</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
@@ -632,6 +635,7 @@
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AE16B76</NID>
@@ -691,7 +695,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB76EF0A3</NID>
-              <NAME>sceMlnBridge_B76EF0A3</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
@@ -699,6 +703,7 @@
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7E04EFA</NID>
@@ -714,7 +719,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBF30F27</NID>
-              <NAME>sceMlnBridge_CBF30F27</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
@@ -722,6 +727,7 @@
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0790A37</NID>
@@ -999,140 +1005,154 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x08EDD3A3</NID>
-              <NAME>sceMlnBridge_driver_08EDD3A3</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A5DED44</NID>
-              <NAME>sceMlnBridge_driver_0A5DED44</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E40C824</NID>
-              <NAME>sceMlnBridge_driver_0E40C824</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x321FA5C2</NID>
-              <NAME>sceMlnBridge_driver_321FA5C2</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F8E50A0</NID>
-              <NAME>sceMlnBridge_driver_4F8E50A0</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x860D4896</NID>
-              <NAME>sceMlnBridge_driver_860D4896</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF887C757</NID>
-              <NAME>sceMlnBridge_driver_F887C757</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C7C2550</NID>
-              <NAME>sceMlnBridge_driver_1C7C2550</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65F83E12</NID>
-              <NAME>sceMlnBridge_driver_65F83E12</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x872AEF8D</NID>
-              <NAME>sceMlnBridge_driver_872AEF8D</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA23C73D3</NID>
-              <NAME>sceMlnBridge_driver_A23C73D3</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB103FD71</NID>
-              <NAME>sceMlnBridge_driver_B103FD71</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB19D2B38</NID>
-              <NAME>sceMlnBridge_driver_B19D2B38</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD2E1C88</NID>
-              <NAME>sceMlnBridge_driver_CD2E1C88</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05934B9D</NID>
-              <NAME>sceMlnBridge_driver_05934B9D</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1140,10 +1160,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28A0746D</NID>
-              <NAME>sceMlnBridge_driver_28A0746D</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1151,10 +1172,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6320046D</NID>
-              <NAME>sceMlnBridge_driver_6320046D</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1162,10 +1184,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C64FD84</NID>
-              <NAME>sceMlnBridge_driver_7C64FD84</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1173,10 +1196,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA29A0459</NID>
-              <NAME>sceMlnBridge_driver_A29A0459</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1184,10 +1208,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4365A81</NID>
-              <NAME>sceMlnBridge_driver_D4365A81</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1195,10 +1220,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC5A2ADA</NID>
-              <NAME>sceMlnBridge_driver_DC5A2ADA</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1206,66 +1232,74 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x00B15EB4</NID>
-              <NAME>sceMlnBridge_driver_00B15EB4</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6261ACE5</NID>
-              <NAME>sceMlnBridge_driver_6261ACE5</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8AE6B2F5</NID>
-              <NAME>sceMlnBridge_driver_8AE6B2F5</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x979D6FD0</NID>
-              <NAME>sceMlnBridge_driver_979D6FD0</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB7731EE</NID>
-              <NAME>sceMlnBridge_driver_AB7731EE</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2784F17</NID>
-              <NAME>sceMlnBridge_driver_B2784F17</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4EFEB75</NID>
-              <NAME>sceMlnBridge_driver_F4EFEB75</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D55C38C</NID>
-              <NAME>sceMlnBridge_driver_0D55C38C</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1276,10 +1310,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x738E689D</NID>
-              <NAME>sceMlnBridge_driver_738E689D</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1290,10 +1325,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x885803D5</NID>
-              <NAME>sceMlnBridge_driver_885803D5</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1304,10 +1340,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F3104A7</NID>
-              <NAME>sceMlnBridge_driver_8F3104A7</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1318,10 +1355,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB70E04FC</NID>
-              <NAME>sceMlnBridge_driver_B70E04FC</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1332,10 +1370,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC80DD292</NID>
-              <NAME>sceMlnBridge_driver_C80DD292</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1346,10 +1385,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6A8801A</NID>
-              <NAME>sceMlnBridge_driver_D6A8801A</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1360,122 +1400,137 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01F4CF74</NID>
-              <NAME>sceMlnBridge_driver_01F4CF74</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x088FE891</NID>
-              <NAME>sceMlnBridge_driver_088FE891</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1063DB86</NID>
-              <NAME>sceMlnBridge_driver_1063DB86</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1638126D</NID>
-              <NAME>sceMlnBridge_driver_1638126D</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34CF80D0</NID>
-              <NAME>sceMlnBridge_driver_34CF80D0</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41BC6FC9</NID>
-              <NAME>sceMlnBridge_driver_41BC6FC9</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA799E307</NID>
-              <NAME>sceMlnBridge_driver_A799E307</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FB44F6D</NID>
-              <NAME>sceMlnBridge_driver_0FB44F6D</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40D1EFCE</NID>
-              <NAME>sceMlnBridge_driver_40D1EFCE</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C681811</NID>
-              <NAME>sceMlnBridge_driver_7C681811</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82BDD204</NID>
-              <NAME>sceMlnBridge_driver_82BDD204</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x96C52445</NID>
-              <NAME>sceMlnBridge_driver_96C52445</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D0A2E9C</NID>
-              <NAME>sceMlnBridge_driver_9D0A2E9C</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD998D82</NID>
-              <NAME>sceMlnBridge_driver_CD998D82</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D374B89</NID>
-              <NAME>sceMlnBridge_driver_3D374B89</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1485,10 +1540,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C3B0563</NID>
-              <NAME>sceMlnBridge_driver_5C3B0563</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1498,10 +1554,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A33A417</NID>
-              <NAME>sceMlnBridge_driver_7A33A417</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1511,10 +1568,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7750CE9</NID>
-              <NAME>sceMlnBridge_driver_D7750CE9</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1524,10 +1582,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE26B775F</NID>
-              <NAME>sceMlnBridge_driver_E26B775F</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1537,10 +1596,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8F68969</NID>
-              <NAME>sceMlnBridge_driver_F8F68969</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1550,10 +1610,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEC31445</NID>
-              <NAME>sceMlnBridge_driver_FEC31445</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1563,62 +1624,70 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04FA4C38</NID>
-              <NAME>sceMlnBridge_driver_04FA4C38</NAME>
+              <NAME>sceMlnBridgeAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1780D326</NID>
-              <NAME>sceMlnBridge_driver_1780D326</NAME>
+              <NAME>sceMlnBridgeHMAC</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B112491</NID>
-              <NAME>sceMlnBridge_driver_1B112491</NAME>
+              <NAME>sceMlnBridgeSHA1</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BA8F4F3</NID>
-              <NAME>sceMlnBridge_driver_2BA8F4F3</NAME>
+              <NAME>sceMlnBridgeAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74E011B7</NID>
-              <NAME>sceMlnBridge_driver_74E011B7</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC820899C</NID>
-              <NAME>sceMlnBridge_driver_C820899C</NAME>
+              <NAME>sceMlnBridgeAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7188207</NID>
-              <NAME>sceMlnBridge_driver_E7188207</NAME>
+              <NAME>sceMlnBridgeAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

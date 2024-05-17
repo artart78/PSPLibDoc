@@ -519,12 +519,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x067668DD</NID>
-              <NAME>sceMemab_driver_067668DD</NAME>
+              <NAME>sceAdhocBBAuth5</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E9D055C</NID>
@@ -537,39 +538,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x15B5CE41</NID>
-              <NAME>sceMemab_driver_15B5CE41</NAME>
+              <NAME>sceAdhocBBGMEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19F829D7</NID>
-              <NAME>sceMemab_driver_19F829D7</NAME>
+              <NAME>sceAdhocBBAuth4</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38191A3A</NID>
-              <NAME>sceMemab_driver_38191A3A</NAME>
+              <NAME>sceAdhocBBAuth2</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F623B13</NID>
-              <NAME>sceMemab_driver_3F623B13</NAME>
+              <NAME>sceAdhocBBInit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x445072B9</NID>
@@ -582,12 +587,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F7C71F3</NID>
-              <NAME>sceMemab_driver_6F7C71F3</NAME>
+              <NAME>sceAdhocBBGMDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EC668A2</NID>
@@ -600,12 +606,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88DECD6A</NID>
-              <NAME>sceMemab_driver_88DECD6A</NAME>
+              <NAME>sceAdhocBBAuth3</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BE698A9</NID>
@@ -627,25 +634,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD77FB6A3</NID>
-              <NAME>sceMemab_driver_D77FB6A3</NAME>
+              <NAME>sceAdhocBBAuth1</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED87FC15</NID>
-              <NAME>sceMemab_driver_ED87FC15</NAME>
+              <NAME>sceAdhocBBShutdown</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03E196B8</NID>
-              <NAME>sceMemab_driver_03E196B8</NAME>
+              <NAME>sceAdhocBBAuth4</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -653,6 +662,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C7AF95F</NID>
@@ -667,7 +677,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1FEF9FAE</NID>
-              <NAME>sceMemab_driver_1FEF9FAE</NAME>
+              <NAME>sceAdhocBBAuth5</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -675,6 +685,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A313619</NID>
@@ -689,7 +700,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4145AAF1</NID>
-              <NAME>sceMemab_driver_4145AAF1</NAME>
+              <NAME>sceAdhocBBAuth3</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -697,10 +708,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53142254</NID>
-              <NAME>sceMemab_driver_53142254</NAME>
+              <NAME>sceAdhocBBGMEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -708,10 +720,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61B61AD0</NID>
-              <NAME>sceMemab_driver_61B61AD0</NAME>
+              <NAME>sceAdhocBBAuth2</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -719,6 +732,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x679139C5</NID>
@@ -733,7 +747,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x860175A7</NID>
-              <NAME>sceMemab_driver_860175A7</NAME>
+              <NAME>sceAdhocBBGMDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -741,10 +755,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA90E589B</NID>
-              <NAME>sceMemab_driver_A90E589B</NAME>
+              <NAME>sceAdhocBBShutdown</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -752,6 +767,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA768B6E</NID>
@@ -777,7 +793,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0CD1706</NID>
-              <NAME>sceMemab_driver_E0CD1706</NAME>
+              <NAME>sceAdhocBBInit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -785,10 +801,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE3525C0</NID>
-              <NAME>sceMemab_driver_FE3525C0</NAME>
+              <NAME>sceAdhocBBAuth1</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -796,30 +813,34 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0004A1B9</NID>
-              <NAME>sceMemab_driver_0004A1B9</NAME>
+              <NAME>sceAdhocBBAuth1</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x110397CE</NID>
-              <NAME>sceMemab_driver_110397CE</NAME>
+              <NAME>sceAdhocBBAuth3</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15B2E0BD</NID>
-              <NAME>sceMemab_driver_15B2E0BD</NAME>
+              <NAME>sceAdhocBBAuth4</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BC4BBEC</NID>
@@ -839,19 +860,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x875DA904</NID>
-              <NAME>sceMemab_driver_875DA904</NAME>
+              <NAME>sceAdhocBBAuth2</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8870F92B</NID>
-              <NAME>sceMemab_driver_8870F92B</NAME>
+              <NAME>sceAdhocBBGMEncrypt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x953BC81C</NID>
@@ -863,19 +886,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x95DB4C72</NID>
-              <NAME>sceMemab_driver_95DB4C72</NAME>
+              <NAME>sceAdhocBBGMDecrypt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC77DC5C</NID>
-              <NAME>sceMemab_driver_AC77DC5C</NAME>
+              <NAME>sceAdhocBBAuth5</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0049A1C</NID>
@@ -887,11 +912,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9B425EB</NID>
-              <NAME>sceMemab_driver_B9B425EB</NAME>
+              <NAME>sceAdhocBBShutdown</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFFE4CC1</NID>
@@ -903,15 +929,16 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2D6245A</NID>
-              <NAME>sceMemab_driver_E2D6245A</NAME>
+              <NAME>sceAdhocBBInit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D2CF119</NID>
-              <NAME>sceMemab_driver_1D2CF119</NAME>
+              <NAME>sceAdhocBBShutdown</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -922,10 +949,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1DE72CA4</NID>
-              <NAME>sceMemab_driver_1DE72CA4</NAME>
+              <NAME>sceAdhocBBGMDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -936,10 +964,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2739D242</NID>
-              <NAME>sceMemab_driver_2739D242</NAME>
+              <NAME>sceAdhocBBGMEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -950,10 +979,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EE706C8</NID>
-              <NAME>sceMemab_driver_3EE706C8</NAME>
+              <NAME>sceAdhocBBAuth5</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -964,10 +994,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x59AD493A</NID>
-              <NAME>sceMemab_driver_59AD493A</NAME>
+              <NAME>sceAdhocBBAuth1</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -978,6 +1009,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77D5CC90</NID>
@@ -1009,7 +1041,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x992A27DE</NID>
-              <NAME>sceMemab_driver_992A27DE</NAME>
+              <NAME>sceAdhocBBInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1020,10 +1052,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1CE9988</NID>
-              <NAME>sceMemab_driver_A1CE9988</NAME>
+              <NAME>sceAdhocBBAuth3</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1034,6 +1067,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3B1D6CB</NID>
@@ -1051,7 +1085,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5B1008C</NID>
-              <NAME>sceMemab_driver_A5B1008C</NAME>
+              <NAME>sceAdhocBBAuth4</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1062,6 +1096,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xADF6E167</NID>
@@ -1079,7 +1114,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4CEF34B</NID>
-              <NAME>sceMemab_driver_C4CEF34B</NAME>
+              <NAME>sceAdhocBBAuth2</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1090,6 +1125,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8EB0C58</NID>
@@ -1121,31 +1157,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x12922CBB</NID>
-              <NAME>sceMemab_driver_12922CBB</NAME>
+              <NAME>sceAdhocBBGMEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AB5068C</NID>
-              <NAME>sceMemab_driver_1AB5068C</NAME>
+              <NAME>sceAdhocBBAuth4</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38442CDF</NID>
-              <NAME>sceMemab_driver_38442CDF</NAME>
+              <NAME>sceAdhocBBAuth5</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E3A9C2A</NID>
-              <NAME>sceMemab_driver_3E3A9C2A</NAME>
+              <NAME>sceAdhocBBAuth2</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B02F612</NID>
@@ -1163,10 +1203,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA37FE939</NID>
-              <NAME>sceMemab_driver_A37FE939</NAME>
+              <NAME>sceAdhocBBAuth3</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC752248C</NID>
@@ -1177,49 +1218,55 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC90B6002</NID>
-              <NAME>sceMemab_driver_C90B6002</NAME>
+              <NAME>sceAdhocBBAuth1</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3C03DF9</NID>
-              <NAME>sceMemab_driver_D3C03DF9</NAME>
+              <NAME>sceAdhocBBInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2FEE41A</NID>
-              <NAME>sceMemab_driver_E2FEE41A</NAME>
+              <NAME>sceAdhocBBGMDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE586A38B</NID>
-              <NAME>sceMemab_driver_E586A38B</NAME>
+              <NAME>sceAdhocBBShutdown</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03D19E0C</NID>
-              <NAME>sceMemab_driver_03D19E0C</NAME>
+              <NAME>sceAdhocBBAuth4</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05FDB5E2</NID>
-              <NAME>sceMemab_driver_05FDB5E2</NAME>
+              <NAME>sceAdhocBBShutdown</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41CEBA14</NID>
@@ -1232,57 +1279,63 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x49871B81</NID>
-              <NAME>sceMemab_driver_49871B81</NAME>
+              <NAME>sceAdhocBBAuth3</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E2DC2A4</NID>
-              <NAME>sceMemab_driver_4E2DC2A4</NAME>
+              <NAME>sceAdhocBBGMDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55A6A8B4</NID>
-              <NAME>sceMemab_driver_55A6A8B4</NAME>
+              <NAME>sceAdhocBBGMEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7300F150</NID>
-              <NAME>sceMemab_driver_7300F150</NAME>
+              <NAME>sceAdhocBBAuth2</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x825C64DD</NID>
-              <NAME>sceMemab_driver_825C64DD</NAME>
+              <NAME>sceAdhocBBAuth5</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DDF81E2</NID>
-              <NAME>sceMemab_driver_9DDF81E2</NAME>
+              <NAME>sceAdhocBBInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB65C31CD</NID>
@@ -1304,12 +1357,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5A2FB7B</NID>
-              <NAME>sceMemab_driver_D5A2FB7B</NAME>
+              <NAME>sceAdhocBBAuth1</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE4ECA08</NID>
@@ -1357,7 +1411,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D0C09DC</NID>
-              <NAME>sceMemab_driver_1D0C09DC</NAME>
+              <NAME>sceAdhocBBAuth2</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1367,10 +1421,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x211BB5AB</NID>
-              <NAME>sceMemab_driver_211BB5AB</NAME>
+              <NAME>sceAdhocBBAuth5</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1380,10 +1435,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BC455FF</NID>
-              <NAME>sceMemab_driver_2BC455FF</NAME>
+              <NAME>sceAdhocBBGMDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1393,10 +1449,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x663C2049</NID>
-              <NAME>sceMemab_driver_663C2049</NAME>
+              <NAME>sceAdhocBBAuth4</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1406,6 +1463,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74160CB9</NID>
@@ -1435,7 +1493,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB31D07A</NID>
-              <NAME>sceMemab_driver_AB31D07A</NAME>
+              <NAME>sceAdhocBBShutdown</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1445,6 +1503,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDE97465</NID>
@@ -1461,7 +1520,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEF807E4</NID>
-              <NAME>sceMemab_driver_CEF807E4</NAME>
+              <NAME>sceAdhocBBInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1471,10 +1530,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6075D2C</NID>
-              <NAME>sceMemab_driver_D6075D2C</NAME>
+              <NAME>sceAdhocBBGMEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1484,10 +1544,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA5CDB96</NID>
-              <NAME>sceMemab_driver_DA5CDB96</NAME>
+              <NAME>sceAdhocBBAuth1</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1497,10 +1558,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFD7213A</NID>
-              <NAME>sceMemab_driver_DFD7213A</NAME>
+              <NAME>sceAdhocBBAuth3</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1510,6 +1572,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16594684</NID>
@@ -1570,7 +1633,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x23E4659B</NID>
-              <NAME>sceMemab_driver_23E4659B</NAME>
+              <NAME>sceAdhocBBAuth4</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -1624,6 +1687,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C15BC8C</NID>
@@ -1684,7 +1748,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B54EAAD</NID>
-              <NAME>sceMemab_driver_4B54EAAD</NAME>
+              <NAME>sceAdhocBBAuth1</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -1738,10 +1802,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DD7339A</NID>
-              <NAME>sceMemab_driver_6DD7339A</NAME>
+              <NAME>sceAdhocBBInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -1795,10 +1860,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ABE3445</NID>
-              <NAME>sceMemab_driver_8ABE3445</NAME>
+              <NAME>sceAdhocBBAuth5</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -1852,10 +1918,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BF0C95D</NID>
-              <NAME>sceMemab_driver_9BF0C95D</NAME>
+              <NAME>sceAdhocBBAuth2</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -1909,10 +1976,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BF1A0A4</NID>
-              <NAME>sceMemab_driver_9BF1A0A4</NAME>
+              <NAME>sceAdhocBBGMDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -1966,10 +2034,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DE8C8CD</NID>
-              <NAME>sceMemab_driver_9DE8C8CD</NAME>
+              <NAME>sceAdhocBBGMEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2023,10 +2092,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3981EE1</NID>
-              <NAME>sceMemab_driver_C3981EE1</NAME>
+              <NAME>sceAdhocBBAuth3</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2080,6 +2150,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB5D3916</NID>
@@ -2197,7 +2268,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD57856A7</NID>
-              <NAME>sceMemab_driver_D57856A7</NAME>
+              <NAME>sceAdhocBBShutdown</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2251,6 +2322,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF742F283</NID>

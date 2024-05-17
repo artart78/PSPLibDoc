@@ -2518,23 +2518,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1124799D</NID>
-              <NAME>sceAta_driver_1124799D</NAME>
+              <NAME>sceAtaIsUmdDrive</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x161B1D95</NID>
-              <NAME>sceAta_driver_161B1D95</NAME>
+              <NAME>sceAtaGetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2531D8DB</NID>
@@ -2558,13 +2560,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x384805DA</NID>
-              <NAME>sceAta_driver_384805DA</NAME>
+              <NAME>sceAtaIsNormalDriveStat</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3AFFD484</NID>
@@ -2578,23 +2581,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B9D9648</NID>
-              <NAME>sceAta_driver_3B9D9648</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A6758D3</NID>
-              <NAME>sceAta_driver_4A6758D3</NAME>
+              <NAME>sceAtaSetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F1454E9</NID>
@@ -2608,53 +2613,58 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x54C96BB4</NID>
-              <NAME>sceAta_driver_54C96BB4</NAME>
+              <NAME>sceAtaSetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5519AA80</NID>
-              <NAME>sceAta_driver_5519AA80</NAME>
+              <NAME>sceAtaSetBusErrorIntr</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57F40CDD</NID>
-              <NAME>sceAta_driver_57F40CDD</NAME>
+              <NAME>sceAtaAccessDataPortIE</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x62035458</NID>
-              <NAME>sceAta_driver_62035458</NAME>
+              <NAME>sceAtaSetDeviceIntr</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x657AF020</NID>
-              <NAME>sceAta_driver_657AF020</NAME>
+              <NAME>sceAtaCheckDeviceReady</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A921826</NID>
@@ -2678,13 +2688,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x73751A53</NID>
-              <NAME>sceAta_driver_73751A53</NAME>
+              <NAME>sceAtaAhbGetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x783B75C5</NID>
@@ -2698,33 +2709,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x79955082</NID>
-              <NAME>sceAta_driver_79955082</NAME>
+              <NAME>sceAtaGetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82C64EEC</NID>
-              <NAME>sceAta_driver_82C64EEC</NAME>
+              <NAME>sceAtaStop</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x893634FF</NID>
-              <NAME>sceAta_driver_893634FF</NAME>
+              <NAME>sceAtaAhbSetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E0252BB</NID>
@@ -2738,13 +2752,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FBCFB4D</NID>
-              <NAME>sceAta_driver_8FBCFB4D</NAME>
+              <NAME>sceAtaExecPacketCmdIE</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93505AC1</NID>
@@ -2768,43 +2783,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DF60418</NID>
-              <NAME>sceAta_driver_9DF60418</NAME>
+              <NAME>sceAtaStart</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FA09231</NID>
-              <NAME>sceAta_driver_9FA09231</NAME>
+              <NAME>sceAtaAccessDataPort</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1B5F1A1</NID>
-              <NAME>sceAta_driver_A1B5F1A1</NAME>
+              <NAME>sceAtaGetAtaCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2DBC257</NID>
-              <NAME>sceAta_driver_A2DBC257</NAME>
+              <NAME>sceAtaIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7410B35</NID>
@@ -2818,33 +2837,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8896D56</NID>
-              <NAME>sceAta_driver_A8896D56</NAME>
+              <NAME>sceAtaGetAtaDrive</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB103FBB</NID>
-              <NAME>sceAta_driver_BB103FBB</NAME>
+              <NAME>sceAtaExecSetFeaturesCmd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBBC24FEB</NID>
-              <NAME>sceAta_driver_BBC24FEB</NAME>
+              <NAME>sceAtaWaitBusBusyIE</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFD557B6</NID>
@@ -2858,33 +2880,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0D7D5E5</NID>
-              <NAME>sceAta_driver_C0D7D5E5</NAME>
+              <NAME>sceAtaSetupAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7A7D6F4</NID>
-              <NAME>sceAta_driver_D7A7D6F4</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC560161</NID>
-              <NAME>sceAta_driver_DC560161</NAME>
+              <NAME>sceAtaGetDriveStat</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF88CF06</NID>
@@ -2898,13 +2923,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE46AE73B</NID>
-              <NAME>sceAta_driver_E46AE73B</NAME>
+              <NAME>sceAtaDisplayIPD</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE57D3109</NID>
@@ -2918,23 +2944,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0C40C4E</NID>
-              <NAME>sceAta_driver_F0C40C4E</NAME>
+              <NAME>sceAtaWaitBusBusy2</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF24D0881</NID>
-              <NAME>sceAta_driver_F24D0881</NAME>
+              <NAME>sceAtaAhbEnableIntr</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF42769CC</NID>
@@ -2957,12 +2985,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C2BECEE</NID>
-              <NAME>sceAta_driver_0C2BECEE</NAME>
+              <NAME>sceAtaStop</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17422EF4</NID>
@@ -2993,12 +3022,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2586D6DE</NID>
-              <NAME>sceAta_driver_2586D6DE</NAME>
+              <NAME>sceAtaStart</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E02BCE7</NID>
@@ -3011,21 +3041,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C8B5BDA</NID>
-              <NAME>sceAta_driver_3C8B5BDA</NAME>
+              <NAME>sceAtaIsUmdDrive</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3CEAA13D</NID>
-              <NAME>sceAta_driver_3CEAA13D</NAME>
+              <NAME>sceAtaAhbGetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40A99114</NID>
@@ -3047,21 +3079,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x46632F10</NID>
-              <NAME>sceAta_driver_46632F10</NAME>
+              <NAME>sceAtaIsNormalDriveStat</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4794DAB9</NID>
-              <NAME>sceAta_driver_4794DAB9</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48A2A3BF</NID>
@@ -3083,30 +3117,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F239825</NID>
-              <NAME>sceAta_driver_4F239825</NAME>
+              <NAME>sceAtaExecPacketCmdIE</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x59419295</NID>
-              <NAME>sceAta_driver_59419295</NAME>
+              <NAME>sceAtaCheckDeviceReady</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B36531B</NID>
-              <NAME>sceAta_driver_5B36531B</NAME>
+              <NAME>sceAtaAhbEnableIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BDD1EC3</NID>
@@ -3119,39 +3156,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E1594A2</NID>
-              <NAME>sceAta_driver_5E1594A2</NAME>
+              <NAME>sceAtaAccessDataPortIE</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63908B20</NID>
-              <NAME>sceAta_driver_63908B20</NAME>
+              <NAME>sceAtaExecSetFeaturesCmd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CEEEEE1</NID>
-              <NAME>sceAta_driver_6CEEEEE1</NAME>
+              <NAME>sceAtaAhbSetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x71A7734E</NID>
-              <NAME>sceAta_driver_71A7734E</NAME>
+              <NAME>sceAtaSetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72C7860D</NID>
@@ -3164,12 +3205,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72D49DC6</NID>
-              <NAME>sceAta_driver_72D49DC6</NAME>
+              <NAME>sceAtaGetAtaCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7495E192</NID>
@@ -3182,12 +3224,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81601B74</NID>
-              <NAME>sceAta_driver_81601B74</NAME>
+              <NAME>sceAtaGetDriveStat</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87AC2886</NID>
@@ -3200,39 +3243,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAA20FE1</NID>
-              <NAME>sceAta_driver_AAA20FE1</NAME>
+              <NAME>sceAtaGetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAAF3C7A</NID>
-              <NAME>sceAta_driver_AAAF3C7A</NAME>
+              <NAME>sceAtaDisplayIPD</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD3380BB</NID>
-              <NAME>sceAta_driver_AD3380BB</NAME>
+              <NAME>sceAtaGetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB554C326</NID>
-              <NAME>sceAta_driver_B554C326</NAME>
+              <NAME>sceAtaIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB89DE647</NID>
@@ -3245,39 +3292,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD7A480D</NID>
-              <NAME>sceAta_driver_BD7A480D</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE3D4CA9</NID>
-              <NAME>sceAta_driver_BE3D4CA9</NAME>
+              <NAME>sceAtaAccessDataPort</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFE219E5</NID>
-              <NAME>sceAta_driver_BFE219E5</NAME>
+              <NAME>sceAtaSetupAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7CEB75E</NID>
-              <NAME>sceAta_driver_C7CEB75E</NAME>
+              <NAME>sceAtaGetAtaDrive</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8F5D6B5</NID>
@@ -3290,39 +3341,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xECBF74E2</NID>
-              <NAME>sceAta_driver_ECBF74E2</NAME>
+              <NAME>sceAtaSetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDBF5454</NID>
-              <NAME>sceAta_driver_EDBF5454</NAME>
+              <NAME>sceAtaWaitBusBusyIE</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE6ED3EF</NID>
-              <NAME>sceAta_driver_EE6ED3EF</NAME>
+              <NAME>sceAtaSetDeviceIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6BFD20F</NID>
-              <NAME>sceAta_driver_F6BFD20F</NAME>
+              <NAME>sceAtaWaitBusBusy2</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6E07CC9</NID>
@@ -3335,12 +3390,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCAF676D</NID>
-              <NAME>sceAta_driver_FCAF676D</NAME>
+              <NAME>sceAtaSetBusErrorIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x019D24E9</NID>
@@ -3377,7 +3433,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E1595D4</NID>
-              <NAME>sceAta_driver_1E1595D4</NAME>
+              <NAME>sceAtaAccessDataPort</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3385,10 +3441,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21B158F9</NID>
-              <NAME>sceAta_driver_21B158F9</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3396,10 +3453,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2590C7A0</NID>
-              <NAME>sceAta_driver_2590C7A0</NAME>
+              <NAME>sceAtaSetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3407,10 +3465,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27402236</NID>
-              <NAME>sceAta_driver_27402236</NAME>
+              <NAME>sceAtaWaitBusBusy2</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3418,10 +3477,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2CE2CF69</NID>
-              <NAME>sceAta_driver_2CE2CF69</NAME>
+              <NAME>sceAtaExecSetFeaturesCmd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3429,10 +3489,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38FF180A</NID>
-              <NAME>sceAta_driver_38FF180A</NAME>
+              <NAME>sceAtaAhbGetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3440,6 +3501,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DCECCFA</NID>
@@ -3454,7 +3516,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x45AD64AD</NID>
-              <NAME>sceAta_driver_45AD64AD</NAME>
+              <NAME>sceAtaGetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3462,10 +3524,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49C27085</NID>
-              <NAME>sceAta_driver_49C27085</NAME>
+              <NAME>sceAtaIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3473,6 +3536,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x50D68477</NID>
@@ -3498,7 +3562,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5326E251</NID>
-              <NAME>sceAta_driver_5326E251</NAME>
+              <NAME>sceAtaGetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3506,6 +3570,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x544DB13F</NID>
@@ -3531,7 +3596,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x68B01FA6</NID>
-              <NAME>sceAta_driver_68B01FA6</NAME>
+              <NAME>sceAtaExecPacketCmdIE</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3539,10 +3604,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DA06271</NID>
-              <NAME>sceAta_driver_6DA06271</NAME>
+              <NAME>sceAtaGetDriveStat</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3550,10 +3616,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FD0B1C5</NID>
-              <NAME>sceAta_driver_6FD0B1C5</NAME>
+              <NAME>sceAtaSetBusErrorIntr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3561,10 +3628,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7441C68A</NID>
-              <NAME>sceAta_driver_7441C68A</NAME>
+              <NAME>sceAtaAhbSetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3572,10 +3640,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E79093D</NID>
-              <NAME>sceAta_driver_7E79093D</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3583,6 +3652,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FC03E54</NID>
@@ -3608,7 +3678,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x85ADA912</NID>
-              <NAME>sceAta_driver_85ADA912</NAME>
+              <NAME>sceAtaCheckDeviceReady</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3616,10 +3686,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F3F75F3</NID>
-              <NAME>sceAta_driver_8F3F75F3</NAME>
+              <NAME>sceAtaSetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3627,10 +3698,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA334EE83</NID>
-              <NAME>sceAta_driver_A334EE83</NAME>
+              <NAME>sceAtaWaitBusBusyIE</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3638,10 +3710,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7B30831</NID>
-              <NAME>sceAta_driver_A7B30831</NAME>
+              <NAME>sceAtaAhbEnableIntr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3649,10 +3722,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7707D32</NID>
-              <NAME>sceAta_driver_B7707D32</NAME>
+              <NAME>sceAtaGetAtaDrive</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3660,6 +3734,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1CE752C</NID>
@@ -3685,7 +3760,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA0423FC</NID>
-              <NAME>sceAta_driver_CA0423FC</NAME>
+              <NAME>sceAtaIsNormalDriveStat</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3693,10 +3768,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDE4EFB3</NID>
-              <NAME>sceAta_driver_CDE4EFB3</NAME>
+              <NAME>sceAtaGetAtaCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3704,6 +3780,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1522128</NID>
@@ -3718,7 +3795,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6645394</NID>
-              <NAME>sceAta_driver_D6645394</NAME>
+              <NAME>sceAtaDisplayIPD</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3726,10 +3803,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8079998</NID>
-              <NAME>sceAta_driver_D8079998</NAME>
+              <NAME>sceAtaSetupAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3737,6 +3815,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD98E2797</NID>
@@ -3773,7 +3852,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFA6E863</NID>
-              <NAME>sceAta_driver_DFA6E863</NAME>
+              <NAME>sceAtaSetDeviceIntr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3781,10 +3860,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE00E1759</NID>
-              <NAME>sceAta_driver_E00E1759</NAME>
+              <NAME>sceAtaAccessDataPortIE</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3792,10 +3872,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE234FB68</NID>
-              <NAME>sceAta_driver_E234FB68</NAME>
+              <NAME>sceAtaIsUmdDrive</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3803,10 +3884,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB3B6DE1</NID>
-              <NAME>sceAta_driver_EB3B6DE1</NAME>
+              <NAME>sceAtaStart</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3814,10 +3896,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF729078</NID>
-              <NAME>sceAta_driver_EF729078</NAME>
+              <NAME>sceAtaStop</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3825,78 +3908,88 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03FECB61</NID>
-              <NAME>sceAta_driver_03FECB61</NAME>
+              <NAME>sceAtaWaitBusBusy2</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1020A0E6</NID>
-              <NAME>sceAta_driver_1020A0E6</NAME>
+              <NAME>sceAtaExecPacketCmdIE</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1876EA3F</NID>
-              <NAME>sceAta_driver_1876EA3F</NAME>
+              <NAME>sceAtaSetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x18D97E05</NID>
-              <NAME>sceAta_driver_18D97E05</NAME>
+              <NAME>sceAtaGetDriveStat</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24976BA8</NID>
-              <NAME>sceAta_driver_24976BA8</NAME>
+              <NAME>sceAtaSetupAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3753BE96</NID>
-              <NAME>sceAta_driver_3753BE96</NAME>
+              <NAME>sceAtaAccessDataPortIE</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F362437</NID>
-              <NAME>sceAta_driver_3F362437</NAME>
+              <NAME>sceAtaIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4540CAF9</NID>
-              <NAME>sceAta_driver_4540CAF9</NAME>
+              <NAME>sceAtaCheckDeviceReady</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AA36222</NID>
-              <NAME>sceAta_driver_4AA36222</NAME>
+              <NAME>sceAtaSetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x558437CB</NID>
@@ -3908,11 +4001,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B5BD5BC</NID>
-              <NAME>sceAta_driver_5B5BD5BC</NAME>
+              <NAME>sceAtaStop</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B6274E4</NID>
@@ -3932,11 +4026,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x61FA27BE</NID>
-              <NAME>sceAta_driver_61FA27BE</NAME>
+              <NAME>sceAtaExecSetFeaturesCmd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x643CF76B</NID>
@@ -3980,35 +4075,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D22CBB5</NID>
-              <NAME>sceAta_driver_7D22CBB5</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82F826B6</NID>
-              <NAME>sceAta_driver_82F826B6</NAME>
+              <NAME>sceAtaAhbEnableIntr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83938C45</NID>
-              <NAME>sceAta_driver_83938C45</NAME>
+              <NAME>sceAtaAhbGetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA07BB27B</NID>
-              <NAME>sceAta_driver_A07BB27B</NAME>
+              <NAME>sceAtaAhbSetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA36086BF</NID>
@@ -4020,11 +4119,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7818DAF</NID>
-              <NAME>sceAta_driver_A7818DAF</NAME>
+              <NAME>sceAtaStart</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8DCF1BF</NID>
@@ -4044,27 +4144,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB5BCDB2</NID>
-              <NAME>sceAta_driver_BB5BCDB2</NAME>
+              <NAME>sceAtaAccessDataPort</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEAE4C52</NID>
-              <NAME>sceAta_driver_BEAE4C52</NAME>
+              <NAME>sceAtaIsNormalDriveStat</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4CAC4C6</NID>
-              <NAME>sceAta_driver_C4CAC4C6</NAME>
+              <NAME>sceAtaSetDeviceIntr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4D319C5</NID>
@@ -4076,11 +4179,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD70B75CE</NID>
-              <NAME>sceAta_driver_D70B75CE</NAME>
+              <NAME>sceAtaIsUmdDrive</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8C5CA8C</NID>
@@ -4092,51 +4196,57 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0D66966</NID>
-              <NAME>sceAta_driver_E0D66966</NAME>
+              <NAME>sceAtaSetBusErrorIntr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE21AB49D</NID>
-              <NAME>sceAta_driver_E21AB49D</NAME>
+              <NAME>sceAtaDisplayIPD</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4EF014C</NID>
-              <NAME>sceAta_driver_E4EF014C</NAME>
+              <NAME>sceAtaWaitBusBusyIE</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7756BFC</NID>
-              <NAME>sceAta_driver_E7756BFC</NAME>
+              <NAME>sceAtaGetAtaDrive</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFA06E3F</NID>
-              <NAME>sceAta_driver_EFA06E3F</NAME>
+              <NAME>sceAtaGetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF01532C6</NID>
-              <NAME>sceAta_driver_F01532C6</NAME>
+              <NAME>sceAtaGetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF65A38A0</NID>
@@ -4156,19 +4266,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC2951E0</NID>
-              <NAME>sceAta_driver_FC2951E0</NAME>
+              <NAME>sceAtaGetAtaCallBack</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCEA93EC</NID>
-              <NAME>sceAta_driver_FCEA93EC</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE19310D</NID>
@@ -4208,7 +4320,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1829BF5D</NID>
-              <NAME>sceAta_driver_1829BF5D</NAME>
+              <NAME>sceAtaSetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4219,10 +4331,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2065EC41</NID>
-              <NAME>sceAta_driver_2065EC41</NAME>
+              <NAME>sceAtaAhbGetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4233,10 +4346,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2248D797</NID>
-              <NAME>sceAta_driver_2248D797</NAME>
+              <NAME>sceAtaGetAtaCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4247,10 +4361,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F403F95</NID>
-              <NAME>sceAta_driver_2F403F95</NAME>
+              <NAME>sceAtaWaitBusBusy2</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4261,10 +4376,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33ADDDB5</NID>
-              <NAME>sceAta_driver_33ADDDB5</NAME>
+              <NAME>sceAtaGetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4275,6 +4391,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x372F6826</NID>
@@ -4320,7 +4437,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x55268789</NID>
-              <NAME>sceAta_driver_55268789</NAME>
+              <NAME>sceAtaWaitBusBusyIE</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4331,10 +4448,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56EFF1AD</NID>
-              <NAME>sceAta_driver_56EFF1AD</NAME>
+              <NAME>sceAtaStart</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4345,10 +4463,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x585E69C2</NID>
-              <NAME>sceAta_driver_585E69C2</NAME>
+              <NAME>sceAtaGetAtaDrive</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4359,10 +4478,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64DA79ED</NID>
-              <NAME>sceAta_driver_64DA79ED</NAME>
+              <NAME>sceAtaSetDeviceIntr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4373,6 +4493,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BC8735F</NID>
@@ -4404,7 +4525,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x749BF82F</NID>
-              <NAME>sceAta_driver_749BF82F</NAME>
+              <NAME>sceAtaIsNormalDriveStat</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4415,6 +4536,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A45AD9</NID>
@@ -4446,7 +4568,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A307EE2</NID>
-              <NAME>sceAta_driver_7A307EE2</NAME>
+              <NAME>sceAtaGetDriveStat</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4457,10 +4579,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B9FECFA</NID>
-              <NAME>sceAta_driver_7B9FECFA</NAME>
+              <NAME>sceAtaStop</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4471,6 +4594,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EAAF3DE</NID>
@@ -4488,7 +4612,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x807240E3</NID>
-              <NAME>sceAta_driver_807240E3</NAME>
+              <NAME>sceAtaDisplayIPD</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4499,10 +4623,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8611DD55</NID>
-              <NAME>sceAta_driver_8611DD55</NAME>
+              <NAME>sceAtaSetBusErrorIntr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4513,10 +4638,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8862E565</NID>
-              <NAME>sceAta_driver_8862E565</NAME>
+              <NAME>sceAtaSetupAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4527,10 +4653,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C975118</NID>
-              <NAME>sceAta_driver_8C975118</NAME>
+              <NAME>sceAtaAccessDataPort</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4541,6 +4668,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C57F0F4</NID>
@@ -4586,7 +4714,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD4EE538</NID>
-              <NAME>sceAta_driver_AD4EE538</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4597,6 +4725,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB750550D</NID>
@@ -4614,7 +4743,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB8C811E</NID>
-              <NAME>sceAta_driver_BB8C811E</NAME>
+              <NAME>sceAtaIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4625,10 +4754,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC04ADE2</NID>
-              <NAME>sceAta_driver_BC04ADE2</NAME>
+              <NAME>sceAtaAhbEnableIntr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4639,10 +4769,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC200327E</NID>
-              <NAME>sceAta_driver_C200327E</NAME>
+              <NAME>sceAtaExecSetFeaturesCmd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4653,10 +4784,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC68EDAA4</NID>
-              <NAME>sceAta_driver_C68EDAA4</NAME>
+              <NAME>sceAtaGetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4667,10 +4799,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8B7A389</NID>
-              <NAME>sceAta_driver_C8B7A389</NAME>
+              <NAME>sceAtaSetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4681,10 +4814,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB7D083B</NID>
-              <NAME>sceAta_driver_CB7D083B</NAME>
+              <NAME>sceAtaAhbSetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4695,10 +4829,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1F7BE40</NID>
-              <NAME>sceAta_driver_D1F7BE40</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4709,6 +4844,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3AB80C2</NID>
@@ -4726,7 +4862,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD9CB3246</NID>
-              <NAME>sceAta_driver_D9CB3246</NAME>
+              <NAME>sceAtaExecPacketCmdIE</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4737,10 +4873,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE774356</NID>
-              <NAME>sceAta_driver_DE774356</NAME>
+              <NAME>sceAtaCheckDeviceReady</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4751,10 +4888,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE568A604</NID>
-              <NAME>sceAta_driver_E568A604</NAME>
+              <NAME>sceAtaAccessDataPortIE</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4765,6 +4903,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBAEAAE8</NID>
@@ -4782,7 +4921,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB9EA525</NID>
-              <NAME>sceAta_driver_FB9EA525</NAME>
+              <NAME>sceAtaIsUmdDrive</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4793,20 +4932,23 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BBB687C</NID>
-              <NAME>sceAta_driver_0BBB687C</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x118A98E0</NID>
-              <NAME>sceAta_driver_118A98E0</NAME>
+              <NAME>sceAtaStop</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x13167CCC</NID>
@@ -4817,17 +4959,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x177C6745</NID>
-              <NAME>sceAta_driver_177C6745</NAME>
+              <NAME>sceAtaSetDeviceIntr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A591F33</NID>
-              <NAME>sceAta_driver_1A591F33</NAME>
+              <NAME>sceAtaGetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DCC0D3F</NID>
@@ -4838,17 +4982,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DEE0B72</NID>
-              <NAME>sceAta_driver_2DEE0B72</NAME>
+              <NAME>sceAtaIsNormalDriveStat</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E844687</NID>
-              <NAME>sceAta_driver_2E844687</NAME>
+              <NAME>sceAtaAccessDataPort</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37BC9AA8</NID>
@@ -4859,31 +5005,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F810B48</NID>
-              <NAME>sceAta_driver_3F810B48</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4705FF1A</NID>
-              <NAME>sceAta_driver_4705FF1A</NAME>
+              <NAME>sceAtaAhbGetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B2C5154</NID>
-              <NAME>sceAta_driver_4B2C5154</NAME>
+              <NAME>sceAtaExecSetFeaturesCmd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C5DC926</NID>
-              <NAME>sceAta_driver_4C5DC926</NAME>
+              <NAME>sceAtaAhbSetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55BC549B</NID>
@@ -4894,17 +5044,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A79240A</NID>
-              <NAME>sceAta_driver_5A79240A</NAME>
+              <NAME>sceAtaSetBusErrorIntr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7304A6EE</NID>
-              <NAME>sceAta_driver_7304A6EE</NAME>
+              <NAME>sceAtaGetAtaDrive</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BB25790</NID>
@@ -4922,10 +5074,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81B5B28B</NID>
-              <NAME>sceAta_driver_81B5B28B</NAME>
+              <NAME>sceAtaAhbEnableIntr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84A86DC9</NID>
@@ -4943,38 +5096,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A4A9DB4</NID>
-              <NAME>sceAta_driver_8A4A9DB4</NAME>
+              <NAME>sceAtaGetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BC195AD</NID>
-              <NAME>sceAta_driver_8BC195AD</NAME>
+              <NAME>sceAtaCheckDeviceReady</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95DEB3BE</NID>
-              <NAME>sceAta_driver_95DEB3BE</NAME>
+              <NAME>sceAtaSetupAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9823B4F5</NID>
-              <NAME>sceAta_driver_9823B4F5</NAME>
+              <NAME>sceAtaSetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C13933A</NID>
-              <NAME>sceAta_driver_9C13933A</NAME>
+              <NAME>sceAtaExecPacketCmdIE</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA20FA432</NID>
@@ -4992,24 +5150,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5E60C30</NID>
-              <NAME>sceAta_driver_A5E60C30</NAME>
+              <NAME>sceAtaWaitBusBusyIE</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5FCACDC</NID>
-              <NAME>sceAta_driver_A5FCACDC</NAME>
+              <NAME>sceAtaStart</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB299E14</NID>
-              <NAME>sceAta_driver_AB299E14</NAME>
+              <NAME>sceAtaSetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC3AA8C4</NID>
@@ -5020,10 +5181,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5E96784</NID>
-              <NAME>sceAta_driver_C5E96784</NAME>
+              <NAME>sceAtaDisplayIPD</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5F915DA</NID>
@@ -5041,10 +5203,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD847D674</NID>
-              <NAME>sceAta_driver_D847D674</NAME>
+              <NAME>sceAtaAccessDataPortIE</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD9070E1C</NID>
@@ -5062,31 +5225,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4F43278</NID>
-              <NAME>sceAta_driver_E4F43278</NAME>
+              <NAME>sceAtaIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7C0A0A4</NID>
-              <NAME>sceAta_driver_E7C0A0A4</NAME>
+              <NAME>sceAtaGetDriveStat</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7F3B763</NID>
-              <NAME>sceAta_driver_E7F3B763</NAME>
+              <NAME>sceAtaIsUmdDrive</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE862A8F5</NID>
-              <NAME>sceAta_driver_E862A8F5</NAME>
+              <NAME>sceAtaGetAtaCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF472ADA4</NID>
@@ -5097,28 +5264,31 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7480010</NID>
-              <NAME>sceAta_driver_F7480010</NAME>
+              <NAME>sceAtaWaitBusBusy2</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0ED49862</NID>
-              <NAME>sceAta_driver_0ED49862</NAME>
+              <NAME>sceAtaDisplayIPD</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F9CA583</NID>
-              <NAME>sceAta_driver_0F9CA583</NAME>
+              <NAME>sceAtaGetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1067E676</NID>
@@ -5131,21 +5301,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x190A2348</NID>
-              <NAME>sceAta_driver_190A2348</NAME>
+              <NAME>sceAtaGetAtaCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CDD8245</NID>
-              <NAME>sceAta_driver_1CDD8245</NAME>
+              <NAME>sceAtaWaitBusBusyIE</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20B7FDAA</NID>
@@ -5158,30 +5330,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x222D04E5</NID>
-              <NAME>sceAta_driver_222D04E5</NAME>
+              <NAME>sceAtaAhbEnableIntr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2730C07C</NID>
-              <NAME>sceAta_driver_2730C07C</NAME>
+              <NAME>sceAtaExecSetFeaturesCmd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B576DCB</NID>
-              <NAME>sceAta_driver_2B576DCB</NAME>
+              <NAME>sceAtaGetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D7BE5BB</NID>
@@ -5194,12 +5369,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x37183549</NID>
-              <NAME>sceAta_driver_37183549</NAME>
+              <NAME>sceAtaAccessDataPort</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37C20C1A</NID>
@@ -5230,48 +5406,53 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D0A5012</NID>
-              <NAME>sceAta_driver_3D0A5012</NAME>
+              <NAME>sceAtaAhbGetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43593921</NID>
-              <NAME>sceAta_driver_43593921</NAME>
+              <NAME>sceAtaGetAtaDrive</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C0BF78D</NID>
-              <NAME>sceAta_driver_4C0BF78D</NAME>
+              <NAME>sceAtaGetDriveStat</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FC91CD0</NID>
-              <NAME>sceAta_driver_4FC91CD0</NAME>
+              <NAME>sceAtaAhbSetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EAFB72A</NID>
-              <NAME>sceAta_driver_5EAFB72A</NAME>
+              <NAME>sceAtaExecPacketCmdIE</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F2CCC92</NID>
@@ -5284,21 +5465,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x65DA82D3</NID>
-              <NAME>sceAta_driver_65DA82D3</NAME>
+              <NAME>sceAtaSetupAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70309CDC</NID>
-              <NAME>sceAta_driver_70309CDC</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x730B0E00</NID>
@@ -5311,21 +5494,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x75118DF5</NID>
-              <NAME>sceAta_driver_75118DF5</NAME>
+              <NAME>sceAtaIsNormalDriveStat</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x793CA113</NID>
-              <NAME>sceAta_driver_793CA113</NAME>
+              <NAME>sceAtaWaitBusBusy2</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AA33791</NID>
@@ -5347,21 +5532,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D106B73</NID>
-              <NAME>sceAta_driver_7D106B73</NAME>
+              <NAME>sceAtaSetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1438D5A</NID>
-              <NAME>sceAta_driver_A1438D5A</NAME>
+              <NAME>sceAtaAccessDataPortIE</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA60B2D4C</NID>
@@ -5383,12 +5570,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC5888C5</NID>
-              <NAME>sceAta_driver_AC5888C5</NAME>
+              <NAME>sceAtaCheckDeviceReady</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB06EA941</NID>
@@ -5401,57 +5589,63 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD47B82F4</NID>
-              <NAME>sceAta_driver_D47B82F4</NAME>
+              <NAME>sceAtaIsUmdDrive</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7F162FF</NID>
-              <NAME>sceAta_driver_D7F162FF</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC38BB48</NID>
-              <NAME>sceAta_driver_DC38BB48</NAME>
+              <NAME>sceAtaStop</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE91608A</NID>
-              <NAME>sceAta_driver_DE91608A</NAME>
+              <NAME>sceAtaIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0863CBE</NID>
-              <NAME>sceAta_driver_E0863CBE</NAME>
+              <NAME>sceAtaSetDeviceIntr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF81B5049</NID>
-              <NAME>sceAta_driver_F81B5049</NAME>
+              <NAME>sceAtaSetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF973336F</NID>
@@ -5473,21 +5667,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD03C8DA</NID>
-              <NAME>sceAta_driver_FD03C8DA</NAME>
+              <NAME>sceAtaStart</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE5A4977</NID>
-              <NAME>sceAta_driver_FE5A4977</NAME>
+              <NAME>sceAtaSetBusErrorIntr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEB1DFA0</NID>
@@ -5500,7 +5696,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x019EAA8A</NID>
-              <NAME>sceAta_driver_019EAA8A</NAME>
+              <NAME>sceAtaGetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5510,10 +5706,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F86AFD1</NID>
-              <NAME>sceAta_driver_0F86AFD1</NAME>
+              <NAME>sceAtaGetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5523,6 +5720,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17B3D440</NID>
@@ -5539,7 +5737,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BC743D2</NID>
-              <NAME>sceAta_driver_1BC743D2</NAME>
+              <NAME>sceAtaGetDriveStat</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5549,10 +5747,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x219F2237</NID>
-              <NAME>sceAta_driver_219F2237</NAME>
+              <NAME>sceAtaExecPacketCmdIE</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5562,10 +5761,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x22A04B89</NID>
-              <NAME>sceAta_driver_22A04B89</NAME>
+              <NAME>sceAtaSetupAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5575,6 +5775,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24187E12</NID>
@@ -5630,7 +5831,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4BFC6642</NID>
-              <NAME>sceAta_driver_4BFC6642</NAME>
+              <NAME>sceAtaSetBusErrorIntr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5640,10 +5841,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F89B8A1</NID>
-              <NAME>sceAta_driver_4F89B8A1</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5653,6 +5855,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x507A1225</NID>
@@ -5682,7 +5885,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x52FE27BD</NID>
-              <NAME>sceAta_driver_52FE27BD</NAME>
+              <NAME>sceAtaStart</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5692,10 +5895,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55C5E542</NID>
-              <NAME>sceAta_driver_55C5E542</NAME>
+              <NAME>sceAtaSetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5705,10 +5909,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57C1A565</NID>
-              <NAME>sceAta_driver_57C1A565</NAME>
+              <NAME>sceAtaCheckDeviceReady</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5718,6 +5923,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6404C38D</NID>
@@ -5747,7 +5953,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x74C0AB69</NID>
-              <NAME>sceAta_driver_74C0AB69</NAME>
+              <NAME>sceAtaAccessDataPort</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5757,10 +5963,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84BDF247</NID>
-              <NAME>sceAta_driver_84BDF247</NAME>
+              <NAME>sceAtaDisplayIPD</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5770,10 +5977,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BDF92CE</NID>
-              <NAME>sceAta_driver_8BDF92CE</NAME>
+              <NAME>sceAtaGetAtaDrive</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5783,10 +5991,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DC3DE2C</NID>
-              <NAME>sceAta_driver_8DC3DE2C</NAME>
+              <NAME>sceAtaAhbGetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5796,10 +6005,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x97BA3E6C</NID>
-              <NAME>sceAta_driver_97BA3E6C</NAME>
+              <NAME>sceAtaStop</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5809,10 +6019,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C6F3646</NID>
-              <NAME>sceAta_driver_9C6F3646</NAME>
+              <NAME>sceAtaIsUmdDrive</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5822,6 +6033,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E95C9A5</NID>
@@ -5838,7 +6050,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1B49B8E</NID>
-              <NAME>sceAta_driver_A1B49B8E</NAME>
+              <NAME>sceAtaAccessDataPortIE</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5848,10 +6060,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9BA91F1</NID>
-              <NAME>sceAta_driver_A9BA91F1</NAME>
+              <NAME>sceAtaSetDeviceIntr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5861,10 +6074,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB04FC436</NID>
-              <NAME>sceAta_driver_B04FC436</NAME>
+              <NAME>sceAtaWaitBusBusyIE</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5874,6 +6088,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4E73EB1</NID>
@@ -5890,7 +6105,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB694BEB1</NID>
-              <NAME>sceAta_driver_B694BEB1</NAME>
+              <NAME>sceAtaGetAtaCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5900,10 +6115,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB71682F5</NID>
-              <NAME>sceAta_driver_B71682F5</NAME>
+              <NAME>sceAtaWaitBusBusy2</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5913,6 +6129,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7FF88DE</NID>
@@ -5942,7 +6159,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC2B1E997</NID>
-              <NAME>sceAta_driver_C2B1E997</NAME>
+              <NAME>sceAtaExecSetFeaturesCmd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5952,10 +6169,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA6D99D6</NID>
-              <NAME>sceAta_driver_CA6D99D6</NAME>
+              <NAME>sceAtaSetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5965,10 +6183,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFD99693</NID>
-              <NAME>sceAta_driver_CFD99693</NAME>
+              <NAME>sceAtaAhbEnableIntr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5978,6 +6197,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD12966E9</NID>
@@ -5994,7 +6214,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD739DC92</NID>
-              <NAME>sceAta_driver_D739DC92</NAME>
+              <NAME>sceAtaIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6004,6 +6224,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD62D353</NID>
@@ -6033,7 +6254,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF4966E6</NID>
-              <NAME>sceAta_driver_EF4966E6</NAME>
+              <NAME>sceAtaIsNormalDriveStat</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6043,10 +6264,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF05DDC3E</NID>
-              <NAME>sceAta_driver_F05DDC3E</NAME>
+              <NAME>sceAtaAhbSetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6056,10 +6278,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4CD7BCB</NID>
-              <NAME>sceAta_driver_F4CD7BCB</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6069,30 +6292,34 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01B3A40B</NID>
-              <NAME>sceAta_driver_01B3A40B</NAME>
+              <NAME>sceAtaSetDeviceIntr</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DBF2E8B</NID>
-              <NAME>sceAta_driver_0DBF2E8B</NAME>
+              <NAME>sceAtaSetBusErrorIntr</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DE2AB0F</NID>
-              <NAME>sceAta_driver_0DE2AB0F</NAME>
+              <NAME>sceAtaGetAtaCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x137694B8</NID>
@@ -6104,19 +6331,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C81BDE8</NID>
-              <NAME>sceAta_driver_1C81BDE8</NAME>
+              <NAME>sceAtaSetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24AD2A7A</NID>
-              <NAME>sceAta_driver_24AD2A7A</NAME>
+              <NAME>sceAtaGetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x250C0EAE</NID>
@@ -6136,27 +6365,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F7BE141</NID>
-              <NAME>sceAta_driver_2F7BE141</NAME>
+              <NAME>sceAtaWaitBusBusyIE</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30BFEDC3</NID>
-              <NAME>sceAta_driver_30BFEDC3</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3265D064</NID>
-              <NAME>sceAta_driver_3265D064</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33E53775</NID>
@@ -6168,67 +6400,75 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F4388F8</NID>
-              <NAME>sceAta_driver_3F4388F8</NAME>
+              <NAME>sceAtaGetIntrFlag</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47B8CD42</NID>
-              <NAME>sceAta_driver_47B8CD42</NAME>
+              <NAME>sceAtaGetDriveStat</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x489DDBE8</NID>
-              <NAME>sceAta_driver_489DDBE8</NAME>
+              <NAME>sceAtaAhbGetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51844CB6</NID>
-              <NAME>sceAta_driver_51844CB6</NAME>
+              <NAME>sceAtaCheckDeviceReady</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x52F330AB</NID>
-              <NAME>sceAta_driver_52F330AB</NAME>
+              <NAME>sceAtaExecSetFeaturesCmd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x591F4A01</NID>
-              <NAME>sceAta_driver_591F4A01</NAME>
+              <NAME>sceAtaIsNormalDriveStat</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x59FCB60A</NID>
-              <NAME>sceAta_driver_59FCB60A</NAME>
+              <NAME>sceAtaStop</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DBACD0F</NID>
-              <NAME>sceAta_driver_5DBACD0F</NAME>
+              <NAME>sceAtaExecPacketCmdIE</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E3C6F4E</NID>
@@ -6256,11 +6496,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x682ADF9A</NID>
-              <NAME>sceAta_driver_682ADF9A</NAME>
+              <NAME>sceAtaAhbSetAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80FFF6B3</NID>
@@ -6272,35 +6513,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B32C14C</NID>
-              <NAME>sceAta_driver_8B32C14C</NAME>
+              <NAME>sceAtaIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DE58134</NID>
-              <NAME>sceAta_driver_8DE58134</NAME>
+              <NAME>sceAtaWaitBusBusy2</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93380AE8</NID>
-              <NAME>sceAta_driver_93380AE8</NAME>
+              <NAME>sceAtaStart</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x96B01017</NID>
-              <NAME>sceAta_driver_96B01017</NAME>
+              <NAME>sceAtaSetIntrStateFlag</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA06499E5</NID>
@@ -6320,11 +6565,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6EF2040</NID>
-              <NAME>sceAta_driver_A6EF2040</NAME>
+              <NAME>sceAtaAhbEnableIntr</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAAE466C</NID>
@@ -6352,11 +6598,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4D5F4FE</NID>
-              <NAME>sceAta_driver_B4D5F4FE</NAME>
+              <NAME>sceAtaAccessDataPortIE</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB624B950</NID>
@@ -6376,35 +6623,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC344D497</NID>
-              <NAME>sceAta_driver_C344D497</NAME>
+              <NAME>sceAtaAccessDataPort</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD225B43E</NID>
-              <NAME>sceAta_driver_D225B43E</NAME>
+              <NAME>sceAtaGetAtaDrive</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD530C7D2</NID>
-              <NAME>sceAta_driver_D530C7D2</NAME>
+              <NAME>sceAtaSetupAtaBlock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0851D1A</NID>
-              <NAME>sceAta_driver_E0851D1A</NAME>
+              <NAME>sceAtaIsUmdDrive</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE230A74</NID>
@@ -6416,11 +6667,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB95A220</NID>
-              <NAME>sceAta_driver_FB95A220</NAME>
+              <NAME>sceAtaDisplayIPD</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

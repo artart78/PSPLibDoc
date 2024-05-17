@@ -806,13 +806,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC287AD90</NID>
-              <NAME>sceMeCore_driver_C287AD90</NAME>
+              <NAME>sceMeBootStart</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC999C966</NID>
@@ -844,12 +845,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD857CF93</NID>
-              <NAME>sceMeCore_driver_D857CF93</NAME>
+              <NAME>sceMeBootStart</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3282188D</NID>
@@ -875,7 +877,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8988AD49</NID>
-              <NAME>sceMeCore_driver_8988AD49</NAME>
+              <NAME>sceMeBootStart</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -883,6 +885,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1042BB35</NID>
@@ -902,15 +905,16 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x74262D3B</NID>
-              <NAME>sceMeCore_driver_74262D3B</NAME>
+              <NAME>sceMeBootStart</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x051C1601</NID>
-              <NAME>sceMeCore_driver_051C1601</NAME>
+              <NAME>sceMeBootStart</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -921,6 +925,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x278F2C25</NID>
@@ -959,10 +964,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BCE16B4</NID>
-              <NAME>sceMeCore_driver_3BCE16B4</NAME>
+              <NAME>sceMeBootStart</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x895B7F28</NID>
@@ -982,12 +988,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A2E60BB</NID>
-              <NAME>sceMeCore_driver_3A2E60BB</NAME>
+              <NAME>sceMeBootStart</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3751348</NID>
@@ -1022,7 +1029,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x99E4DBFA</NID>
-              <NAME>sceMeCore_driver_99E4DBFA</NAME>
+              <NAME>sceMeBootStart</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1032,6 +1039,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB0481ED</NID>
@@ -1196,64 +1204,70 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x278F5B3A</NID>
-              <NAME>sceMeMemory_driver_278F5B3A</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA76F708D</NID>
-              <NAME>sceMeMemory_driver_A76F708D</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDA9D819</NID>
-              <NAME>sceMeMemory_driver_CDA9D819</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24DBBE81</NID>
-              <NAME>sceMeMemory_driver_24DBBE81</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA39BED6</NID>
-              <NAME>sceMeMemory_driver_AA39BED6</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE70063B0</NID>
-              <NAME>sceMeMemory_driver_E70063B0</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1894F4F2</NID>
-              <NAME>sceMeMemory_driver_1894F4F2</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1261,10 +1275,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x556F1BE3</NID>
-              <NAME>sceMeMemory_driver_556F1BE3</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1272,10 +1287,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDA3A6D1</NID>
-              <NAME>sceMeMemory_driver_BDA3A6D1</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1283,34 +1299,38 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DB75326</NID>
-              <NAME>sceMeMemory_driver_2DB75326</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6615394C</NID>
-              <NAME>sceMeMemory_driver_6615394C</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x910D2F42</NID>
-              <NAME>sceMeMemory_driver_910D2F42</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x198F17FD</NID>
-              <NAME>sceMeMemory_driver_198F17FD</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1321,10 +1341,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D0D8BAF</NID>
-              <NAME>sceMeMemory_driver_3D0D8BAF</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1335,10 +1356,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9318AF4</NID>
-              <NAME>sceMeMemory_driver_F9318AF4</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1349,58 +1371,65 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x085AE703</NID>
-              <NAME>sceMeMemory_driver_085AE703</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5346B5CE</NID>
-              <NAME>sceMeMemory_driver_5346B5CE</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE9C4CDF</NID>
-              <NAME>sceMeMemory_driver_BE9C4CDF</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5331B4E8</NID>
-              <NAME>sceMeMemory_driver_5331B4E8</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90F1F5C1</NID>
-              <NAME>sceMeMemory_driver_90F1F5C1</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAA5CFDB</NID>
-              <NAME>sceMeMemory_driver_AAA5CFDB</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x124BB71E</NID>
-              <NAME>sceMeMemory_driver_124BB71E</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1410,10 +1439,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x793A1957</NID>
-              <NAME>sceMeMemory_driver_793A1957</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1423,10 +1453,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD645A154</NID>
-              <NAME>sceMeMemory_driver_D645A154</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1436,6 +1467,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6ED69327</NID>
@@ -1629,13 +1661,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67C3EF35</NID>
-              <NAME>sceMePower_driver_67C3EF35</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68B42814</NID>
@@ -1659,13 +1692,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3801640</NID>
-              <NAME>sceMePower_driver_E3801640</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE66D56C4</NID>
@@ -1706,21 +1740,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x85199B75</NID>
-              <NAME>sceMePower_driver_85199B75</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4533920</NID>
-              <NAME>sceMePower_driver_F4533920</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x020BB776</NID>
@@ -1735,7 +1771,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA156F3E3</NID>
-              <NAME>sceMePower_driver_A156F3E3</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1743,6 +1779,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA21DBE51</NID>
@@ -1757,7 +1794,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA765D5D4</NID>
-              <NAME>sceMePower_driver_A765D5D4</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1765,6 +1802,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2FC58E9</NID>
@@ -1779,19 +1817,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x24ECB0AD</NID>
-              <NAME>sceMePower_driver_24ECB0AD</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90CD838B</NID>
-              <NAME>sceMePower_driver_90CD838B</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9589663B</NID>
@@ -1833,7 +1873,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2ECCB138</NID>
-              <NAME>sceMePower_driver_2ECCB138</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1844,6 +1884,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x52E7CD99</NID>
@@ -1861,7 +1902,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x642D9C3E</NID>
-              <NAME>sceMePower_driver_642D9C3E</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1872,6 +1913,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68B70336</NID>
@@ -1889,10 +1931,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x23B4D56C</NID>
-              <NAME>sceMePower_driver_23B4D56C</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D562F01</NID>
@@ -1917,10 +1960,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC199D529</NID>
-              <NAME>sceMePower_driver_C199D529</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0ACC3E3E</NID>
@@ -1942,12 +1986,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7F19C03</NID>
-              <NAME>sceMePower_driver_B7F19C03</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2DC0A81</NID>
@@ -1960,12 +2005,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF70FFB2E</NID>
-              <NAME>sceMePower_driver_F70FFB2E</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FBD0AC2</NID>
@@ -1995,7 +2041,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x882FA940</NID>
-              <NAME>sceMePower_driver_882FA940</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2005,6 +2051,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA79F540</NID>
@@ -2021,7 +2068,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA81C2CC</NID>
-              <NAME>sceMePower_driver_FA81C2CC</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2031,6 +2078,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DEFA6A5</NID>
@@ -3669,23 +3717,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x278F5B3A</NID>
-              <NAME>sceMeWrapper_driver_278F5B3A</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28FCF508</NID>
-              <NAME>sceMeWrapper_driver_28FCF508</NAME>
+              <NAME>sceMeWrapperInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D535DBD</NID>
@@ -3749,13 +3799,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67C3EF35</NID>
-              <NAME>sceMeWrapper_driver_67C3EF35</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68B42814</NID>
@@ -3799,23 +3850,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA76F708D</NID>
-              <NAME>sceMeWrapper_driver_A76F708D</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAFF44670</NID>
-              <NAME>sceMeWrapper_driver_AFF44670</NAME>
+              <NAME>sceMeWrapperEnd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC74B28ED</NID>
@@ -3839,23 +3892,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDA9D819</NID>
-              <NAME>sceMeWrapper_driver_CDA9D819</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3801640</NID>
-              <NAME>sceMeWrapper_driver_E3801640</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE66D56C4</NID>
@@ -3914,21 +3969,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x24DBBE81</NID>
-              <NAME>sceMeWrapper_driver_24DBBE81</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44759587</NID>
-              <NAME>sceMeWrapper_driver_44759587</NAME>
+              <NAME>sceMeWrapperEnd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46EF6A36</NID>
@@ -3977,30 +4034,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x85199B75</NID>
-              <NAME>sceMeWrapper_driver_85199B75</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA58D5576</NID>
-              <NAME>sceMeWrapper_driver_A58D5576</NAME>
+              <NAME>sceMeWrapperInit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA39BED6</NID>
-              <NAME>sceMeWrapper_driver_AA39BED6</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB85FEDBF</NID>
@@ -4031,21 +4091,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE70063B0</NID>
-              <NAME>sceMeWrapper_driver_E70063B0</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4533920</NID>
-              <NAME>sceMeWrapper_driver_F4533920</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5233E11</NID>
@@ -4078,7 +4140,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1894F4F2</NID>
-              <NAME>sceMeWrapper_driver_1894F4F2</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4086,6 +4148,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21778E53</NID>
@@ -4144,7 +4207,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x556F1BE3</NID>
-              <NAME>sceMeWrapper_driver_556F1BE3</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4152,6 +4215,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56A2EE83</NID>
@@ -4199,7 +4263,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA156F3E3</NID>
-              <NAME>sceMeWrapper_driver_A156F3E3</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4207,6 +4271,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA21DBE51</NID>
@@ -4221,7 +4286,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA765D5D4</NID>
-              <NAME>sceMeWrapper_driver_A765D5D4</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4229,10 +4294,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7E37764</NID>
-              <NAME>sceMeWrapper_driver_A7E37764</NAME>
+              <NAME>sceMeWrapperEnd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4240,10 +4306,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDA3A6D1</NID>
-              <NAME>sceMeWrapper_driver_BDA3A6D1</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4251,6 +4318,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD128B0ED</NID>
@@ -4265,7 +4333,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBED0D46</NID>
-              <NAME>sceMeWrapper_driver_DBED0D46</NAME>
+              <NAME>sceMeWrapperInit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4273,6 +4341,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2FC58E9</NID>
@@ -4325,11 +4394,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x24ECB0AD</NID>
-              <NAME>sceMeWrapper_driver_24ECB0AD</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x253E3A3D</NID>
@@ -4349,11 +4419,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DB75326</NID>
-              <NAME>sceMeWrapper_driver_2DB75326</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41FFA74C</NID>
@@ -4365,11 +4436,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E64EC22</NID>
-              <NAME>sceMeWrapper_driver_4E64EC22</NAME>
+              <NAME>sceMeWrapperEnd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x512C1C4F</NID>
@@ -4381,19 +4453,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x65DB8ABE</NID>
-              <NAME>sceMeWrapper_driver_65DB8ABE</NAME>
+              <NAME>sceMeWrapperInit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6615394C</NID>
-              <NAME>sceMeWrapper_driver_6615394C</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6810CCF4</NID>
@@ -4413,19 +4487,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x90CD838B</NID>
-              <NAME>sceMeWrapper_driver_90CD838B</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x910D2F42</NID>
-              <NAME>sceMeWrapper_driver_910D2F42</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9589663B</NID>
@@ -4485,7 +4561,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x198F17FD</NID>
-              <NAME>sceMeWrapper_driver_198F17FD</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4496,6 +4572,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23481212</NID>
@@ -4555,7 +4632,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2ECCB138</NID>
-              <NAME>sceMeWrapper_driver_2ECCB138</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4566,6 +4643,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x310C9CDA</NID>
@@ -4583,7 +4661,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x38369C91</NID>
-              <NAME>sceMeWrapper_driver_38369C91</NAME>
+              <NAME>sceMeWrapperInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4594,10 +4672,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D0D8BAF</NID>
-              <NAME>sceMeWrapper_driver_3D0D8BAF</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4608,6 +4687,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x52E7CD99</NID>
@@ -4639,7 +4719,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x642D9C3E</NID>
-              <NAME>sceMeWrapper_driver_642D9C3E</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4650,6 +4730,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68B70336</NID>
@@ -4681,7 +4762,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D46A04D</NID>
-              <NAME>sceMeWrapper_driver_8D46A04D</NAME>
+              <NAME>sceMeWrapperEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4692,6 +4773,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93EED793</NID>
@@ -4779,7 +4861,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9318AF4</NID>
-              <NAME>sceMeWrapper_driver_F9318AF4</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4790,13 +4872,15 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x085AE703</NID>
-              <NAME>sceMeWrapper_driver_085AE703</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x08921847</NID>
@@ -4814,10 +4898,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0EA43DFE</NID>
-              <NAME>sceMeWrapper_driver_0EA43DFE</NAME>
+              <NAME>sceMeWrapperInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F91C3B9</NID>
@@ -4828,10 +4913,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x23B4D56C</NID>
-              <NAME>sceMeWrapper_driver_23B4D56C</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27E88B3C</NID>
@@ -4863,10 +4949,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5346B5CE</NID>
-              <NAME>sceMeWrapper_driver_5346B5CE</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6330EEE4</NID>
@@ -4912,10 +4999,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DACE34B</NID>
-              <NAME>sceMeWrapper_driver_9DACE34B</NAME>
+              <NAME>sceMeWrapperEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF4F9EF4</NID>
@@ -4926,10 +5014,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE9C4CDF</NID>
-              <NAME>sceMeWrapper_driver_BE9C4CDF</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBED2CAB8</NID>
@@ -4940,10 +5029,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC199D529</NID>
-              <NAME>sceMeWrapper_driver_C199D529</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC466359C</NID>
@@ -4981,12 +5071,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F5F6D21</NID>
-              <NAME>sceMeWrapper_driver_1F5F6D21</NAME>
+              <NAME>sceMeWrapperInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x257F8893</NID>
@@ -4999,12 +5090,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5331B4E8</NID>
-              <NAME>sceMeWrapper_driver_5331B4E8</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E62816E</NID>
@@ -5044,12 +5136,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x90F1F5C1</NID>
-              <NAME>sceMeWrapper_driver_90F1F5C1</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95CA43DB</NID>
@@ -5071,12 +5164,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAA5CFDB</NID>
-              <NAME>sceMeWrapper_driver_AAA5CFDB</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3BAF5D3</NID>
@@ -5098,21 +5192,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7F19C03</NID>
-              <NAME>sceMeWrapper_driver_B7F19C03</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDC39A3E</NID>
-              <NAME>sceMeWrapper_driver_CDC39A3E</NAME>
+              <NAME>sceMeWrapperEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0DB8EC8</NID>
@@ -5152,12 +5248,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF70FFB2E</NID>
-              <NAME>sceMeWrapper_driver_F70FFB2E</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02A6DFDD</NID>
@@ -5174,7 +5271,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x03CE480D</NID>
-              <NAME>sceMeWrapper_driver_03CE480D</NAME>
+              <NAME>sceMeWrapperEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5184,10 +5281,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x124BB71E</NID>
-              <NAME>sceMeWrapper_driver_124BB71E</NAME>
+              <NAME>sceMeFree</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5197,6 +5295,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x13681A01</NID>
@@ -5304,7 +5403,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x793A1957</NID>
-              <NAME>sceMeWrapper_driver_793A1957</NAME>
+              <NAME>sceMeCalloc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5314,10 +5413,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x882FA940</NID>
-              <NAME>sceMeWrapper_driver_882FA940</NAME>
+              <NAME>sceMePowerSelectAvcClock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5327,6 +5427,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94D6E4E2</NID>
@@ -5382,7 +5483,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD645A154</NID>
-              <NAME>sceMeWrapper_driver_D645A154</NAME>
+              <NAME>sceMeMalloc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5392,6 +5493,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA79F540</NID>
@@ -5434,7 +5536,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1EE9A4B</NID>
-              <NAME>sceMeWrapper_driver_F1EE9A4B</NAME>
+              <NAME>sceMeWrapperInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5444,10 +5546,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA81C2CC</NID>
-              <NAME>sceMeWrapper_driver_FA81C2CC</NAME>
+              <NAME>sceMePowerControlAvcPower</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5457,6 +5560,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DEFA6A5</NID>

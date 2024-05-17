@@ -58,7 +58,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x30132606</NID>
-              <NAME>memlmd_30132606</NAME>
+              <NAME>sceUtilsPrepareGetLoadModuleABLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -83,10 +83,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x323366CA</NID>
-              <NAME>memlmd_323366CA</NAME>
+              <NAME>sceUtilsPrepareGetLoadModuleABLength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -111,10 +112,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A811217</NID>
-              <NAME>memlmd_6A811217</NAME>
+              <NAME>sceUtilsGetLoadModuleABLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -139,10 +141,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CF1CD3E</NID>
-              <NAME>memlmd_7CF1CD3E</NAME>
+              <NAME>sceUtilsGetLoadModuleABLength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -167,6 +170,7 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1732BE4</NID>
@@ -296,21 +300,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6170877F</NID>
-              <NAME>memlmd_6170877F</NAME>
+              <NAME>sceUtilsGetLoadModuleABLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA43B8A6C</NID>
-              <NAME>memlmd_A43B8A6C</NAME>
+              <NAME>sceUtilsGetLoadModuleABLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3556543</NID>
@@ -323,21 +329,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC94891BB</NID>
-              <NAME>memlmd_C94891BB</NAME>
+              <NAME>sceUtilsPrepareGetLoadModuleABLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA992151</NID>
-              <NAME>memlmd_DA992151</NAME>
+              <NAME>sceUtilsPrepareGetLoadModuleABLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C04AB8A</NID>
@@ -385,7 +393,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA54D51D2</NID>
-              <NAME>memlmd_A54D51D2</NAME>
+              <NAME>sceUtilsGetLoadModuleABLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -393,6 +401,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2F4E2CA</NID>
@@ -407,7 +416,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE706CCBC</NID>
-              <NAME>memlmd_E706CCBC</NAME>
+              <NAME>sceUtilsGetLoadModuleABLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -415,10 +424,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE74BE02B</NID>
-              <NAME>memlmd_E74BE02B</NAME>
+              <NAME>sceUtilsPrepareGetLoadModuleABLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -426,10 +436,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF756C144</NID>
-              <NAME>memlmd_F756C144</NAME>
+              <NAME>sceUtilsPrepareGetLoadModuleABLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -437,6 +448,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -1412,12 +1412,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x159353D2</NID>
-              <NAME>LoadCoreForKernel_159353D2</NAME>
+              <NAME>sceKernelDcacheWBinvAll</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17388886</NID>
@@ -1430,102 +1431,113 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B9CDCBF</NID>
-              <NAME>LoadCoreForKernel_1B9CDCBF</NAME>
+              <NAME>sceKernelLoadCoreMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x295BB378</NID>
-              <NAME>LoadCoreForKernel_295BB378</NAME>
+              <NAME>sceKernelApplyElfRelSection</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D672F0D</NID>
-              <NAME>LoadCoreForKernel_2D672F0D</NAME>
+              <NAME>sceKernelLinkLibraryEntriesWithModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33944416</NID>
-              <NAME>LoadCoreForKernel_33944416</NAME>
+              <NAME>sceKernelGetModuleListWithAlloc</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E8C433C</NID>
-              <NAME>LoadCoreForKernel_3E8C433C</NAME>
+              <NAME>sceKernelCheckExecFile</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EFFC0B2</NID>
-              <NAME>LoadCoreForKernel_3EFFC0B2</NAME>
+              <NAME>sceKernelQueryLoadCoreCB</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x407D9A43</NID>
-              <NAME>LoadCoreForKernel_407D9A43</NAME>
+              <NAME>sceKernelRegisterLibraryForUser</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x460EDC2A</NID>
-              <NAME>LoadCoreForKernel_460EDC2A</NAME>
+              <NAME>sceKernelIcacheClearAll</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46AC32DC</NID>
-              <NAME>LoadCoreForKernel_46AC32DC</NAME>
+              <NAME>sceKernelGetModuleGPByAddressForKernel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46AE2CDB</NID>
-              <NAME>LoadCoreForKernel_46AE2CDB</NAME>
+              <NAME>sceKernelFindModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4774ACE0</NID>
-              <NAME>LoadCoreForKernel_4774ACE0</NAME>
+              <NAME>sceKernelAssignModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E8E0B3B</NID>
@@ -1547,138 +1559,153 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F8456DE</NID>
-              <NAME>LoadCoreForKernel_4F8456DE</NAME>
+              <NAME>sceKernelApplyPspRelSection</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5290A3B0</NID>
-              <NAME>LoadCoreForKernel_5290A3B0</NAME>
+              <NAME>sceKernelRegisterModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61A1F25A</NID>
-              <NAME>LoadCoreForKernel_61A1F25A</NAME>
+              <NAME>sceKernelLoadModuleBootLoadCore</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x62D1ABE8</NID>
-              <NAME>LoadCoreForKernel_62D1ABE8</NAME>
+              <NAME>sceKernelGetModuleIdListForKernel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67D8ACF2</NID>
-              <NAME>LoadCoreForKernel_67D8ACF2</NAME>
+              <NAME>sceKernelCanReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68C6EA7C</NID>
-              <NAME>LoadCoreForKernel_68C6EA7C</NAME>
+              <NAME>sceKernelUnLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x694D6E4A</NID>
-              <NAME>LoadCoreForKernel_694D6E4A</NAME>
+              <NAME>sceKernelGetLibraryList</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A9C9EE4</NID>
-              <NAME>LoadCoreForKernel_6A9C9EE4</NAME>
+              <NAME>sceKernelReleaseModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D26DE80</NID>
-              <NAME>LoadCoreForKernel_6D26DE80</NAME>
+              <NAME>sceKernelRegisterLibrary</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D896819</NID>
-              <NAME>LoadCoreForKernel_6D896819</NAME>
+              <NAME>sceKernelLoadExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EDB7CD3</NID>
-              <NAME>LoadCoreForKernel_7EDB7CD3</NAME>
+              <NAME>sceKernelCreateModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x807770A1</NID>
-              <NAME>LoadCoreForKernel_807770A1</NAME>
+              <NAME>sceKernelFindModuleByUID</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A48085A</NID>
-              <NAME>LoadCoreForKernel_8A48085A</NAME>
+              <NAME>sceKernelCreateAssignModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F066A97</NID>
-              <NAME>LoadCoreForKernel_8F066A97</NAME>
+              <NAME>sceKernelGetLibraryLinkInfo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA55548AC</NID>
-              <NAME>LoadCoreForKernel_A55548AC</NAME>
+              <NAME>sceKernelDeleteModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABAA275F</NID>
@@ -1691,88 +1718,97 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1795BAD</NID>
-              <NAME>LoadCoreForKernel_B1795BAD</NAME>
+              <NAME>sceKernelLinkLibraryEntriesForUser</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC06E160B</NID>
-              <NAME>LoadCoreForKernel_C06E160B</NAME>
+              <NAME>sceKernelReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD015C37</NID>
-              <NAME>LoadCoreForKernel_CD015C37</NAME>
+              <NAME>sceKernelProbeExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD02329F6</NID>
-              <NAME>LoadCoreForKernel_D02329F6</NAME>
+              <NAME>sceKernelMaskLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB4BB70E</NID>
-              <NAME>LoadCoreForKernel_DB4BB70E</NAME>
+              <NAME>sceKernelSetBootCallbackLevel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF12EBE6C</NID>
-              <NAME>LoadCoreForKernel_F12EBE6C</NAME>
+              <NAME>sceKernelGetModuleFromUID</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF17DD6DD</NID>
-              <NAME>LoadCoreForKernel_F17DD6DD</NAME>
+              <NAME>sceKernelFindModuleByName</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF74625E0</NID>
-              <NAME>LoadCoreForKernel_F74625E0</NAME>
+              <NAME>sceKernelCheckPspConfig</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9816783</NID>
-              <NAME>LoadCoreForKernel_F9816783</NAME>
+              <NAME>sceKernelLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x00F78D3A</NID>
-              <NAME>LoadCoreForKernel_00F78D3A</NAME>
+              <NAME>sceKernelRegisterLibrary</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1780,10 +1816,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0526C542</NID>
-              <NAME>LoadCoreForKernel_0526C542</NAME>
+              <NAME>sceKernelCreateAssignModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1791,10 +1828,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A866139</NID>
-              <NAME>LoadCoreForKernel_0A866139</NAME>
+              <NAME>sceKernelIcacheClearAll</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1802,10 +1840,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C0D8B7F</NID>
-              <NAME>LoadCoreForKernel_0C0D8B7F</NAME>
+              <NAME>sceKernelMaskLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1813,10 +1852,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A97B871</NID>
-              <NAME>LoadCoreForKernel_1A97B871</NAME>
+              <NAME>sceKernelCanReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1824,10 +1864,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EEA4CA4</NID>
-              <NAME>LoadCoreForKernel_1EEA4CA4</NAME>
+              <NAME>sceKernelRegisterModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1835,10 +1876,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21984C37</NID>
-              <NAME>LoadCoreForKernel_21984C37</NAME>
+              <NAME>sceKernelGetModuleGPByAddressForKernel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1846,10 +1888,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C28CDE1</NID>
-              <NAME>LoadCoreForKernel_3C28CDE1</NAME>
+              <NAME>sceKernelReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1857,10 +1900,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FF3E2D4</NID>
-              <NAME>LoadCoreForKernel_3FF3E2D4</NAME>
+              <NAME>sceKernelGetModuleFromUID</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1868,10 +1912,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x421203A2</NID>
-              <NAME>LoadCoreForKernel_421203A2</NAME>
+              <NAME>sceKernelGetModuleIdListForKernel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1879,10 +1924,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47CFA717</NID>
-              <NAME>LoadCoreForKernel_47CFA717</NAME>
+              <NAME>sceKernelQueryLoadCoreCB</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1890,10 +1936,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E6A03F7</NID>
-              <NAME>LoadCoreForKernel_4E6A03F7</NAME>
+              <NAME>sceKernelDeleteModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1901,10 +1948,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x572D0046</NID>
-              <NAME>LoadCoreForKernel_572D0046</NAME>
+              <NAME>sceKernelGetLibraryList</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1912,10 +1960,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64B61605</NID>
-              <NAME>LoadCoreForKernel_64B61605</NAME>
+              <NAME>sceKernelApplyPspRelSection</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1923,10 +1972,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F26FC62</NID>
-              <NAME>LoadCoreForKernel_6F26FC62</NAME>
+              <NAME>sceKernelLoadExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1934,10 +1984,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x780C190C</NID>
-              <NAME>LoadCoreForKernel_780C190C</NAME>
+              <NAME>sceKernelDcacheWBinvAll</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1945,10 +1996,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92129249</NID>
-              <NAME>LoadCoreForKernel_92129249</NAME>
+              <NAME>sceKernelCheckPspConfig</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1956,10 +2008,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94C4F7C1</NID>
-              <NAME>LoadCoreForKernel_94C4F7C1</NAME>
+              <NAME>sceKernelGetLibraryLinkInfo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1967,10 +2020,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x98D2CF2B</NID>
-              <NAME>LoadCoreForKernel_98D2CF2B</NAME>
+              <NAME>sceKernelFindModuleByName</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1978,6 +2032,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x99B50DD7</NID>
@@ -1992,7 +2047,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8A87208</NID>
-              <NAME>LoadCoreForKernel_A8A87208</NAME>
+              <NAME>sceKernelLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2000,10 +2055,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA8E87C6</NID>
-              <NAME>LoadCoreForKernel_AA8E87C6</NAME>
+              <NAME>sceKernelCreateModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2011,10 +2067,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABB9794E</NID>
-              <NAME>LoadCoreForKernel_ABB9794E</NAME>
+              <NAME>sceKernelLoadModuleBootLoadCore</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2022,10 +2079,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF59E21B</NID>
-              <NAME>LoadCoreForKernel_AF59E21B</NAME>
+              <NAME>sceKernelProbeExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2033,6 +2091,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8A0A876</NID>
@@ -2047,7 +2106,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD4B533C</NID>
-              <NAME>LoadCoreForKernel_BD4B533C</NAME>
+              <NAME>sceKernelGetModuleListWithAlloc</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2055,10 +2114,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC43727A4</NID>
-              <NAME>LoadCoreForKernel_C43727A4</NAME>
+              <NAME>sceKernelUnLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2066,6 +2126,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC82F6CC1</NID>
@@ -2080,7 +2141,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBCFF160</NID>
-              <NAME>LoadCoreForKernel_CBCFF160</NAME>
+              <NAME>sceKernelLinkLibraryEntriesForUser</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2088,10 +2149,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDCB4085</NID>
-              <NAME>LoadCoreForKernel_CDCB4085</NAME>
+              <NAME>sceKernelApplyElfRelSection</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2099,10 +2161,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5C9FE2C</NID>
-              <NAME>LoadCoreForKernel_D5C9FE2C</NAME>
+              <NAME>sceKernelAssignModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2110,10 +2173,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD66D9E88</NID>
-              <NAME>LoadCoreForKernel_D66D9E88</NAME>
+              <NAME>sceKernelLoadCoreMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2121,10 +2185,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE312E7A</NID>
-              <NAME>LoadCoreForKernel_DE312E7A</NAME>
+              <NAME>sceKernelFindModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2132,10 +2197,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE37AEB20</NID>
-              <NAME>LoadCoreForKernel_E37AEB20</NAME>
+              <NAME>sceKernelLinkLibraryEntriesWithModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2143,10 +2209,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5FC4B48</NID>
-              <NAME>LoadCoreForKernel_E5FC4B48</NAME>
+              <NAME>sceKernelFindModuleByUID</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2154,10 +2221,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE68C43A0</NID>
-              <NAME>LoadCoreForKernel_E68C43A0</NAME>
+              <NAME>sceKernelCheckExecFile</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2165,10 +2233,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB5B7FA3</NID>
-              <NAME>LoadCoreForKernel_EB5B7FA3</NAME>
+              <NAME>sceKernelReleaseModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2176,6 +2245,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5CC234D</NID>
@@ -2190,7 +2260,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC07A73E</NID>
-              <NAME>LoadCoreForKernel_FC07A73E</NAME>
+              <NAME>sceKernelSetBootCallbackLevel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2198,10 +2268,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF4645F5</NID>
-              <NAME>LoadCoreForKernel_FF4645F5</NAME>
+              <NAME>sceKernelRegisterLibraryForUser</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2209,6 +2280,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A22B0B3</NID>
@@ -2220,43 +2292,48 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B8A9017</NID>
-              <NAME>LoadCoreForKernel_0B8A9017</NAME>
+              <NAME>sceKernelIcacheClearAll</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x178DA4A5</NID>
-              <NAME>LoadCoreForKernel_178DA4A5</NAME>
+              <NAME>sceKernelQueryLoadCoreCB</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1865AFA6</NID>
-              <NAME>LoadCoreForKernel_1865AFA6</NAME>
+              <NAME>sceKernelFindModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F939A95</NID>
-              <NAME>LoadCoreForKernel_2F939A95</NAME>
+              <NAME>sceKernelReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3350209A</NID>
-              <NAME>LoadCoreForKernel_3350209A</NAME>
+              <NAME>sceKernelFindModuleByName</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33DB928D</NID>
@@ -2268,155 +2345,174 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x351886A6</NID>
-              <NAME>LoadCoreForKernel_351886A6</NAME>
+              <NAME>sceKernelCreateAssignModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35923AD1</NID>
-              <NAME>LoadCoreForKernel_35923AD1</NAME>
+              <NAME>sceKernelRegisterLibraryForUser</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38E31B25</NID>
-              <NAME>LoadCoreForKernel_38E31B25</NAME>
+              <NAME>sceKernelGetModuleListWithAlloc</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F416FD1</NID>
-              <NAME>LoadCoreForKernel_3F416FD1</NAME>
+              <NAME>sceKernelGetModuleGPByAddressForKernel</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4125769A</NID>
-              <NAME>LoadCoreForKernel_4125769A</NAME>
+              <NAME>sceKernelLoadCoreMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x466DD352</NID>
-              <NAME>LoadCoreForKernel_466DD352</NAME>
+              <NAME>sceKernelApplyPspRelSection</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46A2E6EC</NID>
-              <NAME>LoadCoreForKernel_46A2E6EC</NAME>
+              <NAME>sceKernelDeleteModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6233AE5F</NID>
-              <NAME>LoadCoreForKernel_6233AE5F</NAME>
+              <NAME>sceKernelLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x66DDB704</NID>
-              <NAME>LoadCoreForKernel_66DDB704</NAME>
+              <NAME>sceKernelCanReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67C7BB59</NID>
-              <NAME>LoadCoreForKernel_67C7BB59</NAME>
+              <NAME>sceKernelLoadModuleBootLoadCore</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x75DACEAC</NID>
-              <NAME>LoadCoreForKernel_75DACEAC</NAME>
+              <NAME>sceKernelReleaseModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A6B8BA1</NID>
-              <NAME>LoadCoreForKernel_7A6B8BA1</NAME>
+              <NAME>sceKernelCheckExecFile</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F73F5BA</NID>
-              <NAME>LoadCoreForKernel_7F73F5BA</NAME>
+              <NAME>sceKernelUnLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FC613D3</NID>
-              <NAME>LoadCoreForKernel_8FC613D3</NAME>
+              <NAME>sceKernelLinkLibraryEntriesForUser</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FADF2E3</NID>
-              <NAME>LoadCoreForKernel_9FADF2E3</NAME>
+              <NAME>sceKernelDcacheWBinvAll</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FE7C3E5</NID>
-              <NAME>LoadCoreForKernel_9FE7C3E5</NAME>
+              <NAME>sceKernelLinkLibraryEntriesWithModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1FA5364</NID>
-              <NAME>LoadCoreForKernel_A1FA5364</NAME>
+              <NAME>sceKernelApplyElfRelSection</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA080CFC</NID>
-              <NAME>LoadCoreForKernel_AA080CFC</NAME>
+              <NAME>sceKernelProbeExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1BB8A49</NID>
-              <NAME>LoadCoreForKernel_B1BB8A49</NAME>
+              <NAME>sceKernelMaskLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB20792CF</NID>
@@ -2428,43 +2524,48 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2C9C205</NID>
-              <NAME>LoadCoreForKernel_B2C9C205</NAME>
+              <NAME>sceKernelGetModuleIdListForKernel</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC10D835A</NID>
-              <NAME>LoadCoreForKernel_C10D835A</NAME>
+              <NAME>sceKernelCheckPspConfig</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC21C6FCE</NID>
-              <NAME>LoadCoreForKernel_C21C6FCE</NAME>
+              <NAME>sceKernelRegisterModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6AE2942</NID>
-              <NAME>LoadCoreForKernel_C6AE2942</NAME>
+              <NAME>sceKernelGetLibraryList</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC91E73C4</NID>
-              <NAME>LoadCoreForKernel_C91E73C4</NAME>
+              <NAME>sceKernelGetLibraryLinkInfo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4405D81</NID>
@@ -2476,63 +2577,70 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5BE799E</NID>
-              <NAME>LoadCoreForKernel_E5BE799E</NAME>
+              <NAME>sceKernelLoadExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9B0A81D</NID>
-              <NAME>LoadCoreForKernel_E9B0A81D</NAME>
+              <NAME>sceKernelRegisterLibrary</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBFBE91D</NID>
-              <NAME>LoadCoreForKernel_EBFBE91D</NAME>
+              <NAME>sceKernelCreateModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC87B945</NID>
-              <NAME>LoadCoreForKernel_EC87B945</NAME>
+              <NAME>sceKernelFindModuleByUID</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0D92840</NID>
-              <NAME>LoadCoreForKernel_F0D92840</NAME>
+              <NAME>sceKernelSetBootCallbackLevel</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF480F658</NID>
-              <NAME>LoadCoreForKernel_F480F658</NAME>
+              <NAME>sceKernelAssignModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF94F645A</NID>
-              <NAME>LoadCoreForKernel_F94F645A</NAME>
+              <NAME>sceKernelGetModuleFromUID</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x00E94E85</NID>
-              <NAME>LoadCoreForKernel_00E94E85</NAME>
+              <NAME>sceKernelFindModuleByUID</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2543,10 +2651,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B53340F</NID>
-              <NAME>LoadCoreForKernel_0B53340F</NAME>
+              <NAME>sceKernelFindModuleByName</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2557,10 +2666,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DDEC402</NID>
-              <NAME>LoadCoreForKernel_0DDEC402</NAME>
+              <NAME>sceKernelGetLibraryList</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2571,10 +2681,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F9DDF1D</NID>
-              <NAME>LoadCoreForKernel_0F9DDF1D</NAME>
+              <NAME>sceKernelGetModuleListWithAlloc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2585,10 +2696,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10FD7D37</NID>
-              <NAME>LoadCoreForKernel_10FD7D37</NAME>
+              <NAME>sceKernelReleaseModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2599,10 +2711,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x115FA474</NID>
-              <NAME>LoadCoreForKernel_115FA474</NAME>
+              <NAME>sceKernelCheckExecFile</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2613,10 +2726,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1285603B</NID>
-              <NAME>LoadCoreForKernel_1285603B</NAME>
+              <NAME>sceKernelRegisterLibrary</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2627,10 +2741,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14C57306</NID>
-              <NAME>LoadCoreForKernel_14C57306</NAME>
+              <NAME>sceKernelUnLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2641,10 +2756,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23C81B66</NID>
-              <NAME>LoadCoreForKernel_23C81B66</NAME>
+              <NAME>sceKernelApplyPspRelSection</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2655,10 +2771,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FAD3D30</NID>
-              <NAME>LoadCoreForKernel_2FAD3D30</NAME>
+              <NAME>sceKernelCreateAssignModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2669,10 +2786,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x358CEBF7</NID>
-              <NAME>LoadCoreForKernel_358CEBF7</NAME>
+              <NAME>sceKernelGetLibraryLinkInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2683,10 +2801,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x386369BB</NID>
-              <NAME>LoadCoreForKernel_386369BB</NAME>
+              <NAME>sceKernelLoadModuleBootLoadCore</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2697,10 +2816,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E9E20D7</NID>
-              <NAME>LoadCoreForKernel_3E9E20D7</NAME>
+              <NAME>sceKernelLoadCoreMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2711,10 +2831,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F567499</NID>
-              <NAME>LoadCoreForKernel_3F567499</NAME>
+              <NAME>sceKernelRegisterLibraryForUser</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2725,10 +2846,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x587F4973</NID>
-              <NAME>LoadCoreForKernel_587F4973</NAME>
+              <NAME>sceKernelGetModuleFromUID</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2739,10 +2861,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x618C92FF</NID>
-              <NAME>LoadCoreForKernel_618C92FF</NAME>
+              <NAME>sceKernelProbeExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2753,10 +2876,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65BE4168</NID>
-              <NAME>LoadCoreForKernel_65BE4168</NAME>
+              <NAME>sceKernelMaskLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2767,10 +2891,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B3E192B</NID>
-              <NAME>LoadCoreForKernel_6B3E192B</NAME>
+              <NAME>sceKernelSetBootCallbackLevel</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2781,10 +2906,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C00BE57</NID>
-              <NAME>LoadCoreForKernel_6C00BE57</NAME>
+              <NAME>sceKernelGetModuleGPByAddressForKernel</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2795,10 +2921,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77E3CB6B</NID>
-              <NAME>LoadCoreForKernel_77E3CB6B</NAME>
+              <NAME>sceKernelIcacheClearAll</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2809,10 +2936,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9EEC51A4</NID>
-              <NAME>LoadCoreForKernel_9EEC51A4</NAME>
+              <NAME>sceKernelQueryLoadCoreCB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2823,6 +2951,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F5A77CB</NID>
@@ -2840,7 +2969,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA48D2D08</NID>
-              <NAME>LoadCoreForKernel_A48D2D08</NAME>
+              <NAME>sceKernelCreateModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2851,10 +2980,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE96A41B</NID>
-              <NAME>LoadCoreForKernel_AE96A41B</NAME>
+              <NAME>sceKernelDeleteModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2865,10 +2995,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3391485</NID>
-              <NAME>LoadCoreForKernel_B3391485</NAME>
+              <NAME>sceKernelRegisterModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2879,10 +3010,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5D16A21</NID>
-              <NAME>LoadCoreForKernel_B5D16A21</NAME>
+              <NAME>sceKernelLinkLibraryEntriesForUser</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2893,10 +3025,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB63183B5</NID>
-              <NAME>LoadCoreForKernel_B63183B5</NAME>
+              <NAME>sceKernelApplyElfRelSection</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2907,10 +3040,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFAD9D71</NID>
-              <NAME>LoadCoreForKernel_BFAD9D71</NAME>
+              <NAME>sceKernelAssignModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2921,10 +3055,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC237D677</NID>
-              <NAME>LoadCoreForKernel_C237D677</NAME>
+              <NAME>sceKernelDcacheWBinvAll</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2935,6 +3070,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA2BC850</NID>
@@ -2952,7 +3088,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE2B6937</NID>
-              <NAME>LoadCoreForKernel_CE2B6937</NAME>
+              <NAME>sceKernelCanReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2963,6 +3099,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD44501A6</NID>
@@ -2980,7 +3117,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB6BAA71</NID>
-              <NAME>LoadCoreForKernel_DB6BAA71</NAME>
+              <NAME>sceKernelCheckPspConfig</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2991,10 +3128,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD303D79</NID>
-              <NAME>LoadCoreForKernel_DD303D79</NAME>
+              <NAME>sceKernelFindModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3005,10 +3143,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE056884A</NID>
-              <NAME>LoadCoreForKernel_E056884A</NAME>
+              <NAME>sceKernelLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3019,10 +3158,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEA9500BC</NID>
-              <NAME>LoadCoreForKernel_EA9500BC</NAME>
+              <NAME>sceKernelLinkLibraryEntriesWithModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3033,10 +3173,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC2861D0</NID>
-              <NAME>LoadCoreForKernel_EC2861D0</NAME>
+              <NAME>sceKernelLoadExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3047,10 +3188,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1130D5F</NID>
-              <NAME>LoadCoreForKernel_F1130D5F</NAME>
+              <NAME>sceKernelGetModuleIdListForKernel</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3061,6 +3203,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1ACA4B2</NID>
@@ -3078,7 +3221,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6C7F05C</NID>
-              <NAME>LoadCoreForKernel_F6C7F05C</NAME>
+              <NAME>sceKernelReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3089,34 +3232,39 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x041C154C</NID>
-              <NAME>LoadCoreForKernel_041C154C</NAME>
+              <NAME>sceKernelRegisterLibrary</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B6CB471</NID>
-              <NAME>LoadCoreForKernel_0B6CB471</NAME>
+              <NAME>sceKernelGetLibraryLinkInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x11C68384</NID>
-              <NAME>LoadCoreForKernel_11C68384</NAME>
+              <NAME>sceKernelCanReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x169BBACA</NID>
-              <NAME>LoadCoreForKernel_169BBACA</NAME>
+              <NAME>sceKernelFindModuleByName</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17208F21</NID>
@@ -3127,31 +3275,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x18DB3C97</NID>
-              <NAME>LoadCoreForKernel_18DB3C97</NAME>
+              <NAME>sceKernelLinkLibraryEntriesWithModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1ABBF3DD</NID>
-              <NAME>LoadCoreForKernel_1ABBF3DD</NAME>
+              <NAME>sceKernelLoadExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20327233</NID>
-              <NAME>LoadCoreForKernel_20327233</NAME>
+              <NAME>sceKernelGetModuleGPByAddressForKernel</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24E9EF73</NID>
-              <NAME>LoadCoreForKernel_24E9EF73</NAME>
+              <NAME>sceKernelGetModuleIdListForKernel</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2849B20C</NID>
@@ -3162,94 +3314,107 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B27F7E0</NID>
-              <NAME>LoadCoreForKernel_2B27F7E0</NAME>
+              <NAME>sceKernelUnLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DEE66D2</NID>
-              <NAME>LoadCoreForKernel_2DEE66D2</NAME>
+              <NAME>sceKernelFindModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35CBD038</NID>
-              <NAME>LoadCoreForKernel_35CBD038</NAME>
+              <NAME>sceKernelSetBootCallbackLevel</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37FE77A0</NID>
-              <NAME>LoadCoreForKernel_37FE77A0</NAME>
+              <NAME>sceKernelLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x387F89DB</NID>
-              <NAME>LoadCoreForKernel_387F89DB</NAME>
+              <NAME>sceKernelIcacheClearAll</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A7DE68A</NID>
-              <NAME>LoadCoreForKernel_3A7DE68A</NAME>
+              <NAME>sceKernelAssignModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B244868</NID>
-              <NAME>LoadCoreForKernel_3B244868</NAME>
+              <NAME>sceKernelReleaseModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EAB3278</NID>
-              <NAME>LoadCoreForKernel_3EAB3278</NAME>
+              <NAME>sceKernelLoadCoreMode</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41BDF7C2</NID>
-              <NAME>LoadCoreForKernel_41BDF7C2</NAME>
+              <NAME>sceKernelProbeExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44900993</NID>
-              <NAME>LoadCoreForKernel_44900993</NAME>
+              <NAME>sceKernelGetLibraryList</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x530AC7EC</NID>
-              <NAME>LoadCoreForKernel_530AC7EC</NAME>
+              <NAME>sceKernelLoadModuleBootLoadCore</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CD21DE8</NID>
-              <NAME>LoadCoreForKernel_6CD21DE8</NAME>
+              <NAME>sceKernelCreateAssignModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DC336C6</NID>
-              <NAME>LoadCoreForKernel_6DC336C6</NAME>
+              <NAME>sceKernelRegisterModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7261A7AA</NID>
@@ -3260,52 +3425,59 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x76C666CB</NID>
-              <NAME>LoadCoreForKernel_76C666CB</NAME>
+              <NAME>sceKernelCheckExecFile</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C069BAC</NID>
-              <NAME>LoadCoreForKernel_7C069BAC</NAME>
+              <NAME>sceKernelApplyElfRelSection</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81B185B5</NID>
-              <NAME>LoadCoreForKernel_81B185B5</NAME>
+              <NAME>sceKernelGetModuleFromUID</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82FE115B</NID>
-              <NAME>LoadCoreForKernel_82FE115B</NAME>
+              <NAME>sceKernelFindModuleByUID</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x868F4FC6</NID>
-              <NAME>LoadCoreForKernel_868F4FC6</NAME>
+              <NAME>sceKernelMaskLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89E686DF</NID>
-              <NAME>LoadCoreForKernel_89E686DF</NAME>
+              <NAME>sceKernelQueryLoadCoreCB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FE6D862</NID>
-              <NAME>LoadCoreForKernel_8FE6D862</NAME>
+              <NAME>sceKernelReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2C92E20</NID>
@@ -3316,63 +3488,71 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB28E6CB</NID>
-              <NAME>LoadCoreForKernel_AB28E6CB</NAME>
+              <NAME>sceKernelApplyPspRelSection</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xADD6AB6E</NID>
-              <NAME>LoadCoreForKernel_ADD6AB6E</NAME>
+              <NAME>sceKernelRegisterLibraryForUser</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC77CE531</NID>
-              <NAME>LoadCoreForKernel_C77CE531</NAME>
+              <NAME>sceKernelDcacheWBinvAll</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2B17619</NID>
-              <NAME>LoadCoreForKernel_D2B17619</NAME>
+              <NAME>sceKernelGetModuleListWithAlloc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE88E7DE1</NID>
-              <NAME>LoadCoreForKernel_E88E7DE1</NAME>
+              <NAME>sceKernelCheckPspConfig</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEED6E5F9</NID>
-              <NAME>LoadCoreForKernel_EED6E5F9</NAME>
+              <NAME>sceKernelDeleteModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4922FB2</NID>
-              <NAME>LoadCoreForKernel_F4922FB2</NAME>
+              <NAME>sceKernelLinkLibraryEntriesForUser</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE4C49D0</NID>
-              <NAME>LoadCoreForKernel_FE4C49D0</NAME>
+              <NAME>sceKernelCreateModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FEC2F68</NID>
-              <NAME>LoadCoreForKernel_0FEC2F68</NAME>
+              <NAME>sceKernelGetModuleIdListForKernel</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3381,10 +3561,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x141827CE</NID>
-              <NAME>LoadCoreForKernel_141827CE</NAME>
+              <NAME>sceKernelGetModuleGPByAddressForKernel</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3393,10 +3574,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1591CFB1</NID>
-              <NAME>LoadCoreForKernel_1591CFB1</NAME>
+              <NAME>sceKernelAssignModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3405,10 +3587,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B107A36</NID>
-              <NAME>LoadCoreForKernel_1B107A36</NAME>
+              <NAME>sceKernelQueryLoadCoreCB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3417,10 +3600,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D665D6D</NID>
-              <NAME>LoadCoreForKernel_1D665D6D</NAME>
+              <NAME>sceKernelLinkLibraryEntriesWithModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3429,10 +3613,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24F00493</NID>
-              <NAME>LoadCoreForKernel_24F00493</NAME>
+              <NAME>sceKernelCreateAssignModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3441,10 +3626,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x371962BE</NID>
-              <NAME>LoadCoreForKernel_371962BE</NAME>
+              <NAME>sceKernelSetBootCallbackLevel</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3453,10 +3639,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3922A067</NID>
-              <NAME>LoadCoreForKernel_3922A067</NAME>
+              <NAME>sceKernelLinkLibraryEntriesForUser</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3465,10 +3652,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E5F5629</NID>
-              <NAME>LoadCoreForKernel_3E5F5629</NAME>
+              <NAME>sceKernelCanReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3477,10 +3665,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x452C5524</NID>
-              <NAME>LoadCoreForKernel_452C5524</NAME>
+              <NAME>sceKernelFindModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3489,6 +3678,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B4306C2</NID>
@@ -3504,7 +3694,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4CF715C5</NID>
-              <NAME>LoadCoreForKernel_4CF715C5</NAME>
+              <NAME>sceKernelReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3513,10 +3703,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x59203AED</NID>
-              <NAME>LoadCoreForKernel_59203AED</NAME>
+              <NAME>sceKernelIcacheClearAll</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3525,6 +3716,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x593A3FD9</NID>
@@ -3540,7 +3732,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x602BF42A</NID>
-              <NAME>LoadCoreForKernel_602BF42A</NAME>
+              <NAME>sceKernelRegisterModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3549,10 +3741,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x60BC436F</NID>
-              <NAME>LoadCoreForKernel_60BC436F</NAME>
+              <NAME>sceKernelLoadCoreMode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3561,10 +3754,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x631EB12B</NID>
-              <NAME>LoadCoreForKernel_631EB12B</NAME>
+              <NAME>sceKernelReleaseModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3573,10 +3767,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x693A6BD6</NID>
-              <NAME>LoadCoreForKernel_693A6BD6</NAME>
+              <NAME>sceKernelDcacheWBinvAll</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3585,10 +3780,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E8B6AB6</NID>
-              <NAME>LoadCoreForKernel_6E8B6AB6</NAME>
+              <NAME>sceKernelLoadExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3597,10 +3793,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77E8F516</NID>
-              <NAME>LoadCoreForKernel_77E8F516</NAME>
+              <NAME>sceKernelFindModuleByUID</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3609,10 +3806,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79970B0B</NID>
-              <NAME>LoadCoreForKernel_79970B0B</NAME>
+              <NAME>sceKernelRegisterLibraryForUser</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3621,10 +3819,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A0890AD</NID>
-              <NAME>LoadCoreForKernel_7A0890AD</NAME>
+              <NAME>sceKernelMaskLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3633,10 +3832,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A0FB6D6</NID>
-              <NAME>LoadCoreForKernel_7A0FB6D6</NAME>
+              <NAME>sceKernelCreateModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3645,10 +3845,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B30197C</NID>
-              <NAME>LoadCoreForKernel_7B30197C</NAME>
+              <NAME>sceKernelApplyPspRelSection</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3657,6 +3858,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8409BAA8</NID>
@@ -3672,7 +3874,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C712A03</NID>
-              <NAME>LoadCoreForKernel_8C712A03</NAME>
+              <NAME>sceKernelLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3681,6 +3883,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F8F99D1</NID>
@@ -3696,7 +3899,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3035783</NID>
-              <NAME>LoadCoreForKernel_A3035783</NAME>
+              <NAME>sceKernelDeleteModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3705,10 +3908,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5E8A07F</NID>
-              <NAME>LoadCoreForKernel_A5E8A07F</NAME>
+              <NAME>sceKernelGetLibraryList</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3717,10 +3921,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0466E46</NID>
-              <NAME>LoadCoreForKernel_B0466E46</NAME>
+              <NAME>sceKernelCheckExecFile</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3729,10 +3934,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6F01A3C</NID>
-              <NAME>LoadCoreForKernel_B6F01A3C</NAME>
+              <NAME>sceKernelCheckPspConfig</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3741,10 +3947,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB95FA50D</NID>
-              <NAME>LoadCoreForKernel_B95FA50D</NAME>
+              <NAME>sceKernelProbeExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3753,10 +3960,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEF0A05E</NID>
-              <NAME>LoadCoreForKernel_BEF0A05E</NAME>
+              <NAME>sceKernelFindModuleByName</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3765,10 +3973,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD1D28E3</NID>
-              <NAME>LoadCoreForKernel_CD1D28E3</NAME>
+              <NAME>sceKernelRegisterLibrary</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3777,10 +3986,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5B046F0</NID>
-              <NAME>LoadCoreForKernel_D5B046F0</NAME>
+              <NAME>sceKernelLoadModuleBootLoadCore</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3789,10 +3999,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF26DD9C9</NID>
-              <NAME>LoadCoreForKernel_F26DD9C9</NAME>
+              <NAME>sceKernelUnLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3801,10 +4012,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF62D0F30</NID>
-              <NAME>LoadCoreForKernel_F62D0F30</NAME>
+              <NAME>sceKernelGetLibraryLinkInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3813,10 +4025,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF96F36C8</NID>
-              <NAME>LoadCoreForKernel_F96F36C8</NAME>
+              <NAME>sceKernelApplyElfRelSection</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3825,10 +4038,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9FD7790</NID>
-              <NAME>LoadCoreForKernel_F9FD7790</NAME>
+              <NAME>sceKernelGetModuleFromUID</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3837,10 +4051,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB770EC0</NID>
-              <NAME>LoadCoreForKernel_FB770EC0</NAME>
+              <NAME>sceKernelGetModuleListWithAlloc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3849,10 +4064,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01DB1EB3</NID>
-              <NAME>LoadCoreForKernel_01DB1EB3</NAME>
+              <NAME>sceKernelCheckExecFile</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3865,10 +4081,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03A5DC1A</NID>
-              <NAME>LoadCoreForKernel_03A5DC1A</NAME>
+              <NAME>sceKernelCreateModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3881,10 +4098,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x07738DC3</NID>
-              <NAME>LoadCoreForKernel_07738DC3</NAME>
+              <NAME>sceKernelLinkLibraryEntriesWithModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3897,10 +4115,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x08581343</NID>
-              <NAME>LoadCoreForKernel_08581343</NAME>
+              <NAME>sceKernelDeleteModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3913,10 +4132,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x093B2B69</NID>
-              <NAME>LoadCoreForKernel_093B2B69</NAME>
+              <NAME>sceKernelGetLibraryList</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3929,6 +4149,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12A85ED1</NID>
@@ -3948,7 +4169,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x18CFDAA0</NID>
-              <NAME>LoadCoreForKernel_18CFDAA0</NAME>
+              <NAME>sceKernelGetModuleGPByAddressForKernel</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3961,18 +4182,20 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C55195C</NID>
-              <NAME>LoadCoreForKernel_1C55195C</NAME>
+              <NAME>sceKernelApplyElfRelSection</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x211FEA3D</NID>
-              <NAME>LoadCoreForKernel_211FEA3D</NAME>
+              <NAME>sceKernelRegisterLibrary</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3985,10 +4208,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A7DAC42</NID>
-              <NAME>LoadCoreForKernel_2A7DAC42</NAME>
+              <NAME>sceKernelLoadExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4001,10 +4225,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C145AD7</NID>
-              <NAME>LoadCoreForKernel_2C145AD7</NAME>
+              <NAME>sceKernelReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4017,10 +4242,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x312CA47E</NID>
-              <NAME>LoadCoreForKernel_312CA47E</NAME>
+              <NAME>sceKernelFindModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4033,10 +4259,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x407355A9</NID>
-              <NAME>LoadCoreForKernel_407355A9</NAME>
+              <NAME>sceKernelRegisterLibraryForUser</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4049,10 +4276,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x557A5FCE</NID>
-              <NAME>LoadCoreForKernel_557A5FCE</NAME>
+              <NAME>sceKernelAssignModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4065,10 +4293,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x563CB22E</NID>
-              <NAME>LoadCoreForKernel_563CB22E</NAME>
+              <NAME>sceKernelCheckPspConfig</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4081,10 +4310,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58EDE585</NID>
-              <NAME>LoadCoreForKernel_58EDE585</NAME>
+              <NAME>sceKernelReleaseModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4097,10 +4327,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6565B132</NID>
-              <NAME>LoadCoreForKernel_6565B132</NAME>
+              <NAME>sceKernelLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4113,6 +4344,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67F8DA3F</NID>
@@ -4132,7 +4364,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72ACE067</NID>
-              <NAME>LoadCoreForKernel_72ACE067</NAME>
+              <NAME>sceKernelLinkLibraryEntriesForUser</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4145,6 +4377,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7396DD7E</NID>
@@ -4164,7 +4397,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B411250</NID>
-              <NAME>LoadCoreForKernel_7B411250</NAME>
+              <NAME>sceKernelProbeExecutableObject</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4177,10 +4410,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81210CE1</NID>
-              <NAME>LoadCoreForKernel_81210CE1</NAME>
+              <NAME>sceKernelLoadCoreMode</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4193,18 +4427,20 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D46E9DF</NID>
-              <NAME>LoadCoreForKernel_8D46E9DF</NAME>
+              <NAME>sceKernelIcacheClearAll</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92082A0F</NID>
-              <NAME>LoadCoreForKernel_92082A0F</NAME>
+              <NAME>sceKernelGetModuleIdListForKernel</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4217,10 +4453,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2317745</NID>
-              <NAME>LoadCoreForKernel_A2317745</NAME>
+              <NAME>sceKernelCanReleaseLibrary</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4233,10 +4470,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA178840</NID>
-              <NAME>LoadCoreForKernel_AA178840</NAME>
+              <NAME>sceKernelGetModuleFromUID</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4249,10 +4487,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB81A0630</NID>
-              <NAME>LoadCoreForKernel_B81A0630</NAME>
+              <NAME>sceKernelUnLinkLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4265,10 +4504,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA78DE3E</NID>
-              <NAME>LoadCoreForKernel_CA78DE3E</NAME>
+              <NAME>sceKernelQueryLoadCoreCB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4281,10 +4521,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD127FC6F</NID>
-              <NAME>LoadCoreForKernel_D127FC6F</NAME>
+              <NAME>sceKernelRegisterModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4297,10 +4538,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA143BE9</NID>
-              <NAME>LoadCoreForKernel_DA143BE9</NAME>
+              <NAME>sceKernelMaskLibraryEntries</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4313,10 +4555,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA42ED6E</NID>
-              <NAME>LoadCoreForKernel_DA42ED6E</NAME>
+              <NAME>sceKernelLoadModuleBootLoadCore</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4329,26 +4572,29 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD3AC2A8</NID>
-              <NAME>LoadCoreForKernel_DD3AC2A8</NAME>
+              <NAME>sceKernelApplyPspRelSection</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF0EE366</NID>
-              <NAME>LoadCoreForKernel_DF0EE366</NAME>
+              <NAME>sceKernelDcacheWBinvAll</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE15347E9</NID>
-              <NAME>LoadCoreForKernel_E15347E9</NAME>
+              <NAME>sceKernelGetModuleListWithAlloc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4361,10 +4607,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7053775</NID>
-              <NAME>LoadCoreForKernel_E7053775</NAME>
+              <NAME>sceKernelSetBootCallbackLevel</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4377,10 +4624,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE96FE2F9</NID>
-              <NAME>LoadCoreForKernel_E96FE2F9</NAME>
+              <NAME>sceKernelGetLibraryLinkInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4393,10 +4641,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED53894F</NID>
-              <NAME>LoadCoreForKernel_ED53894F</NAME>
+              <NAME>sceKernelFindModuleByUID</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4409,10 +4658,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF8A0BEA</NID>
-              <NAME>LoadCoreForKernel_EF8A0BEA</NAME>
+              <NAME>sceKernelFindModuleByName</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4425,10 +4675,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF39800BF</NID>
-              <NAME>LoadCoreForKernel_F39800BF</NAME>
+              <NAME>sceKernelCreateAssignModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4441,6 +4692,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF871EA38</NID>

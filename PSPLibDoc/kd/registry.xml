@@ -3231,406 +3231,448 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0287BA34</NID>
-              <NAME>sceReg_driver_0287BA34</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0627AD6B</NID>
-              <NAME>sceReg_driver_0627AD6B</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1349B1B1</NID>
-              <NAME>sceReg_driver_1349B1B1</NAME>
+              <NAME>sceRegCloseCategory</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x156AD3A9</NID>
-              <NAME>sceReg_driver_156AD3A9</NAME>
+              <NAME>sceRegCreateKey</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D4E8BC4</NID>
-              <NAME>sceReg_driver_1D4E8BC4</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27BE130F</NID>
-              <NAME>sceReg_driver_27BE130F</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38E2F6CF</NID>
-              <NAME>sceReg_driver_38E2F6CF</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53CB4B85</NID>
-              <NAME>sceReg_driver_53CB4B85</NAME>
+              <NAME>sceRegOpenCategory</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x578238F1</NID>
-              <NAME>sceReg_driver_578238F1</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5ECF94E4</NID>
-              <NAME>sceReg_driver_5ECF94E4</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8125A993</NID>
-              <NAME>sceReg_driver_8125A993</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B5C6948</NID>
-              <NAME>sceReg_driver_8B5C6948</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7C7B18E</NID>
-              <NAME>sceReg_driver_A7C7B18E</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9799771</NID>
-              <NAME>sceReg_driver_A9799771</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0264C6D</NID>
-              <NAME>sceReg_driver_B0264C6D</NAME>
+              <NAME>sceRegExit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB479B08D</NID>
-              <NAME>sceReg_driver_B479B08D</NAME>
+              <NAME>sceRegRemoveKey</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9D39BCA</NID>
-              <NAME>sceReg_driver_C9D39BCA</NAME>
+              <NAME>sceRegGetKeys</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA3CEDE6</NID>
-              <NAME>sceReg_driver_CA3CEDE6</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEED6B836</NID>
-              <NAME>sceReg_driver_EED6B836</NAME>
+              <NAME>sceRegInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC518070</NID>
-              <NAME>sceReg_driver_FC518070</NAME>
+              <NAME>sceRegFlushCategory</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDD753D1</NID>
-              <NAME>sceReg_driver_FDD753D1</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x046EEC93</NID>
-              <NAME>sceReg_driver_046EEC93</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16600E6E</NID>
-              <NAME>sceReg_driver_16600E6E</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x178B7336</NID>
-              <NAME>sceReg_driver_178B7336</NAME>
+              <NAME>sceRegOpenCategory</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CE375BF</NID>
-              <NAME>sceReg_driver_1CE375BF</NAME>
+              <NAME>sceRegCreateKey</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E75765A</NID>
-              <NAME>sceReg_driver_1E75765A</NAME>
+              <NAME>sceRegFlushCategory</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x204BAC6B</NID>
-              <NAME>sceReg_driver_204BAC6B</NAME>
+              <NAME>sceRegGetKeys</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55177D26</NID>
-              <NAME>sceReg_driver_55177D26</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x673AC022</NID>
-              <NAME>sceReg_driver_673AC022</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EBC556E</NID>
-              <NAME>sceReg_driver_6EBC556E</NAME>
+              <NAME>sceRegInit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x715ACB63</NID>
-              <NAME>sceReg_driver_715ACB63</NAME>
+              <NAME>sceRegCloseCategory</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81345068</NID>
-              <NAME>sceReg_driver_81345068</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x88F8A3CF</NID>
-              <NAME>sceReg_driver_88F8A3CF</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90CEE4CD</NID>
-              <NAME>sceReg_driver_90CEE4CD</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x98472F48</NID>
-              <NAME>sceReg_driver_98472F48</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0725EF5</NID>
-              <NAME>sceReg_driver_C0725EF5</NAME>
+              <NAME>sceRegExit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC082791C</NID>
-              <NAME>sceReg_driver_C082791C</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE1606B8</NID>
-              <NAME>sceReg_driver_CE1606B8</NAME>
+              <NAME>sceRegRemoveKey</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0A0DEDB</NID>
-              <NAME>sceReg_driver_D0A0DEDB</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD58C391F</NID>
-              <NAME>sceReg_driver_D58C391F</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA07D015</NID>
-              <NAME>sceReg_driver_DA07D015</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF77FE5D5</NID>
-              <NAME>sceReg_driver_F77FE5D5</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A90389F</NID>
-              <NAME>sceReg_driver_0A90389F</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3638,10 +3680,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19934DE0</NID>
-              <NAME>sceReg_driver_19934DE0</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3649,10 +3692,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x236AD205</NID>
-              <NAME>sceReg_driver_236AD205</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3660,10 +3704,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24DDA193</NID>
-              <NAME>sceReg_driver_24DDA193</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3671,10 +3716,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3273A94B</NID>
-              <NAME>sceReg_driver_3273A94B</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3682,10 +3728,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x636D5C60</NID>
-              <NAME>sceReg_driver_636D5C60</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3693,10 +3740,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65DBF7F8</NID>
-              <NAME>sceReg_driver_65DBF7F8</NAME>
+              <NAME>sceRegCreateKey</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3704,10 +3752,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x949A46F3</NID>
-              <NAME>sceReg_driver_949A46F3</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3715,10 +3764,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9943E18A</NID>
-              <NAME>sceReg_driver_9943E18A</NAME>
+              <NAME>sceRegFlushCategory</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3726,10 +3776,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C756292</NID>
-              <NAME>sceReg_driver_9C756292</NAME>
+              <NAME>sceRegOpenCategory</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3737,10 +3788,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9EC1712E</NID>
-              <NAME>sceReg_driver_9EC1712E</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3748,10 +3800,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8FD8784</NID>
-              <NAME>sceReg_driver_B8FD8784</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3759,10 +3812,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBB5A10C</NID>
-              <NAME>sceReg_driver_CBB5A10C</NAME>
+              <NAME>sceRegExit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3770,10 +3824,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDC72B4D</NID>
-              <NAME>sceReg_driver_CDC72B4D</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3781,10 +3836,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDE632DA</NID>
-              <NAME>sceReg_driver_CDE632DA</NAME>
+              <NAME>sceRegRemoveKey</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3792,10 +3848,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3CD942D</NID>
-              <NAME>sceReg_driver_D3CD942D</NAME>
+              <NAME>sceRegCloseCategory</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3803,10 +3860,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4D4F126</NID>
-              <NAME>sceReg_driver_E4D4F126</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3814,10 +3872,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8C78216</NID>
-              <NAME>sceReg_driver_E8C78216</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3825,10 +3884,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9844B3D</NID>
-              <NAME>sceReg_driver_E9844B3D</NAME>
+              <NAME>sceRegGetKeys</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3836,10 +3896,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF91DE6E1</NID>
-              <NAME>sceReg_driver_F91DE6E1</NAME>
+              <NAME>sceRegInit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3847,10 +3908,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE6770A5</NID>
-              <NAME>sceReg_driver_FE6770A5</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3858,178 +3920,200 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06A77C62</NID>
-              <NAME>sceReg_driver_06A77C62</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0AFC554D</NID>
-              <NAME>sceReg_driver_0AFC554D</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E0BBDC6</NID>
-              <NAME>sceReg_driver_1E0BBDC6</NAME>
+              <NAME>sceRegGetKeys</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E4659C9</NID>
-              <NAME>sceReg_driver_1E4659C9</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36C36CDE</NID>
-              <NAME>sceReg_driver_36C36CDE</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B0592E2</NID>
-              <NAME>sceReg_driver_3B0592E2</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D295B97</NID>
-              <NAME>sceReg_driver_3D295B97</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DA9D59B</NID>
-              <NAME>sceReg_driver_4DA9D59B</NAME>
+              <NAME>sceRegCloseCategory</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A8BA982</NID>
-              <NAME>sceReg_driver_5A8BA982</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x619AAFC8</NID>
-              <NAME>sceReg_driver_619AAFC8</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74DF6953</NID>
-              <NAME>sceReg_driver_74DF6953</NAME>
+              <NAME>sceRegCreateKey</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89C0B286</NID>
-              <NAME>sceReg_driver_89C0B286</NAME>
+              <NAME>sceRegOpenCategory</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x98BF95EE</NID>
-              <NAME>sceReg_driver_98BF95EE</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x992C1C29</NID>
-              <NAME>sceReg_driver_992C1C29</NAME>
+              <NAME>sceRegFlushCategory</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BD905D</NID>
-              <NAME>sceReg_driver_A7BD905D</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB223FA37</NID>
-              <NAME>sceReg_driver_B223FA37</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA35DEEB</NID>
-              <NAME>sceReg_driver_BA35DEEB</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED8AA731</NID>
-              <NAME>sceReg_driver_ED8AA731</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1158F1F</NID>
-              <NAME>sceReg_driver_F1158F1F</NAME>
+              <NAME>sceRegInit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFAF159F3</NID>
-              <NAME>sceReg_driver_FAF159F3</NAME>
+              <NAME>sceRegRemoveKey</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE56B10F</NID>
-              <NAME>sceReg_driver_FE56B10F</NAME>
+              <NAME>sceRegExit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x029B2F8F</NID>
-              <NAME>sceReg_driver_029B2F8F</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4040,10 +4124,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03B9E96F</NID>
-              <NAME>sceReg_driver_03B9E96F</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4054,10 +4139,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x180F213F</NID>
-              <NAME>sceReg_driver_180F213F</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4068,10 +4154,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3579EF34</NID>
-              <NAME>sceReg_driver_3579EF34</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4082,10 +4169,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43CF36BC</NID>
-              <NAME>sceReg_driver_43CF36BC</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4096,10 +4184,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63E4B8C4</NID>
-              <NAME>sceReg_driver_63E4B8C4</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4110,10 +4199,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A37E343</NID>
-              <NAME>sceReg_driver_6A37E343</NAME>
+              <NAME>sceRegOpenCategory</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4124,10 +4214,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BB49B45</NID>
-              <NAME>sceReg_driver_6BB49B45</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4138,10 +4229,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73313DA4</NID>
-              <NAME>sceReg_driver_73313DA4</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4152,10 +4244,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x762C35DC</NID>
-              <NAME>sceReg_driver_762C35DC</NAME>
+              <NAME>sceRegCreateKey</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4166,10 +4259,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CA7768A</NID>
-              <NAME>sceReg_driver_7CA7768A</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4180,10 +4274,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x821E99EC</NID>
-              <NAME>sceReg_driver_821E99EC</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4194,10 +4289,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B0F30E7</NID>
-              <NAME>sceReg_driver_8B0F30E7</NAME>
+              <NAME>sceRegRemoveKey</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4208,10 +4304,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC2ECC38</NID>
-              <NAME>sceReg_driver_BC2ECC38</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4222,10 +4319,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC2E5E478</NID>
-              <NAME>sceReg_driver_C2E5E478</NAME>
+              <NAME>sceRegCloseCategory</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4236,10 +4334,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBBB6574</NID>
-              <NAME>sceReg_driver_CBBB6574</NAME>
+              <NAME>sceRegExit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4250,10 +4349,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD641AC6E</NID>
-              <NAME>sceReg_driver_D641AC6E</NAME>
+              <NAME>sceRegGetKeys</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4264,10 +4364,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD905CBF9</NID>
-              <NAME>sceReg_driver_D905CBF9</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4278,10 +4379,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED17832B</NID>
-              <NAME>sceReg_driver_ED17832B</NAME>
+              <NAME>sceRegInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4292,10 +4394,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFE7BE31</NID>
-              <NAME>sceReg_driver_EFE7BE31</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4306,10 +4409,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFED2B205</NID>
-              <NAME>sceReg_driver_FED2B205</NAME>
+              <NAME>sceRegFlushCategory</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4320,157 +4424,179 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14487594</NID>
-              <NAME>sceReg_driver_14487594</NAME>
+              <NAME>sceRegFlushCategory</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16093A5B</NID>
-              <NAME>sceReg_driver_16093A5B</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x179EB8C4</NID>
-              <NAME>sceReg_driver_179EB8C4</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20E93F2D</NID>
-              <NAME>sceReg_driver_20E93F2D</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BA9A12D</NID>
-              <NAME>sceReg_driver_2BA9A12D</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47047278</NID>
-              <NAME>sceReg_driver_47047278</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A3CDD46</NID>
-              <NAME>sceReg_driver_4A3CDD46</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53D10D16</NID>
-              <NAME>sceReg_driver_53D10D16</NAME>
+              <NAME>sceRegRemoveKey</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57D1A559</NID>
-              <NAME>sceReg_driver_57D1A559</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64E3D443</NID>
-              <NAME>sceReg_driver_64E3D443</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F09F2A5</NID>
-              <NAME>sceReg_driver_7F09F2A5</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94C624A9</NID>
-              <NAME>sceReg_driver_94C624A9</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E1B914E</NID>
-              <NAME>sceReg_driver_9E1B914E</NAME>
+              <NAME>sceRegExit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0225124</NID>
-              <NAME>sceReg_driver_B0225124</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC2C4FD72</NID>
-              <NAME>sceReg_driver_C2C4FD72</NAME>
+              <NAME>sceRegGetKeys</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4C9FD07</NID>
-              <NAME>sceReg_driver_C4C9FD07</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD4D3684</NID>
-              <NAME>sceReg_driver_DD4D3684</NAME>
+              <NAME>sceRegCloseCategory</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9145A93</NID>
-              <NAME>sceReg_driver_E9145A93</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF311FAB5</NID>
-              <NAME>sceReg_driver_F311FAB5</NAME>
+              <NAME>sceRegOpenCategory</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5A2BC3C</NID>
-              <NAME>sceReg_driver_F5A2BC3C</NAME>
+              <NAME>sceRegInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7487DB0</NID>
-              <NAME>sceReg_driver_F7487DB0</NAME>
+              <NAME>sceRegCreateKey</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0404652C</NID>
-              <NAME>sceReg_driver_0404652C</NAME>
+              <NAME>sceRegFlushCategory</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4479,10 +4605,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x08BEB24C</NID>
-              <NAME>sceReg_driver_08BEB24C</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4491,10 +4618,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10808BB5</NID>
-              <NAME>sceReg_driver_10808BB5</NAME>
+              <NAME>sceRegInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4503,10 +4631,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21928F15</NID>
-              <NAME>sceReg_driver_21928F15</NAME>
+              <NAME>sceRegCloseCategory</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4515,10 +4644,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31F9DB91</NID>
-              <NAME>sceReg_driver_31F9DB91</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4527,10 +4657,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D3A1014</NID>
-              <NAME>sceReg_driver_3D3A1014</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4539,10 +4670,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x400BB753</NID>
-              <NAME>sceReg_driver_400BB753</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4551,10 +4683,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D81184D</NID>
-              <NAME>sceReg_driver_4D81184D</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4563,10 +4696,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B06A7B9</NID>
-              <NAME>sceReg_driver_5B06A7B9</NAME>
+              <NAME>sceRegExit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4575,10 +4709,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x632E987D</NID>
-              <NAME>sceReg_driver_632E987D</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4587,10 +4722,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x675482AD</NID>
-              <NAME>sceReg_driver_675482AD</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4599,10 +4735,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73B8B70E</NID>
-              <NAME>sceReg_driver_73B8B70E</NAME>
+              <NAME>sceRegGetKeys</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4611,10 +4748,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x873EB4E1</NID>
-              <NAME>sceReg_driver_873EB4E1</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4623,10 +4761,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x88F1377B</NID>
-              <NAME>sceReg_driver_88F1377B</NAME>
+              <NAME>sceRegCreateKey</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4635,10 +4774,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89DBFC66</NID>
-              <NAME>sceReg_driver_89DBFC66</NAME>
+              <NAME>sceRegRemoveKey</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4647,10 +4787,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A0F5133</NID>
-              <NAME>sceReg_driver_8A0F5133</NAME>
+              <NAME>sceRegOpenCategory</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4659,10 +4800,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF9FBE8E</NID>
-              <NAME>sceReg_driver_AF9FBE8E</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4671,10 +4813,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4E27416</NID>
-              <NAME>sceReg_driver_B4E27416</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4683,10 +4826,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC7EF81C</NID>
-              <NAME>sceReg_driver_DC7EF81C</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4695,10 +4839,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3300EBF</NID>
-              <NAME>sceReg_driver_F3300EBF</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4707,10 +4852,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8E1F5A1</NID>
-              <NAME>sceReg_driver_F8E1F5A1</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4719,10 +4865,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x079810CF</NID>
-              <NAME>sceReg_driver_079810CF</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4735,10 +4882,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23B685FA</NID>
-              <NAME>sceReg_driver_23B685FA</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4751,10 +4899,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38BC9D01</NID>
-              <NAME>sceReg_driver_38BC9D01</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4767,10 +4916,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F8C163C</NID>
-              <NAME>sceReg_driver_3F8C163C</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4783,10 +4933,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44242CEB</NID>
-              <NAME>sceReg_driver_44242CEB</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4799,10 +4950,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E285673</NID>
-              <NAME>sceReg_driver_4E285673</NAME>
+              <NAME>sceRegGetKeys</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4815,10 +4967,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5476A667</NID>
-              <NAME>sceReg_driver_5476A667</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4831,10 +4984,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55C9A620</NID>
-              <NAME>sceReg_driver_55C9A620</NAME>
+              <NAME>sceRegFlushCategory</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4847,10 +5001,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x693B0D7F</NID>
-              <NAME>sceReg_driver_693B0D7F</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4863,10 +5018,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7149BA4A</NID>
-              <NAME>sceReg_driver_7149BA4A</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4879,10 +5035,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x746E6D70</NID>
-              <NAME>sceReg_driver_746E6D70</NAME>
+              <NAME>sceRegExit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4895,10 +5052,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79C81DCA</NID>
-              <NAME>sceReg_driver_79C81DCA</NAME>
+              <NAME>sceRegCreateKey</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4911,10 +5069,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F17123E</NID>
-              <NAME>sceReg_driver_7F17123E</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4927,10 +5086,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1671F90</NID>
-              <NAME>sceReg_driver_A1671F90</NAME>
+              <NAME>sceRegCloseCategory</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4943,10 +5103,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA349B88E</NID>
-              <NAME>sceReg_driver_A349B88E</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4959,10 +5120,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA81437D0</NID>
-              <NAME>sceReg_driver_A81437D0</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4975,10 +5137,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEBFD786</NID>
-              <NAME>sceReg_driver_AEBFD786</NAME>
+              <NAME>sceRegInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4991,10 +5154,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEF5B913</NID>
-              <NAME>sceReg_driver_AEF5B913</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5007,10 +5171,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA1A6A86</NID>
-              <NAME>sceReg_driver_BA1A6A86</NAME>
+              <NAME>sceRegOpenCategory</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5023,10 +5188,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1881EB5</NID>
-              <NAME>sceReg_driver_C1881EB5</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5039,10 +5205,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECE409B6</NID>
-              <NAME>sceReg_driver_ECE409B6</NAME>
+              <NAME>sceRegRemoveKey</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5055,10 +5222,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30E567D5</NID>
-              <NAME>sceReg_driver_30E567D5</NAME>
+              <NAME>sceRegInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5116,10 +5284,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38415B9F</NID>
-              <NAME>sceReg_driver_38415B9F</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5177,10 +5346,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B6CA1E6</NID>
-              <NAME>sceReg_driver_3B6CA1E6</NAME>
+              <NAME>sceRegCreateKey</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5238,10 +5408,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x405D36C3</NID>
-              <NAME>sceReg_driver_405D36C3</NAME>
+              <NAME>sceRegRemoveKey</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5299,10 +5470,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49C70163</NID>
-              <NAME>sceReg_driver_49C70163</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5360,10 +5532,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49D77D65</NID>
-              <NAME>sceReg_driver_49D77D65</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5421,10 +5594,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F471457</NID>
-              <NAME>sceReg_driver_4F471457</NAME>
+              <NAME>sceRegOpenCategory</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5482,10 +5656,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5FD4764A</NID>
-              <NAME>sceReg_driver_5FD4764A</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5543,10 +5718,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61DB9D06</NID>
-              <NAME>sceReg_driver_61DB9D06</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5604,10 +5780,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6328E4C6</NID>
-              <NAME>sceReg_driver_6328E4C6</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5665,10 +5842,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90AA3904</NID>
-              <NAME>sceReg_driver_90AA3904</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5726,10 +5904,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9980519F</NID>
-              <NAME>sceReg_driver_9980519F</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5787,10 +5966,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBAE3371A</NID>
-              <NAME>sceReg_driver_BAE3371A</NAME>
+              <NAME>sceRegGetKeys</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5848,10 +6028,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDE681CF</NID>
-              <NAME>sceReg_driver_BDE681CF</NAME>
+              <NAME>sceRegExit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5909,10 +6090,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3DEEBC6</NID>
-              <NAME>sceReg_driver_C3DEEBC6</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -5970,10 +6152,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD323FC94</NID>
-              <NAME>sceReg_driver_D323FC94</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6031,10 +6214,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD743A608</NID>
-              <NAME>sceReg_driver_D743A608</NAME>
+              <NAME>sceRegFlushCategory</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6092,10 +6276,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBA46704</NID>
-              <NAME>sceReg_driver_DBA46704</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6153,10 +6338,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2619407</NID>
-              <NAME>sceReg_driver_F2619407</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6214,10 +6400,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4A3E396</NID>
-              <NAME>sceReg_driver_F4A3E396</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6275,10 +6462,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC742751</NID>
-              <NAME>sceReg_driver_FC742751</NAME>
+              <NAME>sceRegCloseCategory</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6336,6 +6524,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

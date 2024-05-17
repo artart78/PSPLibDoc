@@ -751,113 +751,124 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FB60AAC</NID>
-              <NAME>sceUmd_0FB60AAC</NAME>
+              <NAME>sceUmdGetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1030D1D4</NID>
-              <NAME>sceUmd_1030D1D4</NAME>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x166A17CC</NID>
-              <NAME>sceUmd_166A17CC</NAME>
+              <NAME>sceUmdReplaceProhibit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5174CDBE</NID>
-              <NAME>sceUmd_5174CDBE</NAME>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x626B1CF3</NID>
-              <NAME>sceUmd_626B1CF3</NAME>
+              <NAME>sceUmdGetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64FDF83E</NID>
-              <NAME>sceUmd_64FDF83E</NAME>
+              <NAME>sceUmdReplacePermit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DC8CE8F</NID>
-              <NAME>sceUmd_7DC8CE8F</NAME>
+              <NAME>sceUmdClearDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB82E180</NID>
-              <NAME>sceUmd_AB82E180</NAME>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5990C6B</NID>
-              <NAME>sceUmd_B5990C6B</NAME>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5C92409</NID>
-              <NAME>sceUmd_B5C92409</NAME>
+              <NAME>sceUmdSetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0CB3442</NID>
-              <NAME>sceUmd_E0CB3442</NAME>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6EE2967</NID>
@@ -871,60 +882,66 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2D0EDFB</NID>
-              <NAME>sceUmd_F2D0EDFB</NAME>
+              <NAME>sceUmdCheckMedium</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF35A78AE</NID>
-              <NAME>sceUmd_F35A78AE</NAME>
+              <NAME>sceUmdSetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9A3B9B5</NID>
-              <NAME>sceUmd_F9A3B9B5</NAME>
+              <NAME>sceUmdGetDiscInfo</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x07264D81</NID>
-              <NAME>sceUmd_07264D81</NAME>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F4A9E65</NID>
-              <NAME>sceUmd_0F4A9E65</NAME>
+              <NAME>sceUmdSetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1177A45B</NID>
-              <NAME>sceUmd_1177A45B</NAME>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28D24A53</NID>
@@ -937,106 +954,117 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29C25A46</NID>
-              <NAME>sceUmd_29C25A46</NAME>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5449D481</NID>
-              <NAME>sceUmd_5449D481</NAME>
+              <NAME>sceUmdSetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C39550B</NID>
-              <NAME>sceUmd_7C39550B</NAME>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85AAD97C</NID>
-              <NAME>sceUmd_85AAD97C</NAME>
+              <NAME>sceUmdGetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9040A4BB</NID>
-              <NAME>sceUmd_9040A4BB</NAME>
+              <NAME>sceUmdClearDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E21A720</NID>
-              <NAME>sceUmd_9E21A720</NAME>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABD91854</NID>
-              <NAME>sceUmd_ABD91854</NAME>
+              <NAME>sceUmdGetDiscInfo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE62DEEA</NID>
-              <NAME>sceUmd_AE62DEEA</NAME>
+              <NAME>sceUmdCheckMedium</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3CEF6A1</NID>
-              <NAME>sceUmd_C3CEF6A1</NAME>
+              <NAME>sceUmdReplaceProhibit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1D2B2EF</NID>
-              <NAME>sceUmd_D1D2B2EF</NAME>
+              <NAME>sceUmdReplacePermit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE43C01A8</NID>
-              <NAME>sceUmd_E43C01A8</NAME>
+              <NAME>sceUmdGetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x010053A5</NID>
-              <NAME>sceUmd_010053A5</NAME>
+              <NAME>sceUmdClearDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1044,10 +1072,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x084F13F8</NID>
-              <NAME>sceUmd_084F13F8</NAME>
+              <NAME>sceUmdReplaceProhibit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1055,6 +1084,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10B12870</NID>
@@ -1069,7 +1099,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2171324F</NID>
-              <NAME>sceUmd_2171324F</NAME>
+              <NAME>sceUmdCheckMedium</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1077,10 +1107,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B924091</NID>
-              <NAME>sceUmd_2B924091</NAME>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1088,10 +1119,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F58E8A5</NID>
-              <NAME>sceUmd_2F58E8A5</NAME>
+              <NAME>sceUmdSetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1099,10 +1131,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x541D38D8</NID>
-              <NAME>sceUmd_541D38D8</NAME>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1110,10 +1143,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6469E825</NID>
-              <NAME>sceUmd_6469E825</NAME>
+              <NAME>sceUmdReplacePermit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1121,10 +1155,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x671BB1C2</NID>
-              <NAME>sceUmd_671BB1C2</NAME>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1132,10 +1167,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AEA8CF0</NID>
-              <NAME>sceUmd_7AEA8CF0</NAME>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1143,10 +1179,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2DD81AC</NID>
-              <NAME>sceUmd_A2DD81AC</NAME>
+              <NAME>sceUmdGetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1154,10 +1191,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF26C803</NID>
-              <NAME>sceUmd_AF26C803</NAME>
+              <NAME>sceUmdSetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1165,10 +1203,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA005DA5</NID>
-              <NAME>sceUmd_BA005DA5</NAME>
+              <NAME>sceUmdGetDiscInfo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1176,10 +1215,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9B8BB4F</NID>
-              <NAME>sceUmd_C9B8BB4F</NAME>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1187,10 +1227,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC08A558</NID>
-              <NAME>sceUmd_CC08A558</NAME>
+              <NAME>sceUmdGetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1198,6 +1239,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0599B40D</NID>
@@ -1209,119 +1251,133 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x069935D5</NID>
-              <NAME>sceUmd_069935D5</NAME>
+              <NAME>sceUmdReplacePermit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0AE57697</NID>
-              <NAME>sceUmd_0AE57697</NAME>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C8FDDDF</NID>
-              <NAME>sceUmd_0C8FDDDF</NAME>
+              <NAME>sceUmdGetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1492B50B</NID>
-              <NAME>sceUmd_1492B50B</NAME>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x203C458E</NID>
-              <NAME>sceUmd_203C458E</NAME>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31CE4D3D</NID>
-              <NAME>sceUmd_31CE4D3D</NAME>
+              <NAME>sceUmdReplaceProhibit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69641529</NID>
-              <NAME>sceUmd_69641529</NAME>
+              <NAME>sceUmdSetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x770A160C</NID>
-              <NAME>sceUmd_770A160C</NAME>
+              <NAME>sceUmdCheckMedium</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79B3F39B</NID>
-              <NAME>sceUmd_79B3F39B</NAME>
+              <NAME>sceUmdGetDiscInfo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x96320A0C</NID>
-              <NAME>sceUmd_96320A0C</NAME>
+              <NAME>sceUmdSetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB56ADAAB</NID>
-              <NAME>sceUmd_B56ADAAB</NAME>
+              <NAME>sceUmdClearDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8B5DCA6</NID>
-              <NAME>sceUmd_C8B5DCA6</NAME>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD44EA1B3</NID>
-              <NAME>sceUmd_D44EA1B3</NAME>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCC1C409</NID>
-              <NAME>sceUmd_FCC1C409</NAME>
+              <NAME>sceUmdGetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0743D00D</NID>
-              <NAME>sceUmd_0743D00D</NAME>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1332,10 +1388,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x085E7AFF</NID>
-              <NAME>sceUmd_085E7AFF</NAME>
+              <NAME>sceUmdClearDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1346,10 +1403,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F2D9908</NID>
-              <NAME>sceUmd_0F2D9908</NAME>
+              <NAME>sceUmdGetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1360,6 +1418,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10542751</NID>
@@ -1377,7 +1436,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x25B21837</NID>
-              <NAME>sceUmd_25B21837</NAME>
+              <NAME>sceUmdGetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1388,10 +1447,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B9A7E2E</NID>
-              <NAME>sceUmd_2B9A7E2E</NAME>
+              <NAME>sceUmdSetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1402,10 +1462,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30DCD985</NID>
-              <NAME>sceUmd_30DCD985</NAME>
+              <NAME>sceUmdReplaceProhibit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1416,10 +1477,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36FF82F3</NID>
-              <NAME>sceUmd_36FF82F3</NAME>
+              <NAME>sceUmdReplacePermit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1430,10 +1492,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DD57F37</NID>
-              <NAME>sceUmd_3DD57F37</NAME>
+              <NAME>sceUmdSetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1444,10 +1507,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51C04466</NID>
-              <NAME>sceUmd_51C04466</NAME>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1458,10 +1522,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6404E484</NID>
-              <NAME>sceUmd_6404E484</NAME>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1472,10 +1537,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79EF9E56</NID>
-              <NAME>sceUmd_79EF9E56</NAME>
+              <NAME>sceUmdGetDiscInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1486,10 +1552,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9586C03</NID>
-              <NAME>sceUmd_E9586C03</NAME>
+              <NAME>sceUmdCheckMedium</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1500,10 +1567,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7C6E4D9</NID>
-              <NAME>sceUmd_F7C6E4D9</NAME>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1514,10 +1582,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8E0D303</NID>
-              <NAME>sceUmd_F8E0D303</NAME>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1528,27 +1597,31 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24C72275</NID>
-              <NAME>sceUmd_24C72275</NAME>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B59619D</NID>
-              <NAME>sceUmd_2B59619D</NAME>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34BA8713</NID>
-              <NAME>sceUmd_34BA8713</NAME>
+              <NAME>sceUmdSetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4614C646</NID>
@@ -1559,80 +1632,91 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x53887B02</NID>
-              <NAME>sceUmd_53887B02</NAME>
+              <NAME>sceUmdReplaceProhibit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F6A779D</NID>
-              <NAME>sceUmd_5F6A779D</NAME>
+              <NAME>sceUmdGetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A3B2378</NID>
-              <NAME>sceUmd_8A3B2378</NAME>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1D78B5A</NID>
-              <NAME>sceUmd_B1D78B5A</NAME>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC863C6D9</NID>
-              <NAME>sceUmd_C863C6D9</NAME>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCCF78098</NID>
-              <NAME>sceUmd_CCF78098</NAME>
+              <NAME>sceUmdReplacePermit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD3F1DA1</NID>
-              <NAME>sceUmd_CD3F1DA1</NAME>
+              <NAME>sceUmdCheckMedium</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC6EF13B</NID>
-              <NAME>sceUmd_DC6EF13B</NAME>
+              <NAME>sceUmdGetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE27A8367</NID>
-              <NAME>sceUmd_E27A8367</NAME>
+              <NAME>sceUmdSetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3F49541</NID>
-              <NAME>sceUmd_E3F49541</NAME>
+              <NAME>sceUmdGetDiscInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4A4D00A</NID>
-              <NAME>sceUmd_F4A4D00A</NAME>
+              <NAME>sceUmdClearDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x004F4BE5</NID>
@@ -1648,7 +1732,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BA5BAFB</NID>
-              <NAME>sceUmd_1BA5BAFB</NAME>
+              <NAME>sceUmdGetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1657,10 +1741,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D5CB292</NID>
-              <NAME>sceUmd_2D5CB292</NAME>
+              <NAME>sceUmdGetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1669,10 +1754,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35B13E16</NID>
-              <NAME>sceUmd_35B13E16</NAME>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1681,10 +1767,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5083C012</NID>
-              <NAME>sceUmd_5083C012</NAME>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1693,10 +1780,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51C95C02</NID>
-              <NAME>sceUmd_51C95C02</NAME>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1705,10 +1793,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6592E954</NID>
-              <NAME>sceUmd_6592E954</NAME>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1717,10 +1806,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70D9B731</NID>
-              <NAME>sceUmd_70D9B731</NAME>
+              <NAME>sceUmdCheckMedium</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1729,10 +1819,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74145046</NID>
-              <NAME>sceUmd_74145046</NAME>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1741,10 +1832,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E6182C7</NID>
-              <NAME>sceUmd_7E6182C7</NAME>
+              <NAME>sceUmdSetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1753,10 +1845,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F53CFA1</NID>
-              <NAME>sceUmd_9F53CFA1</NAME>
+              <NAME>sceUmdGetDiscInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1765,10 +1858,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1641203</NID>
-              <NAME>sceUmd_B1641203</NAME>
+              <NAME>sceUmdReplacePermit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1777,10 +1871,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB826BD59</NID>
-              <NAME>sceUmd_B826BD59</NAME>
+              <NAME>sceUmdClearDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1789,10 +1884,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE70E8FFB</NID>
-              <NAME>sceUmd_E70E8FFB</NAME>
+              <NAME>sceUmdReplaceProhibit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1801,10 +1897,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF60013F8</NID>
-              <NAME>sceUmd_F60013F8</NAME>
+              <NAME>sceUmdSetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1813,10 +1910,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x145DBD8C</NID>
-              <NAME>sceUmd_145DBD8C</NAME>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1829,6 +1927,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24E838BA</NID>
@@ -1848,7 +1947,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F826E9B</NID>
-              <NAME>sceUmd_3F826E9B</NAME>
+              <NAME>sceUmdSetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1861,10 +1960,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47B447E5</NID>
-              <NAME>sceUmd_47B447E5</NAME>
+              <NAME>sceUmdGetDiscInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1877,10 +1977,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x507AB2B8</NID>
-              <NAME>sceUmd_507AB2B8</NAME>
+              <NAME>sceUmdClearDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1893,10 +1994,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58708431</NID>
-              <NAME>sceUmd_58708431</NAME>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1909,10 +2011,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E350FE4</NID>
-              <NAME>sceUmd_6E350FE4</NAME>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1925,10 +2028,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x749B5538</NID>
-              <NAME>sceUmd_749B5538</NAME>
+              <NAME>sceUmdGetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1941,10 +2045,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E185F98</NID>
-              <NAME>sceUmd_7E185F98</NAME>
+              <NAME>sceUmdSetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1957,10 +2062,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E45DF26</NID>
-              <NAME>sceUmd_7E45DF26</NAME>
+              <NAME>sceUmdGetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1973,10 +2079,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8213F674</NID>
-              <NAME>sceUmd_8213F674</NAME>
+              <NAME>sceUmdReplaceProhibit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1989,10 +2096,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1E889EB</NID>
-              <NAME>sceUmd_B1E889EB</NAME>
+              <NAME>sceUmdReplacePermit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2005,10 +2113,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE34F613F</NID>
-              <NAME>sceUmd_E34F613F</NAME>
+              <NAME>sceUmdCheckMedium</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2021,10 +2130,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0E95430</NID>
-              <NAME>sceUmd_F0E95430</NAME>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2037,10 +2147,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFAAA2DC6</NID>
-              <NAME>sceUmd_FAAA2DC6</NAME>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2053,6 +2164,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x040A7090</NID>
@@ -2117,7 +2229,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x07E98AF8</NID>
-              <NAME>sceUmd_07E98AF8</NAME>
+              <NAME>sceUmdSetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2175,10 +2287,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B14CE61</NID>
-              <NAME>sceUmd_0B14CE61</NAME>
+              <NAME>sceUmdCheckMedium</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2236,10 +2349,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x18E225C8</NID>
-              <NAME>sceUmd_18E225C8</NAME>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2297,10 +2411,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F017CDE</NID>
-              <NAME>sceUmd_4F017CDE</NAME>
+              <NAME>sceUmdReplacePermit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2358,10 +2473,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x598EC4DC</NID>
-              <NAME>sceUmd_598EC4DC</NAME>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2419,10 +2535,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EBB491F</NID>
-              <NAME>sceUmd_5EBB491F</NAME>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2480,10 +2597,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x666580EA</NID>
-              <NAME>sceUmd_666580EA</NAME>
+              <NAME>sceUmdGetErrorStatus</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2541,10 +2659,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EDF57F1</NID>
-              <NAME>sceUmd_6EDF57F1</NAME>
+              <NAME>sceUmdClearDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2602,10 +2721,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DCFBA06</NID>
-              <NAME>sceUmd_8DCFBA06</NAME>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2663,10 +2783,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x982272FE</NID>
-              <NAME>sceUmd_982272FE</NAME>
+              <NAME>sceUmdSetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2724,10 +2845,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x98AFBD10</NID>
-              <NAME>sceUmd_98AFBD10</NAME>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2785,10 +2907,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9B5B972</NID>
-              <NAME>sceUmd_A9B5B972</NAME>
+              <NAME>sceUmdReplaceProhibit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2846,10 +2969,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7BF4C31</NID>
-              <NAME>sceUmd_B7BF4C31</NAME>
+              <NAME>sceUmdGetDriveStatus</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2907,10 +3031,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA3D2A5F</NID>
-              <NAME>sceUmd_BA3D2A5F</NAME>
+              <NAME>sceUmdGetDiscInfo</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2968,6 +3093,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -3666,102 +3792,112 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x10F884CC</NID>
-              <NAME>sceUmdMan_driver_10F884CC</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29DC86C6</NID>
-              <NAME>sceUmdMan_driver_29DC86C6</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58B16629</NID>
-              <NAME>sceUmdMan_driver_58B16629</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85645EA4</NID>
-              <NAME>sceUmdMan_driver_85645EA4</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA659DAE3</NID>
-              <NAME>sceUmdMan_driver_A659DAE3</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0624CDD4</NID>
-              <NAME>sceUmdMan_driver_0624CDD4</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1291D91D</NID>
-              <NAME>sceUmdMan_driver_1291D91D</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x620309A4</NID>
-              <NAME>sceUmdMan_driver_620309A4</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CCDF632</NID>
-              <NAME>sceUmdMan_driver_7CCDF632</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E72758D</NID>
-              <NAME>sceUmdMan_driver_7E72758D</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x251EFAE1</NID>
-              <NAME>sceUmdMan_driver_251EFAE1</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3769,10 +3905,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2CE9D3B6</NID>
-              <NAME>sceUmdMan_driver_2CE9D3B6</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3780,10 +3917,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x637DFDD2</NID>
-              <NAME>sceUmdMan_driver_637DFDD2</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3791,10 +3929,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC77CDAA</NID>
-              <NAME>sceUmdMan_driver_DC77CDAA</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3802,10 +3941,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE872CA32</NID>
-              <NAME>sceUmdMan_driver_E872CA32</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3813,50 +3953,56 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04F47507</NID>
-              <NAME>sceUmdMan_driver_04F47507</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0ED136BF</NID>
-              <NAME>sceUmdMan_driver_0ED136BF</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3056AF35</NID>
-              <NAME>sceUmdMan_driver_3056AF35</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B0C5868</NID>
-              <NAME>sceUmdMan_driver_3B0C5868</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DB26549</NID>
-              <NAME>sceUmdMan_driver_9DB26549</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31699C86</NID>
-              <NAME>sceUmdMan_driver_31699C86</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3867,10 +4013,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63B69CE1</NID>
-              <NAME>sceUmdMan_driver_63B69CE1</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3881,10 +4028,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x988597A2</NID>
-              <NAME>sceUmdMan_driver_988597A2</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3895,10 +4043,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB54D5BE8</NID>
-              <NAME>sceUmdMan_driver_B54D5BE8</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3909,10 +4058,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9B02322</NID>
-              <NAME>sceUmdMan_driver_B9B02322</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3923,45 +4073,51 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68E8F10D</NID>
-              <NAME>sceUmdMan_driver_68E8F10D</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C8214E5</NID>
-              <NAME>sceUmdMan_driver_7C8214E5</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9024507B</NID>
-              <NAME>sceUmdMan_driver_9024507B</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE91EC2C9</NID>
-              <NAME>sceUmdMan_driver_E91EC2C9</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB6B5EC9</NID>
-              <NAME>sceUmdMan_driver_FB6B5EC9</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FFAB8DA</NID>
-              <NAME>sceUmdMan_driver_4FFAB8DA</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3970,10 +4126,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A1FB0DD</NID>
-              <NAME>sceUmdMan_driver_6A1FB0DD</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3982,10 +4139,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DF4C4DA</NID>
-              <NAME>sceUmdMan_driver_7DF4C4DA</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -3994,10 +4152,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD37B6422</NID>
-              <NAME>sceUmdMan_driver_D37B6422</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4006,10 +4165,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7A0D0D9</NID>
-              <NAME>sceUmdMan_driver_F7A0D0D9</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -4018,10 +4178,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x26C75616</NID>
-              <NAME>sceUmdMan_driver_26C75616</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4034,10 +4195,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x42D993AC</NID>
-              <NAME>sceUmdMan_driver_42D993AC</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4050,10 +4212,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x454E1B06</NID>
-              <NAME>sceUmdMan_driver_454E1B06</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4066,10 +4229,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AD43944</NID>
-              <NAME>sceUmdMan_driver_7AD43944</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4082,10 +4246,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE52119E7</NID>
-              <NAME>sceUmdMan_driver_E52119E7</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4098,10 +4263,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34375DB0</NID>
-              <NAME>sceUmdMan_driver_34375DB0</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4159,10 +4325,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C8C523D</NID>
-              <NAME>sceUmdMan_driver_3C8C523D</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4220,10 +4387,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65E2B3E0</NID>
-              <NAME>sceUmdMan_driver_65E2B3E0</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4281,10 +4449,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80D31D5D</NID>
-              <NAME>sceUmdMan_driver_80D31D5D</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4342,10 +4511,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7536109</NID>
-              <NAME>sceUmdMan_driver_A7536109</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4403,6 +4573,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

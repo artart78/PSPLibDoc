@@ -809,7 +809,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x10444C89</NID>
-              <NAME>sceMSAudio_driver_10444C89</NAME>
+              <NAME>sceMSAudioInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -826,10 +826,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15BAC6FE</NID>
-              <NAME>sceMSAudio_driver_15BAC6FE</NAME>
+              <NAME>sceMSAudioUpdateIBD</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -846,10 +847,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x189AF7C9</NID>
-              <NAME>sceMSAudio_driver_189AF7C9</NAME>
+              <NAME>sceMSAudioGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -866,10 +868,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19159365</NID>
-              <NAME>sceMSAudio_driver_19159365</NAME>
+              <NAME>sceMSAudioCalculateICVn</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -886,10 +889,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B95B134</NID>
-              <NAME>sceMSAudio_driver_1B95B134</NAME>
+              <NAME>sceMSAudioEndTrack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -906,10 +910,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C0DB5A2</NID>
-              <NAME>sceMSAudio_driver_1C0DB5A2</NAME>
+              <NAME>sceMSAudioGetICVInfo</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -926,10 +931,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C9C23BD</NID>
-              <NAME>sceMSAudio_driver_1C9C23BD</NAME>
+              <NAME>sceMSAudioReadMACList</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -946,10 +952,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36813DEA</NID>
-              <NAME>sceMSAudio_driver_36813DEA</NAME>
+              <NAME>sceMSAudioCheckICVn</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -966,10 +973,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51ACA4D0</NID>
-              <NAME>sceMSAudio_driver_51ACA4D0</NAME>
+              <NAME>sceMSAudioFormatICV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -986,10 +994,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6501A23C</NID>
-              <NAME>sceMSAudio_driver_6501A23C</NAME>
+              <NAME>sceMSAudioInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1006,10 +1015,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E4B6AB5</NID>
-              <NAME>sceMSAudio_driver_7E4B6AB5</NAME>
+              <NAME>sceMSAudioCheckICV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1026,10 +1036,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B5E5FAA</NID>
-              <NAME>sceMSAudio_driver_8B5E5FAA</NAME>
+              <NAME>sceMSAudioClearMACEntry</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1046,10 +1057,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C3D547C</NID>
-              <NAME>sceMSAudio_driver_9C3D547C</NAME>
+              <NAME>sceMSAudioDeauth</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1066,6 +1078,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA76AE40</NID>
@@ -1089,7 +1102,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB5C735F</NID>
-              <NAME>sceMSAudio_driver_BB5C735F</NAME>
+              <NAME>sceMSAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1106,6 +1119,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6730411</NID>
@@ -1129,7 +1143,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC78796D1</NID>
-              <NAME>sceMSAudio_driver_C78796D1</NAME>
+              <NAME>sceMSAudioEndFringe</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1146,10 +1160,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD9759AAA</NID>
-              <NAME>sceMSAudio_driver_D9759AAA</NAME>
+              <NAME>sceMSAudioAuth</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1166,10 +1181,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE14AA83C</NID>
-              <NAME>sceMSAudio_driver_E14AA83C</NAME>
+              <NAME>sceMSAudioGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1186,10 +1202,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4FE1707</NID>
-              <NAME>sceMSAudio_driver_E4FE1707</NAME>
+              <NAME>sceMSAudioGetICVEKBVersion</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1206,6 +1223,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED792115</NID>
@@ -1229,7 +1247,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF10BB4C4</NID>
-              <NAME>sceMSAudio_driver_F10BB4C4</NAME>
+              <NAME>sceMSAudioDecryptTrack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1246,6 +1264,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF155C576</NID>
@@ -1269,7 +1288,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6157008</NID>
-              <NAME>sceMSAudio_driver_F6157008</NAME>
+              <NAME>sceMSAudioInitFringe</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1286,10 +1305,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8A9FA0A</NID>
-              <NAME>sceMSAudio_driver_F8A9FA0A</NAME>
+              <NAME>sceMSAudioInitTrack</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1306,10 +1326,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF987978D</NID>
-              <NAME>sceMSAudio_driver_F987978D</NAME>
+              <NAME>sceMSAudioDecryptFringe</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -1326,10 +1347,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02948C2C</NID>
-              <NAME>sceMSAudio_driver_02948C2C</NAME>
+              <NAME>sceMSAudioDeauth</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1340,10 +1362,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E4C9F22</NID>
-              <NAME>sceMSAudio_driver_0E4C9F22</NAME>
+              <NAME>sceMSAudioClearMACEntry</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1354,10 +1377,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x259CCE6D</NID>
-              <NAME>sceMSAudio_driver_259CCE6D</NAME>
+              <NAME>sceMSAudioUpdateIBD</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1368,10 +1392,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E37C8B1</NID>
-              <NAME>sceMSAudio_driver_2E37C8B1</NAME>
+              <NAME>sceMSAudioDecryptTrack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1382,10 +1407,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F643EC7</NID>
-              <NAME>sceMSAudio_driver_4F643EC7</NAME>
+              <NAME>sceMSAudioGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1396,6 +1422,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53E95CFB</NID>
@@ -1413,7 +1440,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x55BC5353</NID>
-              <NAME>sceMSAudio_driver_55BC5353</NAME>
+              <NAME>sceMSAudioGetICVInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1424,6 +1451,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67C4C99B</NID>
@@ -1441,7 +1469,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71126D0D</NID>
-              <NAME>sceMSAudio_driver_71126D0D</NAME>
+              <NAME>sceMSAudioEndTrack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1452,10 +1480,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x96EA3F4E</NID>
-              <NAME>sceMSAudio_driver_96EA3F4E</NAME>
+              <NAME>sceMSAudioGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1466,10 +1495,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA48DE688</NID>
-              <NAME>sceMSAudio_driver_A48DE688</NAME>
+              <NAME>sceMSAudioReadMACList</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1480,10 +1510,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA58099E0</NID>
-              <NAME>sceMSAudio_driver_A58099E0</NAME>
+              <NAME>sceMSAudioInitFringe</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1494,10 +1525,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA63488C4</NID>
-              <NAME>sceMSAudio_driver_A63488C4</NAME>
+              <NAME>sceMSAudioCheckICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1508,10 +1540,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA804BEE4</NID>
-              <NAME>sceMSAudio_driver_A804BEE4</NAME>
+              <NAME>sceMSAudioCheckICVn</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1522,10 +1555,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB13EFB0</NID>
-              <NAME>sceMSAudio_driver_AB13EFB0</NAME>
+              <NAME>sceMSAudioInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1536,10 +1570,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC899E83</NID>
-              <NAME>sceMSAudio_driver_AC899E83</NAME>
+              <NAME>sceMSAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1550,10 +1585,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAED17EA1</NID>
-              <NAME>sceMSAudio_driver_AED17EA1</NAME>
+              <NAME>sceMSAudioFormatICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1564,10 +1600,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB00B1B29</NID>
-              <NAME>sceMSAudio_driver_B00B1B29</NAME>
+              <NAME>sceMSAudioGetICVEKBVersion</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1578,10 +1615,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF577C07</NID>
-              <NAME>sceMSAudio_driver_BF577C07</NAME>
+              <NAME>sceMSAudioCalculateICVn</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1592,10 +1630,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD53AF7D1</NID>
-              <NAME>sceMSAudio_driver_D53AF7D1</NAME>
+              <NAME>sceMSAudioEndFringe</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1606,10 +1645,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFE32F6C</NID>
-              <NAME>sceMSAudio_driver_DFE32F6C</NAME>
+              <NAME>sceMSAudioDecryptFringe</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1620,10 +1660,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE254E3C8</NID>
-              <NAME>sceMSAudio_driver_E254E3C8</NAME>
+              <NAME>sceMSAudioAuth</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1634,6 +1675,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3CE7EC6</NID>
@@ -1651,7 +1693,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF739D478</NID>
-              <NAME>sceMSAudio_driver_F739D478</NAME>
+              <NAME>sceMSAudioInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1662,10 +1704,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF91407DC</NID>
-              <NAME>sceMSAudio_driver_F91407DC</NAME>
+              <NAME>sceMSAudioInitTrack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1676,6 +1719,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF60FEE9</NID>
@@ -1693,59 +1737,67 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x00CC55C5</NID>
-              <NAME>sceMSAudio_driver_00CC55C5</NAME>
+              <NAME>sceMSAudioInitFringe</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0EAB90B7</NID>
-              <NAME>sceMSAudio_driver_0EAB90B7</NAME>
+              <NAME>sceMSAudioDecryptFringe</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x13030212</NID>
-              <NAME>sceMSAudio_driver_13030212</NAME>
+              <NAME>sceMSAudioEndTrack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x243B8D7E</NID>
-              <NAME>sceMSAudio_driver_243B8D7E</NAME>
+              <NAME>sceMSAudioDeauth</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25899D45</NID>
-              <NAME>sceMSAudio_driver_25899D45</NAME>
+              <NAME>sceMSAudioUpdateIBD</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x279826F4</NID>
-              <NAME>sceMSAudio_driver_279826F4</NAME>
+              <NAME>sceMSAudioGetICVEKBVersion</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E266AB1</NID>
-              <NAME>sceMSAudio_driver_3E266AB1</NAME>
+              <NAME>sceMSAudioGetICVInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F1CA74A</NID>
-              <NAME>sceMSAudio_driver_3F1CA74A</NAME>
+              <NAME>sceMSAudioEndFringe</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40463C8C</NID>
@@ -1763,31 +1815,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x46A59B0E</NID>
-              <NAME>sceMSAudio_driver_46A59B0E</NAME>
+              <NAME>sceMSAudioFormatICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AE871BF</NID>
-              <NAME>sceMSAudio_driver_4AE871BF</NAME>
+              <NAME>sceMSAudioDecryptTrack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x558D921C</NID>
-              <NAME>sceMSAudio_driver_558D921C</NAME>
+              <NAME>sceMSAudioCheckICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x827E8194</NID>
-              <NAME>sceMSAudio_driver_827E8194</NAME>
+              <NAME>sceMSAudioCalculateICVn</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D595F08</NID>
@@ -1805,154 +1861,173 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B781657</NID>
-              <NAME>sceMSAudio_driver_9B781657</NAME>
+              <NAME>sceMSAudioReadMACList</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD2562D2</NID>
-              <NAME>sceMSAudio_driver_BD2562D2</NAME>
+              <NAME>sceMSAudioClearMACEntry</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0BBCC5D</NID>
-              <NAME>sceMSAudio_driver_C0BBCC5D</NAME>
+              <NAME>sceMSAudioGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5A73363</NID>
-              <NAME>sceMSAudio_driver_C5A73363</NAME>
+              <NAME>sceMSAudioCheckICVn</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8A96F8C</NID>
-              <NAME>sceMSAudio_driver_D8A96F8C</NAME>
+              <NAME>sceMSAudioInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE462F3FC</NID>
-              <NAME>sceMSAudio_driver_E462F3FC</NAME>
+              <NAME>sceMSAudioGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF20A79D8</NID>
-              <NAME>sceMSAudio_driver_F20A79D8</NAME>
+              <NAME>sceMSAudioAuth</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3F0AF78</NID>
-              <NAME>sceMSAudio_driver_F3F0AF78</NAME>
+              <NAME>sceMSAudioInitTrack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5F718C7</NID>
-              <NAME>sceMSAudio_driver_F5F718C7</NAME>
+              <NAME>sceMSAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD1C8581</NID>
-              <NAME>sceMSAudio_driver_FD1C8581</NAME>
+              <NAME>sceMSAudioInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x085B83E9</NID>
-              <NAME>sceMSAudio_driver_085B83E9</NAME>
+              <NAME>sceMSAudioDecryptFringe</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x115E18B0</NID>
-              <NAME>sceMSAudio_driver_115E18B0</NAME>
+              <NAME>sceMSAudioCheckICVn</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12730C27</NID>
-              <NAME>sceMSAudio_driver_12730C27</NAME>
+              <NAME>sceMSAudioCalculateICVn</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20CA633C</NID>
-              <NAME>sceMSAudio_driver_20CA633C</NAME>
+              <NAME>sceMSAudioDeauth</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E21EF46</NID>
-              <NAME>sceMSAudio_driver_2E21EF46</NAME>
+              <NAME>sceMSAudioInitFringe</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36D45B90</NID>
-              <NAME>sceMSAudio_driver_36D45B90</NAME>
+              <NAME>sceMSAudioGetICVInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x370325CD</NID>
-              <NAME>sceMSAudio_driver_370325CD</NAME>
+              <NAME>sceMSAudioCheckICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x388E6561</NID>
-              <NAME>sceMSAudio_driver_388E6561</NAME>
+              <NAME>sceMSAudioDecryptTrack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x489F36E1</NID>
-              <NAME>sceMSAudio_driver_489F36E1</NAME>
+              <NAME>sceMSAudioGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FBA6B5C</NID>
@@ -1965,84 +2040,93 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C2648A8</NID>
-              <NAME>sceMSAudio_driver_7C2648A8</NAME>
+              <NAME>sceMSAudioInitTrack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B0B7573</NID>
-              <NAME>sceMSAudio_driver_8B0B7573</NAME>
+              <NAME>sceMSAudioFormatICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91E76C08</NID>
-              <NAME>sceMSAudio_driver_91E76C08</NAME>
+              <NAME>sceMSAudioUpdateIBD</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9350167E</NID>
-              <NAME>sceMSAudio_driver_9350167E</NAME>
+              <NAME>sceMSAudioInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93C2D281</NID>
-              <NAME>sceMSAudio_driver_93C2D281</NAME>
+              <NAME>sceMSAudioGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1CDA9BA</NID>
-              <NAME>sceMSAudio_driver_A1CDA9BA</NAME>
+              <NAME>sceMSAudioClearMACEntry</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABB46447</NID>
-              <NAME>sceMSAudio_driver_ABB46447</NAME>
+              <NAME>sceMSAudioInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE2AB4CB</NID>
-              <NAME>sceMSAudio_driver_AE2AB4CB</NAME>
+              <NAME>sceMSAudioAuth</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7F55682</NID>
-              <NAME>sceMSAudio_driver_B7F55682</NAME>
+              <NAME>sceMSAudioGetICVEKBVersion</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB4C39CD</NID>
@@ -2064,30 +2148,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB0C406B</NID>
-              <NAME>sceMSAudio_driver_DB0C406B</NAME>
+              <NAME>sceMSAudioEndTrack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB0EF89A</NID>
-              <NAME>sceMSAudio_driver_DB0EF89A</NAME>
+              <NAME>sceMSAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEAE63EAF</NID>
-              <NAME>sceMSAudio_driver_EAE63EAF</NAME>
+              <NAME>sceMSAudioReadMACList</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB5B5593</NID>
@@ -2100,16 +2187,17 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEA1D4CD</NID>
-              <NAME>sceMSAudio_driver_FEA1D4CD</NAME>
+              <NAME>sceMSAudioEndFringe</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x07357F9B</NID>
-              <NAME>sceMSAudio_driver_07357F9B</NAME>
+              <NAME>sceMSAudioInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2119,10 +2207,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A45BF7B</NID>
-              <NAME>sceMSAudio_driver_0A45BF7B</NAME>
+              <NAME>sceMSAudioGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2132,10 +2221,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E9B5E73</NID>
-              <NAME>sceMSAudio_driver_0E9B5E73</NAME>
+              <NAME>sceMSAudioUpdateIBD</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2145,10 +2235,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1308C546</NID>
-              <NAME>sceMSAudio_driver_1308C546</NAME>
+              <NAME>sceMSAudioCheckICVn</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2158,10 +2249,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B30AC04</NID>
-              <NAME>sceMSAudio_driver_1B30AC04</NAME>
+              <NAME>sceMSAudioDeauth</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2171,10 +2263,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37155A7A</NID>
-              <NAME>sceMSAudio_driver_37155A7A</NAME>
+              <NAME>sceMSAudioGetICVEKBVersion</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2184,10 +2277,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x624A2A4F</NID>
-              <NAME>sceMSAudio_driver_624A2A4F</NAME>
+              <NAME>sceMSAudioDecryptFringe</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2197,10 +2291,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63484765</NID>
-              <NAME>sceMSAudio_driver_63484765</NAME>
+              <NAME>sceMSAudioGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2210,6 +2305,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74EAA8E2</NID>
@@ -2239,7 +2335,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x918BDAC9</NID>
-              <NAME>sceMSAudio_driver_918BDAC9</NAME>
+              <NAME>sceMSAudioInitTrack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2249,10 +2345,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BC83F9E</NID>
-              <NAME>sceMSAudio_driver_9BC83F9E</NAME>
+              <NAME>sceMSAudioEndFringe</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2262,10 +2359,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA264420F</NID>
-              <NAME>sceMSAudio_driver_A264420F</NAME>
+              <NAME>sceMSAudioCalculateICVn</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2275,10 +2373,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA344F8EE</NID>
-              <NAME>sceMSAudio_driver_A344F8EE</NAME>
+              <NAME>sceMSAudioGetICVInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2288,10 +2387,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5122705</NID>
-              <NAME>sceMSAudio_driver_A5122705</NAME>
+              <NAME>sceMSAudioDecryptTrack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2301,6 +2401,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9A9429D</NID>
@@ -2317,7 +2418,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF472D95</NID>
-              <NAME>sceMSAudio_driver_AF472D95</NAME>
+              <NAME>sceMSAudioAuth</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2327,10 +2428,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF6E7013</NID>
-              <NAME>sceMSAudio_driver_AF6E7013</NAME>
+              <NAME>sceMSAudioInitFringe</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2340,10 +2442,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC782455D</NID>
-              <NAME>sceMSAudio_driver_C782455D</NAME>
+              <NAME>sceMSAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2353,6 +2456,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB24D6CC</NID>
@@ -2369,7 +2473,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEA81A26</NID>
-              <NAME>sceMSAudio_driver_CEA81A26</NAME>
+              <NAME>sceMSAudioClearMACEntry</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2379,10 +2483,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0B87FCA</NID>
-              <NAME>sceMSAudio_driver_E0B87FCA</NAME>
+              <NAME>sceMSAudioCheckICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2392,10 +2497,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE37E17F9</NID>
-              <NAME>sceMSAudio_driver_E37E17F9</NAME>
+              <NAME>sceMSAudioEndTrack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2405,10 +2511,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEA91E114</NID>
-              <NAME>sceMSAudio_driver_EA91E114</NAME>
+              <NAME>sceMSAudioFormatICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2418,10 +2525,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC7C743E</NID>
-              <NAME>sceMSAudio_driver_EC7C743E</NAME>
+              <NAME>sceMSAudioReadMACList</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2431,10 +2539,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD0859F6</NID>
-              <NAME>sceMSAudio_driver_FD0859F6</NAME>
+              <NAME>sceMSAudioInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2444,22 +2553,25 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x024211B5</NID>
-              <NAME>sceMSAudio_driver_024211B5</NAME>
+              <NAME>sceMSAudioCheckICVn</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19474552</NID>
-              <NAME>sceMSAudio_driver_19474552</NAME>
+              <NAME>sceMSAudioAuth</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x252B656D</NID>
@@ -2471,27 +2583,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x40B042C7</NID>
-              <NAME>sceMSAudio_driver_40B042C7</NAME>
+              <NAME>sceMSAudioGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x527FEAA2</NID>
-              <NAME>sceMSAudio_driver_527FEAA2</NAME>
+              <NAME>sceMSAudioInitFringe</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x543DBDD7</NID>
-              <NAME>sceMSAudio_driver_543DBDD7</NAME>
+              <NAME>sceMSAudioInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56FCA080</NID>
@@ -2503,35 +2618,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x57D3404E</NID>
-              <NAME>sceMSAudio_driver_57D3404E</NAME>
+              <NAME>sceMSAudioDecryptFringe</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x59B4EE6D</NID>
-              <NAME>sceMSAudio_driver_59B4EE6D</NAME>
+              <NAME>sceMSAudioCheckICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C6CA5EE</NID>
-              <NAME>sceMSAudio_driver_5C6CA5EE</NAME>
+              <NAME>sceMSAudioFormatICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77E9C0FE</NID>
-              <NAME>sceMSAudio_driver_77E9C0FE</NAME>
+              <NAME>sceMSAudioGetICVInfo</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x825F2CD8</NID>
@@ -2543,27 +2662,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x871D00AE</NID>
-              <NAME>sceMSAudio_driver_871D00AE</NAME>
+              <NAME>sceMSAudioGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89DB63A6</NID>
-              <NAME>sceMSAudio_driver_89DB63A6</NAME>
+              <NAME>sceMSAudioCalculateICVn</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B9839FB</NID>
-              <NAME>sceMSAudio_driver_8B9839FB</NAME>
+              <NAME>sceMSAudioGetICVEKBVersion</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91A4D9AA</NID>
@@ -2575,83 +2697,93 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x976E688B</NID>
-              <NAME>sceMSAudio_driver_976E688B</NAME>
+              <NAME>sceMSAudioInitTrack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x98CCC2C7</NID>
-              <NAME>sceMSAudio_driver_98CCC2C7</NAME>
+              <NAME>sceMSAudioDecryptTrack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0D34491</NID>
-              <NAME>sceMSAudio_driver_A0D34491</NAME>
+              <NAME>sceMSAudioEndTrack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB64A2BCE</NID>
-              <NAME>sceMSAudio_driver_B64A2BCE</NAME>
+              <NAME>sceMSAudioUpdateIBD</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7DB5AC6</NID>
-              <NAME>sceMSAudio_driver_B7DB5AC6</NAME>
+              <NAME>sceMSAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD27E118</NID>
-              <NAME>sceMSAudio_driver_CD27E118</NAME>
+              <NAME>sceMSAudioDeauth</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD9883DD3</NID>
-              <NAME>sceMSAudio_driver_D9883DD3</NAME>
+              <NAME>sceMSAudioInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC5C79BD</NID>
-              <NAME>sceMSAudio_driver_DC5C79BD</NAME>
+              <NAME>sceMSAudioClearMACEntry</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB40F20A</NID>
-              <NAME>sceMSAudio_driver_EB40F20A</NAME>
+              <NAME>sceMSAudioEndFringe</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF273284E</NID>
-              <NAME>sceMSAudio_driver_F273284E</NAME>
+              <NAME>sceMSAudioReadMACList</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -2246,12 +2246,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BDEC501</NID>
-              <NAME>scePower_driver_8BDEC501</NAME>
+              <NAME>scePowerGetCpuClockFrequencyInt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E71E273</NID>
@@ -2588,7 +2589,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x00B50FFA</NID>
-              <NAME>scePower_driver_00B50FFA</NAME>
+              <NAME>scePowerGetCpuClockFrequencyInt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2598,6 +2599,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x062CFDDC</NID>

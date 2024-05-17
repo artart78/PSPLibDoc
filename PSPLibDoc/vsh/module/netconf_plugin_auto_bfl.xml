@@ -161,43 +161,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D307317</NID>
-              <NAME>sceVshNetconfAoss_8D307317</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA117A521</NID>
-              <NAME>sceVshNetconfAoss_A117A521</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD77ACCB7</NID>
-              <NAME>sceVshNetconfAoss_D77ACCB7</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFF564AF</NID>
-              <NAME>sceVshNetconfAoss_DFF564AF</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE635D418</NID>
@@ -211,33 +215,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5C1F68A</NID>
-              <NAME>sceVshNetconfAoss_F5C1F68A</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A6E4915</NID>
-              <NAME>sceVshNetconfAoss_1A6E4915</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BEACB57</NID>
-              <NAME>sceVshNetconfAoss_2BEACB57</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EB5D7DB</NID>
@@ -251,69 +258,76 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E769BE1</NID>
-              <NAME>sceVshNetconfAoss_9E769BE1</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4537C75</NID>
-              <NAME>sceVshNetconfAoss_D4537C75</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8F3B1FF</NID>
-              <NAME>sceVshNetconfAoss_F8F3B1FF</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05033037</NID>
-              <NAME>sceVshNetconfAoss_05033037</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AB07439</NID>
-              <NAME>sceVshNetconfAoss_6AB07439</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C5E2657</NID>
-              <NAME>sceVshNetconfAoss_9C5E2657</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA232373</NID>
-              <NAME>sceVshNetconfAoss_AA232373</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACFF390E</NID>
@@ -326,16 +340,17 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0BA3314</NID>
-              <NAME>sceVshNetconfAoss_B0BA3314</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x108FD7E8</NID>
-              <NAME>sceVshNetconfAoss_108FD7E8</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -343,10 +358,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4100B200</NID>
-              <NAME>sceVshNetconfAoss_4100B200</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -354,10 +370,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F94489E</NID>
-              <NAME>sceVshNetconfAoss_8F94489E</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -365,10 +382,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DAC7F8C</NID>
-              <NAME>sceVshNetconfAoss_9DAC7F8C</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -376,6 +394,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAFD19ED5</NID>
@@ -390,7 +409,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC480E757</NID>
-              <NAME>sceVshNetconfAoss_C480E757</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -398,46 +417,52 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x408EE143</NID>
-              <NAME>sceVshNetconfAoss_408EE143</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E113AB8</NID>
-              <NAME>sceVshNetconfAoss_5E113AB8</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FE3E696</NID>
-              <NAME>sceVshNetconfAoss_7FE3E696</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C0B6EAA</NID>
-              <NAME>sceVshNetconfAoss_8C0B6EAA</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3A4B636</NID>
-              <NAME>sceVshNetconfAoss_A3A4B636</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5126D01</NID>
@@ -463,7 +488,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D5BC3D4</NID>
-              <NAME>sceVshNetconfAoss_4D5BC3D4</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -474,10 +499,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8766F82F</NID>
-              <NAME>sceVshNetconfAoss_8766F82F</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -488,10 +514,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E471DCB</NID>
-              <NAME>sceVshNetconfAoss_8E471DCB</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -502,10 +529,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD182B4E1</NID>
-              <NAME>sceVshNetconfAoss_D182B4E1</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -516,10 +544,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFAE5001A</NID>
-              <NAME>sceVshNetconfAoss_FAE5001A</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -530,6 +559,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F0D8138</NID>
@@ -540,38 +570,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x39EA3B3A</NID>
-              <NAME>sceVshNetconfAoss_39EA3B3A</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40D099B2</NID>
-              <NAME>sceVshNetconfAoss_40D099B2</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x50C232EB</NID>
-              <NAME>sceVshNetconfAoss_50C232EB</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AF1036D</NID>
-              <NAME>sceVshNetconfAoss_9AF1036D</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBCB0A53F</NID>
-              <NAME>sceVshNetconfAoss_BCB0A53F</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41563503</NID>
@@ -584,52 +619,57 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9400F3CA</NID>
-              <NAME>sceVshNetconfAoss_9400F3CA</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x96F74DAC</NID>
-              <NAME>sceVshNetconfAoss_96F74DAC</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5B135BA</NID>
-              <NAME>sceVshNetconfAoss_B5B135BA</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0312D9A</NID>
-              <NAME>sceVshNetconfAoss_C0312D9A</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6A3D81C</NID>
-              <NAME>sceVshNetconfAoss_E6A3D81C</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x08921406</NID>
-              <NAME>sceVshNetconfAoss_08921406</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -639,10 +679,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7703D41E</NID>
-              <NAME>sceVshNetconfAoss_7703D41E</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -652,10 +693,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F854ACC</NID>
-              <NAME>sceVshNetconfAoss_7F854ACC</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -665,10 +707,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x860C3DF4</NID>
-              <NAME>sceVshNetconfAoss_860C3DF4</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -678,6 +721,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86B3610D</NID>
@@ -694,7 +738,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5356EA6</NID>
-              <NAME>sceVshNetconfAoss_B5356EA6</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -704,6 +748,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AD36529</NID>
@@ -715,43 +760,48 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x26546013</NID>
-              <NAME>sceVshNetconfAoss_26546013</NAME>
+              <NAME>sceNetAOSSStart</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27C5B3FF</NID>
-              <NAME>sceVshNetconfAoss_27C5B3FF</NAME>
+              <NAME>sceNetAOSSStop</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C326116</NID>
-              <NAME>sceVshNetconfAoss_6C326116</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86FCDA6E</NID>
-              <NAME>sceVshNetconfAoss_86FCDA6E</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9003B49C</NID>
-              <NAME>sceVshNetconfAoss_9003B49C</NAME>
+              <NAME>sceNetAOSSInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

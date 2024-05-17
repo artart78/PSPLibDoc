@@ -3064,7 +3064,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePower_driver_EBD177D6</NAME>
+              <NAME>scePowerSetClockFrequency280</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -3093,6 +3093,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -5895,7 +5896,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePower_driver_EBD177D6</NAME>
+              <NAME>scePowerSetClockFrequency280</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -5924,6 +5925,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF06B96D4</NID>
@@ -5937,243 +5939,267 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x00C45EEF</NID>
-              <NAME>scePower_driver_00C45EEF</NAME>
+              <NAME>scePowerSetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x073462C1</NID>
-              <NAME>scePower_driver_073462C1</NAME>
+              <NAME>scePowerGetBusClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x09FD9CFC</NID>
-              <NAME>scePower_driver_09FD9CFC</NAME>
+              <NAME>scePowerLimitPllClock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x115EF5AE</NID>
-              <NAME>scePower_driver_115EF5AE</NAME>
+              <NAME>scePowerSetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14267256</NID>
-              <NAME>scePower_driver_14267256</NAME>
+              <NAME>scePowerGetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x152C1C97</NID>
-              <NAME>scePower_driver_152C1C97</NAME>
+              <NAME>scePowerGetIdleTimer</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1688935C</NID>
-              <NAME>scePower_driver_1688935C</NAME>
+              <NAME>scePowerGetBusClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17CB450B</NID>
-              <NAME>scePower_driver_17CB450B</NAME>
+              <NAME>scePowerGetCpuClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x191A3848</NID>
-              <NAME>scePower_driver_191A3848</NAME>
+              <NAME>scePowerBatteryDisableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E4418AB</NID>
-              <NAME>scePower_driver_1E4418AB</NAME>
+              <NAME>scePowerVolatileMemTryLock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x208DBFFA</NID>
-              <NAME>scePower_driver_208DBFFA</NAME>
+              <NAME>scePowerSetExclusiveWlan</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24085F5C</NID>
-              <NAME>scePower_driver_24085F5C</NAME>
+              <NAME>scePowerSetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x268731BE</NID>
-              <NAME>scePower_driver_268731BE</NAME>
+              <NAME>scePowerVolatileMemUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x288313B1</NID>
-              <NAME>scePower_driver_288313B1</NAME>
+              <NAME>scePowerGetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30A2475B</NID>
-              <NAME>scePower_driver_30A2475B</NAME>
+              <NAME>scePowerIdleTimerDisable</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35C61565</NID>
-              <NAME>scePower_driver_35C61565</NAME>
+              <NAME>scePowerGetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x39C5677E</NID>
-              <NAME>scePower_driver_39C5677E</NAME>
+              <NAME>scePowerGetBatteryLifeTime</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C5E45D8</NID>
-              <NAME>scePower_driver_3C5E45D8</NAME>
+              <NAME>scePowerIsBatteryCharging</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D5414C9</NID>
-              <NAME>scePower_driver_3D5414C9</NAME>
+              <NAME>scePowerGetInnerTemp</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x42F9B037</NID>
-              <NAME>scePower_driver_42F9B037</NAME>
+              <NAME>scePowerSetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4431FF21</NID>
-              <NAME>scePower_driver_4431FF21</NAME>
+              <NAME>scePowerCheckWlanCondition</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x475CC46D</NID>
-              <NAME>scePower_driver_475CC46D</NAME>
+              <NAME>scePowerLimitScCpuClock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x493E8BBD</NID>
-              <NAME>scePower_driver_493E8BBD</NAME>
+              <NAME>scePowerSetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4CE516FB</NID>
-              <NAME>scePower_driver_4CE516FB</NAME>
+              <NAME>scePowerGetLedOffTiming</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51B74288</NID>
@@ -6187,423 +6213,465 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x54624251</NID>
-              <NAME>scePower_driver_54624251</NAME>
+              <NAME>scePowerWlanActivate</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54A35829</NID>
-              <NAME>scePower_driver_54A35829</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55D9ACC8</NID>
-              <NAME>scePower_driver_55D9ACC8</NAME>
+              <NAME>scePowerGetBatteryElec</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EBAD646</NID>
-              <NAME>scePower_driver_5EBAD646</NAME>
+              <NAME>scePowerVolatileMemLock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x668C3D9F</NID>
-              <NAME>scePower_driver_668C3D9F</NAME>
+              <NAME>scePowerGetWatchDog</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x697A9127</NID>
-              <NAME>scePower_driver_697A9127</NAME>
+              <NAME>scePowerGetCurrentDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A985D34</NID>
-              <NAME>scePower_driver_6A985D34</NAME>
+              <NAME>scePowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B5FD1CE</NID>
-              <NAME>scePower_driver_6B5FD1CE</NAME>
+              <NAME>scePowerIsRequest</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6ECBC5FF</NID>
-              <NAME>scePower_driver_6ECBC5FF</NAME>
+              <NAME>scePowerGetBatteryChargingStatus</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x715A56FB</NID>
-              <NAME>scePower_driver_715A56FB</NAME>
+              <NAME>scePowerLock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x722D5D34</NID>
-              <NAME>scePower_driver_722D5D34</NAME>
+              <NAME>scePowerWlanDeactivate</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78EC8DC9</NID>
-              <NAME>scePower_driver_78EC8DC9</NAME>
+              <NAME>scePowerIsSuspendRequired</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E7D8CB7</NID>
-              <NAME>scePower_driver_7E7D8CB7</NAME>
+              <NAME>scePowerGetCurrentTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F64910E</NID>
-              <NAME>scePower_driver_7F64910E</NAME>
+              <NAME>scePowerWaitRequestCompletion</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86795186</NID>
-              <NAME>scePower_driver_86795186</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D5046AF</NID>
-              <NAME>scePower_driver_8D5046AF</NAME>
+              <NAME>scePowerGetForceSuspendCapacity</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x926860D3</NID>
-              <NAME>scePower_driver_926860D3</NAME>
+              <NAME>scePowerGetWlanActivity</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93444D33</NID>
-              <NAME>scePower_driver_93444D33</NAME>
+              <NAME>scePowerGetPllClockFrequencyInt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x959ECDDB</NID>
-              <NAME>scePower_driver_959ECDDB</NAME>
+              <NAME>scePowerRebootStart</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B1A9C5F</NID>
-              <NAME>scePower_driver_9B1A9C5F</NAME>
+              <NAME>scePowerRequestStandby</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C40E184</NID>
-              <NAME>scePower_driver_9C40E184</NAME>
+              <NAME>scePowerTick</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C98446E</NID>
-              <NAME>scePower_driver_9C98446E</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D2D23AD</NID>
-              <NAME>scePower_driver_9D2D23AD</NAME>
+              <NAME>scePowerSetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9EAEFE67</NID>
-              <NAME>scePower_driver_9EAEFE67</NAME>
+              <NAME>scePowerGetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F831BE7</NID>
-              <NAME>scePower_driver_9F831BE7</NAME>
+              <NAME>scePowerRequestSuspendTouchAndGo</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FEA8AA8</NID>
-              <NAME>scePower_driver_9FEA8AA8</NAME>
+              <NAME>scePowerGetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA09FC577</NID>
-              <NAME>scePower_driver_A09FC577</NAME>
+              <NAME>scePowerBatteryEnableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3A1DE5B</NID>
-              <NAME>scePower_driver_A3A1DE5B</NAME>
+              <NAME>scePowerSetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA70F1F79</NID>
-              <NAME>scePower_driver_A70F1F79</NAME>
+              <NAME>scePowerBatteryUpdateInfo</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA73C6382</NID>
-              <NAME>scePower_driver_A73C6382</NAME>
+              <NAME>scePowerBatteryForbidCharging</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8D09A9A</NID>
-              <NAME>scePower_driver_A8D09A9A</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF70529A</NID>
-              <NAME>scePower_driver_AF70529A</NAME>
+              <NAME>scePowerSetBusClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3DCEF11</NID>
-              <NAME>scePower_driver_B3DCEF11</NAME>
+              <NAME>scePowerGetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBAF044D8</NID>
-              <NAME>scePower_driver_BAF044D8</NAME>
+              <NAME>scePowerGetResumeCount</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF1DA143</NID>
-              <NAME>scePower_driver_BF1DA143</NAME>
+              <NAME>scePowerGetPllClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC87DEC73</NID>
-              <NAME>scePower_driver_C87DEC73</NAME>
+              <NAME>scePowerGetBacklightMaximum</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE1B9997</NID>
-              <NAME>scePower_driver_CE1B9997</NAME>
+              <NAME>scePowerLimitScBusClock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0513342</NID>
-              <NAME>scePower_driver_D0513342</NAME>
+              <NAME>scePowerSetWakeupCondition</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD37699CE</NID>
-              <NAME>scePower_driver_D37699CE</NAME>
+              <NAME>scePowerGetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD423DE24</NID>
-              <NAME>scePower_driver_D423DE24</NAME>
+              <NAME>scePowerGetCurrentDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD58A119A</NID>
-              <NAME>scePower_driver_D58A119A</NAME>
+              <NAME>scePowerIdleTimerEnable</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6E50D7B</NID>
-              <NAME>scePower_driver_D6E50D7B</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD78EBD62</NID>
@@ -6617,264 +6685,292 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBBC8820</NID>
-              <NAME>scePower_driver_DBBC8820</NAME>
+              <NAME>scePowerUnregitserCallback</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF8C421D</NID>
-              <NAME>scePower_driver_DF8C421D</NAME>
+              <NAME>scePowerGetBatteryChargeCycle</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE65F00BD</NID>
-              <NAME>scePower_driver_E65F00BD</NAME>
+              <NAME>scePowerRequestColdReset</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE75602F2</NID>
-              <NAME>scePower_driver_E75602F2</NAME>
+              <NAME>scePowerBatteryPermitCharging</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7A7ACE1</NID>
-              <NAME>scePower_driver_E7A7ACE1</NAME>
+              <NAME>scePowerIsLowBattery</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF393BD85</NID>
-              <NAME>scePower_driver_F393BD85</NAME>
+              <NAME>scePowerGetBatteryVolt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3B7966A</NID>
-              <NAME>scePower_driver_F3B7966A</NAME>
+              <NAME>scePowerGetBatteryRemainCapacity</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD607FCA</NID>
-              <NAME>scePower_driver_FD607FCA</NAME>
+              <NAME>scePowerGetBatteryTemp</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF6450C3</NID>
-              <NAME>scePower_driver_FF6450C3</NAME>
+              <NAME>scePowerGetBatteryFullCapacity</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x00646020</NID>
-              <NAME>scePower_driver_00646020</NAME>
+              <NAME>scePowerSetBusClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0384FCBC</NID>
-              <NAME>scePower_driver_0384FCBC</NAME>
+              <NAME>scePowerGetBatteryFullCapacity</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x09657C24</NID>
-              <NAME>scePower_driver_09657C24</NAME>
+              <NAME>scePowerGetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0977E494</NID>
-              <NAME>scePower_driver_0977E494</NAME>
+              <NAME>scePowerSetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C4922CF</NID>
-              <NAME>scePower_driver_0C4922CF</NAME>
+              <NAME>scePowerIsBatteryCharging</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DF5EE84</NID>
-              <NAME>scePower_driver_0DF5EE84</NAME>
+              <NAME>scePowerRebootStart</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DFC24A9</NID>
-              <NAME>scePower_driver_0DFC24A9</NAME>
+              <NAME>scePowerIdleTimerDisable</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x114D3560</NID>
-              <NAME>scePower_driver_114D3560</NAME>
+              <NAME>scePowerCheckWlanCondition</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x122EDE17</NID>
-              <NAME>scePower_driver_122EDE17</NAME>
+              <NAME>scePowerGetBatteryTemp</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x131103DD</NID>
-              <NAME>scePower_driver_131103DD</NAME>
+              <NAME>scePowerBatteryPermitCharging</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20A56D51</NID>
-              <NAME>scePower_driver_20A56D51</NAME>
+              <NAME>scePowerLock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x22BF8BD4</NID>
-              <NAME>scePower_driver_22BF8BD4</NAME>
+              <NAME>scePowerGetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2678B623</NID>
-              <NAME>scePower_driver_2678B623</NAME>
+              <NAME>scePowerLimitScCpuClock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28764591</NID>
-              <NAME>scePower_driver_28764591</NAME>
+              <NAME>scePowerIsSuspendRequired</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AA395A0</NID>
-              <NAME>scePower_driver_2AA395A0</NAME>
+              <NAME>scePowerGetBusClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DA84F14</NID>
-              <NAME>scePower_driver_2DA84F14</NAME>
+              <NAME>scePowerGetBatteryChargingStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30D2EE6D</NID>
-              <NAME>scePower_driver_30D2EE6D</NAME>
+              <NAME>scePowerIsLowBattery</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x313034E2</NID>
-              <NAME>scePower_driver_313034E2</NAME>
+              <NAME>scePowerGetBatteryElec</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3208DD65</NID>
-              <NAME>scePower_driver_3208DD65</NAME>
+              <NAME>scePowerVolatileMemUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3234844A</NID>
@@ -6887,246 +6983,273 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x35ADACC7</NID>
-              <NAME>scePower_driver_35ADACC7</NAME>
+              <NAME>scePowerWaitRequestCompletion</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3642B63C</NID>
-              <NAME>scePower_driver_3642B63C</NAME>
+              <NAME>scePowerBatteryDisableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BF2C7C3</NID>
-              <NAME>scePower_driver_3BF2C7C3</NAME>
+              <NAME>scePowerGetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D635CAC</NID>
-              <NAME>scePower_driver_3D635CAC</NAME>
+              <NAME>scePowerUnregitserCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41594CBA</NID>
-              <NAME>scePower_driver_41594CBA</NAME>
+              <NAME>scePowerVolatileMemTryLock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4219F46E</NID>
-              <NAME>scePower_driver_4219F46E</NAME>
+              <NAME>scePowerSetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x486982EF</NID>
-              <NAME>scePower_driver_486982EF</NAME>
+              <NAME>scePowerVolatileMemLock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51A0EC48</NID>
-              <NAME>scePower_driver_51A0EC48</NAME>
+              <NAME>scePowerRequestSuspendTouchAndGo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AAEDA88</NID>
-              <NAME>scePower_driver_5AAEDA88</NAME>
+              <NAME>scePowerGetWatchDog</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AF4255D</NID>
-              <NAME>scePower_driver_5AF4255D</NAME>
+              <NAME>scePowerGetForceSuspendCapacity</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B031253</NID>
-              <NAME>scePower_driver_5B031253</NAME>
+              <NAME>scePowerGetWlanActivity</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5FC2494F</NID>
-              <NAME>scePower_driver_5FC2494F</NAME>
+              <NAME>scePowerGetPllClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x603DF068</NID>
-              <NAME>scePower_driver_603DF068</NAME>
+              <NAME>scePowerRequestColdReset</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6139BD21</NID>
-              <NAME>scePower_driver_6139BD21</NAME>
+              <NAME>scePowerSetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x669BCCD2</NID>
-              <NAME>scePower_driver_669BCCD2</NAME>
+              <NAME>scePowerLimitScBusClock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68F09843</NID>
-              <NAME>scePower_driver_68F09843</NAME>
+              <NAME>scePowerGetInnerTemp</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BD1323A</NID>
-              <NAME>scePower_driver_6BD1323A</NAME>
+              <NAME>scePowerGetBatteryVolt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x700F2857</NID>
-              <NAME>scePower_driver_700F2857</NAME>
+              <NAME>scePowerGetCurrentDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x717662CE</NID>
-              <NAME>scePower_driver_717662CE</NAME>
+              <NAME>scePowerGetCpuClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78BBCC49</NID>
-              <NAME>scePower_driver_78BBCC49</NAME>
+              <NAME>scePowerSetWakeupCondition</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AE2C127</NID>
-              <NAME>scePower_driver_7AE2C127</NAME>
+              <NAME>scePowerGetBatteryChargeCycle</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BA86F41</NID>
-              <NAME>scePower_driver_7BA86F41</NAME>
+              <NAME>scePowerGetCurrentDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EE5DF78</NID>
-              <NAME>scePower_driver_7EE5DF78</NAME>
+              <NAME>scePowerGetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F801B31</NID>
-              <NAME>scePower_driver_7F801B31</NAME>
+              <NAME>scePowerBatteryForbidCharging</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x854D34FB</NID>
-              <NAME>scePower_driver_854D34FB</NAME>
+              <NAME>scePowerBatteryEnableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x874FB3AA</NID>
-              <NAME>scePower_driver_874FB3AA</NAME>
+              <NAME>scePowerBatteryUpdateInfo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E85B7D9</NID>
-              <NAME>scePower_driver_8E85B7D9</NAME>
+              <NAME>scePowerSetExclusiveWlan</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F9A7C82</NID>
@@ -7139,84 +7262,93 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FAAFD13</NID>
-              <NAME>scePower_driver_8FAAFD13</NAME>
+              <NAME>scePowerSetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90A7A370</NID>
-              <NAME>scePower_driver_90A7A370</NAME>
+              <NAME>scePowerWlanDeactivate</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93EF2312</NID>
-              <NAME>scePower_driver_93EF2312</NAME>
+              <NAME>scePowerGetCurrentTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94BC4918</NID>
-              <NAME>scePower_driver_94BC4918</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94C3991E</NID>
-              <NAME>scePower_driver_94C3991E</NAME>
+              <NAME>scePowerGetBusClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x99C60EB9</NID>
-              <NAME>scePower_driver_99C60EB9</NAME>
+              <NAME>scePowerGetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C4DB5C5</NID>
-              <NAME>scePower_driver_9C4DB5C5</NAME>
+              <NAME>scePowerGetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9ED86510</NID>
-              <NAME>scePower_driver_9ED86510</NAME>
+              <NAME>scePowerGetResumeCount</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FC87DE9</NID>
-              <NAME>scePower_driver_9FC87DE9</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4D02055</NID>
@@ -7229,187 +7361,207 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA587FEC1</NID>
-              <NAME>scePower_driver_A587FEC1</NAME>
+              <NAME>scePowerGetIdleTimer</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BAD8D5</NID>
-              <NAME>scePower_driver_A7BAD8D5</NAME>
+              <NAME>scePowerGetBatteryRemainCapacity</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB947D24</NID>
-              <NAME>scePower_driver_AB947D24</NAME>
+              <NAME>scePowerLimitPllClock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC3E6CCF</NID>
-              <NAME>scePower_driver_AC3E6CCF</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9F4D185</NID>
-              <NAME>scePower_driver_B9F4D185</NAME>
+              <NAME>scePowerTick</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1DDF9C4</NID>
-              <NAME>scePower_driver_C1DDF9C4</NAME>
+              <NAME>scePowerGetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3C33306</NID>
-              <NAME>scePower_driver_C3C33306</NAME>
+              <NAME>scePowerGetPllClockFrequencyInt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBF6F62D</NID>
-              <NAME>scePower_driver_CBF6F62D</NAME>
+              <NAME>scePowerSetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF7E405A</NID>
-              <NAME>scePower_driver_CF7E405A</NAME>
+              <NAME>scePowerIdleTimerEnable</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD90994B9</NID>
-              <NAME>scePower_driver_D90994B9</NAME>
+              <NAME>scePowerRequestStandby</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBCCC13D</NID>
-              <NAME>scePower_driver_DBCCC13D</NAME>
+              <NAME>scePowerGetBatteryLifeTime</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBFFD289</NID>
-              <NAME>scePower_driver_DBFFD289</NAME>
+              <NAME>scePowerGetLedOffTiming</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE1837FC2</NID>
-              <NAME>scePower_driver_E1837FC2</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8F681DB</NID>
-              <NAME>scePower_driver_E8F681DB</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED21B8EF</NID>
-              <NAME>scePower_driver_ED21B8EF</NAME>
+              <NAME>scePowerGetBacklightMaximum</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF33F00C9</NID>
-              <NAME>scePower_driver_F33F00C9</NAME>
+              <NAME>scePowerSetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3765475</NID>
-              <NAME>scePower_driver_F3765475</NAME>
+              <NAME>scePowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF55083D8</NID>
-              <NAME>scePower_driver_F55083D8</NAME>
+              <NAME>scePowerIsRequest</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC51835B</NID>
-              <NAME>scePower_driver_FC51835B</NAME>
+              <NAME>scePowerWlanActivate</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCEEF071</NID>
-              <NAME>scePower_driver_FCEEF071</NAME>
+              <NAME>scePowerSetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1466FA5B</NID>
-              <NAME>scePower_driver_1466FA5B</NAME>
+              <NAME>scePowerGetLedOffTiming</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7417,6 +7569,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15063904</NID>
@@ -7431,7 +7584,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x159D7457</NID>
-              <NAME>scePower_driver_159D7457</NAME>
+              <NAME>scePowerBatteryDisableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7439,10 +7592,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19387EF4</NID>
-              <NAME>scePower_driver_19387EF4</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7450,10 +7604,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B778FD4</NID>
-              <NAME>scePower_driver_1B778FD4</NAME>
+              <NAME>scePowerGetCurrentDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7461,10 +7616,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20773C11</NID>
-              <NAME>scePower_driver_20773C11</NAME>
+              <NAME>scePowerGetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7472,10 +7628,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21246F84</NID>
-              <NAME>scePower_driver_21246F84</NAME>
+              <NAME>scePowerSetWakeupCondition</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7483,6 +7640,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x22E1FEE4</NID>
@@ -7497,7 +7655,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A12371B</NID>
-              <NAME>scePower_driver_2A12371B</NAME>
+              <NAME>scePowerGetPllClockFrequencyInt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7505,10 +7663,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E91F188</NID>
-              <NAME>scePower_driver_2E91F188</NAME>
+              <NAME>scePowerGetBatteryTemp</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7516,10 +7675,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x339FE4CF</NID>
-              <NAME>scePower_driver_339FE4CF</NAME>
+              <NAME>scePowerLock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7527,10 +7687,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34175309</NID>
-              <NAME>scePower_driver_34175309</NAME>
+              <NAME>scePowerGetCurrentTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7538,10 +7699,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C2E2978</NID>
-              <NAME>scePower_driver_3C2E2978</NAME>
+              <NAME>scePowerLimitScBusClock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7549,10 +7711,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F7BC6A7</NID>
-              <NAME>scePower_driver_3F7BC6A7</NAME>
+              <NAME>scePowerGetForceSuspendCapacity</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7560,10 +7723,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F976B98</NID>
-              <NAME>scePower_driver_3F976B98</NAME>
+              <NAME>scePowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7571,10 +7735,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4272CD0C</NID>
-              <NAME>scePower_driver_4272CD0C</NAME>
+              <NAME>scePowerVolatileMemTryLock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7582,10 +7747,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x459F9500</NID>
-              <NAME>scePower_driver_459F9500</NAME>
+              <NAME>scePowerWlanDeactivate</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7593,10 +7759,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x45BB59FE</NID>
-              <NAME>scePower_driver_45BB59FE</NAME>
+              <NAME>scePowerIsLowBattery</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7604,10 +7771,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x542D7B23</NID>
-              <NAME>scePower_driver_542D7B23</NAME>
+              <NAME>scePowerRequestSuspendTouchAndGo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7615,10 +7783,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56083981</NID>
-              <NAME>scePower_driver_56083981</NAME>
+              <NAME>scePowerIsSuspendRequired</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7626,10 +7795,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56C02F81</NID>
-              <NAME>scePower_driver_56C02F81</NAME>
+              <NAME>scePowerWlanActivate</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7637,10 +7807,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x59A23641</NID>
-              <NAME>scePower_driver_59A23641</NAME>
+              <NAME>scePowerSetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7648,10 +7819,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5FEB5918</NID>
-              <NAME>scePower_driver_5FEB5918</NAME>
+              <NAME>scePowerGetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7659,10 +7831,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6345CAFD</NID>
-              <NAME>scePower_driver_6345CAFD</NAME>
+              <NAME>scePowerLimitPllClock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7670,10 +7843,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A407157</NID>
-              <NAME>scePower_driver_6A407157</NAME>
+              <NAME>scePowerGetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7681,10 +7855,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AF597FC</NID>
-              <NAME>scePower_driver_6AF597FC</NAME>
+              <NAME>scePowerGetBatteryChargeCycle</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7692,10 +7867,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x76AFB109</NID>
-              <NAME>scePower_driver_76AFB109</NAME>
+              <NAME>scePowerSetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7703,10 +7879,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CAB0E2E</NID>
-              <NAME>scePower_driver_7CAB0E2E</NAME>
+              <NAME>scePowerVolatileMemUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7714,10 +7891,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8045DB6F</NID>
-              <NAME>scePower_driver_8045DB6F</NAME>
+              <NAME>scePowerGetBatteryChargingStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7725,10 +7903,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x809F7127</NID>
-              <NAME>scePower_driver_809F7127</NAME>
+              <NAME>scePowerUnregitserCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7736,10 +7915,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80EC83AD</NID>
-              <NAME>scePower_driver_80EC83AD</NAME>
+              <NAME>scePowerGetBusClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7747,10 +7927,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8220DB56</NID>
-              <NAME>scePower_driver_8220DB56</NAME>
+              <NAME>scePowerGetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7758,10 +7939,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8337817E</NID>
-              <NAME>scePower_driver_8337817E</NAME>
+              <NAME>scePowerSetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7769,10 +7951,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84680F4B</NID>
-              <NAME>scePower_driver_84680F4B</NAME>
+              <NAME>scePowerBatteryEnableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7780,10 +7963,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85030AF1</NID>
-              <NAME>scePower_driver_85030AF1</NAME>
+              <NAME>scePowerGetBatteryElec</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7791,10 +7975,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B27BCE9</NID>
-              <NAME>scePower_driver_8B27BCE9</NAME>
+              <NAME>scePowerGetBusClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7802,10 +7987,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9470D652</NID>
-              <NAME>scePower_driver_9470D652</NAME>
+              <NAME>scePowerGetBatteryLifeTime</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7813,10 +7999,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9475B32B</NID>
-              <NAME>scePower_driver_9475B32B</NAME>
+              <NAME>scePowerGetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7824,10 +8011,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95204444</NID>
-              <NAME>scePower_driver_95204444</NAME>
+              <NAME>scePowerGetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7835,10 +8023,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x98123F07</NID>
-              <NAME>scePower_driver_98123F07</NAME>
+              <NAME>scePowerGetBatteryRemainCapacity</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7846,10 +8035,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AF4290C</NID>
-              <NAME>scePower_driver_9AF4290C</NAME>
+              <NAME>scePowerCheckWlanCondition</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7857,10 +8047,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B0CC38D</NID>
-              <NAME>scePower_driver_9B0CC38D</NAME>
+              <NAME>scePowerGetCurrentDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7868,10 +8059,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BD29E76</NID>
-              <NAME>scePower_driver_9BD29E76</NAME>
+              <NAME>scePowerRebootStart</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7879,10 +8071,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C0C0375</NID>
-              <NAME>scePower_driver_9C0C0375</NAME>
+              <NAME>scePowerIsRequest</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7890,10 +8083,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA63FA26D</NID>
-              <NAME>scePower_driver_A63FA26D</NAME>
+              <NAME>scePowerGetResumeCount</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7901,10 +8095,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6A56861</NID>
-              <NAME>scePower_driver_A6A56861</NAME>
+              <NAME>scePowerGetBatteryVolt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7912,10 +8107,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7DBAEB6</NID>
-              <NAME>scePower_driver_A7DBAEB6</NAME>
+              <NAME>scePowerIdleTimerDisable</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7923,10 +8119,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABD991D0</NID>
-              <NAME>scePower_driver_ABD991D0</NAME>
+              <NAME>scePowerGetWlanActivity</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7934,10 +8131,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC664491</NID>
-              <NAME>scePower_driver_AC664491</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7945,10 +8143,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE17B5E4</NID>
-              <NAME>scePower_driver_AE17B5E4</NAME>
+              <NAME>scePowerWaitRequestCompletion</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7956,10 +8155,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE51C2CE</NID>
-              <NAME>scePower_driver_AE51C2CE</NAME>
+              <NAME>scePowerGetCpuClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7967,10 +8167,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF4CECF8</NID>
-              <NAME>scePower_driver_AF4CECF8</NAME>
+              <NAME>scePowerBatteryUpdateInfo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -7978,6 +8179,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF7642DF</NID>
@@ -7992,7 +8194,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7365E0E</NID>
-              <NAME>scePower_driver_B7365E0E</NAME>
+              <NAME>scePowerGetWatchDog</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8000,10 +8202,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB97AAA61</NID>
-              <NAME>scePower_driver_B97AAA61</NAME>
+              <NAME>scePowerSetExclusiveWlan</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8011,10 +8214,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9BAA787</NID>
-              <NAME>scePower_driver_B9BAA787</NAME>
+              <NAME>scePowerLimitScCpuClock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8022,10 +8226,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD02C252</NID>
-              <NAME>scePower_driver_BD02C252</NAME>
+              <NAME>scePowerSetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8033,10 +8238,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD9D60B0</NID>
-              <NAME>scePower_driver_BD9D60B0</NAME>
+              <NAME>scePowerRequestColdReset</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8044,10 +8250,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC35907C2</NID>
-              <NAME>scePower_driver_C35907C2</NAME>
+              <NAME>scePowerGetBacklightMaximum</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8055,10 +8262,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5D44BFD</NID>
-              <NAME>scePower_driver_C5D44BFD</NAME>
+              <NAME>scePowerBatteryPermitCharging</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8066,10 +8274,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6D21BB6</NID>
-              <NAME>scePower_driver_C6D21BB6</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8077,10 +8286,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC874B21D</NID>
-              <NAME>scePower_driver_C874B21D</NAME>
+              <NAME>scePowerGetPllClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8088,10 +8298,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB930829</NID>
-              <NAME>scePower_driver_CB930829</NAME>
+              <NAME>scePowerSetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8099,10 +8310,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE239543</NID>
-              <NAME>scePower_driver_CE239543</NAME>
+              <NAME>scePowerVolatileMemLock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8110,10 +8322,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF0F53E5</NID>
-              <NAME>scePower_driver_CF0F53E5</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8121,10 +8334,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD55A517C</NID>
-              <NAME>scePower_driver_D55A517C</NAME>
+              <NAME>scePowerRequestStandby</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8132,10 +8346,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD61C63BD</NID>
-              <NAME>scePower_driver_D61C63BD</NAME>
+              <NAME>scePowerIsBatteryCharging</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8143,10 +8358,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE019DA6</NID>
-              <NAME>scePower_driver_DE019DA6</NAME>
+              <NAME>scePowerGetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8154,10 +8370,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF294946</NID>
-              <NAME>scePower_driver_DF294946</NAME>
+              <NAME>scePowerBatteryForbidCharging</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8165,10 +8382,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2E766C2</NID>
-              <NAME>scePower_driver_E2E766C2</NAME>
+              <NAME>scePowerGetIdleTimer</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8176,10 +8394,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE51256C7</NID>
-              <NAME>scePower_driver_E51256C7</NAME>
+              <NAME>scePowerGetBatteryFullCapacity</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8187,10 +8406,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE660E488</NID>
-              <NAME>scePower_driver_E660E488</NAME>
+              <NAME>scePowerIdleTimerEnable</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8198,10 +8418,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEAD33AFB</NID>
-              <NAME>scePower_driver_EAD33AFB</NAME>
+              <NAME>scePowerGetInnerTemp</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8209,10 +8430,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF305DFE</NID>
-              <NAME>scePower_driver_EF305DFE</NAME>
+              <NAME>scePowerSetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8220,10 +8442,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFAC67F65</NID>
-              <NAME>scePower_driver_FAC67F65</NAME>
+              <NAME>scePowerSetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8231,10 +8454,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFBFD57EB</NID>
-              <NAME>scePower_driver_FBFD57EB</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8242,10 +8466,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC61028C</NID>
-              <NAME>scePower_driver_FC61028C</NAME>
+              <NAME>scePowerTick</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8253,10 +8478,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFFD6435</NID>
-              <NAME>scePower_driver_FFFD6435</NAME>
+              <NAME>scePowerSetBusClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8264,126 +8490,142 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x015DEF2B</NID>
-              <NAME>scePower_driver_015DEF2B</NAME>
+              <NAME>scePowerVolatileMemTryLock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x026C506C</NID>
-              <NAME>scePower_driver_026C506C</NAME>
+              <NAME>scePowerGetCpuClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0832C709</NID>
-              <NAME>scePower_driver_0832C709</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0AF80B18</NID>
-              <NAME>scePower_driver_0AF80B18</NAME>
+              <NAME>scePowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D696430</NID>
-              <NAME>scePower_driver_0D696430</NAME>
+              <NAME>scePowerGetLedOffTiming</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x121169F9</NID>
-              <NAME>scePower_driver_121169F9</NAME>
+              <NAME>scePowerSetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x13B89BD6</NID>
-              <NAME>scePower_driver_13B89BD6</NAME>
+              <NAME>scePowerGetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14C3E103</NID>
-              <NAME>scePower_driver_14C3E103</NAME>
+              <NAME>scePowerRequestSuspendTouchAndGo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16C26857</NID>
-              <NAME>scePower_driver_16C26857</NAME>
+              <NAME>scePowerGetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CD7BBB5</NID>
-              <NAME>scePower_driver_1CD7BBB5</NAME>
+              <NAME>scePowerGetWlanActivity</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2150BDC8</NID>
-              <NAME>scePower_driver_2150BDC8</NAME>
+              <NAME>scePowerWaitRequestCompletion</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23DA6344</NID>
-              <NAME>scePower_driver_23DA6344</NAME>
+              <NAME>scePowerWlanActivate</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2400D1FE</NID>
-              <NAME>scePower_driver_2400D1FE</NAME>
+              <NAME>scePowerIsLowBattery</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x252FE28D</NID>
-              <NAME>scePower_driver_252FE28D</NAME>
+              <NAME>scePowerLimitScCpuClock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29D73076</NID>
-              <NAME>scePower_driver_29D73076</NAME>
+              <NAME>scePowerGetBatteryVolt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BA322B5</NID>
@@ -8395,123 +8637,138 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C5AA94B</NID>
-              <NAME>scePower_driver_2C5AA94B</NAME>
+              <NAME>scePowerBatteryDisableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D4B1D6C</NID>
-              <NAME>scePower_driver_2D4B1D6C</NAME>
+              <NAME>scePowerSetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3051F343</NID>
-              <NAME>scePower_driver_3051F343</NAME>
+              <NAME>scePowerVolatileMemLock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x334E26CB</NID>
-              <NAME>scePower_driver_334E26CB</NAME>
+              <NAME>scePowerGetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33E536E7</NID>
-              <NAME>scePower_driver_33E536E7</NAME>
+              <NAME>scePowerSetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x355FABF7</NID>
-              <NAME>scePower_driver_355FABF7</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37F62422</NID>
-              <NAME>scePower_driver_37F62422</NAME>
+              <NAME>scePowerSetExclusiveWlan</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BB8B460</NID>
-              <NAME>scePower_driver_3BB8B460</NAME>
+              <NAME>scePowerGetBusClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C9391CC</NID>
-              <NAME>scePower_driver_3C9391CC</NAME>
+              <NAME>scePowerBatteryEnableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4098E486</NID>
-              <NAME>scePower_driver_4098E486</NAME>
+              <NAME>scePowerGetCurrentDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4289FA47</NID>
-              <NAME>scePower_driver_4289FA47</NAME>
+              <NAME>scePowerUnregitserCallback</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x45B7CF9F</NID>
-              <NAME>scePower_driver_45B7CF9F</NAME>
+              <NAME>scePowerGetInnerTemp</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C5F1AC9</NID>
-              <NAME>scePower_driver_4C5F1AC9</NAME>
+              <NAME>scePowerWlanDeactivate</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x501255B6</NID>
-              <NAME>scePower_driver_501255B6</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x521FF26A</NID>
-              <NAME>scePower_driver_521FF26A</NAME>
+              <NAME>scePowerVolatileMemUnlock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x542993DE</NID>
@@ -8523,11 +8780,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x54D57666</NID>
-              <NAME>scePower_driver_54D57666</NAME>
+              <NAME>scePowerLimitScBusClock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6214CAD8</NID>
@@ -8539,99 +8797,111 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x656512A9</NID>
-              <NAME>scePower_driver_656512A9</NAME>
+              <NAME>scePowerGetResumeCount</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AA3C36D</NID>
-              <NAME>scePower_driver_6AA3C36D</NAME>
+              <NAME>scePowerBatteryPermitCharging</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C714980</NID>
-              <NAME>scePower_driver_6C714980</NAME>
+              <NAME>scePowerGetBacklightMaximum</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D72E83E</NID>
-              <NAME>scePower_driver_6D72E83E</NAME>
+              <NAME>scePowerGetBatteryTemp</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F4A4F32</NID>
-              <NAME>scePower_driver_6F4A4F32</NAME>
+              <NAME>scePowerGetBatteryElec</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73E2CDF1</NID>
-              <NAME>scePower_driver_73E2CDF1</NAME>
+              <NAME>scePowerSetWakeupCondition</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B765CB1</NID>
-              <NAME>scePower_driver_7B765CB1</NAME>
+              <NAME>scePowerGetBatteryFullCapacity</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E59BA0D</NID>
-              <NAME>scePower_driver_7E59BA0D</NAME>
+              <NAME>scePowerLimitPllClock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82CA2D3D</NID>
-              <NAME>scePower_driver_82CA2D3D</NAME>
+              <NAME>scePowerGetBatteryRemainCapacity</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82CD5D7B</NID>
-              <NAME>scePower_driver_82CD5D7B</NAME>
+              <NAME>scePowerRequestStandby</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8588D59B</NID>
-              <NAME>scePower_driver_8588D59B</NAME>
+              <NAME>scePowerSetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x879DA415</NID>
-              <NAME>scePower_driver_879DA415</NAME>
+              <NAME>scePowerGetWatchDog</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x908A7E02</NID>
@@ -8643,263 +8913,295 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x93B17094</NID>
-              <NAME>scePower_driver_93B17094</NAME>
+              <NAME>scePowerGetBatteryChargingStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9807836C</NID>
-              <NAME>scePower_driver_9807836C</NAME>
+              <NAME>scePowerBatteryUpdateInfo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E3BE55C</NID>
-              <NAME>scePower_driver_9E3BE55C</NAME>
+              <NAME>scePowerIsBatteryCharging</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E58B343</NID>
-              <NAME>scePower_driver_9E58B343</NAME>
+              <NAME>scePowerGetBatteryLifeTime</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9EEBC74E</NID>
-              <NAME>scePower_driver_9EEBC74E</NAME>
+              <NAME>scePowerGetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FE11E62</NID>
-              <NAME>scePower_driver_9FE11E62</NAME>
+              <NAME>scePowerSetBusClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FEFCBF6</NID>
-              <NAME>scePower_driver_9FEFCBF6</NAME>
+              <NAME>scePowerBatteryForbidCharging</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA100053D</NID>
-              <NAME>scePower_driver_A100053D</NAME>
+              <NAME>scePowerIdleTimerEnable</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA468C844</NID>
-              <NAME>scePower_driver_A468C844</NAME>
+              <NAME>scePowerIsSuspendRequired</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4FA407B</NID>
-              <NAME>scePower_driver_A4FA407B</NAME>
+              <NAME>scePowerLock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6E22F84</NID>
-              <NAME>scePower_driver_A6E22F84</NAME>
+              <NAME>scePowerGetPllClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7854EB5</NID>
-              <NAME>scePower_driver_A7854EB5</NAME>
+              <NAME>scePowerGetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACE3DA65</NID>
-              <NAME>scePower_driver_ACE3DA65</NAME>
+              <NAME>scePowerGetBusClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACE5B0F3</NID>
-              <NAME>scePower_driver_ACE5B0F3</NAME>
+              <NAME>scePowerSetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB23962AE</NID>
-              <NAME>scePower_driver_B23962AE</NAME>
+              <NAME>scePowerGetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB63376C8</NID>
-              <NAME>scePower_driver_B63376C8</NAME>
+              <NAME>scePowerCheckWlanCondition</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6D5F75F</NID>
-              <NAME>scePower_driver_B6D5F75F</NAME>
+              <NAME>scePowerGetCurrentTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9DABCC1</NID>
-              <NAME>scePower_driver_B9DABCC1</NAME>
+              <NAME>scePowerIdleTimerDisable</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE85AABF</NID>
-              <NAME>scePower_driver_BE85AABF</NAME>
+              <NAME>scePowerSetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF0F2413</NID>
-              <NAME>scePower_driver_BF0F2413</NAME>
+              <NAME>scePowerRequestColdReset</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCAF28EC2</NID>
-              <NAME>scePower_driver_CAF28EC2</NAME>
+              <NAME>scePowerRebootStart</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB25ECDE</NID>
-              <NAME>scePower_driver_CB25ECDE</NAME>
+              <NAME>scePowerIsRequest</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB3FA25E</NID>
-              <NAME>scePower_driver_CB3FA25E</NAME>
+              <NAME>scePowerGetCurrentDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD54FEC9E</NID>
-              <NAME>scePower_driver_D54FEC9E</NAME>
+              <NAME>scePowerGetPllClockFrequencyInt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC1AB57E</NID>
-              <NAME>scePower_driver_DC1AB57E</NAME>
+              <NAME>scePowerGetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD702664</NID>
-              <NAME>scePower_driver_DD702664</NAME>
+              <NAME>scePowerGetIdleTimer</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFDEAE09</NID>
-              <NAME>scePower_driver_DFDEAE09</NAME>
+              <NAME>scePowerGetBatteryChargeCycle</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3D0F738</NID>
-              <NAME>scePower_driver_E3D0F738</NAME>
+              <NAME>scePowerTick</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE789E979</NID>
-              <NAME>scePower_driver_E789E979</NAME>
+              <NAME>scePowerSetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEACE4C4C</NID>
-              <NAME>scePower_driver_EACE4C4C</NAME>
+              <NAME>scePowerGetForceSuspendCapacity</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF06C32FC</NID>
-              <NAME>scePower_driver_F06C32FC</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0C2427D</NID>
-              <NAME>scePower_driver_F0C2427D</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0146A026</NID>
-              <NAME>scePower_driver_0146A026</NAME>
+              <NAME>scePowerIsSuspendRequired</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -8910,10 +9212,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0AFD8E3A</NID>
-              <NAME>scePower_driver_0AFD8E3A</NAME>
+              <NAME>scePowerIsBatteryCharging</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -8924,10 +9227,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B32107F</NID>
-              <NAME>scePower_driver_0B32107F</NAME>
+              <NAME>scePowerBatteryEnableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -8938,10 +9242,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BEC2080</NID>
-              <NAME>scePower_driver_0BEC2080</NAME>
+              <NAME>scePowerSetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -8952,10 +9257,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D4E4569</NID>
-              <NAME>scePower_driver_0D4E4569</NAME>
+              <NAME>scePowerIsLowBattery</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -8966,10 +9272,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0EE576B9</NID>
-              <NAME>scePower_driver_0EE576B9</NAME>
+              <NAME>scePowerSetBusClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -8980,10 +9287,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x11715D2A</NID>
-              <NAME>scePower_driver_11715D2A</NAME>
+              <NAME>scePowerGetResumeCount</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -8994,10 +9302,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x171B798E</NID>
-              <NAME>scePower_driver_171B798E</NAME>
+              <NAME>scePowerWaitRequestCompletion</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9008,10 +9317,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1920C0A0</NID>
-              <NAME>scePower_driver_1920C0A0</NAME>
+              <NAME>scePowerSetExclusiveWlan</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9022,10 +9332,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19DC5455</NID>
-              <NAME>scePower_driver_19DC5455</NAME>
+              <NAME>scePowerGetCurrentTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9036,10 +9347,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A4EC14D</NID>
-              <NAME>scePower_driver_1A4EC14D</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9050,10 +9362,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D790B6E</NID>
-              <NAME>scePower_driver_1D790B6E</NAME>
+              <NAME>scePowerGetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9064,10 +9377,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1FBCF6E7</NID>
-              <NAME>scePower_driver_1FBCF6E7</NAME>
+              <NAME>scePowerGetBatteryFullCapacity</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9078,10 +9392,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2303E6AE</NID>
-              <NAME>scePower_driver_2303E6AE</NAME>
+              <NAME>scePowerGetWlanActivity</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9092,10 +9407,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2319C47A</NID>
-              <NAME>scePower_driver_2319C47A</NAME>
+              <NAME>scePowerSetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9106,10 +9422,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2510DDA5</NID>
-              <NAME>scePower_driver_2510DDA5</NAME>
+              <NAME>scePowerGetForceSuspendCapacity</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9120,10 +9437,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25E4593E</NID>
-              <NAME>scePower_driver_25E4593E</NAME>
+              <NAME>scePowerLimitScCpuClock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9134,10 +9452,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FC4DE73</NID>
-              <NAME>scePower_driver_2FC4DE73</NAME>
+              <NAME>scePowerSetDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9148,10 +9467,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x364555F2</NID>
-              <NAME>scePower_driver_364555F2</NAME>
+              <NAME>scePowerGetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9162,10 +9482,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A821D92</NID>
-              <NAME>scePower_driver_3A821D92</NAME>
+              <NAME>scePowerGetPllClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9176,10 +9497,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B969585</NID>
-              <NAME>scePower_driver_3B969585</NAME>
+              <NAME>scePowerVolatileMemUnlock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9190,6 +9512,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4387A6E7</NID>
@@ -9207,7 +9530,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4685386B</NID>
-              <NAME>scePower_driver_4685386B</NAME>
+              <NAME>scePowerGetBatteryVolt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9218,10 +9541,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47CDDC1A</NID>
-              <NAME>scePower_driver_47CDDC1A</NAME>
+              <NAME>scePowerRequestStandby</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9232,10 +9556,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D3FA315</NID>
-              <NAME>scePower_driver_4D3FA315</NAME>
+              <NAME>scePowerIsRequest</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9246,10 +9571,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x50EAAA0C</NID>
-              <NAME>scePower_driver_50EAAA0C</NAME>
+              <NAME>scePowerGetBusClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9260,10 +9586,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x537E89B0</NID>
-              <NAME>scePower_driver_537E89B0</NAME>
+              <NAME>scePowerBatteryPermitCharging</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9274,10 +9601,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x539927FE</NID>
-              <NAME>scePower_driver_539927FE</NAME>
+              <NAME>scePowerSetWakeupCondition</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9288,10 +9616,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56040BF5</NID>
-              <NAME>scePower_driver_56040BF5</NAME>
+              <NAME>scePowerGetBatteryChargingStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9302,10 +9631,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57B0A0B8</NID>
-              <NAME>scePower_driver_57B0A0B8</NAME>
+              <NAME>scePowerRebootStart</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9316,10 +9646,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x59802E62</NID>
-              <NAME>scePower_driver_59802E62</NAME>
+              <NAME>scePowerGetCpuClockFrequencyInt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9330,10 +9661,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AB02D77</NID>
-              <NAME>scePower_driver_5AB02D77</NAME>
+              <NAME>scePowerLimitPllClock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9344,10 +9676,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E279347</NID>
-              <NAME>scePower_driver_5E279347</NAME>
+              <NAME>scePowerGetCurrentDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9358,10 +9691,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E5CA9CA</NID>
-              <NAME>scePower_driver_5E5CA9CA</NAME>
+              <NAME>scePowerIdleTimerEnable</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9372,10 +9706,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EE66C30</NID>
-              <NAME>scePower_driver_5EE66C30</NAME>
+              <NAME>scePowerUnregitserCallback</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9386,10 +9721,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x602FC166</NID>
-              <NAME>scePower_driver_602FC166</NAME>
+              <NAME>scePowerLimitScBusClock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9400,10 +9736,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x66335AEB</NID>
-              <NAME>scePower_driver_66335AEB</NAME>
+              <NAME>scePowerVolatileMemTryLock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9414,10 +9751,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69958B65</NID>
-              <NAME>scePower_driver_69958B65</NAME>
+              <NAME>scePowerBatteryDisableUsbCharging</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9428,6 +9766,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D908DB7</NID>
@@ -9445,7 +9784,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E3D7CAF</NID>
-              <NAME>scePower_driver_6E3D7CAF</NAME>
+              <NAME>scePowerGetInnerTemp</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9456,10 +9795,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EF40205</NID>
-              <NAME>scePower_driver_6EF40205</NAME>
+              <NAME>scePowerGetBatteryTemp</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9470,10 +9810,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x709CF70B</NID>
-              <NAME>scePower_driver_709CF70B</NAME>
+              <NAME>scePowerGetPllClockFrequencyInt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9484,10 +9825,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x775DA498</NID>
-              <NAME>scePower_driver_775DA498</NAME>
+              <NAME>scePowerCheckWlanCondition</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9498,10 +9840,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78834264</NID>
-              <NAME>scePower_driver_78834264</NAME>
+              <NAME>scePowerGetGeEdramRefreshMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9512,10 +9855,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BC03040</NID>
-              <NAME>scePower_driver_7BC03040</NAME>
+              <NAME>scePowerGetCpuClockFrequencyFloat</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9526,10 +9870,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80A2AAD4</NID>
-              <NAME>scePower_driver_80A2AAD4</NAME>
+              <NAME>scePowerRequestColdReset</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9540,10 +9885,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x97205EAB</NID>
-              <NAME>scePower_driver_97205EAB</NAME>
+              <NAME>scePowerGetCurrentDdrVoltage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9554,10 +9900,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9816FD74</NID>
-              <NAME>scePower_driver_9816FD74</NAME>
+              <NAME>scePowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9568,10 +9915,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A13CBFD</NID>
-              <NAME>scePower_driver_9A13CBFD</NAME>
+              <NAME>scePowerGetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9582,10 +9930,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E5115BA</NID>
-              <NAME>scePower_driver_9E5115BA</NAME>
+              <NAME>scePowerIdleTimerDisable</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9596,10 +9945,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9EBAFCB2</NID>
-              <NAME>scePower_driver_9EBAFCB2</NAME>
+              <NAME>scePowerGetLedOffTiming</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9610,10 +9960,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA40EC0F7</NID>
-              <NAME>scePower_driver_A40EC0F7</NAME>
+              <NAME>scePowerTick</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9624,10 +9975,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA627665B</NID>
-              <NAME>scePower_driver_A627665B</NAME>
+              <NAME>scePowerSetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9638,6 +9990,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA73B9EC5</NID>
@@ -9655,7 +10008,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB61C640</NID>
-              <NAME>scePower_driver_AB61C640</NAME>
+              <NAME>scePowerWlanDeactivate</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9666,10 +10019,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF23EFA6</NID>
-              <NAME>scePower_driver_AF23EFA6</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9680,10 +10034,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB47EFC8B</NID>
-              <NAME>scePower_driver_B47EFC8B</NAME>
+              <NAME>scePowerSetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9694,10 +10049,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB52B9B8F</NID>
-              <NAME>scePower_driver_B52B9B8F</NAME>
+              <NAME>scePowerGetWatchDog</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9708,10 +10064,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8645575</NID>
-              <NAME>scePower_driver_B8645575</NAME>
+              <NAME>scePowerGetTachyonVoltage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9722,10 +10079,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDB55F0E</NID>
-              <NAME>scePower_driver_BDB55F0E</NAME>
+              <NAME>scePowerGetPowerSwMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9736,10 +10094,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF483F05</NID>
-              <NAME>scePower_driver_BF483F05</NAME>
+              <NAME>scePowerLock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9750,10 +10109,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA3F6145</NID>
-              <NAME>scePower_driver_CA3F6145</NAME>
+              <NAME>scePowerGetIdleTimer</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9764,6 +10124,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCAE20DCA</NID>
@@ -9781,7 +10142,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE4F48E2</NID>
-              <NAME>scePower_driver_CE4F48E2</NAME>
+              <NAME>scePowerGetDdrStrength</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9792,10 +10153,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEDCFA91</NID>
-              <NAME>scePower_driver_CEDCFA91</NAME>
+              <NAME>scePowerWlanActivate</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9806,10 +10168,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD13E3897</NID>
-              <NAME>scePower_driver_D13E3897</NAME>
+              <NAME>scePowerGetBatteryRemainCapacity</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9820,10 +10183,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD59CD29D</NID>
-              <NAME>scePower_driver_D59CD29D</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9834,10 +10198,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8F765CE</NID>
-              <NAME>scePower_driver_D8F765CE</NAME>
+              <NAME>scePowerSetCpuClockFrequency</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9848,10 +10213,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC596BD6</NID>
-              <NAME>scePower_driver_DC596BD6</NAME>
+              <NAME>scePowerGetBatteryChargeCycle</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9862,10 +10228,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE07EAA4A</NID>
-              <NAME>scePower_driver_E07EAA4A</NAME>
+              <NAME>scePowerSetCallbackMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9876,10 +10243,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2552927</NID>
-              <NAME>scePower_driver_E2552927</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9890,10 +10258,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2AFADF3</NID>
-              <NAME>scePower_driver_E2AFADF3</NAME>
+              <NAME>scePowerVolatileMemLock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9904,10 +10273,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE69051A1</NID>
-              <NAME>scePower_driver_E69051A1</NAME>
+              <NAME>scePowerGetBatteryElec</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9918,10 +10288,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEAB997D5</NID>
-              <NAME>scePower_driver_EAB997D5</NAME>
+              <NAME>scePowerGetBatteryLifeTime</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9932,10 +10303,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC0D7334</NID>
-              <NAME>scePower_driver_EC0D7334</NAME>
+              <NAME>scePowerRequestSuspendTouchAndGo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9946,10 +10318,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED6605C6</NID>
-              <NAME>scePower_driver_ED6605C6</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9960,10 +10333,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDED0985</NID>
-              <NAME>scePower_driver_EDED0985</NAME>
+              <NAME>scePowerBatteryUpdateInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9974,10 +10348,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1A2AD7A</NID>
-              <NAME>scePower_driver_F1A2AD7A</NAME>
+              <NAME>scePowerBatteryForbidCharging</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9988,10 +10363,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF39CEE67</NID>
-              <NAME>scePower_driver_F39CEE67</NAME>
+              <NAME>scePowerGetBacklightMaximum</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10002,6 +10378,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

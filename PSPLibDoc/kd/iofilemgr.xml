@@ -5248,97 +5248,107 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x09436810</NID>
-              <NAME>IoFileMgrForKernel_09436810</NAME>
+              <NAME>sceIoCloseAll</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B281A72</NID>
-              <NAME>IoFileMgrForKernel_0B281A72</NAME>
+              <NAME>sceIoGetThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x128BD999</NID>
-              <NAME>IoFileMgrForKernel_128BD999</NAME>
+              <NAME>sceIoGetIobUserLevel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x26814A57</NID>
-              <NAME>IoFileMgrForKernel_26814A57</NAME>
+              <NAME>sceIoAddHook</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x588C6903</NID>
-              <NAME>IoFileMgrForKernel_588C6903</NAME>
+              <NAME>sceIoValidateFd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA16D8C5C</NID>
-              <NAME>IoFileMgrForKernel_A16D8C5C</NAME>
+              <NAME>sceIoChangeThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC27B252F</NID>
-              <NAME>IoFileMgrForKernel_C27B252F</NAME>
+              <NAME>sceIoTerminateFd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB1F53B3</NID>
-              <NAME>IoFileMgrForKernel_CB1F53B3</NAME>
+              <NAME>sceIoReopen</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC2B9129</NID>
-              <NAME>IoFileMgrForKernel_CC2B9129</NAME>
+              <NAME>sceIoGetFdDebugInfo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5A18603</NID>
-              <NAME>IoFileMgrForKernel_E5A18603</NAME>
+              <NAME>sceIoGetUID</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D6CC391</NID>
-              <NAME>IoFileMgrForKernel_0D6CC391</NAME>
+              <NAME>sceIoValidateFd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5346,10 +5356,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E9E1A62</NID>
-              <NAME>IoFileMgrForKernel_3E9E1A62</NAME>
+              <NAME>sceIoAddHook</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5357,10 +5368,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x450EDC8A</NID>
-              <NAME>IoFileMgrForKernel_450EDC8A</NAME>
+              <NAME>sceIoGetUID</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5368,10 +5380,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x636BB28B</NID>
-              <NAME>IoFileMgrForKernel_636BB28B</NAME>
+              <NAME>sceIoGetThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5379,10 +5392,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72AC9C0E</NID>
-              <NAME>IoFileMgrForKernel_72AC9C0E</NAME>
+              <NAME>sceIoTerminateFd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5390,10 +5404,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x993395FE</NID>
-              <NAME>IoFileMgrForKernel_993395FE</NAME>
+              <NAME>sceIoGetIobUserLevel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5401,10 +5416,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B81416E</NID>
-              <NAME>IoFileMgrForKernel_9B81416E</NAME>
+              <NAME>sceIoCloseAll</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5412,10 +5428,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB67CC34F</NID>
-              <NAME>IoFileMgrForKernel_B67CC34F</NAME>
+              <NAME>sceIoGetFdDebugInfo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5423,10 +5440,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA3B4391</NID>
-              <NAME>IoFileMgrForKernel_CA3B4391</NAME>
+              <NAME>sceIoChangeThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5434,10 +5452,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6569E5A</NID>
-              <NAME>IoFileMgrForKernel_D6569E5A</NAME>
+              <NAME>sceIoReopen</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -5445,90 +5464,101 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F54AE78</NID>
-              <NAME>IoFileMgrForKernel_1F54AE78</NAME>
+              <NAME>sceIoTerminateFd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B8EC797</NID>
-              <NAME>IoFileMgrForKernel_2B8EC797</NAME>
+              <NAME>sceIoValidateFd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34ADDEA9</NID>
-              <NAME>IoFileMgrForKernel_34ADDEA9</NAME>
+              <NAME>sceIoGetThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x499C552D</NID>
-              <NAME>IoFileMgrForKernel_499C552D</NAME>
+              <NAME>sceIoGetFdDebugInfo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A90F545</NID>
-              <NAME>IoFileMgrForKernel_6A90F545</NAME>
+              <NAME>sceIoGetIobUserLevel</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C2EBE4E</NID>
-              <NAME>IoFileMgrForKernel_6C2EBE4E</NAME>
+              <NAME>sceIoGetUID</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F096EDF</NID>
-              <NAME>IoFileMgrForKernel_9F096EDF</NAME>
+              <NAME>sceIoReopen</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA14620C8</NID>
-              <NAME>IoFileMgrForKernel_A14620C8</NAME>
+              <NAME>sceIoCloseAll</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC87784D8</NID>
-              <NAME>IoFileMgrForKernel_C87784D8</NAME>
+              <NAME>sceIoChangeThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD12A0BF3</NID>
-              <NAME>IoFileMgrForKernel_D12A0BF3</NAME>
+              <NAME>sceIoAddHook</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10656D20</NID>
-              <NAME>IoFileMgrForKernel_10656D20</NAME>
+              <NAME>sceIoGetUID</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5539,10 +5569,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30DA4775</NID>
-              <NAME>IoFileMgrForKernel_30DA4775</NAME>
+              <NAME>sceIoReopen</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5553,10 +5584,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B00C8FB</NID>
-              <NAME>IoFileMgrForKernel_5B00C8FB</NAME>
+              <NAME>sceIoValidateFd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5567,10 +5599,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BC52506</NID>
-              <NAME>IoFileMgrForKernel_5BC52506</NAME>
+              <NAME>sceIoTerminateFd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5581,10 +5614,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92E29B7C</NID>
-              <NAME>IoFileMgrForKernel_92E29B7C</NAME>
+              <NAME>sceIoGetFdDebugInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5595,10 +5629,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x957305E4</NID>
-              <NAME>IoFileMgrForKernel_957305E4</NAME>
+              <NAME>sceIoGetThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5609,10 +5644,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E12C817</NID>
-              <NAME>IoFileMgrForKernel_9E12C817</NAME>
+              <NAME>sceIoAddHook</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5623,10 +5659,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA72FAEB4</NID>
-              <NAME>IoFileMgrForKernel_A72FAEB4</NAME>
+              <NAME>sceIoChangeThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5637,10 +5674,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB0064BD</NID>
-              <NAME>IoFileMgrForKernel_DB0064BD</NAME>
+              <NAME>sceIoCloseAll</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5651,10 +5689,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFE9FFDE</NID>
-              <NAME>IoFileMgrForKernel_FFE9FFDE</NAME>
+              <NAME>sceIoGetIobUserLevel</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5665,13 +5704,15 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D0D4B29</NID>
-              <NAME>IoFileMgrForKernel_1D0D4B29</NAME>
+              <NAME>sceIoTerminateFd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D2711C5</NID>
@@ -5682,59 +5723,67 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2912ADE8</NID>
-              <NAME>IoFileMgrForKernel_2912ADE8</NAME>
+              <NAME>sceIoGetThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47530D7A</NID>
-              <NAME>IoFileMgrForKernel_47530D7A</NAME>
+              <NAME>sceIoAddHook</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x593C32F4</NID>
-              <NAME>IoFileMgrForKernel_593C32F4</NAME>
+              <NAME>sceIoReopen</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79C8BA96</NID>
-              <NAME>IoFileMgrForKernel_79C8BA96</NAME>
+              <NAME>sceIoGetFdDebugInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C15C11E</NID>
-              <NAME>IoFileMgrForKernel_8C15C11E</NAME>
+              <NAME>sceIoChangeThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3411C4F</NID>
-              <NAME>IoFileMgrForKernel_B3411C4F</NAME>
+              <NAME>sceIoValidateFd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB83F536C</NID>
-              <NAME>IoFileMgrForKernel_B83F536C</NAME>
+              <NAME>sceIoGetUID</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD7D5591</NID>
-              <NAME>IoFileMgrForKernel_BD7D5591</NAME>
+              <NAME>sceIoGetIobUserLevel</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD55ECB19</NID>
@@ -5745,14 +5794,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0D28D94</NID>
-              <NAME>IoFileMgrForKernel_F0D28D94</NAME>
+              <NAME>sceIoCloseAll</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0AB86E5D</NID>
-              <NAME>IoFileMgrForKernel_0AB86E5D</NAME>
+              <NAME>sceIoGetThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5761,10 +5811,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F663EBF</NID>
-              <NAME>IoFileMgrForKernel_4F663EBF</NAME>
+              <NAME>sceIoGetUID</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5773,10 +5824,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CE0E5F0</NID>
-              <NAME>IoFileMgrForKernel_6CE0E5F0</NAME>
+              <NAME>sceIoGetIobUserLevel</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5785,10 +5837,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D5CDC31</NID>
-              <NAME>IoFileMgrForKernel_9D5CDC31</NAME>
+              <NAME>sceIoChangeThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5797,10 +5850,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2C5D86F</NID>
-              <NAME>IoFileMgrForKernel_B2C5D86F</NAME>
+              <NAME>sceIoAddHook</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5809,10 +5863,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC30BB19</NID>
-              <NAME>IoFileMgrForKernel_DC30BB19</NAME>
+              <NAME>sceIoGetFdDebugInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5821,6 +5876,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5307197</NID>
@@ -5836,7 +5892,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB5BE7EC</NID>
-              <NAME>IoFileMgrForKernel_EB5BE7EC</NAME>
+              <NAME>sceIoCloseAll</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5845,10 +5901,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0AD3C72</NID>
-              <NAME>IoFileMgrForKernel_F0AD3C72</NAME>
+              <NAME>sceIoReopen</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5857,10 +5914,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2990AC6</NID>
-              <NAME>IoFileMgrForKernel_F2990AC6</NAME>
+              <NAME>sceIoValidateFd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5869,6 +5927,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9FC5881</NID>
@@ -5896,7 +5955,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x08CB99E3</NID>
-              <NAME>IoFileMgrForKernel_08CB99E3</NAME>
+              <NAME>sceIoCloseAll</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5909,10 +5968,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x13A4DEB0</NID>
-              <NAME>IoFileMgrForKernel_13A4DEB0</NAME>
+              <NAME>sceIoValidateFd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5925,6 +5985,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x380694BE</NID>
@@ -5944,7 +6005,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x421B8EB4</NID>
-              <NAME>IoFileMgrForKernel_421B8EB4</NAME>
+              <NAME>sceIoReopen</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5957,10 +6018,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64ED84C9</NID>
-              <NAME>IoFileMgrForKernel_64ED84C9</NAME>
+              <NAME>sceIoGetUID</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5973,10 +6035,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74482CE3</NID>
-              <NAME>IoFileMgrForKernel_74482CE3</NAME>
+              <NAME>sceIoGetThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5989,10 +6052,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x804DFCE6</NID>
-              <NAME>IoFileMgrForKernel_804DFCE6</NAME>
+              <NAME>sceIoGetIobUserLevel</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6005,10 +6069,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA61C177</NID>
-              <NAME>IoFileMgrForKernel_AA61C177</NAME>
+              <NAME>sceIoGetFdDebugInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6021,6 +6086,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0C2C948</NID>
@@ -6040,7 +6106,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBCC4C96F</NID>
-              <NAME>IoFileMgrForKernel_BCC4C96F</NAME>
+              <NAME>sceIoChangeThreadCwd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6053,10 +6119,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF50BAE8</NID>
-              <NAME>IoFileMgrForKernel_BF50BAE8</NAME>
+              <NAME>sceIoAddHook</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6069,6 +6136,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD18CF368</NID>

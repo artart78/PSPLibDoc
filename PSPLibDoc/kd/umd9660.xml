@@ -417,23 +417,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E856A3A</NID>
-              <NAME>sceUmd9660_driver_1E856A3A</NAME>
+              <NAME>sceUmd9660InvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AC17FB1</NID>
-              <NAME>sceUmd9660_driver_2AC17FB1</NAME>
+              <NAME>sceUmd9660ReadPathTable</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32AC17C8</NID>
@@ -457,23 +459,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x59E73320</NID>
-              <NAME>sceUmd9660_driver_59E73320</NAME>
+              <NAME>sceUmd9660Init</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x658C922C</NID>
-              <NAME>sceUmd9660_driver_658C922C</NAME>
+              <NAME>sceUmd9660SetPFI</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C96D442</NID>
@@ -487,23 +491,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x80E4C21C</NID>
-              <NAME>sceUmd9660_driver_80E4C21C</NAME>
+              <NAME>sceUmd9660Term</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDAAEA5F3</NID>
-              <NAME>sceUmd9660_driver_DAAEA5F3</NAME>
+              <NAME>sceUmd9660ReadPvd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF2A1F8A</NID>
@@ -527,39 +533,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x135F12C1</NID>
-              <NAME>sceUmd9660_driver_135F12C1</NAME>
+              <NAME>sceUmd9660InvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15FF8BC4</NID>
-              <NAME>sceUmd9660_driver_15FF8BC4</NAME>
+              <NAME>sceUmd9660Term</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EBA2000</NID>
-              <NAME>sceUmd9660_driver_1EBA2000</NAME>
+              <NAME>sceUmd9660ReadPvd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FF9CD59</NID>
-              <NAME>sceUmd9660_driver_3FF9CD59</NAME>
+              <NAME>sceUmd9660SetPFI</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x548F2C04</NID>
@@ -581,12 +591,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD355194</NID>
-              <NAME>sceUmd9660_driver_BD355194</NAME>
+              <NAME>sceUmd9660ReadPathTable</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD07AB295</NID>
@@ -617,12 +628,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2E77A27</NID>
-              <NAME>sceUmd9660_driver_F2E77A27</NAME>
+              <NAME>sceUmd9660Init</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFBD990B1</NID>
@@ -635,7 +647,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x11662AA8</NID>
-              <NAME>sceUmd9660_driver_11662AA8</NAME>
+              <NAME>sceUmd9660Term</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -643,6 +655,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A7E668C</NID>
@@ -657,7 +670,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EA97398</NID>
-              <NAME>sceUmd9660_driver_3EA97398</NAME>
+              <NAME>sceUmd9660SetPFI</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -665,10 +678,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5074859C</NID>
-              <NAME>sceUmd9660_driver_5074859C</NAME>
+              <NAME>sceUmd9660ReadPathTable</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -676,6 +690,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53E07684</NID>
@@ -701,7 +716,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6932935A</NID>
-              <NAME>sceUmd9660_driver_6932935A</NAME>
+              <NAME>sceUmd9660InvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -709,10 +724,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93B8D80D</NID>
-              <NAME>sceUmd9660_driver_93B8D80D</NAME>
+              <NAME>sceUmd9660Init</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -720,6 +736,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D9B8E9E</NID>
@@ -745,7 +762,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDAC21F27</NID>
-              <NAME>sceUmd9660_driver_DAC21F27</NAME>
+              <NAME>sceUmd9660ReadPvd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -753,6 +770,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF24F6632</NID>
@@ -783,43 +801,48 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AC940AD</NID>
-              <NAME>sceUmd9660_driver_2AC940AD</NAME>
+              <NAME>sceUmd9660InvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DFF13FD</NID>
-              <NAME>sceUmd9660_driver_2DFF13FD</NAME>
+              <NAME>sceUmd9660ReadPathTable</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x803E3123</NID>
-              <NAME>sceUmd9660_driver_803E3123</NAME>
+              <NAME>sceUmd9660Term</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ACADBA7</NID>
-              <NAME>sceUmd9660_driver_8ACADBA7</NAME>
+              <NAME>sceUmd9660Init</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D4F406E</NID>
-              <NAME>sceUmd9660_driver_8D4F406E</NAME>
+              <NAME>sceUmd9660SetPFI</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F11CB7C</NID>
@@ -847,11 +870,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF45CB430</NID>
-              <NAME>sceUmd9660_driver_F45CB430</NAME>
+              <NAME>sceUmd9660ReadPvd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCEF208E</NID>
@@ -863,7 +887,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x10B6F8BB</NID>
-              <NAME>sceUmd9660_driver_10B6F8BB</NAME>
+              <NAME>sceUmd9660Term</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -874,10 +898,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1847DC77</NID>
-              <NAME>sceUmd9660_driver_1847DC77</NAME>
+              <NAME>sceUmd9660ReadPvd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -888,6 +913,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40D8E3C0</NID>
@@ -919,7 +945,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x857B979F</NID>
-              <NAME>sceUmd9660_driver_857B979F</NAME>
+              <NAME>sceUmd9660ReadPathTable</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -930,6 +956,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB142E428</NID>
@@ -961,7 +988,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8EEC13B</NID>
-              <NAME>sceUmd9660_driver_B8EEC13B</NAME>
+              <NAME>sceUmd9660Init</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -972,10 +999,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE55F15F</NID>
-              <NAME>sceUmd9660_driver_BE55F15F</NAME>
+              <NAME>sceUmd9660InvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -986,6 +1014,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC05824AE</NID>
@@ -1017,7 +1046,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8FB5EA6</NID>
-              <NAME>sceUmd9660_driver_E8FB5EA6</NAME>
+              <NAME>sceUmd9660SetPFI</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1028,13 +1057,15 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15F99A05</NID>
-              <NAME>sceUmd9660_driver_15F99A05</NAME>
+              <NAME>sceUmd9660SetPFI</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17DC16B3</NID>
@@ -1059,10 +1090,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E58AE79</NID>
-              <NAME>sceUmd9660_driver_1E58AE79</NAME>
+              <NAME>sceUmd9660InvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29DC8904</NID>
@@ -1080,10 +1112,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x73C76C72</NID>
-              <NAME>sceUmd9660_driver_73C76C72</NAME>
+              <NAME>sceUmd9660ReadPathTable</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DBA99FD</NID>
@@ -1094,24 +1127,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3A79AF1</NID>
-              <NAME>sceUmd9660_driver_B3A79AF1</NAME>
+              <NAME>sceUmd9660ReadPvd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0516B29</NID>
-              <NAME>sceUmd9660_driver_D0516B29</NAME>
+              <NAME>sceUmd9660Term</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1BED5B5</NID>
-              <NAME>sceUmd9660_driver_F1BED5B5</NAME>
+              <NAME>sceUmd9660Init</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x083A1886</NID>
@@ -1133,21 +1169,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2958A2E9</NID>
-              <NAME>sceUmd9660_driver_2958A2E9</NAME>
+              <NAME>sceUmd9660ReadPvd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B3F2BBF</NID>
-              <NAME>sceUmd9660_driver_2B3F2BBF</NAME>
+              <NAME>sceUmd9660Term</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63342C0F</NID>
@@ -1187,12 +1225,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x79B823A3</NID>
-              <NAME>sceUmd9660_driver_79B823A3</NAME>
+              <NAME>sceUmd9660InvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CB291E3</NID>
@@ -1205,21 +1244,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CA2C24B</NID>
-              <NAME>sceUmd9660_driver_8CA2C24B</NAME>
+              <NAME>sceUmd9660Init</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9E42C40</NID>
-              <NAME>sceUmd9660_driver_A9E42C40</NAME>
+              <NAME>sceUmd9660ReadPathTable</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAF88FE6</NID>
@@ -1232,12 +1273,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC2007768</NID>
-              <NAME>sceUmd9660_driver_C2007768</NAME>
+              <NAME>sceUmd9660SetPFI</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D89BD8F</NID>
@@ -1280,7 +1322,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x41B950C4</NID>
-              <NAME>sceUmd9660_driver_41B950C4</NAME>
+              <NAME>sceUmd9660SetPFI</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1290,6 +1332,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5041FC4C</NID>
@@ -1332,7 +1375,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x73D1EF45</NID>
-              <NAME>sceUmd9660_driver_73D1EF45</NAME>
+              <NAME>sceUmd9660Term</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1342,6 +1385,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F05CCC8</NID>
@@ -1371,7 +1415,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6560293</NID>
-              <NAME>sceUmd9660_driver_B6560293</NAME>
+              <NAME>sceUmd9660ReadPvd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1381,10 +1425,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE1E204DA</NID>
-              <NAME>sceUmd9660_driver_E1E204DA</NAME>
+              <NAME>sceUmd9660InvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1394,10 +1439,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE889732E</NID>
-              <NAME>sceUmd9660_driver_E889732E</NAME>
+              <NAME>sceUmd9660Init</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1407,10 +1453,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC6CCE24</NID>
-              <NAME>sceUmd9660_driver_FC6CCE24</NAME>
+              <NAME>sceUmd9660ReadPathTable</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1420,30 +1467,34 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12A69916</NID>
-              <NAME>sceUmd9660_driver_12A69916</NAME>
+              <NAME>sceUmd9660ReadPvd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3821FA94</NID>
-              <NAME>sceUmd9660_driver_3821FA94</NAME>
+              <NAME>sceUmd9660Term</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x393951B3</NID>
-              <NAME>sceUmd9660_driver_393951B3</NAME>
+              <NAME>sceUmd9660ReadPathTable</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3CC9CE54</NID>
@@ -1479,19 +1530,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x65B9585C</NID>
-              <NAME>sceUmd9660_driver_65B9585C</NAME>
+              <NAME>sceUmd9660Init</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C89B826</NID>
-              <NAME>sceUmd9660_driver_7C89B826</NAME>
+              <NAME>sceUmd9660SetPFI</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EB57F56</NID>
@@ -1511,11 +1564,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9565BF47</NID>
-              <NAME>sceUmd9660_driver_9565BF47</NAME>
+              <NAME>sceUmd9660InvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0933C16</NID>

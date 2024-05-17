@@ -1443,13 +1443,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x00FBD201</NID>
-              <NAME>sceVshCommonGui_00FBD201</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F3E011D</NID>
@@ -1463,33 +1464,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x11C48509</NID>
-              <NAME>sceVshCommonGui_11C48509</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F02F9D5</NID>
-              <NAME>sceVshCommonGui_1F02F9D5</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2025D016</NID>
-              <NAME>sceVshCommonGui_2025D016</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25AC25C0</NID>
@@ -1503,43 +1507,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2EBB5C2B</NID>
-              <NAME>sceVshCommonGui_2EBB5C2B</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30FA68C3</NID>
-              <NAME>sceVshCommonGui_30FA68C3</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37296C55</NID>
-              <NAME>sceVshCommonGui_37296C55</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BE24617</NID>
-              <NAME>sceVshCommonGui_3BE24617</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E737100</NID>
@@ -1563,23 +1571,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D99D0C1</NID>
-              <NAME>sceVshCommonGui_4D99D0C1</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C700F6F</NID>
-              <NAME>sceVshCommonGui_5C700F6F</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x605DF0DB</NID>
@@ -1593,63 +1603,69 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BC16C05</NID>
-              <NAME>sceVshCommonGui_6BC16C05</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C337347</NID>
-              <NAME>sceVshCommonGui_6C337347</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DB34C38</NID>
-              <NAME>sceVshCommonGui_6DB34C38</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F4C9FDB</NID>
-              <NAME>sceVshCommonGui_6F4C9FDB</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73765E63</NID>
-              <NAME>sceVshCommonGui_73765E63</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74D1220B</NID>
-              <NAME>sceVshCommonGui_74D1220B</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x792A6ABA</NID>
@@ -1663,13 +1679,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82535BC4</NID>
-              <NAME>sceVshCommonGui_82535BC4</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87B1CFE5</NID>
@@ -1683,13 +1700,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x891DD627</NID>
-              <NAME>sceVshCommonGui_891DD627</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F414E35</NID>
@@ -1723,13 +1741,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F41313E</NID>
-              <NAME>sceVshCommonGui_9F41313E</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA57C0CF1</NID>
@@ -1763,23 +1782,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1660004</NID>
-              <NAME>sceVshCommonGui_C1660004</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9529428</NID>
-              <NAME>sceVshCommonGui_C9529428</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBD3BD66</NID>
@@ -1823,43 +1844,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4ED451E</NID>
-              <NAME>sceVshCommonGui_E4ED451E</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBB7B7DE</NID>
-              <NAME>sceVshCommonGui_EBB7B7DE</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC899EBE</NID>
-              <NAME>sceVshCommonGui_EC899EBE</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5A16B4D</NID>
-              <NAME>sceVshCommonGui_F5A16B4D</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0089C392</NID>
@@ -1873,13 +1898,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D16ADF0</NID>
-              <NAME>sceVshCommonGui_0D16ADF0</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D521CD7</NID>
@@ -1893,23 +1919,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1211B11B</NID>
-              <NAME>sceVshCommonGui_1211B11B</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x18AAAEE5</NID>
-              <NAME>sceVshCommonGui_18AAAEE5</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C51E827</NID>
@@ -1923,13 +1951,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x32BD55F6</NID>
-              <NAME>sceVshCommonGui_32BD55F6</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x348059DD</NID>
@@ -1943,13 +1972,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3488EF66</NID>
-              <NAME>sceVshCommonGui_3488EF66</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A8707BD</NID>
@@ -1973,13 +2003,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x46E74F6A</NID>
-              <NAME>sceVshCommonGui_46E74F6A</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A1CC2FF</NID>
@@ -1993,13 +2024,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x53FF9CB5</NID>
-              <NAME>sceVshCommonGui_53FF9CB5</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55336A72</NID>
@@ -2013,13 +2045,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EDAB6FD</NID>
-              <NAME>sceVshCommonGui_5EDAB6FD</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73BC246D</NID>
@@ -2063,23 +2096,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x84023535</NID>
-              <NAME>sceVshCommonGui_84023535</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x911D6FAF</NID>
-              <NAME>sceVshCommonGui_911D6FAF</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9501C903</NID>
@@ -2103,23 +2138,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B0FEC5C</NID>
-              <NAME>sceVshCommonGui_9B0FEC5C</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E5A477C</NID>
-              <NAME>sceVshCommonGui_9E5A477C</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA289F507</NID>
@@ -2133,23 +2170,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3763236</NID>
-              <NAME>sceVshCommonGui_A3763236</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE83638C</NID>
-              <NAME>sceVshCommonGui_AE83638C</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB29D1A3A</NID>
@@ -2163,13 +2202,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB379129A</NID>
-              <NAME>sceVshCommonGui_B379129A</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9494FB0</NID>
@@ -2183,13 +2223,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9552E21</NID>
-              <NAME>sceVshCommonGui_B9552E21</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBAE8907C</NID>
@@ -2233,23 +2274,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDA9F63D</NID>
-              <NAME>sceVshCommonGui_CDA9F63D</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEC7D412</NID>
-              <NAME>sceVshCommonGui_CEC7D412</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD14E875E</NID>
@@ -2263,73 +2306,80 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE23B7DF6</NID>
-              <NAME>sceVshCommonGui_E23B7DF6</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE68EF198</NID>
-              <NAME>sceVshCommonGui_E68EF198</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB1CB821</NID>
-              <NAME>sceVshCommonGui_EB1CB821</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB520194</NID>
-              <NAME>sceVshCommonGui_EB520194</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF265DA9A</NID>
-              <NAME>sceVshCommonGui_F265DA9A</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6A93819</NID>
-              <NAME>sceVshCommonGui_F6A93819</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF72B518B</NID>
-              <NAME>sceVshCommonGui_F72B518B</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE2A5D68</NID>
@@ -2343,12 +2393,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x02B241F8</NID>
-              <NAME>sceVshCommonGui_02B241F8</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x08723B4D</NID>
@@ -2379,12 +2430,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x15943A26</NID>
-              <NAME>sceVshCommonGui_15943A26</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x170A351C</NID>
@@ -2406,12 +2458,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2424E5BC</NID>
-              <NAME>sceVshCommonGui_2424E5BC</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x274288FE</NID>
@@ -2433,12 +2486,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A41BD23</NID>
-              <NAME>sceVshCommonGui_3A41BD23</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A7809E5</NID>
@@ -2451,12 +2505,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x40313E4F</NID>
-              <NAME>sceVshCommonGui_40313E4F</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41CE3B45</NID>
@@ -2487,48 +2542,53 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5409671E</NID>
-              <NAME>sceVshCommonGui_5409671E</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A8E4E90</NID>
-              <NAME>sceVshCommonGui_5A8E4E90</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BE6DBFA</NID>
-              <NAME>sceVshCommonGui_5BE6DBFA</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6445E545</NID>
-              <NAME>sceVshCommonGui_6445E545</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65F3A903</NID>
-              <NAME>sceVshCommonGui_65F3A903</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x665D45E8</NID>
@@ -2541,21 +2601,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x66F93730</NID>
-              <NAME>sceVshCommonGui_66F93730</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6752D137</NID>
-              <NAME>sceVshCommonGui_6752D137</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x676749E9</NID>
@@ -2577,12 +2639,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A28BDD2</NID>
-              <NAME>sceVshCommonGui_6A28BDD2</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x71CE7544</NID>
@@ -2595,12 +2658,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x75F53E30</NID>
-              <NAME>sceVshCommonGui_75F53E30</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x761FE124</NID>
@@ -2613,75 +2677,83 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B20B464</NID>
-              <NAME>sceVshCommonGui_7B20B464</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FD793AA</NID>
-              <NAME>sceVshCommonGui_7FD793AA</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81D6C3E4</NID>
-              <NAME>sceVshCommonGui_81D6C3E4</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8254C1F3</NID>
-              <NAME>sceVshCommonGui_8254C1F3</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x879CF483</NID>
-              <NAME>sceVshCommonGui_879CF483</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93296FDE</NID>
-              <NAME>sceVshCommonGui_93296FDE</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D1A3192</NID>
-              <NAME>sceVshCommonGui_9D1A3192</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E14BF52</NID>
-              <NAME>sceVshCommonGui_9E14BF52</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2A846F8</NID>
@@ -2712,21 +2784,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF16E1B5</NID>
-              <NAME>sceVshCommonGui_CF16E1B5</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3909BF8</NID>
-              <NAME>sceVshCommonGui_D3909BF8</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7592541</NID>
@@ -2757,12 +2831,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE82C787F</NID>
-              <NAME>sceVshCommonGui_E82C787F</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4F7EFD5</NID>
@@ -2775,7 +2850,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x010B556E</NID>
-              <NAME>sceVshCommonGui_010B556E</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2783,6 +2858,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x086FA7BD</NID>
@@ -2797,7 +2873,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1124C44D</NID>
-              <NAME>sceVshCommonGui_1124C44D</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2805,10 +2881,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12FBF078</NID>
-              <NAME>sceVshCommonGui_12FBF078</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2816,6 +2893,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E9063D2</NID>
@@ -2830,7 +2908,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x21E6A1E4</NID>
-              <NAME>sceVshCommonGui_21E6A1E4</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2838,6 +2916,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25864419</NID>
@@ -2852,7 +2931,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x271C311E</NID>
-              <NAME>sceVshCommonGui_271C311E</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2860,10 +2939,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28D072F6</NID>
-              <NAME>sceVshCommonGui_28D072F6</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2871,10 +2951,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B62C8E0</NID>
-              <NAME>sceVshCommonGui_2B62C8E0</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2882,10 +2963,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D7D5D7C</NID>
-              <NAME>sceVshCommonGui_2D7D5D7C</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2893,10 +2975,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32E2649D</NID>
-              <NAME>sceVshCommonGui_32E2649D</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2904,10 +2987,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34A8DEED</NID>
-              <NAME>sceVshCommonGui_34A8DEED</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2915,10 +2999,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37F34554</NID>
-              <NAME>sceVshCommonGui_37F34554</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2926,10 +3011,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C5ADFA9</NID>
-              <NAME>sceVshCommonGui_3C5ADFA9</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2937,6 +3023,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DB8AAED</NID>
@@ -2951,7 +3038,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x45150ABD</NID>
-              <NAME>sceVshCommonGui_45150ABD</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2959,10 +3046,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A5386AF</NID>
-              <NAME>sceVshCommonGui_4A5386AF</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2970,6 +3058,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58D0969B</NID>
@@ -3050,7 +3139,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x797ACBFF</NID>
-              <NAME>sceVshCommonGui_797ACBFF</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3058,6 +3147,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AE5E7C9</NID>
@@ -3083,7 +3173,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x80F9F8F8</NID>
-              <NAME>sceVshCommonGui_80F9F8F8</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3091,6 +3181,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87E6CC75</NID>
@@ -3105,7 +3196,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E7A318A</NID>
-              <NAME>sceVshCommonGui_8E7A318A</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3113,10 +3204,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9530784A</NID>
-              <NAME>sceVshCommonGui_9530784A</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3124,6 +3216,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9811E102</NID>
@@ -3160,7 +3253,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F046C78</NID>
-              <NAME>sceVshCommonGui_9F046C78</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3168,10 +3261,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FA19A05</NID>
-              <NAME>sceVshCommonGui_9FA19A05</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3179,6 +3273,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE1E9F21</NID>
@@ -3193,7 +3288,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7F40277</NID>
-              <NAME>sceVshCommonGui_B7F40277</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3201,10 +3296,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDBB7A8B</NID>
-              <NAME>sceVshCommonGui_CDBB7A8B</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3212,6 +3308,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD7C6916</NID>
@@ -3237,7 +3334,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF18D2C4F</NID>
-              <NAME>sceVshCommonGui_F18D2C4F</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3245,6 +3342,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF25FE58C</NID>
@@ -3259,7 +3357,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF40CFD2A</NID>
-              <NAME>sceVshCommonGui_F40CFD2A</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3267,6 +3365,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5DA32B5</NID>
@@ -3292,7 +3391,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCBFE3FD</NID>
-              <NAME>sceVshCommonGui_FCBFE3FD</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3300,6 +3399,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x150C46F2</NID>
@@ -3319,11 +3419,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x210A19CD</NID>
-              <NAME>sceVshCommonGui_210A19CD</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x22A63579</NID>
@@ -3375,51 +3476,57 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C5FD400</NID>
-              <NAME>sceVshCommonGui_4C5FD400</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x510E600D</NID>
-              <NAME>sceVshCommonGui_510E600D</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5425000B</NID>
-              <NAME>sceVshCommonGui_5425000B</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x545819C7</NID>
-              <NAME>sceVshCommonGui_545819C7</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EBFE1E9</NID>
-              <NAME>sceVshCommonGui_5EBFE1E9</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x623B8A72</NID>
-              <NAME>sceVshCommonGui_623B8A72</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69884339</NID>
@@ -3447,19 +3554,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x78DF392F</NID>
-              <NAME>sceVshCommonGui_78DF392F</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AF6F57E</NID>
-              <NAME>sceVshCommonGui_7AF6F57E</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F1F7719</NID>
@@ -3471,43 +3580,48 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B0D7799</NID>
-              <NAME>sceVshCommonGui_8B0D7799</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91C0E078</NID>
-              <NAME>sceVshCommonGui_91C0E078</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A883487</NID>
-              <NAME>sceVshCommonGui_9A883487</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B74DF0B</NID>
-              <NAME>sceVshCommonGui_9B74DF0B</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2058957</NID>
-              <NAME>sceVshCommonGui_A2058957</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3D17B45</NID>
@@ -3519,11 +3633,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3F04A11</NID>
-              <NAME>sceVshCommonGui_A3F04A11</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4EECC52</NID>
@@ -3543,35 +3658,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7C9A41E</NID>
-              <NAME>sceVshCommonGui_B7C9A41E</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB83513B9</NID>
-              <NAME>sceVshCommonGui_B83513B9</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC8D04CE</NID>
-              <NAME>sceVshCommonGui_BC8D04CE</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE883936</NID>
-              <NAME>sceVshCommonGui_BE883936</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1ABD52A</NID>
@@ -3599,11 +3718,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD79DDCAF</NID>
-              <NAME>sceVshCommonGui_D79DDCAF</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD97B2496</NID>
@@ -3623,19 +3743,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE0FED5F</NID>
-              <NAME>sceVshCommonGui_EE0FED5F</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEECCEF8E</NID>
-              <NAME>sceVshCommonGui_EECCEF8E</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF138E1DA</NID>
@@ -3647,19 +3769,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF261EC79</NID>
-              <NAME>sceVshCommonGui_F261EC79</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF59E26EB</NID>
-              <NAME>sceVshCommonGui_F59E26EB</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8FD1E94</NID>
@@ -3679,15 +3803,16 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF9E0E35</NID>
-              <NAME>sceVshCommonGui_FF9E0E35</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0542E237</NID>
-              <NAME>sceVshCommonGui_0542E237</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3698,6 +3823,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0555C757</NID>
@@ -3743,7 +3869,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x25489D52</NID>
-              <NAME>sceVshCommonGui_25489D52</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3754,10 +3880,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D019A73</NID>
-              <NAME>sceVshCommonGui_2D019A73</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3768,6 +3895,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38855541</NID>
@@ -3785,7 +3913,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FA4619E</NID>
-              <NAME>sceVshCommonGui_3FA4619E</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3796,10 +3924,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x414454B7</NID>
-              <NAME>sceVshCommonGui_414454B7</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3810,6 +3939,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A94993B</NID>
@@ -3827,7 +3957,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x565E9AE2</NID>
-              <NAME>sceVshCommonGui_565E9AE2</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3838,10 +3968,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AFF4B9F</NID>
-              <NAME>sceVshCommonGui_5AFF4B9F</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3852,10 +3983,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x60E2D9D0</NID>
-              <NAME>sceVshCommonGui_60E2D9D0</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3866,10 +3998,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6130A9E4</NID>
-              <NAME>sceVshCommonGui_6130A9E4</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3880,10 +4013,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6367CB49</NID>
-              <NAME>sceVshCommonGui_6367CB49</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3894,10 +4028,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x66919863</NID>
-              <NAME>sceVshCommonGui_66919863</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3908,6 +4043,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68E56435</NID>
@@ -3925,7 +4061,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x69A07897</NID>
-              <NAME>sceVshCommonGui_69A07897</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3936,6 +4072,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AA43E1C</NID>
@@ -3953,7 +4090,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FE443F8</NID>
-              <NAME>sceVshCommonGui_6FE443F8</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3964,10 +4101,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FF240F1</NID>
-              <NAME>sceVshCommonGui_6FF240F1</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3978,10 +4116,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x723E38D1</NID>
-              <NAME>sceVshCommonGui_723E38D1</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3992,6 +4131,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x759F0369</NID>
@@ -4079,7 +4219,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A9F5761</NID>
-              <NAME>sceVshCommonGui_9A9F5761</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4090,6 +4230,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BF00423</NID>
@@ -4107,7 +4248,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3A9B9A4</NID>
-              <NAME>sceVshCommonGui_A3A9B9A4</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4118,6 +4259,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA745DB12</NID>
@@ -4135,7 +4277,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA842E51</NID>
-              <NAME>sceVshCommonGui_AA842E51</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4146,10 +4288,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB298063A</NID>
-              <NAME>sceVshCommonGui_B298063A</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4160,10 +4303,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2F97B46</NID>
-              <NAME>sceVshCommonGui_B2F97B46</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4174,6 +4318,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3B020CB</NID>
@@ -4191,7 +4336,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5EB251D</NID>
-              <NAME>sceVshCommonGui_B5EB251D</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4202,10 +4347,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6B71F08</NID>
-              <NAME>sceVshCommonGui_C6B71F08</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4216,6 +4362,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE9A2777</NID>
@@ -4275,7 +4422,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE375B3DB</NID>
-              <NAME>sceVshCommonGui_E375B3DB</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4286,6 +4433,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEAE258AB</NID>
@@ -4331,7 +4479,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5471399</NID>
-              <NAME>sceVshCommonGui_F5471399</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4342,6 +4490,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA85A7E1</NID>
@@ -4359,7 +4508,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA8769BF</NID>
-              <NAME>sceVshCommonGui_FA8769BF</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4370,6 +4519,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02926B9E</NID>
@@ -4380,17 +4530,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DB07E1E</NID>
-              <NAME>sceVshCommonGui_0DB07E1E</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12BB8BF6</NID>
-              <NAME>sceVshCommonGui_12BB8BF6</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17B5CC41</NID>
@@ -4429,24 +4581,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D083584</NID>
-              <NAME>sceVshCommonGui_3D083584</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F4558A4</NID>
-              <NAME>sceVshCommonGui_3F4558A4</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43AF599B</NID>
-              <NAME>sceVshCommonGui_43AF599B</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43F51CAD</NID>
@@ -4457,17 +4612,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x48639654</NID>
-              <NAME>sceVshCommonGui_48639654</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48DF06F8</NID>
-              <NAME>sceVshCommonGui_48DF06F8</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B84BBAD</NID>
@@ -4485,10 +4642,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FBAFA19</NID>
-              <NAME>sceVshCommonGui_4FBAFA19</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A118308</NID>
@@ -4499,10 +4657,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x631EB59D</NID>
-              <NAME>sceVshCommonGui_631EB59D</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65426E98</NID>
@@ -4527,24 +4686,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72884200</NID>
-              <NAME>sceVshCommonGui_72884200</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A9C30F4</NID>
-              <NAME>sceVshCommonGui_7A9C30F4</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C03EE97</NID>
-              <NAME>sceVshCommonGui_8C03EE97</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C5197B3</NID>
@@ -4555,24 +4717,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E19C20C</NID>
-              <NAME>sceVshCommonGui_8E19C20C</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94EDCA0C</NID>
-              <NAME>sceVshCommonGui_94EDCA0C</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA14F1739</NID>
-              <NAME>sceVshCommonGui_A14F1739</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2124CDB</NID>
@@ -4590,10 +4755,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6C7466D</NID>
-              <NAME>sceVshCommonGui_A6C7466D</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9B83031</NID>
@@ -4611,10 +4777,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEC2BECD</NID>
-              <NAME>sceVshCommonGui_AEC2BECD</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6C3B95C</NID>
@@ -4632,17 +4799,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC74E3E0</NID>
-              <NAME>sceVshCommonGui_BC74E3E0</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC908E8DD</NID>
-              <NAME>sceVshCommonGui_C908E8DD</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB6296AF</NID>
@@ -4660,24 +4829,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7BA5EF1</NID>
-              <NAME>sceVshCommonGui_D7BA5EF1</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC645D0F</NID>
-              <NAME>sceVshCommonGui_DC645D0F</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0E414EF</NID>
-              <NAME>sceVshCommonGui_E0E414EF</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE10233CC</NID>
@@ -4702,17 +4874,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB8FFDA1</NID>
-              <NAME>sceVshCommonGui_EB8FFDA1</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE5D4DE9</NID>
-              <NAME>sceVshCommonGui_EE5D4DE9</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF119219</NID>
@@ -4723,10 +4897,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF19596F2</NID>
-              <NAME>sceVshCommonGui_F19596F2</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2EA13DD</NID>
@@ -4737,12 +4912,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0953E96A</NID>
-              <NAME>sceVshCommonGui_0953E96A</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E66BDF1</NID>
@@ -4755,12 +4931,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x108BA127</NID>
-              <NAME>sceVshCommonGui_108BA127</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1538E9DF</NID>
@@ -4791,21 +4968,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F5C2F94</NID>
-              <NAME>sceVshCommonGui_1F5C2F94</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20689CE6</NID>
-              <NAME>sceVshCommonGui_20689CE6</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25CCD6AA</NID>
@@ -4845,21 +5024,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x43C17BEE</NID>
-              <NAME>sceVshCommonGui_43C17BEE</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44B70F6F</NID>
-              <NAME>sceVshCommonGui_44B70F6F</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4556FF5D</NID>
@@ -4872,21 +5053,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x540886FC</NID>
-              <NAME>sceVshCommonGui_540886FC</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5415B873</NID>
-              <NAME>sceVshCommonGui_5415B873</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58B3BE8E</NID>
@@ -4935,12 +5118,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x61C59DC3</NID>
-              <NAME>sceVshCommonGui_61C59DC3</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A9976A6</NID>
@@ -4953,21 +5137,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C22AD58</NID>
-              <NAME>sceVshCommonGui_7C22AD58</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FF2A313</NID>
-              <NAME>sceVshCommonGui_7FF2A313</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x875D60E6</NID>
@@ -4980,12 +5166,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C38AE27</NID>
-              <NAME>sceVshCommonGui_8C38AE27</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EBA7579</NID>
@@ -4998,21 +5185,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x99B288CB</NID>
-              <NAME>sceVshCommonGui_99B288CB</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0D8C759</NID>
-              <NAME>sceVshCommonGui_A0D8C759</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA65EE65E</NID>
@@ -5025,21 +5214,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAE22693</NID>
-              <NAME>sceVshCommonGui_AAE22693</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB45195A</NID>
-              <NAME>sceVshCommonGui_AB45195A</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE28FC95</NID>
@@ -5070,12 +5261,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6F1E63F</NID>
-              <NAME>sceVshCommonGui_B6F1E63F</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9938620</NID>
@@ -5097,12 +5289,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3A9171B</NID>
-              <NAME>sceVshCommonGui_C3A9171B</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB539BDC</NID>
@@ -5115,12 +5308,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC1E566E</NID>
-              <NAME>sceVshCommonGui_CC1E566E</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD08C4630</NID>
@@ -5133,30 +5327,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5E51E5B</NID>
-              <NAME>sceVshCommonGui_D5E51E5B</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB07BABF</NID>
-              <NAME>sceVshCommonGui_DB07BABF</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC1B44F2</NID>
-              <NAME>sceVshCommonGui_DC1B44F2</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFE778E7</NID>
@@ -5169,21 +5366,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE94BD8E8</NID>
-              <NAME>sceVshCommonGui_E94BD8E8</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB17784A</NID>
-              <NAME>sceVshCommonGui_EB17784A</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2E03B25</NID>
@@ -5214,12 +5413,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF585818</NID>
-              <NAME>sceVshCommonGui_FF585818</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0325238C</NID>
@@ -5236,7 +5436,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x09E310BB</NID>
-              <NAME>sceVshCommonGui_09E310BB</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5246,6 +5446,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F88AE23</NID>
@@ -5262,7 +5463,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1057556E</NID>
-              <NAME>sceVshCommonGui_1057556E</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5272,10 +5473,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x112A520D</NID>
-              <NAME>sceVshCommonGui_112A520D</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5285,6 +5487,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x206A4B28</NID>
@@ -5301,7 +5504,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x20C594B7</NID>
-              <NAME>sceVshCommonGui_20C594B7</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5311,6 +5514,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24070DAF</NID>
@@ -5340,7 +5544,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DFF432B</NID>
-              <NAME>sceVshCommonGui_2DFF432B</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5350,6 +5554,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2EA5B94E</NID>
@@ -5379,7 +5584,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x43B07F67</NID>
-              <NAME>sceVshCommonGui_43B07F67</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5389,10 +5594,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x460C32EF</NID>
-              <NAME>sceVshCommonGui_460C32EF</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5402,6 +5608,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48D6E2B0</NID>
@@ -5457,7 +5664,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x53EE2FDB</NID>
-              <NAME>sceVshCommonGui_53EE2FDB</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5467,10 +5674,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54653281</NID>
-              <NAME>sceVshCommonGui_54653281</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5480,10 +5688,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A66D859</NID>
-              <NAME>sceVshCommonGui_5A66D859</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5493,6 +5702,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F291858</NID>
@@ -5509,7 +5719,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6487FB2D</NID>
-              <NAME>sceVshCommonGui_6487FB2D</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5519,6 +5729,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BC2F493</NID>
@@ -5548,7 +5759,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7ABC27D3</NID>
-              <NAME>sceVshCommonGui_7ABC27D3</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5558,10 +5769,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B729FEC</NID>
-              <NAME>sceVshCommonGui_7B729FEC</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5571,10 +5783,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E292659</NID>
-              <NAME>sceVshCommonGui_7E292659</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5584,6 +5797,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A7E0641</NID>
@@ -5600,7 +5814,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8AA54AE1</NID>
-              <NAME>sceVshCommonGui_8AA54AE1</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5610,6 +5824,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B9B2337</NID>
@@ -5626,7 +5841,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C99F962</NID>
-              <NAME>sceVshCommonGui_8C99F962</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5636,6 +5851,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D194146</NID>
@@ -5665,7 +5881,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7E2BEF3</NID>
-              <NAME>sceVshCommonGui_A7E2BEF3</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5675,10 +5891,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA80AB1AC</NID>
-              <NAME>sceVshCommonGui_A80AB1AC</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5688,6 +5905,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA91056B4</NID>
@@ -5730,7 +5948,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8191882</NID>
-              <NAME>sceVshCommonGui_B8191882</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5740,10 +5958,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFD877D3</NID>
-              <NAME>sceVshCommonGui_BFD877D3</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5753,6 +5972,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC49F3B83</NID>
@@ -5808,7 +6028,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD10CD36D</NID>
-              <NAME>sceVshCommonGui_D10CD36D</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5818,10 +6038,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD843137E</NID>
-              <NAME>sceVshCommonGui_D843137E</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5831,10 +6052,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE04BE02C</NID>
-              <NAME>sceVshCommonGui_E04BE02C</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5844,10 +6066,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5494D9D</NID>
-              <NAME>sceVshCommonGui_E5494D9D</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5857,6 +6080,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6FEF3C3</NID>
@@ -5899,7 +6123,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF72D6FEF</NID>
-              <NAME>sceVshCommonGui_F72D6FEF</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5909,6 +6133,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDE1E281</NID>
@@ -5982,7 +6207,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x02CAA147</NID>
-              <NAME>sceVshCommonGui_02CAA147</NAME>
+              <NAME>_ZN3vsh14GetString_BackEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6036,10 +6261,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x038BC86D</NID>
-              <NAME>sceVshCommonGui_038BC86D</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6093,6 +6319,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0689BA75</NID>
@@ -6153,7 +6380,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0986B86B</NID>
-              <NAME>sceVshCommonGui_0986B86B</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6207,10 +6434,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A39EB81</NID>
-              <NAME>sceVshCommonGui_0A39EB81</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6264,6 +6492,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E93A3E0</NID>
@@ -6324,7 +6553,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x139338D6</NID>
-              <NAME>sceVshCommonGui_139338D6</NAME>
+              <NAME>_ZN3vsh13MessageDialog20ResetDialogCloseTimeEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6378,6 +6607,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14456482</NID>
@@ -6438,7 +6668,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x14BABD65</NID>
-              <NAME>sceVshCommonGui_14BABD65</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6492,10 +6722,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B096DFA</NID>
-              <NAME>sceVshCommonGui_1B096DFA</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6549,10 +6780,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BF87B3D</NID>
-              <NAME>sceVshCommonGui_1BF87B3D</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6606,10 +6838,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25E69478</NID>
-              <NAME>sceVshCommonGui_25E69478</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6663,10 +6896,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C08E923</NID>
-              <NAME>sceVshCommonGui_2C08E923</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6720,10 +6954,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DBD3B5B</NID>
-              <NAME>sceVshCommonGui_2DBD3B5B</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6777,10 +7012,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30CC8F52</NID>
-              <NAME>sceVshCommonGui_30CC8F52</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6834,10 +7070,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32801AAA</NID>
-              <NAME>sceVshCommonGui_32801AAA</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6891,6 +7128,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41711E6B</NID>
@@ -7008,7 +7246,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C0554EB</NID>
-              <NAME>sceVshCommonGui_4C0554EB</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7062,6 +7300,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EACC88B</NID>
@@ -7236,7 +7475,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71457FB8</NID>
-              <NAME>sceVshCommonGui_71457FB8</NAME>
+              <NAME>_ZN3vsh12GetString_OKEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7290,10 +7529,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7302E56F</NID>
-              <NAME>sceVshCommonGui_7302E56F</NAME>
+              <NAME>_ZN3vsh15GetString_EnterEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7347,6 +7587,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BC0FBAA</NID>
@@ -7407,7 +7648,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x89C5F473</NID>
-              <NAME>sceVshCommonGui_89C5F473</NAME>
+              <NAME>_ZN3vsh16GetString_OptionEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7461,10 +7702,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CF6D61A</NID>
-              <NAME>sceVshCommonGui_8CF6D61A</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7518,6 +7760,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D157BBD</NID>
@@ -7635,7 +7878,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F16588E</NID>
-              <NAME>sceVshCommonGui_8F16588E</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7689,10 +7932,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92E6B19C</NID>
-              <NAME>sceVshCommonGui_92E6B19C</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7746,6 +7990,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x955D9062</NID>
@@ -7977,7 +8222,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB44E5E8D</NID>
-              <NAME>sceVshCommonGui_B44E5E8D</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8031,6 +8276,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB78A3C31</NID>
@@ -8148,7 +8394,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC77DB3BE</NID>
-              <NAME>sceVshCommonGui_C77DB3BE</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8202,6 +8448,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8EE1F6F</NID>
@@ -8490,7 +8737,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD45DB4FF</NID>
-              <NAME>sceVshCommonGui_D45DB4FF</NAME>
+              <NAME>_ZN3vsh16GetString_CancelEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8544,10 +8791,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD823413F</NID>
-              <NAME>sceVshCommonGui_D823413F</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8601,6 +8849,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD957207D</NID>
@@ -8889,7 +9138,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF708C5E4</NID>
-              <NAME>sceVshCommonGui_F708C5E4</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8943,6 +9192,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE32F7E3</NID>

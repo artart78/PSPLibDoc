@@ -176,7 +176,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1FBA85F</NID>
-              <NAME>sceLFatFs_driver_F1FBA85F</NAME>
+              <NAME>sceLfatfsStop</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -229,6 +229,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x42A2D8CF</NID>

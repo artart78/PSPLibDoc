@@ -510,39 +510,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x224D8BA0</NID>
-              <NAME>ExceptionManagerForKernel_224D8BA0</NAME>
+              <NAME>sceKernelRegisterPriorityExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2686BD23</NID>
-              <NAME>ExceptionManagerForKernel_2686BD23</NAME>
+              <NAME>sceKernelRegisterExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x366FAF27</NID>
-              <NAME>ExceptionManagerForKernel_366FAF27</NAME>
+              <NAME>sceKernelGetActiveDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB203C040</NID>
-              <NAME>ExceptionManagerForKernel_B203C040</NAME>
+              <NAME>sceKernelReleaseDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5B4D15E</NID>
@@ -555,25 +559,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA2F9E68</NID>
-              <NAME>ExceptionManagerForKernel_BA2F9E68</NAME>
+              <NAME>sceKernelReleaseExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC91681F2</NID>
-              <NAME>ExceptionManagerForKernel_C91681F2</NAME>
+              <NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x00A80A02</NID>
-              <NAME>ExceptionManagerForKernel_00A80A02</NAME>
+              <NAME>sceKernelReleaseExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -581,10 +587,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0297D344</NID>
-              <NAME>ExceptionManagerForKernel_0297D344</NAME>
+              <NAME>sceKernelReleaseDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -592,10 +599,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x08C90CB2</NID>
-              <NAME>ExceptionManagerForKernel_08C90CB2</NAME>
+              <NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -603,10 +611,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24BC1029</NID>
-              <NAME>ExceptionManagerForKernel_24BC1029</NAME>
+              <NAME>sceKernelGetActiveDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -614,10 +623,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49681E68</NID>
-              <NAME>ExceptionManagerForKernel_49681E68</NAME>
+              <NAME>sceKernelRegisterPriorityExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -625,10 +635,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DF89943</NID>
-              <NAME>ExceptionManagerForKernel_5DF89943</NAME>
+              <NAME>sceKernelRegisterExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -636,6 +647,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACE5F17F</NID>
@@ -650,35 +662,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x168FA4A9</NID>
-              <NAME>ExceptionManagerForKernel_168FA4A9</NAME>
+              <NAME>sceKernelReleaseExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4863E952</NID>
-              <NAME>ExceptionManagerForKernel_4863E952</NAME>
+              <NAME>sceKernelReleaseDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x613DF9BA</NID>
-              <NAME>ExceptionManagerForKernel_613DF9BA</NAME>
+              <NAME>sceKernelRegisterPriorityExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63400637</NID>
-              <NAME>ExceptionManagerForKernel_63400637</NAME>
+              <NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B52C867</NID>
@@ -690,23 +706,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB5F1C05</NID>
-              <NAME>ExceptionManagerForKernel_AB5F1C05</NAME>
+              <NAME>sceKernelGetActiveDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3CC6551</NID>
-              <NAME>ExceptionManagerForKernel_C3CC6551</NAME>
+              <NAME>sceKernelRegisterExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x60DFC510</NID>
-              <NAME>ExceptionManagerForKernel_60DFC510</NAME>
+              <NAME>sceKernelGetActiveDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -717,10 +735,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x792C424C</NID>
-              <NAME>ExceptionManagerForKernel_792C424C</NAME>
+              <NAME>sceKernelRegisterPriorityExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -731,10 +750,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA966D178</NID>
-              <NAME>ExceptionManagerForKernel_A966D178</NAME>
+              <NAME>sceKernelReleaseDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -745,10 +765,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF57A486</NID>
-              <NAME>ExceptionManagerForKernel_CF57A486</NAME>
+              <NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -759,6 +780,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD74DECBB</NID>
@@ -776,7 +798,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE1F6B00B</NID>
-              <NAME>ExceptionManagerForKernel_E1F6B00B</NAME>
+              <NAME>sceKernelReleaseExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -787,10 +809,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF937D843</NID>
-              <NAME>ExceptionManagerForKernel_F937D843</NAME>
+              <NAME>sceKernelRegisterExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -801,20 +824,23 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x056613A8</NID>
-              <NAME>ExceptionManagerForKernel_056613A8</NAME>
+              <NAME>sceKernelGetActiveDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37117D98</NID>
-              <NAME>ExceptionManagerForKernel_37117D98</NAME>
+              <NAME>sceKernelRegisterPriorityExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x460DF3D7</NID>
@@ -832,35 +858,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82FEF48F</NID>
-              <NAME>ExceptionManagerForKernel_82FEF48F</NAME>
+              <NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC135CA2</NID>
-              <NAME>ExceptionManagerForKernel_AC135CA2</NAME>
+              <NAME>sceKernelRegisterExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB512DDF4</NID>
-              <NAME>ExceptionManagerForKernel_B512DDF4</NAME>
+              <NAME>sceKernelReleaseExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD89F9C0</NID>
-              <NAME>ExceptionManagerForKernel_DD89F9C0</NAME>
+              <NAME>sceKernelReleaseDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x014FD1D1</NID>
-              <NAME>ExceptionManagerForKernel_014FD1D1</NAME>
+              <NAME>sceKernelGetActiveDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -869,6 +899,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0587301B</NID>
@@ -884,7 +915,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x557FBABB</NID>
-              <NAME>ExceptionManagerForKernel_557FBABB</NAME>
+              <NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -893,10 +924,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56198384</NID>
-              <NAME>ExceptionManagerForKernel_56198384</NAME>
+              <NAME>sceKernelRegisterExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -905,10 +937,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x71286CF4</NID>
-              <NAME>ExceptionManagerForKernel_71286CF4</NAME>
+              <NAME>sceKernelRegisterPriorityExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -917,6 +950,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DDFBCC7</NID>
@@ -932,7 +966,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x85F02133</NID>
-              <NAME>ExceptionManagerForKernel_85F02133</NAME>
+              <NAME>sceKernelReleaseDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -941,10 +975,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0BC60E9</NID>
-              <NAME>ExceptionManagerForKernel_C0BC60E9</NAME>
+              <NAME>sceKernelReleaseExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -953,10 +988,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06372550</NID>
-              <NAME>ExceptionManagerForKernel_06372550</NAME>
+              <NAME>sceKernelRegisterExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -969,10 +1005,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x409632B8</NID>
-              <NAME>ExceptionManagerForKernel_409632B8</NAME>
+              <NAME>sceKernelReleaseDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -985,10 +1022,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46EA27C3</NID>
-              <NAME>ExceptionManagerForKernel_46EA27C3</NAME>
+              <NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1001,10 +1039,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51763A88</NID>
-              <NAME>ExceptionManagerForKernel_51763A88</NAME>
+              <NAME>sceKernelReleaseExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1017,6 +1056,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D2DD958</NID>
@@ -1052,7 +1092,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D995AE8</NID>
-              <NAME>ExceptionManagerForKernel_7D995AE8</NAME>
+              <NAME>sceKernelRegisterPriorityExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1065,10 +1105,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD061B94E</NID>
-              <NAME>ExceptionManagerForKernel_D061B94E</NAME>
+              <NAME>sceKernelGetActiveDefaultExceptionHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1081,6 +1122,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A998599</NID>

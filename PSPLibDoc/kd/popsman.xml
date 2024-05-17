@@ -6131,10 +6131,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1D672CE</NID>
-              <NAME>scePopsMan_F1D672CE</NAME>
+              <NAME>scePopsManDocOpen</NAME>
               <VERSIONS>
                 <VERSION>3.52</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -588,140 +588,154 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A97033D</NID>
-              <NAME>sceClockgen_driver_0A97033D</NAME>
+              <NAME>sceClockgenGetRegValue</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x816E7AA0</NID>
-              <NAME>sceClockgen_driver_816E7AA0</NAME>
+              <NAME>sceClockgenSetup</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93C0B507</NID>
-              <NAME>sceClockgen_driver_93C0B507</NAME>
+              <NAME>sceClockgenGetRevision</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9E85B7C</NID>
-              <NAME>sceClockgen_driver_A9E85B7C</NAME>
+              <NAME>sceClockgenSetProtocol</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xADDA3320</NID>
-              <NAME>sceClockgen_driver_ADDA3320</NAME>
+              <NAME>sceClockgenAudioClkEnable</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC9F17C2</NID>
-              <NAME>sceClockgen_driver_CC9F17C2</NAME>
+              <NAME>sceClockgenAudioClkDisable</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4F6990D</NID>
-              <NAME>sceClockgen_driver_D4F6990D</NAME>
+              <NAME>sceClockgenAudioClkSetFreq</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33FC929E</NID>
-              <NAME>sceClockgen_driver_33FC929E</NAME>
+              <NAME>sceClockgenSetup</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4CA641E8</NID>
-              <NAME>sceClockgen_driver_4CA641E8</NAME>
+              <NAME>sceClockgenAudioClkDisable</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53D8F603</NID>
-              <NAME>sceClockgen_driver_53D8F603</NAME>
+              <NAME>sceClockgenAudioClkEnable</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8375DFE1</NID>
-              <NAME>sceClockgen_driver_8375DFE1</NAME>
+              <NAME>sceClockgenGetRevision</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87CEDE80</NID>
-              <NAME>sceClockgen_driver_87CEDE80</NAME>
+              <NAME>sceClockgenAudioClkSetFreq</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9316E39E</NID>
-              <NAME>sceClockgen_driver_9316E39E</NAME>
+              <NAME>sceClockgenGetRegValue</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FC77BE0</NID>
-              <NAME>sceClockgen_driver_9FC77BE0</NAME>
+              <NAME>sceClockgenSetProtocol</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17FA615B</NID>
-              <NAME>sceClockgen_driver_17FA615B</NAME>
+              <NAME>sceClockgenAudioClkSetFreq</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -729,10 +743,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x754682A5</NID>
-              <NAME>sceClockgen_driver_754682A5</NAME>
+              <NAME>sceClockgenSetProtocol</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -740,10 +755,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA54FE0BA</NID>
-              <NAME>sceClockgen_driver_A54FE0BA</NAME>
+              <NAME>sceClockgenGetRegValue</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -751,10 +767,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA9075A8</NID>
-              <NAME>sceClockgen_driver_CA9075A8</NAME>
+              <NAME>sceClockgenGetRevision</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -762,10 +779,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD109FC67</NID>
-              <NAME>sceClockgen_driver_D109FC67</NAME>
+              <NAME>sceClockgenAudioClkEnable</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -773,10 +791,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA37CDB4</NID>
-              <NAME>sceClockgen_driver_DA37CDB4</NAME>
+              <NAME>sceClockgenAudioClkDisable</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -784,10 +803,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF15B7F41</NID>
-              <NAME>sceClockgen_driver_F15B7F41</NAME>
+              <NAME>sceClockgenSetup</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -795,66 +815,74 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x062908B8</NID>
-              <NAME>sceClockgen_driver_062908B8</NAME>
+              <NAME>sceClockgenSetProtocol</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19FD5774</NID>
-              <NAME>sceClockgen_driver_19FD5774</NAME>
+              <NAME>sceClockgenAudioClkDisable</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B14D4B8</NID>
-              <NAME>sceClockgen_driver_2B14D4B8</NAME>
+              <NAME>sceClockgenAudioClkSetFreq</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x39AA61C0</NID>
-              <NAME>sceClockgen_driver_39AA61C0</NAME>
+              <NAME>sceClockgenGetRevision</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81397581</NID>
-              <NAME>sceClockgen_driver_81397581</NAME>
+              <NAME>sceClockgenGetRegValue</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0577728</NID>
-              <NAME>sceClockgen_driver_B0577728</NAME>
+              <NAME>sceClockgenSetup</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6B72BE6</NID>
-              <NAME>sceClockgen_driver_D6B72BE6</NAME>
+              <NAME>sceClockgenAudioClkEnable</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x043D0E26</NID>
-              <NAME>sceClockgen_driver_043D0E26</NAME>
+              <NAME>sceClockgenGetRevision</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -865,10 +893,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DFF9532</NID>
-              <NAME>sceClockgen_driver_2DFF9532</NAME>
+              <NAME>sceClockgenGetRegValue</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -879,10 +908,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x777FF2D9</NID>
-              <NAME>sceClockgen_driver_777FF2D9</NAME>
+              <NAME>sceClockgenAudioClkEnable</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -893,10 +923,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90A2F20B</NID>
-              <NAME>sceClockgen_driver_90A2F20B</NAME>
+              <NAME>sceClockgenAudioClkDisable</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -907,10 +938,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE45AE0B</NID>
-              <NAME>sceClockgen_driver_CE45AE0B</NAME>
+              <NAME>sceClockgenSetup</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -921,10 +953,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1A8E10E</NID>
-              <NAME>sceClockgen_driver_D1A8E10E</NAME>
+              <NAME>sceClockgenAudioClkSetFreq</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -935,10 +968,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBF40C02</NID>
-              <NAME>sceClockgen_driver_DBF40C02</NAME>
+              <NAME>sceClockgenSetProtocol</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -949,59 +983,67 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x031B34EB</NID>
-              <NAME>sceClockgen_driver_031B34EB</NAME>
+              <NAME>sceClockgenAudioClkSetFreq</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C56C124</NID>
-              <NAME>sceClockgen_driver_0C56C124</NAME>
+              <NAME>sceClockgenSetup</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10D34545</NID>
-              <NAME>sceClockgen_driver_10D34545</NAME>
+              <NAME>sceClockgenSetProtocol</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46B1E569</NID>
-              <NAME>sceClockgen_driver_46B1E569</NAME>
+              <NAME>sceClockgenGetRegValue</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79500833</NID>
-              <NAME>sceClockgen_driver_79500833</NAME>
+              <NAME>sceClockgenAudioClkEnable</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6FAA104</NID>
-              <NAME>sceClockgen_driver_B6FAA104</NAME>
+              <NAME>sceClockgenGetRevision</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9528AC8</NID>
-              <NAME>sceClockgen_driver_B9528AC8</NAME>
+              <NAME>sceClockgenAudioClkDisable</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x18512E9D</NID>
-              <NAME>sceClockgen_driver_18512E9D</NAME>
+              <NAME>sceClockgenGetRegValue</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1010,10 +1052,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35A667A6</NID>
-              <NAME>sceClockgen_driver_35A667A6</NAME>
+              <NAME>sceClockgenSetProtocol</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1022,10 +1065,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C3D1A46</NID>
-              <NAME>sceClockgen_driver_3C3D1A46</NAME>
+              <NAME>sceClockgenAudioClkDisable</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1034,10 +1078,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4498E7E1</NID>
-              <NAME>sceClockgen_driver_4498E7E1</NAME>
+              <NAME>sceClockgenGetRevision</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1046,10 +1091,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90DC89B4</NID>
-              <NAME>sceClockgen_driver_90DC89B4</NAME>
+              <NAME>sceClockgenAudioClkEnable</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1058,10 +1104,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACC30ECE</NID>
-              <NAME>sceClockgen_driver_ACC30ECE</NAME>
+              <NAME>sceClockgenAudioClkSetFreq</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1070,10 +1117,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD37944FB</NID>
-              <NAME>sceClockgen_driver_D37944FB</NAME>
+              <NAME>sceClockgenSetup</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1082,10 +1130,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2186979D</NID>
-              <NAME>sceClockgen_driver_2186979D</NAME>
+              <NAME>sceClockgenGetRegValue</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1095,10 +1144,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F81A03C</NID>
-              <NAME>sceClockgen_driver_2F81A03C</NAME>
+              <NAME>sceClockgenSetProtocol</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1108,10 +1158,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57163E55</NID>
-              <NAME>sceClockgen_driver_57163E55</NAME>
+              <NAME>sceClockgenSetup</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1121,10 +1172,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x59E7DFE6</NID>
-              <NAME>sceClockgen_driver_59E7DFE6</NAME>
+              <NAME>sceClockgenAudioClkEnable</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1134,10 +1186,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA02BB1D3</NID>
-              <NAME>sceClockgen_driver_A02BB1D3</NAME>
+              <NAME>sceClockgenAudioClkSetFreq</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1147,10 +1200,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA7FAF37</NID>
-              <NAME>sceClockgen_driver_BA7FAF37</NAME>
+              <NAME>sceClockgenGetRevision</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1160,10 +1214,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB10F31F</NID>
-              <NAME>sceClockgen_driver_EB10F31F</NAME>
+              <NAME>sceClockgenAudioClkDisable</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -1173,6 +1228,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FD28D8B</NID>

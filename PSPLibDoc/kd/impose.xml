@@ -342,43 +342,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B372F9D</NID>
-              <NAME>sceAudioRouting_driver_1B372F9D</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x414E7D7A</NID>
-              <NAME>sceAudioRouting_driver_414E7D7A</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE9B6FF5</NID>
-              <NAME>sceAudioRouting_driver_BE9B6FF5</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2EFEBB8</NID>
-              <NAME>sceAudioRouting_driver_F2EFEBB8</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30237217</NID>
-              <NAME>sceAudioRouting_driver_30237217</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -386,10 +390,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x472E6A92</NID>
-              <NAME>sceAudioRouting_driver_472E6A92</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -397,10 +402,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C516FCA</NID>
-              <NAME>sceAudioRouting_driver_8C516FCA</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -408,10 +414,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFC44660</NID>
-              <NAME>sceAudioRouting_driver_BFC44660</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -419,42 +426,47 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3CF16BA0</NID>
-              <NAME>sceAudioRouting_driver_3CF16BA0</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x534B5BD7</NID>
-              <NAME>sceAudioRouting_driver_534B5BD7</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6211AF01</NID>
-              <NAME>sceAudioRouting_driver_6211AF01</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF3EA0FC</NID>
-              <NAME>sceAudioRouting_driver_EF3EA0FC</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x758DF112</NID>
-              <NAME>sceAudioRouting_driver_758DF112</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -465,10 +477,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78DD0203</NID>
-              <NAME>sceAudioRouting_driver_78DD0203</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -479,10 +492,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB557A064</NID>
-              <NAME>sceAudioRouting_driver_B557A064</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -493,10 +507,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE45BCCA6</NID>
-              <NAME>sceAudioRouting_driver_E45BCCA6</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -507,6 +522,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -1958,66 +1974,73 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x035968CE</NID>
-              <NAME>sceImpose_driver_035968CE</NAME>
+              <NAME>sceImposeSetParam</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12718063</NID>
-              <NAME>sceImpose_driver_12718063</NAME>
+              <NAME>sceImposeSetBacklightOffTime</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21D3EA22</NID>
-              <NAME>sceImpose_driver_21D3EA22</NAME>
+              <NAME>sceImposeGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36707BD5</NID>
-              <NAME>sceImpose_driver_36707BD5</NAME>
+              <NAME>sceImposeGetLanguageMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37911EAB</NID>
-              <NAME>sceImpose_driver_37911EAB</NAME>
+              <NAME>sceImposeSetHomePopup</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x62D841E8</NID>
-              <NAME>sceImpose_driver_62D841E8</NAME>
+              <NAME>sceImposeCheckVideoOut</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x75D5517E</NID>
-              <NAME>sceImpose_driver_75D5517E</NAME>
+              <NAME>sceImposeInit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EAACCF7</NID>
@@ -2030,48 +2053,53 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x91D4021F</NID>
-              <NAME>sceImpose_driver_91D4021F</NAME>
+              <NAME>sceImposeGetBacklightOffTime</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB72B49A</NID>
-              <NAME>sceImpose_driver_AB72B49A</NAME>
+              <NAME>sceImposeGetUMDPopup</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6843D5A</NID>
-              <NAME>sceImpose_driver_B6843D5A</NAME>
+              <NAME>sceImposeEnd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC10C3D39</NID>
-              <NAME>sceImpose_driver_C10C3D39</NAME>
+              <NAME>sceImposeSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC7E6B67</NID>
-              <NAME>sceImpose_driver_CC7E6B67</NAME>
+              <NAME>sceImposeSetLanguageMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD17C33FB</NID>
@@ -2084,84 +2112,93 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4FDA428</NID>
-              <NAME>sceImpose_driver_D4FDA428</NAME>
+              <NAME>sceImposeChanges</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8EA8517</NID>
-              <NAME>sceImpose_driver_D8EA8517</NAME>
+              <NAME>sceImposeResume</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE23A1EE6</NID>
-              <NAME>sceImpose_driver_E23A1EE6</NAME>
+              <NAME>sceImposeSetUMDPopup</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2852CD4</NID>
-              <NAME>sceImpose_driver_E2852CD4</NAME>
+              <NAME>sceImposeHomeButton</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5CC539F</NID>
-              <NAME>sceImpose_driver_E5CC539F</NAME>
+              <NAME>sceImposeGetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC2E241A</NID>
-              <NAME>sceImpose_driver_EC2E241A</NAME>
+              <NAME>sceImposeGetHomePopup</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE704095</NID>
-              <NAME>sceImpose_driver_EE704095</NAME>
+              <NAME>sceImposeSuspend</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF835ADE1</NID>
-              <NAME>sceImpose_driver_F835ADE1</NAME>
+              <NAME>sceImposeSetVideoOutMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC9B1843</NID>
-              <NAME>sceImpose_driver_FC9B1843</NAME>
+              <NAME>sceImposeGetBatteryIconStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF4A18A5</NID>
@@ -2174,7 +2211,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C010C7C</NID>
-              <NAME>sceImpose_driver_0C010C7C</NAME>
+              <NAME>sceImposeSetBacklightOffTime</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2182,10 +2219,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15903C7C</NID>
-              <NAME>sceImpose_driver_15903C7C</NAME>
+              <NAME>sceImposeHomeButton</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2193,10 +2231,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2EC0246D</NID>
-              <NAME>sceImpose_driver_2EC0246D</NAME>
+              <NAME>sceImposeGetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2204,10 +2243,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C0B2ED5</NID>
-              <NAME>sceImpose_driver_3C0B2ED5</NAME>
+              <NAME>sceImposeResume</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2215,10 +2255,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4318B120</NID>
-              <NAME>sceImpose_driver_4318B120</NAME>
+              <NAME>sceImposeCheckVideoOut</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2226,10 +2267,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x486967FC</NID>
-              <NAME>sceImpose_driver_486967FC</NAME>
+              <NAME>sceImposeGetUMDPopup</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2237,10 +2279,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63483FA5</NID>
-              <NAME>sceImpose_driver_63483FA5</NAME>
+              <NAME>sceImposeSetVideoOutMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2248,10 +2291,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F502C0A</NID>
-              <NAME>sceImpose_driver_6F502C0A</NAME>
+              <NAME>sceImposeGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2259,10 +2303,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70B12C2D</NID>
-              <NAME>sceImpose_driver_70B12C2D</NAME>
+              <NAME>sceImposeGetLanguageMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2270,10 +2315,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x786DCB7C</NID>
-              <NAME>sceImpose_driver_786DCB7C</NAME>
+              <NAME>sceImposeEnd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2281,10 +2327,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BE0B441</NID>
-              <NAME>sceImpose_driver_7BE0B441</NAME>
+              <NAME>sceImposeSuspend</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2292,10 +2339,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8434B075</NID>
-              <NAME>sceImpose_driver_8434B075</NAME>
+              <NAME>sceImposeSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2303,10 +2351,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x869EB4A8</NID>
-              <NAME>sceImpose_driver_869EB4A8</NAME>
+              <NAME>sceImposeGetBatteryIconStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2314,10 +2363,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D100C90</NID>
-              <NAME>sceImpose_driver_8D100C90</NAME>
+              <NAME>sceImposeGetHomePopup</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2325,10 +2375,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9EB8A57B</NID>
-              <NAME>sceImpose_driver_9EB8A57B</NAME>
+              <NAME>sceImposeSetParam</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2336,6 +2387,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE5DA3B8</NID>
@@ -2350,7 +2402,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC876D965</NID>
-              <NAME>sceImpose_driver_C876D965</NAME>
+              <NAME>sceImposeInit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2358,6 +2410,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCCEAA9CD</NID>
@@ -2372,7 +2425,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD1291FD</NID>
-              <NAME>sceImpose_driver_CD1291FD</NAME>
+              <NAME>sceImposeChanges</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2380,10 +2433,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA0B4BB1</NID>
-              <NAME>sceImpose_driver_DA0B4BB1</NAME>
+              <NAME>sceImposeSetUMDPopup</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2391,10 +2445,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEA0D7C6</NID>
-              <NAME>sceImpose_driver_DEA0D7C6</NAME>
+              <NAME>sceImposeSetHomePopup</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2402,10 +2457,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF221D60A</NID>
-              <NAME>sceImpose_driver_F221D60A</NAME>
+              <NAME>sceImposeGetBacklightOffTime</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2413,10 +2469,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF474243B</NID>
-              <NAME>sceImpose_driver_F474243B</NAME>
+              <NAME>sceImposeSetLanguageMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2424,6 +2481,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDBE164F</NID>
@@ -2438,147 +2496,165 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x02F748C1</NID>
-              <NAME>sceImpose_driver_02F748C1</NAME>
+              <NAME>sceImposeGetUMDPopup</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E690543</NID>
-              <NAME>sceImpose_driver_0E690543</NAME>
+              <NAME>sceImposeSetLanguageMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10426E02</NID>
-              <NAME>sceImpose_driver_10426E02</NAME>
+              <NAME>sceImposeCheckVideoOut</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C90DB25</NID>
-              <NAME>sceImpose_driver_1C90DB25</NAME>
+              <NAME>sceImposeSetBacklightOffTime</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2413311C</NID>
-              <NAME>sceImpose_driver_2413311C</NAME>
+              <NAME>sceImposeGetBacklightOffTime</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C395C0B</NID>
-              <NAME>sceImpose_driver_3C395C0B</NAME>
+              <NAME>sceImposeGetHomePopup</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EB90AF4</NID>
-              <NAME>sceImpose_driver_3EB90AF4</NAME>
+              <NAME>sceImposeSetParam</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x437714E7</NID>
-              <NAME>sceImpose_driver_437714E7</NAME>
+              <NAME>sceImposeSetVideoOutMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47A995DD</NID>
-              <NAME>sceImpose_driver_47A995DD</NAME>
+              <NAME>sceImposeChanges</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4EFE93B1</NID>
-              <NAME>sceImpose_driver_4EFE93B1</NAME>
+              <NAME>sceImposeSetStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FFE340A</NID>
-              <NAME>sceImpose_driver_4FFE340A</NAME>
+              <NAME>sceImposeSuspend</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B7331D7</NID>
-              <NAME>sceImpose_driver_5B7331D7</NAME>
+              <NAME>sceImposeGetStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B9B23DD</NID>
-              <NAME>sceImpose_driver_5B9B23DD</NAME>
+              <NAME>sceImposeSetHomePopup</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x76AD06A6</NID>
-              <NAME>sceImpose_driver_76AD06A6</NAME>
+              <NAME>sceImposeGetLanguageMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FD85050</NID>
-              <NAME>sceImpose_driver_7FD85050</NAME>
+              <NAME>sceImposeInit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86ADB666</NID>
-              <NAME>sceImpose_driver_86ADB666</NAME>
+              <NAME>sceImposeGetParam</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x982F215C</NID>
-              <NAME>sceImpose_driver_982F215C</NAME>
+              <NAME>sceImposeHomeButton</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9ACEC936</NID>
-              <NAME>sceImpose_driver_9ACEC936</NAME>
+              <NAME>sceImposeGetBatteryIconStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2BDCCE7</NID>
@@ -2598,11 +2674,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7FB8E49</NID>
-              <NAME>sceImpose_driver_D7FB8E49</NAME>
+              <NAME>sceImposeResume</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDAD54E1</NID>
@@ -2614,23 +2691,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA2D0AFF</NID>
-              <NAME>sceImpose_driver_FA2D0AFF</NAME>
+              <NAME>sceImposeSetUMDPopup</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD4EB2EE</NID>
-              <NAME>sceImpose_driver_FD4EB2EE</NAME>
+              <NAME>sceImposeEnd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04BC5517</NID>
-              <NAME>sceImpose_driver_04BC5517</NAME>
+              <NAME>sceImposeGetStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2641,10 +2720,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x098A66AE</NID>
-              <NAME>sceImpose_driver_098A66AE</NAME>
+              <NAME>sceImposeSetLanguageMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2655,10 +2735,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BBCA0BF</NID>
-              <NAME>sceImpose_driver_0BBCA0BF</NAME>
+              <NAME>sceImposeChanges</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2669,10 +2750,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x107F906C</NID>
-              <NAME>sceImpose_driver_107F906C</NAME>
+              <NAME>sceImposeGetUMDPopup</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2683,10 +2765,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16D26D67</NID>
-              <NAME>sceImpose_driver_16D26D67</NAME>
+              <NAME>sceImposeSuspend</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2697,10 +2780,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24ADE3CD</NID>
-              <NAME>sceImpose_driver_24ADE3CD</NAME>
+              <NAME>sceImposeResume</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2711,10 +2795,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31674B3A</NID>
-              <NAME>sceImpose_driver_31674B3A</NAME>
+              <NAME>sceImposeInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2725,10 +2810,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47DA1E30</NID>
-              <NAME>sceImpose_driver_47DA1E30</NAME>
+              <NAME>sceImposeGetBacklightOffTime</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2739,10 +2825,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B02F047</NID>
-              <NAME>sceImpose_driver_4B02F047</NAME>
+              <NAME>sceImposeGetParam</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2753,10 +2840,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54141452</NID>
-              <NAME>sceImpose_driver_54141452</NAME>
+              <NAME>sceImposeSetHomePopup</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2767,10 +2855,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x600992E6</NID>
-              <NAME>sceImpose_driver_600992E6</NAME>
+              <NAME>sceImposeGetHomePopup</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2781,10 +2870,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65ADCB7C</NID>
-              <NAME>sceImpose_driver_65ADCB7C</NAME>
+              <NAME>sceImposeSetBacklightOffTime</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2795,10 +2885,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D660C9A</NID>
-              <NAME>sceImpose_driver_7D660C9A</NAME>
+              <NAME>sceImposeGetLanguageMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2809,6 +2900,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8172A3F6</NID>
@@ -2826,7 +2918,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x994E13E1</NID>
-              <NAME>sceImpose_driver_994E13E1</NAME>
+              <NAME>sceImposeSetUMDPopup</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2837,10 +2929,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA516434B</NID>
-              <NAME>sceImpose_driver_A516434B</NAME>
+              <NAME>sceImposeGetBatteryIconStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2851,10 +2944,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB35F79BD</NID>
-              <NAME>sceImpose_driver_B35F79BD</NAME>
+              <NAME>sceImposeCheckVideoOut</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2865,10 +2959,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB920C9D1</NID>
-              <NAME>sceImpose_driver_B920C9D1</NAME>
+              <NAME>sceImposeHomeButton</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2879,10 +2974,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC860DB52</NID>
-              <NAME>sceImpose_driver_C860DB52</NAME>
+              <NAME>sceImposeSetStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2893,10 +2989,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1E9019F</NID>
-              <NAME>sceImpose_driver_D1E9019F</NAME>
+              <NAME>sceImposeSetParam</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2907,6 +3004,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1F5724A</NID>
@@ -2924,7 +3022,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA315C59</NID>
-              <NAME>sceImpose_driver_DA315C59</NAME>
+              <NAME>sceImposeSetVideoOutMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2935,6 +3033,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0F9D379</NID>
@@ -2952,7 +3051,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7AF08A2</NID>
-              <NAME>sceImpose_driver_F7AF08A2</NAME>
+              <NAME>sceImposeEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2963,6 +3062,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

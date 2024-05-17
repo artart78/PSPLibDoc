@@ -2103,83 +2103,91 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x044FF282</NID>
-              <NAME>sceDisplay_driver_044FF282</NAME>
+              <NAME>sceDisplayIsForeground</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x13AA96B7</NID>
-              <NAME>sceDisplay_driver_13AA96B7</NAME>
+              <NAME>sceDisplayGetFramePerSec</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16FD49DC</NID>
-              <NAME>sceDisplay_driver_16FD49DC</NAME>
+              <NAME>sceDisplayWaitVblankCB</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CB8CB47</NID>
-              <NAME>sceDisplay_driver_1CB8CB47</NAME>
+              <NAME>sceDisplayGetBrightness</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28B0525E</NID>
-              <NAME>sceDisplay_driver_28B0525E</NAME>
+              <NAME>sceDisplayIsPseudoField</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32B67781</NID>
-              <NAME>sceDisplay_driver_32B67781</NAME>
+              <NAME>sceDisplayDisable</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3737A23B</NID>
-              <NAME>sceDisplay_driver_3737A23B</NAME>
+              <NAME>sceDisplayGetVblankRest</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AB7497F</NID>
-              <NAME>sceDisplay_driver_4AB7497F</NAME>
+              <NAME>sceDisplaySetFrameBuf</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CD75E4A</NID>
@@ -2203,43 +2211,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x689C0CC2</NID>
-              <NAME>sceDisplay_driver_689C0CC2</NAME>
+              <NAME>sceDisplayGetCurrentHcount</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x776ADFDB</NID>
-              <NAME>sceDisplay_driver_776ADFDB</NAME>
+              <NAME>sceDisplaySetBrightness</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x792E8018</NID>
-              <NAME>sceDisplay_driver_792E8018</NAME>
+              <NAME>sceDisplayWaitVblankStartCB</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FBA941A</NID>
-              <NAME>sceDisplay_driver_7FBA941A</NAME>
+              <NAME>sceDisplayWaitVblank</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x820C6038</NID>
@@ -2253,13 +2265,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BE19BF8</NID>
-              <NAME>sceDisplay_driver_8BE19BF8</NAME>
+              <NAME>sceDisplayIsVblank</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DECEF47</NID>
@@ -2273,63 +2286,69 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x906281D5</NID>
-              <NAME>sceDisplay_driver_906281D5</NAME>
+              <NAME>sceDisplaySetHoldMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x946155FD</NID>
-              <NAME>sceDisplay_driver_946155FD</NAME>
+              <NAME>sceDisplayEnable</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA26AAF53</NID>
-              <NAME>sceDisplay_driver_A26AAF53</NAME>
+              <NAME>sceDisplayIsVsync</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA44B9FFC</NID>
-              <NAME>sceDisplay_driver_A44B9FFC</NAME>
+              <NAME>sceDisplaySetPseudoVsync</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA86C2E86</NID>
-              <NAME>sceDisplay_driver_A86C2E86</NAME>
+              <NAME>sceDisplayAdjustAccumulatedHcount</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA99B94A3</NID>
-              <NAME>sceDisplay_driver_A99B94A3</NAME>
+              <NAME>sceDisplayGetAccumulatedHcount</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB43C8B57</NID>
@@ -2343,126 +2362,139 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB685BA36</NID>
-              <NAME>sceDisplay_driver_B685BA36</NAME>
+              <NAME>sceDisplayWaitVblankStart</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3C340AF</NID>
-              <NAME>sceDisplay_driver_C3C340AF</NAME>
+              <NAME>sceDisplayGetResumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4AB9AB5</NID>
-              <NAME>sceDisplay_driver_E4AB9AB5</NAME>
+              <NAME>sceDisplaySetResumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE56B11BA</NID>
-              <NAME>sceDisplay_driver_E56B11BA</NAME>
+              <NAME>sceDisplayGetFrameBuf</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8466BC2</NID>
-              <NAME>sceDisplay_driver_E8466BC2</NAME>
+              <NAME>sceDisplayGetVcount</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3C6C317</NID>
-              <NAME>sceDisplay_driver_F3C6C317</NAME>
+              <NAME>sceDisplayGetForegroundLevel</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C92A897</NID>
-              <NAME>sceDisplay_driver_0C92A897</NAME>
+              <NAME>sceDisplayWaitVblankCB</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14C854AA</NID>
-              <NAME>sceDisplay_driver_14C854AA</NAME>
+              <NAME>sceDisplayGetBrightness</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A4E0C25</NID>
-              <NAME>sceDisplay_driver_1A4E0C25</NAME>
+              <NAME>sceDisplayDisable</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B0D8989</NID>
-              <NAME>sceDisplay_driver_1B0D8989</NAME>
+              <NAME>sceDisplayWaitVblankStartCB</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EF4432A</NID>
-              <NAME>sceDisplay_driver_1EF4432A</NAME>
+              <NAME>sceDisplayGetFramePerSec</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x267BF9F7</NID>
-              <NAME>sceDisplay_driver_267BF9F7</NAME>
+              <NAME>sceDisplaySetBrightness</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34662DEA</NID>
-              <NAME>sceDisplay_driver_34662DEA</NAME>
+              <NAME>sceDisplayGetAccumulatedHcount</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34C316C4</NID>
@@ -2475,30 +2507,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3749CDA0</NID>
-              <NAME>sceDisplay_driver_3749CDA0</NAME>
+              <NAME>sceDisplaySetFrameBuf</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A730F7F</NID>
-              <NAME>sceDisplay_driver_3A730F7F</NAME>
+              <NAME>sceDisplayWaitVblankStart</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E954D17</NID>
-              <NAME>sceDisplay_driver_3E954D17</NAME>
+              <NAME>sceDisplayGetFrameBuf</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4412FB24</NID>
@@ -2511,12 +2546,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B213264</NID>
-              <NAME>sceDisplay_driver_4B213264</NAME>
+              <NAME>sceDisplayIsVsync</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B52C855</NID>
@@ -2529,48 +2565,53 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4BE9B40B</NID>
-              <NAME>sceDisplay_driver_4BE9B40B</NAME>
+              <NAME>sceDisplayGetResumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5118C462</NID>
-              <NAME>sceDisplay_driver_5118C462</NAME>
+              <NAME>sceDisplayGetForegroundLevel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51CE9C76</NID>
-              <NAME>sceDisplay_driver_51CE9C76</NAME>
+              <NAME>sceDisplayGetCurrentHcount</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6668FCDF</NID>
-              <NAME>sceDisplay_driver_6668FCDF</NAME>
+              <NAME>sceDisplayIsForeground</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x760DBE90</NID>
-              <NAME>sceDisplay_driver_760DBE90</NAME>
+              <NAME>sceDisplayGetVblankRest</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79EFD50E</NID>
@@ -2583,30 +2624,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E67BFCF</NID>
-              <NAME>sceDisplay_driver_7E67BFCF</NAME>
+              <NAME>sceDisplayEnable</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93596B96</NID>
-              <NAME>sceDisplay_driver_93596B96</NAME>
+              <NAME>sceDisplayIsVblank</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0D487B3</NID>
-              <NAME>sceDisplay_driver_B0D487B3</NAME>
+              <NAME>sceDisplaySetHoldMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4D71155</NID>
@@ -2628,61 +2672,67 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC89E1F1D</NID>
-              <NAME>sceDisplay_driver_C89E1F1D</NAME>
+              <NAME>sceDisplayWaitVblank</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB034E7D</NID>
-              <NAME>sceDisplay_driver_CB034E7D</NAME>
+              <NAME>sceDisplaySetPseudoVsync</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0AF0979</NID>
-              <NAME>sceDisplay_driver_D0AF0979</NAME>
+              <NAME>sceDisplayAdjustAccumulatedHcount</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE1AEC441</NID>
-              <NAME>sceDisplay_driver_E1AEC441</NAME>
+              <NAME>sceDisplaySetResumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBAB853E</NID>
-              <NAME>sceDisplay_driver_EBAB853E</NAME>
+              <NAME>sceDisplayIsPseudoField</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5EEEFEF</NID>
-              <NAME>sceDisplay_driver_F5EEEFEF</NAME>
+              <NAME>sceDisplayGetVcount</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1380A62E</NID>
-              <NAME>sceDisplay_driver_1380A62E</NAME>
+              <NAME>sceDisplaySetBrightness</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2690,10 +2740,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17998022</NID>
-              <NAME>sceDisplay_driver_17998022</NAME>
+              <NAME>sceDisplayGetResumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2701,10 +2752,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D634972</NID>
-              <NAME>sceDisplay_driver_2D634972</NAME>
+              <NAME>sceDisplayIsForeground</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2712,10 +2764,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E6AA0AB</NID>
-              <NAME>sceDisplay_driver_2E6AA0AB</NAME>
+              <NAME>sceDisplaySetHoldMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2723,6 +2776,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x390C7E0E</NID>
@@ -2737,7 +2791,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A0E2277</NID>
-              <NAME>sceDisplay_driver_3A0E2277</NAME>
+              <NAME>sceDisplaySetPseudoVsync</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2745,10 +2799,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D1414AF</NID>
-              <NAME>sceDisplay_driver_4D1414AF</NAME>
+              <NAME>sceDisplayGetFramePerSec</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2756,10 +2811,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x661CB78C</NID>
-              <NAME>sceDisplay_driver_661CB78C</NAME>
+              <NAME>sceDisplayWaitVblankStartCB</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2767,10 +2823,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E57C773</NID>
-              <NAME>sceDisplay_driver_6E57C773</NAME>
+              <NAME>sceDisplayGetVcount</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2778,6 +2835,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D4FDCA7</NID>
@@ -2792,7 +2850,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ECE75CD</NID>
-              <NAME>sceDisplay_driver_8ECE75CD</NAME>
+              <NAME>sceDisplayGetVblankRest</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2800,10 +2858,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93CA8A9B</NID>
-              <NAME>sceDisplay_driver_93CA8A9B</NAME>
+              <NAME>sceDisplayIsVblank</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2811,6 +2870,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x940AB0F4</NID>
@@ -2825,7 +2885,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9555B7DA</NID>
-              <NAME>sceDisplay_driver_9555B7DA</NAME>
+              <NAME>sceDisplaySetResumeMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2833,10 +2893,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x968BC266</NID>
-              <NAME>sceDisplay_driver_968BC266</NAME>
+              <NAME>sceDisplayGetForegroundLevel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2844,10 +2905,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C268F30</NID>
-              <NAME>sceDisplay_driver_9C268F30</NAME>
+              <NAME>sceDisplayWaitVblankStart</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2855,10 +2917,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C67EA53</NID>
-              <NAME>sceDisplay_driver_9C67EA53</NAME>
+              <NAME>sceDisplayWaitVblankCB</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2866,6 +2929,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1BEF1F6</NID>
@@ -2880,7 +2944,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0B1C399</NID>
-              <NAME>sceDisplay_driver_B0B1C399</NAME>
+              <NAME>sceDisplayGetBrightness</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2888,10 +2952,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC28EFAA7</NID>
-              <NAME>sceDisplay_driver_C28EFAA7</NAME>
+              <NAME>sceDisplaySetFrameBuf</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2899,10 +2964,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC922270C</NID>
-              <NAME>sceDisplay_driver_C922270C</NAME>
+              <NAME>sceDisplayWaitVblank</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2910,10 +2976,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCAC9C43D</NID>
-              <NAME>sceDisplay_driver_CAC9C43D</NAME>
+              <NAME>sceDisplayGetAccumulatedHcount</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2921,10 +2988,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFB91094</NID>
-              <NAME>sceDisplay_driver_CFB91094</NAME>
+              <NAME>sceDisplayGetFrameBuf</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2932,10 +3000,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7027B58</NID>
-              <NAME>sceDisplay_driver_D7027B58</NAME>
+              <NAME>sceDisplayIsVsync</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2943,10 +3012,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB559C60</NID>
-              <NAME>sceDisplay_driver_DB559C60</NAME>
+              <NAME>sceDisplayGetCurrentHcount</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2954,10 +3024,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB98F049</NID>
-              <NAME>sceDisplay_driver_DB98F049</NAME>
+              <NAME>sceDisplayDisable</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2965,6 +3036,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE18FD694</NID>
@@ -2979,7 +3051,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE727AFDA</NID>
-              <NAME>sceDisplay_driver_E727AFDA</NAME>
+              <NAME>sceDisplayAdjustAccumulatedHcount</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2987,10 +3059,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB6C2BA3</NID>
-              <NAME>sceDisplay_driver_EB6C2BA3</NAME>
+              <NAME>sceDisplayEnable</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2998,10 +3071,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE7FEFBE</NID>
-              <NAME>sceDisplay_driver_EE7FEFBE</NAME>
+              <NAME>sceDisplayIsPseudoField</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3009,6 +3083,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5296F19</NID>

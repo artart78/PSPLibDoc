@@ -732,57 +732,63 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x234B2B47</NID>
-              <NAME>LoadExecForKernel_234B2B47</NAME>
+              <NAME>sceKernelLoadExecVSHDisc</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58699192</NID>
-              <NAME>LoadExecForKernel_58699192</NAME>
+              <NAME>sceKernelLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x62879AD8</NID>
-              <NAME>LoadExecForKernel_62879AD8</NAME>
+              <NAME>sceKernelExitVSHVSH</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63E0A104</NID>
-              <NAME>LoadExecForKernel_63E0A104</NAME>
+              <NAME>sceKernelLoadExecVSHMs3</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x699110EB</NID>
-              <NAME>LoadExecForKernel_699110EB</NAME>
+              <NAME>sceKernelLoadExecBufferVSHUsbWlanDebug</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x753EF37C</NID>
-              <NAME>LoadExecForKernel_753EF37C</NAME>
+              <NAME>sceKernelCheckExitCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x767F2DFC</NID>
@@ -795,39 +801,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x860783BF</NID>
-              <NAME>LoadExecForKernel_860783BF</NAME>
+              <NAME>sceKernelInvokeExitCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D157BC7</NID>
-              <NAME>LoadExecForKernel_8D157BC7</NAME>
+              <NAME>sceKernelLoadExecVSHMs2</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE5AC5D3</NID>
-              <NAME>LoadExecForKernel_AE5AC5D3</NAME>
+              <NAME>sceKernelExitVSHKernel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF9AB97F</NID>
-              <NAME>LoadExecForKernel_AF9AB97F</NAME>
+              <NAME>sceKernelLoadExecVSHDiscUpdater</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1B9C320</NID>
@@ -840,61 +850,67 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2F14B53</NID>
-              <NAME>LoadExecForKernel_B2F14B53</NAME>
+              <NAME>sceKernelLoadExecVSHMs1</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB7DF065</NID>
-              <NAME>LoadExecForKernel_DB7DF065</NAME>
+              <NAME>sceKernelRegisterExitCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE70C0711</NID>
-              <NAME>LoadExecForKernel_E70C0711</NAME>
+              <NAME>sceKernelLoadExecBufferVSHUsbWlan</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1C99C38</NID>
-              <NAME>LoadExecForKernel_F1C99C38</NAME>
+              <NAME>sceKernelUnregisterExitCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF33FF989</NID>
-              <NAME>LoadExecForKernel_F33FF989</NAME>
+              <NAME>sceKernelLoadExecVSHDiscDebug</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC8050B0</NID>
-              <NAME>LoadExecForKernel_FC8050B0</NAME>
+              <NAME>sceKernelLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02320D56</NID>
-              <NAME>LoadExecForKernel_02320D56</NAME>
+              <NAME>sceKernelLoadExecVSHDiscUpdater</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -902,6 +918,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29470B69</NID>
@@ -916,7 +933,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D00AF8E</NID>
-              <NAME>LoadExecForKernel_2D00AF8E</NAME>
+              <NAME>sceKernelLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -924,10 +941,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2EAA8A5A</NID>
-              <NAME>LoadExecForKernel_2EAA8A5A</NAME>
+              <NAME>sceKernelInvokeExitCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -935,10 +953,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D6C5A67</NID>
-              <NAME>LoadExecForKernel_4D6C5A67</NAME>
+              <NAME>sceKernelLoadExecVSHMs1</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -946,10 +965,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5522A305</NID>
-              <NAME>LoadExecForKernel_5522A305</NAME>
+              <NAME>sceKernelLoadExecVSHDiscDebug</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -957,10 +977,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x578AE50B</NID>
-              <NAME>LoadExecForKernel_578AE50B</NAME>
+              <NAME>sceKernelLoadExecBufferVSHUsbWlan</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -968,10 +989,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AF87B62</NID>
-              <NAME>LoadExecForKernel_5AF87B62</NAME>
+              <NAME>sceKernelUnregisterExitCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -979,10 +1001,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F2B2E14</NID>
-              <NAME>LoadExecForKernel_5F2B2E14</NAME>
+              <NAME>sceKernelLoadExecVSHMs2</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -990,10 +1013,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6274D0D5</NID>
-              <NAME>LoadExecForKernel_6274D0D5</NAME>
+              <NAME>sceKernelCheckExitCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1001,10 +1025,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6331FC3A</NID>
-              <NAME>LoadExecForKernel_6331FC3A</NAME>
+              <NAME>sceKernelLoadExecVSHDisc</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1012,10 +1037,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63D88393</NID>
-              <NAME>LoadExecForKernel_63D88393</NAME>
+              <NAME>sceKernelExitVSHKernel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1023,10 +1049,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x71528FED</NID>
-              <NAME>LoadExecForKernel_71528FED</NAME>
+              <NAME>sceKernelLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1034,6 +1061,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x717642FC</NID>
@@ -1059,7 +1087,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CB970B4</NID>
-              <NAME>LoadExecForKernel_9CB970B4</NAME>
+              <NAME>sceKernelRegisterExitCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1067,10 +1095,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DA0BBBD</NID>
-              <NAME>LoadExecForKernel_9DA0BBBD</NAME>
+              <NAME>sceKernelLoadExecVSHMs3</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1078,10 +1107,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC41E3C62</NID>
-              <NAME>LoadExecForKernel_C41E3C62</NAME>
+              <NAME>sceKernelLoadExecBufferVSHUsbWlanDebug</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1089,10 +1119,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA8011A2</NID>
-              <NAME>LoadExecForKernel_CA8011A2</NAME>
+              <NAME>sceKernelExitVSHVSH</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1100,6 +1131,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD9B3E4A2</NID>

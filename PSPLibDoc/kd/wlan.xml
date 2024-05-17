@@ -681,7 +681,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81579D36</NID>
-              <NAME>sceWlanDrv_driver_81579D36</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -710,6 +710,7 @@
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93440B11</NID>
@@ -1002,7 +1003,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D5C839E</NID>
-              <NAME>sceWlanDrv_driver_6D5C839E</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -1026,6 +1027,7 @@
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB3235B5</NID>
@@ -1132,63 +1134,69 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0170721B</NID>
-              <NAME>sceWlanDrv_driver_0170721B</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12CAE6BA</NID>
-              <NAME>sceWlanDrv_driver_12CAE6BA</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x150EA711</NID>
-              <NAME>sceWlanDrv_driver_150EA711</NAME>
+              <NAME>sceWlanDevEnd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20FB9FF7</NID>
-              <NAME>sceWlanDrv_driver_20FB9FF7</NAME>
+              <NAME>sceWlanSetFirm</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2ACB8495</NID>
-              <NAME>sceWlanDrv_driver_2ACB8495</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BB29F9D</NID>
-              <NAME>sceWlanDrv_driver_2BB29F9D</NAME>
+              <NAME>sceWlanDevInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D5715B6</NID>
@@ -1212,13 +1220,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x62E9A7BF</NID>
-              <NAME>sceWlanDrv_driver_62E9A7BF</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x680FADAE</NID>
@@ -1232,23 +1241,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7841515B</NID>
-              <NAME>sceWlanDrv_driver_7841515B</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B251ABE</NID>
-              <NAME>sceWlanDrv_driver_7B251ABE</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86EEA7A5</NID>
@@ -1272,23 +1283,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x96CD9F23</NID>
-              <NAME>sceWlanDrv_driver_96CD9F23</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x98319D9B</NID>
-              <NAME>sceWlanDrv_driver_98319D9B</NAME>
+              <NAME>sceWlanSetDropRate</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA24D50D5</NID>
@@ -1302,43 +1315,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE935EF5</NID>
-              <NAME>sceWlanDrv_driver_AE935EF5</NAME>
+              <NAME>sceWlanDevAttach</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7D9F483</NID>
-              <NAME>sceWlanDrv_driver_B7D9F483</NAME>
+              <NAME>sceWlanDevDetach</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD4513AD</NID>
-              <NAME>sceWlanDrv_driver_BD4513AD</NAME>
+              <NAME>sceWlanGetDropRate</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF5A26DC</NID>
-              <NAME>sceWlanDrv_driver_BF5A26DC</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD742556C</NID>
@@ -1362,88 +1379,97 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEA4F9C43</NID>
-              <NAME>sceWlanDrv_driver_EA4F9C43</NAME>
+              <NAME>sceWlanGPRecv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF8FAD1D</NID>
-              <NAME>sceWlanDrv_driver_EF8FAD1D</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF72A2542</NID>
-              <NAME>sceWlanDrv_driver_F72A2542</NAME>
+              <NAME>sceWlanDevIsPowerOn</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC7A66AD</NID>
-              <NAME>sceWlanDrv_driver_FC7A66AD</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D3B8C36</NID>
-              <NAME>sceWlanDrv_driver_1D3B8C36</NAME>
+              <NAME>sceWlanSetDropRate</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2178C8BC</NID>
-              <NAME>sceWlanDrv_driver_2178C8BC</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D3E4F0B</NID>
-              <NAME>sceWlanDrv_driver_2D3E4F0B</NAME>
+              <NAME>sceWlanDevAttach</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A987EEE</NID>
-              <NAME>sceWlanDrv_driver_3A987EEE</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E12C4EF</NID>
-              <NAME>sceWlanDrv_driver_3E12C4EF</NAME>
+              <NAME>sceWlanGetDropRate</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AA07F34</NID>
@@ -1465,21 +1491,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DFD892B</NID>
-              <NAME>sceWlanDrv_driver_5DFD892B</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F5A263C</NID>
-              <NAME>sceWlanDrv_driver_6F5A263C</NAME>
+              <NAME>sceWlanSetFirm</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79BD9728</NID>
@@ -1501,12 +1529,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81CD60CE</NID>
-              <NAME>sceWlanDrv_driver_81CD60CE</NAME>
+              <NAME>sceWlanDevEnd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95BE17B4</NID>
@@ -1519,102 +1548,113 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9745FA20</NID>
-              <NAME>sceWlanDrv_driver_9745FA20</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB080A661</NID>
-              <NAME>sceWlanDrv_driver_B080A661</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7028E56</NID>
-              <NAME>sceWlanDrv_driver_B7028E56</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB4CE4C3</NID>
-              <NAME>sceWlanDrv_driver_BB4CE4C3</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8A1D403</NID>
-              <NAME>sceWlanDrv_driver_C8A1D403</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE403D65</NID>
-              <NAME>sceWlanDrv_driver_CE403D65</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEFE8A7C</NID>
-              <NAME>sceWlanDrv_driver_CEFE8A7C</NAME>
+              <NAME>sceWlanDevInit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFF3E962</NID>
-              <NAME>sceWlanDrv_driver_CFF3E962</NAME>
+              <NAME>sceWlanDevIsPowerOn</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7E667BE</NID>
-              <NAME>sceWlanDrv_driver_D7E667BE</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDC57210</NID>
-              <NAME>sceWlanDrv_driver_DDC57210</NAME>
+              <NAME>sceWlanDevDetach</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF8D1B04</NID>
-              <NAME>sceWlanDrv_driver_DF8D1B04</NAME>
+              <NAME>sceWlanGPRecv</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0C2B53D</NID>
@@ -1656,7 +1696,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x09516813</NID>
-              <NAME>sceWlanDrv_driver_09516813</NAME>
+              <NAME>sceWlanDevInit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1664,10 +1704,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D09CD08</NID>
-              <NAME>sceWlanDrv_driver_0D09CD08</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1675,10 +1716,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F63981F</NID>
-              <NAME>sceWlanDrv_driver_1F63981F</NAME>
+              <NAME>sceWlanDevAttach</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1686,6 +1728,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34F547F3</NID>
@@ -1700,7 +1743,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3CDB7A85</NID>
-              <NAME>sceWlanDrv_driver_3CDB7A85</NAME>
+              <NAME>sceWlanDevEnd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1708,6 +1751,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x502D4B8F</NID>
@@ -1733,7 +1777,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B4D25FD</NID>
-              <NAME>sceWlanDrv_driver_5B4D25FD</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1741,10 +1785,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FAFE782</NID>
-              <NAME>sceWlanDrv_driver_6FAFE782</NAME>
+              <NAME>sceWlanSetDropRate</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1752,10 +1797,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73DCF01F</NID>
-              <NAME>sceWlanDrv_driver_73DCF01F</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1763,10 +1809,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82AEBA56</NID>
-              <NAME>sceWlanDrv_driver_82AEBA56</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1774,6 +1821,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84D5DD84</NID>
@@ -1788,7 +1836,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88D4A644</NID>
-              <NAME>sceWlanDrv_driver_88D4A644</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1796,10 +1844,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6048F1F</NID>
-              <NAME>sceWlanDrv_driver_A6048F1F</NAME>
+              <NAME>sceWlanSetFirm</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1807,10 +1856,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8DF2FD7</NID>
-              <NAME>sceWlanDrv_driver_A8DF2FD7</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1818,10 +1868,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9060054</NID>
-              <NAME>sceWlanDrv_driver_A9060054</NAME>
+              <NAME>sceWlanDevDetach</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1829,6 +1880,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9E20C2B</NID>
@@ -1843,7 +1895,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD5325B1</NID>
-              <NAME>sceWlanDrv_driver_AD5325B1</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1851,10 +1903,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5C2B940</NID>
-              <NAME>sceWlanDrv_driver_B5C2B940</NAME>
+              <NAME>sceWlanDevIsPowerOn</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1862,10 +1915,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBCC567B0</NID>
-              <NAME>sceWlanDrv_driver_BCC567B0</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1873,6 +1927,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE9EDC63</NID>
@@ -1887,7 +1942,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7F93C77</NID>
-              <NAME>sceWlanDrv_driver_C7F93C77</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1895,10 +1950,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9404840</NID>
-              <NAME>sceWlanDrv_driver_C9404840</NAME>
+              <NAME>sceWlanGetDropRate</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1906,10 +1962,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5C0F67D</NID>
-              <NAME>sceWlanDrv_driver_F5C0F67D</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1917,10 +1974,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF97574AD</NID>
-              <NAME>sceWlanDrv_driver_F97574AD</NAME>
+              <NAME>sceWlanGPRecv</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1928,6 +1986,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCAFB9D5</NID>
@@ -1950,11 +2009,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29516DD1</NID>
-              <NAME>sceWlanDrv_driver_29516DD1</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x366FCBC5</NID>
@@ -1966,51 +2026,57 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FC4D332</NID>
-              <NAME>sceWlanDrv_driver_3FC4D332</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7277C52B</NID>
-              <NAME>sceWlanDrv_driver_7277C52B</NAME>
+              <NAME>sceWlanDevAttach</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x730A86A2</NID>
-              <NAME>sceWlanDrv_driver_730A86A2</NAME>
+              <NAME>sceWlanDevEnd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x755D7896</NID>
-              <NAME>sceWlanDrv_driver_755D7896</NAME>
+              <NAME>sceWlanDevInit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F5073DF</NID>
-              <NAME>sceWlanDrv_driver_7F5073DF</NAME>
+              <NAME>sceWlanSetDropRate</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x88052050</NID>
-              <NAME>sceWlanDrv_driver_88052050</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9363E1A9</NID>
@@ -2022,19 +2088,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x95B55DBE</NID>
-              <NAME>sceWlanDrv_driver_95B55DBE</NAME>
+              <NAME>sceWlanSetFirm</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x97FBE0B5</NID>
-              <NAME>sceWlanDrv_driver_97FBE0B5</NAME>
+              <NAME>sceWlanDevIsPowerOn</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x99345158</NID>
@@ -2054,11 +2122,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD207A67</NID>
-              <NAME>sceWlanDrv_driver_AD207A67</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB14372AA</NID>
@@ -2070,19 +2139,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB73CEA40</NID>
-              <NAME>sceWlanDrv_driver_B73CEA40</NAME>
+              <NAME>sceWlanGPRecv</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7821876</NID>
-              <NAME>sceWlanDrv_driver_B7821876</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC2E2334D</NID>
@@ -2094,59 +2165,66 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5D5D973</NID>
-              <NAME>sceWlanDrv_driver_D5D5D973</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE26294EC</NID>
-              <NAME>sceWlanDrv_driver_E26294EC</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4344275</NID>
-              <NAME>sceWlanDrv_driver_E4344275</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF136EE9D</NID>
-              <NAME>sceWlanDrv_driver_F136EE9D</NAME>
+              <NAME>sceWlanDevDetach</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1A5969B</NID>
-              <NAME>sceWlanDrv_driver_F1A5969B</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4EF0829</NID>
-              <NAME>sceWlanDrv_driver_F4EF0829</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF59A5387</NID>
-              <NAME>sceWlanDrv_driver_F59A5387</NAME>
+              <NAME>sceWlanGetDropRate</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF71F2E27</NID>
@@ -2158,7 +2236,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1534207A</NID>
-              <NAME>sceWlanDrv_driver_1534207A</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2169,10 +2247,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1813A241</NID>
-              <NAME>sceWlanDrv_driver_1813A241</NAME>
+              <NAME>sceWlanGetDropRate</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2183,10 +2262,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D6E8C6A</NID>
-              <NAME>sceWlanDrv_driver_2D6E8C6A</NAME>
+              <NAME>sceWlanDevAttach</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2197,10 +2277,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30B0F399</NID>
-              <NAME>sceWlanDrv_driver_30B0F399</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2211,10 +2292,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34CF1157</NID>
-              <NAME>sceWlanDrv_driver_34CF1157</NAME>
+              <NAME>sceWlanDevIsPowerOn</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2225,6 +2307,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37BE21B1</NID>
@@ -2256,7 +2339,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x44C860D5</NID>
-              <NAME>sceWlanDrv_driver_44C860D5</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2267,10 +2350,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48B764AB</NID>
-              <NAME>sceWlanDrv_driver_48B764AB</NAME>
+              <NAME>sceWlanDevEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2281,10 +2365,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51A1FFED</NID>
-              <NAME>sceWlanDrv_driver_51A1FFED</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2295,6 +2380,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53D40CCC</NID>
@@ -2312,7 +2398,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x570F04B4</NID>
-              <NAME>sceWlanDrv_driver_570F04B4</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2323,10 +2409,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C8E69AF</NID>
-              <NAME>sceWlanDrv_driver_5C8E69AF</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2337,10 +2424,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6296451C</NID>
-              <NAME>sceWlanDrv_driver_6296451C</NAME>
+              <NAME>sceWlanSetFirm</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2351,10 +2439,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6609EF6A</NID>
-              <NAME>sceWlanDrv_driver_6609EF6A</NAME>
+              <NAME>sceWlanSetDropRate</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2365,6 +2454,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7061DB26</NID>
@@ -2396,7 +2486,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D1AD877</NID>
-              <NAME>sceWlanDrv_driver_7D1AD877</NAME>
+              <NAME>sceWlanDevInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2407,6 +2497,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8158677B</NID>
@@ -2424,7 +2515,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BF75E97</NID>
-              <NAME>sceWlanDrv_driver_8BF75E97</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2435,10 +2526,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E78391A</NID>
-              <NAME>sceWlanDrv_driver_8E78391A</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2449,6 +2541,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F49EEF6</NID>
@@ -2466,7 +2559,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xADAB6787</NID>
-              <NAME>sceWlanDrv_driver_ADAB6787</NAME>
+              <NAME>sceWlanDevDetach</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2477,6 +2570,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6005BF9</NID>
@@ -2494,7 +2588,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB89954F</NID>
-              <NAME>sceWlanDrv_driver_CB89954F</NAME>
+              <NAME>sceWlanGPRecv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2505,10 +2599,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE67AD7A2</NID>
-              <NAME>sceWlanDrv_driver_E67AD7A2</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2519,10 +2614,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9D48FD7</NID>
-              <NAME>sceWlanDrv_driver_E9D48FD7</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -2533,6 +2629,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DC332EE</NID>
@@ -2545,31 +2642,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1174A919</NID>
-              <NAME>sceWlanDrv_driver_1174A919</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A31E98F</NID>
-              <NAME>sceWlanDrv_driver_1A31E98F</NAME>
+              <NAME>sceWlanDevAttach</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x256BAFA5</NID>
-              <NAME>sceWlanDrv_driver_256BAFA5</NAME>
+              <NAME>sceWlanSetFirm</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32E28AB9</NID>
-              <NAME>sceWlanDrv_driver_32E28AB9</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B69C3F4</NID>
@@ -2587,10 +2688,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5490B8AD</NID>
-              <NAME>sceWlanDrv_driver_5490B8AD</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x591EB5A9</NID>
@@ -2601,10 +2703,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x60AB4171</NID>
-              <NAME>sceWlanDrv_driver_60AB4171</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72FD44AD</NID>
@@ -2615,45 +2718,51 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x74AE787B</NID>
-              <NAME>sceWlanDrv_driver_74AE787B</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x856E6D67</NID>
-              <NAME>sceWlanDrv_driver_856E6D67</NAME>
+              <NAME>sceWlanDevIsPowerOn</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89EBA937</NID>
-              <NAME>sceWlanDrv_driver_89EBA937</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B76C587</NID>
-              <NAME>sceWlanDrv_driver_8B76C587</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92F67505</NID>
-              <NAME>sceWlanDrv_driver_92F67505</NAME>
+              <NAME>sceWlanDevInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x948DF12D</NID>
-              <NAME>sceWlanDrv_driver_948DF12D</NAME>
+              <NAME>sceWlanDevEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B74EC2F</NID>
@@ -2678,17 +2787,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA2D01A2</NID>
-              <NAME>sceWlanDrv_driver_AA2D01A2</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACF5D632</NID>
-              <NAME>sceWlanDrv_driver_ACF5D632</NAME>
+              <NAME>sceWlanDevDetach</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE7B3088</NID>
@@ -2706,38 +2817,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD4CFF28</NID>
-              <NAME>sceWlanDrv_driver_BD4CFF28</NAME>
+              <NAME>sceWlanGPRecv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9FBF399</NID>
-              <NAME>sceWlanDrv_driver_C9FBF399</NAME>
+              <NAME>sceWlanGetDropRate</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFA85080</NID>
-              <NAME>sceWlanDrv_driver_EFA85080</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0E897B9</NID>
-              <NAME>sceWlanDrv_driver_F0E897B9</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3C8D27C</NID>
-              <NAME>sceWlanDrv_driver_F3C8D27C</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7718A36</NID>
@@ -2748,64 +2864,71 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFC6684A</NID>
-              <NAME>sceWlanDrv_driver_FFC6684A</NAME>
+              <NAME>sceWlanSetDropRate</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0851A79C</NID>
-              <NAME>sceWlanDrv_driver_0851A79C</NAME>
+              <NAME>sceWlanSetDropRate</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BF346A0</NID>
-              <NAME>sceWlanDrv_driver_0BF346A0</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10B30204</NID>
-              <NAME>sceWlanDrv_driver_10B30204</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1285AE10</NID>
-              <NAME>sceWlanDrv_driver_1285AE10</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x209106F8</NID>
-              <NAME>sceWlanDrv_driver_209106F8</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x291CF3AF</NID>
-              <NAME>sceWlanDrv_driver_291CF3AF</NAME>
+              <NAME>sceWlanSetFirm</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F84CD2A</NID>
@@ -2818,12 +2941,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3625B9FA</NID>
-              <NAME>sceWlanDrv_driver_3625B9FA</NAME>
+              <NAME>sceWlanDevInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x366CCF1D</NID>
@@ -2845,12 +2969,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x43F0D2D1</NID>
-              <NAME>sceWlanDrv_driver_43F0D2D1</NAME>
+              <NAME>sceWlanDevDetach</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x45453CF5</NID>
@@ -2863,12 +2988,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x45F6A2B1</NID>
-              <NAME>sceWlanDrv_driver_45F6A2B1</NAME>
+              <NAME>sceWlanGPRecv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4735FDEE</NID>
@@ -2881,21 +3007,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x61DFA72D</NID>
-              <NAME>sceWlanDrv_driver_61DFA72D</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x641C63C9</NID>
-              <NAME>sceWlanDrv_driver_641C63C9</NAME>
+              <NAME>sceWlanDevAttach</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68154217</NID>
@@ -2908,12 +3036,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x73CCCD9B</NID>
-              <NAME>sceWlanDrv_driver_73CCCD9B</NAME>
+              <NAME>sceWlanDevIsPowerOn</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x826AC42A</NID>
@@ -2926,39 +3055,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x866D6536</NID>
-              <NAME>sceWlanDrv_driver_866D6536</NAME>
+              <NAME>sceWlanDevEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90EC1647</NID>
-              <NAME>sceWlanDrv_driver_90EC1647</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x932CDA77</NID>
-              <NAME>sceWlanDrv_driver_932CDA77</NAME>
+              <NAME>sceWlanGetDropRate</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x991FC05A</NID>
-              <NAME>sceWlanDrv_driver_991FC05A</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x996BCE87</NID>
@@ -2971,12 +3104,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB7FD8ED</NID>
-              <NAME>sceWlanDrv_driver_BB7FD8ED</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9EA77A6</NID>
@@ -2989,21 +3123,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA1E5C78</NID>
-              <NAME>sceWlanDrv_driver_CA1E5C78</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3AECC5A</NID>
-              <NAME>sceWlanDrv_driver_D3AECC5A</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD84017C4</NID>
@@ -3016,16 +3152,17 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF0D5F08</NID>
-              <NAME>sceWlanDrv_driver_FF0D5F08</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x059D5D90</NID>
-              <NAME>sceWlanDrv_driver_059D5D90</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3035,10 +3172,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1747351B</NID>
-              <NAME>sceWlanDrv_driver_1747351B</NAME>
+              <NAME>sceWlanSetFirm</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3048,10 +3186,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D1D7352</NID>
-              <NAME>sceWlanDrv_driver_1D1D7352</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3061,6 +3200,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x233AE2A1</NID>
@@ -3090,7 +3230,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x320356CF</NID>
-              <NAME>sceWlanDrv_driver_320356CF</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3100,10 +3240,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x417E6DB2</NID>
-              <NAME>sceWlanDrv_driver_417E6DB2</NAME>
+              <NAME>sceWlanGetDropRate</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3113,6 +3254,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41C4C119</NID>
@@ -3168,7 +3310,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x49BEAA1D</NID>
-              <NAME>sceWlanDrv_driver_49BEAA1D</NAME>
+              <NAME>sceWlanSetDropRate</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3178,10 +3320,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DA72818</NID>
-              <NAME>sceWlanDrv_driver_4DA72818</NAME>
+              <NAME>sceWlanDevInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3191,6 +3334,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x517EFB18</NID>
@@ -3207,7 +3351,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6210C394</NID>
-              <NAME>sceWlanDrv_driver_6210C394</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3217,10 +3361,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6956923F</NID>
-              <NAME>sceWlanDrv_driver_6956923F</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3230,6 +3375,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7086BAEF</NID>
@@ -3246,7 +3392,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x87DC6D45</NID>
-              <NAME>sceWlanDrv_driver_87DC6D45</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3256,10 +3402,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91653B61</NID>
-              <NAME>sceWlanDrv_driver_91653B61</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3269,10 +3416,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x996E5994</NID>
-              <NAME>sceWlanDrv_driver_996E5994</NAME>
+              <NAME>sceWlanDevIsPowerOn</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3282,10 +3430,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB747996F</NID>
-              <NAME>sceWlanDrv_driver_B747996F</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3295,6 +3444,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB960D66F</NID>
@@ -3311,7 +3461,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC9B8124</NID>
-              <NAME>sceWlanDrv_driver_BC9B8124</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3321,10 +3471,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE05454D</NID>
-              <NAME>sceWlanDrv_driver_CE05454D</NAME>
+              <NAME>sceWlanGPRecv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3334,10 +3485,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD187D2F8</NID>
-              <NAME>sceWlanDrv_driver_D187D2F8</NAME>
+              <NAME>sceWlanDevEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3347,6 +3499,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3CAF3F7</NID>
@@ -3363,7 +3516,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6EC5D4A</NID>
-              <NAME>sceWlanDrv_driver_E6EC5D4A</NAME>
+              <NAME>sceWlanDevAttach</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3373,10 +3526,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7BDF808</NID>
-              <NAME>sceWlanDrv_driver_E7BDF808</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3386,10 +3540,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF529E81C</NID>
-              <NAME>sceWlanDrv_driver_F529E81C</NAME>
+              <NAME>sceWlanDevDetach</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3399,10 +3554,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF716121C</NID>
-              <NAME>sceWlanDrv_driver_F716121C</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3412,10 +3568,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9860867</NID>
-              <NAME>sceWlanDrv_driver_F9860867</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -3425,22 +3582,25 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02E66C38</NID>
-              <NAME>sceWlanDrv_driver_02E66C38</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0387523A</NID>
-              <NAME>sceWlanDrv_driver_0387523A</NAME>
+              <NAME>sceWlanDevIsPowerOn</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x041810C3</NID>
@@ -3452,19 +3612,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x04DBA413</NID>
-              <NAME>sceWlanDrv_driver_04DBA413</NAME>
+              <NAME>sceWlanGPRecv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0CAB500F</NID>
-              <NAME>sceWlanDrv_driver_0CAB500F</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AE1B369</NID>
@@ -3476,35 +3638,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C18F5FE</NID>
-              <NAME>sceWlanDrv_driver_1C18F5FE</NAME>
+              <NAME>sceWlanDevAttach</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2519EAA7</NID>
-              <NAME>sceWlanDrv_driver_2519EAA7</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x325F7172</NID>
-              <NAME>sceWlanDrv_driver_325F7172</NAME>
+              <NAME>sceWlanSetDropRate</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ADEA1CF</NID>
-              <NAME>sceWlanDrv_driver_4ADEA1CF</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53F89D4E</NID>
@@ -3516,11 +3682,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x54764A18</NID>
-              <NAME>sceWlanDrv_driver_54764A18</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x561FD176</NID>
@@ -3532,11 +3699,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x58EDD140</NID>
-              <NAME>sceWlanDrv_driver_58EDD140</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E3A5AD3</NID>
@@ -3548,27 +3716,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x60A078E9</NID>
-              <NAME>sceWlanDrv_driver_60A078E9</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67645D5F</NID>
-              <NAME>sceWlanDrv_driver_67645D5F</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C0EC2A9</NID>
-              <NAME>sceWlanDrv_driver_7C0EC2A9</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DD3787C</NID>
@@ -3580,19 +3751,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DF43D4C</NID>
-              <NAME>sceWlanDrv_driver_8DF43D4C</NAME>
+              <NAME>sceWlanDevDetach</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90E5530F</NID>
-              <NAME>sceWlanDrv_driver_90E5530F</NAME>
+              <NAME>sceWlanSetFirm</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA082E6A2</NID>
@@ -3604,11 +3777,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9E6A56D</NID>
-              <NAME>sceWlanDrv_driver_A9E6A56D</NAME>
+              <NAME>sceWlanDevInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB17481BB</NID>
@@ -3620,43 +3794,48 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6A9700D</NID>
-              <NAME>sceWlanDrv_driver_B6A9700D</NAME>
+              <NAME>sceWlanGetDropRate</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4BCD411</NID>
-              <NAME>sceWlanDrv_driver_C4BCD411</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED79DCD4</NID>
-              <NAME>sceWlanDrv_driver_ED79DCD4</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDD207B1</NID>
-              <NAME>sceWlanDrv_driver_EDD207B1</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE744B5C</NID>
-              <NAME>sceWlanDrv_driver_EE744B5C</NAME>
+              <NAME>sceWlanDevEnd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEEC2F8AB</NID>
@@ -4493,7 +4672,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81579D36</NID>
-              <NAME>sceWlanDrv_lib_81579D36</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -4557,6 +4736,7 @@
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9658C9F7</NID>
@@ -5015,7 +5195,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D5C839E</NID>
-              <NAME>sceWlanDrv_lib_6D5C839E</NAME>
+              <NAME>sceWlanGPSend</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -5074,6 +5254,7 @@
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB3235B5</NID>
@@ -5244,19 +5425,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0E897B9</NID>
-              <NAME>sceWlanDrv_lib_F0E897B9</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61DFA72D</NID>
-              <NAME>sceWlanDrv_lib_61DFA72D</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x826AC42A</NID>
@@ -5282,7 +5465,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x87DC6D45</NID>
-              <NAME>sceWlanDrv_lib_87DC6D45</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5292,6 +5475,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AE1B369</NID>
@@ -5303,11 +5487,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ADEA1CF</NID>
-              <NAME>sceWlanDrv_lib_4ADEA1CF</NAME>
+              <NAME>sceWlanDropCheck</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

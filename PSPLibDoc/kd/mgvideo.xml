@@ -594,7 +594,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CEB8922</NID>
-              <NAME>sceMgVideo_driver_1CEB8922</NAME>
+              <NAME>sceMgVideoDecryptSample</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -615,10 +615,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x281D7964</NID>
-              <NAME>sceMgVideo_driver_281D7964</NAME>
+              <NAME>sceMgVideoEndTrack</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -639,6 +640,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BF31464</NID>
@@ -666,7 +668,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x31E2889D</NID>
-              <NAME>sceMgVideo_driver_31E2889D</NAME>
+              <NAME>sceMgVideoInitTrack</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -687,6 +689,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38A97269</NID>
@@ -738,7 +741,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B0F6095</NID>
-              <NAME>sceMgVideo_driver_3B0F6095</NAME>
+              <NAME>sceMgVideoModuleEnd</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -759,10 +762,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63372201</NID>
-              <NAME>sceMgVideo_driver_63372201</NAME>
+              <NAME>sceMgVideoEndMovie</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -783,10 +787,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C73EF37</NID>
-              <NAME>sceMgVideo_driver_6C73EF37</NAME>
+              <NAME>sceMgVideoInitMovie</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -807,10 +812,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x802B9A79</NID>
-              <NAME>sceMgVideo_driver_802B9A79</NAME>
+              <NAME>sceMgVideoGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -831,6 +837,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BF2C963</NID>
@@ -858,7 +865,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DDA1A10</NID>
-              <NAME>sceMgVideo_driver_8DDA1A10</NAME>
+              <NAME>sceMgVideoAuth</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -879,10 +886,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A9CB86C</NID>
-              <NAME>sceMgVideo_driver_9A9CB86C</NAME>
+              <NAME>sceMgVideoInit</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -903,10 +911,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xADA3D270</NID>
-              <NAME>sceMgVideo_driver_ADA3D270</NAME>
+              <NAME>sceMgVideoEnd</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -927,10 +936,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB60EB3F6</NID>
-              <NAME>sceMgVideo_driver_B60EB3F6</NAME>
+              <NAME>sceMgVideoCheckICV</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -951,10 +961,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC58C569F</NID>
-              <NAME>sceMgVideo_driver_C58C569F</NAME>
+              <NAME>sceMgVideoUpdateICV</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -975,6 +986,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC672B777</NID>
@@ -1002,7 +1014,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE2006D8</NID>
-              <NAME>sceMgVideo_driver_CE2006D8</NAME>
+              <NAME>sceMgVideoFormatICV</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1023,10 +1035,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5F5AB03</NID>
-              <NAME>sceMgVideo_driver_E5F5AB03</NAME>
+              <NAME>sceMgVideoNetBindLicense</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1047,10 +1060,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9BE3764</NID>
-              <NAME>sceMgVideo_driver_E9BE3764</NAME>
+              <NAME>sceMgVideoClearMACList</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1071,6 +1085,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF33F67A</NID>
@@ -1098,7 +1113,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5579FA8</NID>
-              <NAME>sceMgVideo_driver_F5579FA8</NAME>
+              <NAME>sceMgVideoGetLicenseInfo</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1119,10 +1134,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5E39E17</NID>
-              <NAME>sceMgVideo_driver_F5E39E17</NAME>
+              <NAME>sceMgVideoModuleInit</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1143,6 +1159,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34638F25</NID>
@@ -1210,7 +1227,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x02AAC170</NID>
-              <NAME>sceMgVideo_driver_02AAC170</NAME>
+              <NAME>sceMgVideoFormatICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1221,10 +1238,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DD51FE7</NID>
-              <NAME>sceMgVideo_driver_0DD51FE7</NAME>
+              <NAME>sceMgVideoModuleEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1235,6 +1253,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F29E345</NID>
@@ -1252,7 +1271,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x14531B0E</NID>
-              <NAME>sceMgVideo_driver_14531B0E</NAME>
+              <NAME>sceMgVideoInitMovie</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1263,6 +1282,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x210C813F</NID>
@@ -1280,7 +1300,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x30BE6ED2</NID>
-              <NAME>sceMgVideo_driver_30BE6ED2</NAME>
+              <NAME>sceMgVideoGetLicenseInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1291,10 +1311,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4EA9270F</NID>
-              <NAME>sceMgVideo_driver_4EA9270F</NAME>
+              <NAME>sceMgVideoEndTrack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1305,10 +1326,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6482DFED</NID>
-              <NAME>sceMgVideo_driver_6482DFED</NAME>
+              <NAME>sceMgVideoCheckICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1319,6 +1341,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C50BF7E</NID>
@@ -1350,7 +1373,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA086DBFB</NID>
-              <NAME>sceMgVideo_driver_A086DBFB</NAME>
+              <NAME>sceMgVideoInitTrack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1361,6 +1384,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC27441F</NID>
@@ -1392,7 +1416,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0A1764C</NID>
-              <NAME>sceMgVideo_driver_B0A1764C</NAME>
+              <NAME>sceMgVideoDecryptSample</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1403,6 +1427,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2A8714F</NID>
@@ -1448,7 +1473,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB865B25B</NID>
-              <NAME>sceMgVideo_driver_B865B25B</NAME>
+              <NAME>sceMgVideoUpdateICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1459,6 +1484,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6172134</NID>
@@ -1476,7 +1502,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA1C3B63</NID>
-              <NAME>sceMgVideo_driver_CA1C3B63</NAME>
+              <NAME>sceMgVideoGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1487,6 +1513,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE09B7CB</NID>
@@ -1504,7 +1531,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3250D2E</NID>
-              <NAME>sceMgVideo_driver_D3250D2E</NAME>
+              <NAME>sceMgVideoClearMACList</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1515,10 +1542,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4900A75</NID>
-              <NAME>sceMgVideo_driver_D4900A75</NAME>
+              <NAME>sceMgVideoModuleInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1529,6 +1557,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD60B94D0</NID>
@@ -1546,7 +1575,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6A530F1</NID>
-              <NAME>sceMgVideo_driver_D6A530F1</NAME>
+              <NAME>sceMgVideoInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1557,6 +1586,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC7118EB</NID>
@@ -1574,7 +1604,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD63B5BF</NID>
-              <NAME>sceMgVideo_driver_DD63B5BF</NAME>
+              <NAME>sceMgVideoNetBindLicense</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1585,10 +1615,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0A373F7</NID>
-              <NAME>sceMgVideo_driver_E0A373F7</NAME>
+              <NAME>sceMgVideoEndMovie</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1599,10 +1630,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC3544DE</NID>
-              <NAME>sceMgVideo_driver_EC3544DE</NAME>
+              <NAME>sceMgVideoAuth</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1613,6 +1645,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE388ADC</NID>
@@ -1630,7 +1663,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2EBB217</NID>
-              <NAME>sceMgVideo_driver_F2EBB217</NAME>
+              <NAME>sceMgVideoEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -1641,13 +1674,15 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01D562DB</NID>
-              <NAME>sceMgVideo_driver_01D562DB</NAME>
+              <NAME>sceMgVideoDecryptSample</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D1A07E7</NID>
@@ -1658,10 +1693,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x19E19AF4</NID>
-              <NAME>sceMgVideo_driver_19E19AF4</NAME>
+              <NAME>sceMgVideoInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CBE6690</NID>
@@ -1686,10 +1722,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x53484004</NID>
-              <NAME>sceMgVideo_driver_53484004</NAME>
+              <NAME>sceMgVideoInitMovie</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5571CD98</NID>
@@ -1707,31 +1744,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5FE5EF6D</NID>
-              <NAME>sceMgVideo_driver_5FE5EF6D</NAME>
+              <NAME>sceMgVideoCheckICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x62A8915D</NID>
-              <NAME>sceMgVideo_driver_62A8915D</NAME>
+              <NAME>sceMgVideoEndTrack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6519941E</NID>
-              <NAME>sceMgVideo_driver_6519941E</NAME>
+              <NAME>sceMgVideoAuth</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x692AAE42</NID>
-              <NAME>sceMgVideo_driver_692AAE42</NAME>
+              <NAME>sceMgVideoModuleInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AFAC969</NID>
@@ -1756,24 +1797,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EA6C83D</NID>
-              <NAME>sceMgVideo_driver_8EA6C83D</NAME>
+              <NAME>sceMgVideoClearMACList</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90BBB677</NID>
-              <NAME>sceMgVideo_driver_90BBB677</NAME>
+              <NAME>sceMgVideoEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x97C7B7C3</NID>
-              <NAME>sceMgVideo_driver_97C7B7C3</NAME>
+              <NAME>sceMgVideoFormatICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA12AB548</NID>
@@ -1791,10 +1835,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xACF488E4</NID>
-              <NAME>sceMgVideo_driver_ACF488E4</NAME>
+              <NAME>sceMgVideoGetLicenseInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD56E236</NID>
@@ -1805,17 +1850,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3C808C5</NID>
-              <NAME>sceMgVideo_driver_B3C808C5</NAME>
+              <NAME>sceMgVideoGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5AE6A69</NID>
-              <NAME>sceMgVideo_driver_B5AE6A69</NAME>
+              <NAME>sceMgVideoNetBindLicense</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0BB8BA4</NID>
@@ -1833,10 +1880,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC82BE028</NID>
-              <NAME>sceMgVideo_driver_C82BE028</NAME>
+              <NAME>sceMgVideoModuleEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEF26C43</NID>
@@ -1847,17 +1895,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC7042C8</NID>
-              <NAME>sceMgVideo_driver_EC7042C8</NAME>
+              <NAME>sceMgVideoEndMovie</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF271F2AA</NID>
-              <NAME>sceMgVideo_driver_F271F2AA</NAME>
+              <NAME>sceMgVideoInitTrack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4B07B35</NID>
@@ -1868,19 +1918,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC205149</NID>
-              <NAME>sceMgVideo_driver_FC205149</NAME>
+              <NAME>sceMgVideoUpdateICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0458AFD2</NID>
-              <NAME>sceMgVideo_driver_0458AFD2</NAME>
+              <NAME>sceMgVideoModuleEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x07643680</NID>
@@ -1893,12 +1945,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x104BDB9D</NID>
-              <NAME>sceMgVideo_driver_104BDB9D</NAME>
+              <NAME>sceMgVideoNetBindLicense</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x133CBC76</NID>
@@ -1947,12 +2000,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x36EB283B</NID>
-              <NAME>sceMgVideo_driver_36EB283B</NAME>
+              <NAME>sceMgVideoGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DFBE070</NID>
@@ -1965,30 +2019,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D25B501</NID>
-              <NAME>sceMgVideo_driver_5D25B501</NAME>
+              <NAME>sceMgVideoInitTrack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64FC15DD</NID>
-              <NAME>sceMgVideo_driver_64FC15DD</NAME>
+              <NAME>sceMgVideoCheckICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E6E68C4</NID>
-              <NAME>sceMgVideo_driver_6E6E68C4</NAME>
+              <NAME>sceMgVideoInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E5DD92C</NID>
@@ -2028,21 +2085,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9706643B</NID>
-              <NAME>sceMgVideo_driver_9706643B</NAME>
+              <NAME>sceMgVideoEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9750BE38</NID>
-              <NAME>sceMgVideo_driver_9750BE38</NAME>
+              <NAME>sceMgVideoClearMACList</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9997BFE8</NID>
@@ -2055,12 +2114,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5F9277C</NID>
-              <NAME>sceMgVideo_driver_A5F9277C</NAME>
+              <NAME>sceMgVideoModuleInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8A9B8FF</NID>
@@ -2073,30 +2133,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB186905D</NID>
-              <NAME>sceMgVideo_driver_B186905D</NAME>
+              <NAME>sceMgVideoFormatICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2CA71FF</NID>
-              <NAME>sceMgVideo_driver_B2CA71FF</NAME>
+              <NAME>sceMgVideoInitMovie</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB66174A8</NID>
-              <NAME>sceMgVideo_driver_B66174A8</NAME>
+              <NAME>sceMgVideoEndTrack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8572F76</NID>
@@ -2109,12 +2172,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBAC09060</NID>
-              <NAME>sceMgVideo_driver_BAC09060</NAME>
+              <NAME>sceMgVideoAuth</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCAC98C88</NID>
@@ -2127,39 +2191,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0CC0171</NID>
-              <NAME>sceMgVideo_driver_D0CC0171</NAME>
+              <NAME>sceMgVideoGetLicenseInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDD8D37B</NID>
-              <NAME>sceMgVideo_driver_DDD8D37B</NAME>
+              <NAME>sceMgVideoDecryptSample</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6A56723</NID>
-              <NAME>sceMgVideo_driver_E6A56723</NAME>
+              <NAME>sceMgVideoUpdateICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1A0BF8B</NID>
-              <NAME>sceMgVideo_driver_F1A0BF8B</NAME>
+              <NAME>sceMgVideoEndMovie</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9163473</NID>
@@ -2194,7 +2262,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2321C1D9</NID>
-              <NAME>sceMgVideo_driver_2321C1D9</NAME>
+              <NAME>sceMgVideoGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2204,10 +2272,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29D4C351</NID>
-              <NAME>sceMgVideo_driver_29D4C351</NAME>
+              <NAME>sceMgVideoCheckICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2217,10 +2286,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x377C967B</NID>
-              <NAME>sceMgVideo_driver_377C967B</NAME>
+              <NAME>sceMgVideoEndTrack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2230,10 +2300,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EEA6133</NID>
-              <NAME>sceMgVideo_driver_3EEA6133</NAME>
+              <NAME>sceMgVideoUpdateICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2243,6 +2314,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41160462</NID>
@@ -2259,7 +2331,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4674B42E</NID>
-              <NAME>sceMgVideo_driver_4674B42E</NAME>
+              <NAME>sceMgVideoModuleInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2269,6 +2341,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x589F10E8</NID>
@@ -2298,7 +2371,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AD53135</NID>
-              <NAME>sceMgVideo_driver_5AD53135</NAME>
+              <NAME>sceMgVideoDecryptSample</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2308,10 +2381,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AC15947</NID>
-              <NAME>sceMgVideo_driver_6AC15947</NAME>
+              <NAME>sceMgVideoEndMovie</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2321,10 +2395,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EECA5A0</NID>
-              <NAME>sceMgVideo_driver_6EECA5A0</NAME>
+              <NAME>sceMgVideoInitTrack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2334,6 +2409,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70A09259</NID>
@@ -2363,7 +2439,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x78F51F69</NID>
-              <NAME>sceMgVideo_driver_78F51F69</NAME>
+              <NAME>sceMgVideoFormatICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2373,6 +2449,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BD60469</NID>
@@ -2415,7 +2492,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82EAE1C5</NID>
-              <NAME>sceMgVideo_driver_82EAE1C5</NAME>
+              <NAME>sceMgVideoNetBindLicense</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2425,10 +2502,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BE49358</NID>
-              <NAME>sceMgVideo_driver_8BE49358</NAME>
+              <NAME>sceMgVideoAuth</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2438,6 +2516,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91E0140D</NID>
@@ -2467,7 +2546,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7FDD4E1</NID>
-              <NAME>sceMgVideo_driver_A7FDD4E1</NAME>
+              <NAME>sceMgVideoInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2477,6 +2556,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2420765</NID>
@@ -2493,7 +2573,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA518763</NID>
-              <NAME>sceMgVideo_driver_BA518763</NAME>
+              <NAME>sceMgVideoInitMovie</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2503,10 +2583,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0D4AD5C</NID>
-              <NAME>sceMgVideo_driver_C0D4AD5C</NAME>
+              <NAME>sceMgVideoGetLicenseInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2516,10 +2597,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEAB09DB</NID>
-              <NAME>sceMgVideo_driver_CEAB09DB</NAME>
+              <NAME>sceMgVideoClearMACList</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2529,6 +2611,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5EF38C4</NID>
@@ -2545,7 +2628,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7DF90EB</NID>
-              <NAME>sceMgVideo_driver_D7DF90EB</NAME>
+              <NAME>sceMgVideoEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2555,6 +2638,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE42D5A83</NID>
@@ -2571,7 +2655,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE52AC360</NID>
-              <NAME>sceMgVideo_driver_E52AC360</NAME>
+              <NAME>sceMgVideoModuleEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -2581,6 +2665,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8EC21AE</NID>
@@ -2623,7 +2708,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x26A29916</NID>
-              <NAME>sceMgVideo_driver_26A29916</NAME>
+              <NAME>sceMgVideoInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2677,6 +2762,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C046DAE</NID>
@@ -2794,7 +2880,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x37E95490</NID>
-              <NAME>sceMgVideo_driver_37E95490</NAME>
+              <NAME>sceMgVideoClearMACList</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2848,10 +2934,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x39712740</NID>
-              <NAME>sceMgVideo_driver_39712740</NAME>
+              <NAME>sceMgVideoFormatICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2905,10 +2992,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F5EC8C7</NID>
-              <NAME>sceMgVideo_driver_3F5EC8C7</NAME>
+              <NAME>sceMgVideoEndMovie</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -2962,6 +3050,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44B6C121</NID>
@@ -3079,7 +3168,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x62FF3C70</NID>
-              <NAME>sceMgVideo_driver_62FF3C70</NAME>
+              <NAME>sceMgVideoAuth</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -3133,10 +3222,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68908973</NID>
-              <NAME>sceMgVideo_driver_68908973</NAME>
+              <NAME>sceMgVideoDecryptSample</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -3190,10 +3280,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68E28BCE</NID>
-              <NAME>sceMgVideo_driver_68E28BCE</NAME>
+              <NAME>sceMgVideoEnd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -3247,6 +3338,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F1D18F4</NID>
@@ -3307,7 +3399,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x70960650</NID>
-              <NAME>sceMgVideo_driver_70960650</NAME>
+              <NAME>sceMgVideoEndTrack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -3361,6 +3453,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7894CCE9</NID>
@@ -3421,7 +3514,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x85471E34</NID>
-              <NAME>sceMgVideo_driver_85471E34</NAME>
+              <NAME>sceMgVideoGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -3475,6 +3568,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8678713F</NID>
@@ -3820,7 +3914,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD6C48A0</NID>
-              <NAME>sceMgVideo_driver_AD6C48A0</NAME>
+              <NAME>sceMgVideoUpdateICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -3874,6 +3968,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAFA4D611</NID>
@@ -3934,7 +4029,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB593C4A9</NID>
-              <NAME>sceMgVideo_driver_B593C4A9</NAME>
+              <NAME>sceMgVideoInitTrack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -3988,10 +4083,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8304DF9</NID>
-              <NAME>sceMgVideo_driver_B8304DF9</NAME>
+              <NAME>sceMgVideoNetBindLicense</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4045,6 +4141,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8F2B2B5</NID>
@@ -4105,7 +4202,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD83E45F</NID>
-              <NAME>sceMgVideo_driver_BD83E45F</NAME>
+              <NAME>sceMgVideoGetLicenseInfo</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4159,10 +4256,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC189C37B</NID>
-              <NAME>sceMgVideo_driver_C189C37B</NAME>
+              <NAME>sceMgVideoCheckICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4216,10 +4314,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC92B2CA3</NID>
-              <NAME>sceMgVideo_driver_C92B2CA3</NAME>
+              <NAME>sceMgVideoInitMovie</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4273,6 +4372,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDAA1AAA7</NID>
@@ -4390,7 +4490,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9D0829C</NID>
-              <NAME>sceMgVideo_driver_E9D0829C</NAME>
+              <NAME>sceMgVideoModuleEnd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4444,6 +4544,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC67A12D</NID>
@@ -4504,7 +4605,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC989B72</NID>
-              <NAME>sceMgVideo_driver_EC989B72</NAME>
+              <NAME>sceMgVideoModuleInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -4558,6 +4659,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

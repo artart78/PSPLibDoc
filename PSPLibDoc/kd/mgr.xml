@@ -2717,7 +2717,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x01242D42</NID>
-              <NAME>sceMgr_driver_01242D42</NAME>
+              <NAME>sceMgrNetGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2734,10 +2734,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0244E12F</NID>
-              <NAME>sceMgr_driver_0244E12F</NAME>
+              <NAME>sceMgrGenerateMACWithKseCBC</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2754,10 +2755,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x029091A3</NID>
-              <NAME>sceMgr_driver_029091A3</NAME>
+              <NAME>sceMgrGetHwVersion</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2774,10 +2776,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0317C2BB</NID>
-              <NAME>sceMgr_driver_0317C2BB</NAME>
+              <NAME>sceMgrMSInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2794,10 +2797,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x047617FD</NID>
-              <NAME>sceMgr_driver_047617FD</NAME>
+              <NAME>sceMgrMSReadPoolPage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2814,10 +2818,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1737DA77</NID>
-              <NAME>sceMgr_driver_1737DA77</NAME>
+              <NAME>sceMgrGenerateMACWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2834,6 +2839,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E4A5B00</NID>
@@ -2857,7 +2863,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x206864DF</NID>
-              <NAME>sceMgr_driver_206864DF</NAME>
+              <NAME>sceMgrMSReadIBD</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2874,10 +2880,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x22F8036F</NID>
-              <NAME>sceMgr_driver_22F8036F</NAME>
+              <NAME>sceMgrDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2894,10 +2901,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x230B4060</NID>
-              <NAME>sceMgr_driver_230B4060</NAME>
+              <NAME>sceMgrStartSession</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2914,10 +2922,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25525ACF</NID>
-              <NAME>sceMgr_driver_25525ACF</NAME>
+              <NAME>sceMgrDecryptEKB</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2934,10 +2943,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2753A877</NID>
-              <NAME>sceMgr_driver_2753A877</NAME>
+              <NAME>sceMgrLock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2954,10 +2964,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AF7907C</NID>
-              <NAME>sceMgr_driver_2AF7907C</NAME>
+              <NAME>sceMgrAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2974,10 +2985,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B63C6AA</NID>
-              <NAME>sceMgr_driver_2B63C6AA</NAME>
+              <NAME>sceMgrReset</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -2994,10 +3006,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BF63C9A</NID>
-              <NAME>sceMgr_driver_2BF63C9A</NAME>
+              <NAME>sceMgrDecryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3014,10 +3027,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D57A8E4</NID>
-              <NAME>sceMgr_driver_2D57A8E4</NAME>
+              <NAME>sceMgrAESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3034,10 +3048,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DB38F46</NID>
-              <NAME>sceMgr_driver_2DB38F46</NAME>
+              <NAME>sceMgrAllocKeyReg</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3054,10 +3069,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30646F60</NID>
-              <NAME>sceMgr_driver_30646F60</NAME>
+              <NAME>sceMgrMSEnd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3074,10 +3090,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31BBBD75</NID>
-              <NAME>sceMgr_driver_31BBBD75</NAME>
+              <NAME>sceMgrCheckVCV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3094,10 +3111,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A41DD9E</NID>
-              <NAME>sceMgr_driver_3A41DD9E</NAME>
+              <NAME>sceMgrDESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3114,10 +3132,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C014033</NID>
-              <NAME>sceMgr_driver_3C014033</NAME>
+              <NAME>sceMgrGenerateKb</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3134,6 +3153,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4805062F</NID>
@@ -3157,7 +3177,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AEE14B5</NID>
-              <NAME>sceMgr_driver_4AEE14B5</NAME>
+              <NAME>sceMgrMSWriteIBD</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3174,10 +3194,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C300443</NID>
-              <NAME>sceMgr_driver_4C300443</NAME>
+              <NAME>sceMgrMSDeauth</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3194,10 +3215,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53632BB8</NID>
-              <NAME>sceMgr_driver_53632BB8</NAME>
+              <NAME>sceMgrEncryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3214,10 +3236,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x549666E9</NID>
-              <NAME>sceMgr_driver_549666E9</NAME>
+              <NAME>sceMgrMSInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3234,10 +3257,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x567C6AB6</NID>
-              <NAME>sceMgr_driver_567C6AB6</NAME>
+              <NAME>sceMgrDecryptKicv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3254,6 +3278,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5730ED68</NID>
@@ -3277,7 +3302,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x573A4F9A</NID>
-              <NAME>sceMgr_driver_573A4F9A</NAME>
+              <NAME>sceMgrAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3294,10 +3319,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5807DE9D</NID>
-              <NAME>sceMgr_driver_5807DE9D</NAME>
+              <NAME>sceMgrCreateKc</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3314,10 +3340,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BA0B4E5</NID>
-              <NAME>sceMgr_driver_5BA0B4E5</NAME>
+              <NAME>sceMgrInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3334,6 +3361,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63005B2E</NID>
@@ -3357,7 +3385,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x68F4EF70</NID>
-              <NAME>sceMgr_driver_68F4EF70</NAME>
+              <NAME>sceMgrAesEnd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3374,10 +3402,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A4391ED</NID>
-              <NAME>sceMgr_driver_6A4391ED</NAME>
+              <NAME>sceMgrDecryptLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3394,10 +3423,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FB86D77</NID>
-              <NAME>sceMgr_driver_6FB86D77</NAME>
+              <NAME>sceMgrAESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3414,10 +3444,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x750687E0</NID>
-              <NAME>sceMgr_driver_750687E0</NAME>
+              <NAME>sceMgrAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3434,10 +3465,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77D615E8</NID>
-              <NAME>sceMgr_driver_77D615E8</NAME>
+              <NAME>sceMgrEnd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3454,10 +3486,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B65D31A</NID>
-              <NAME>sceMgr_driver_7B65D31A</NAME>
+              <NAME>sceMgrEncryptKc</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3474,10 +3507,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F7B1290</NID>
-              <NAME>sceMgr_driver_7F7B1290</NAME>
+              <NAME>sceMgrMSCheckICV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3494,6 +3528,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x801FFC32</NID>
@@ -3537,7 +3572,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x806B58A7</NID>
-              <NAME>sceMgr_driver_806B58A7</NAME>
+              <NAME>sceMgrMSSetLeafID</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3554,10 +3589,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81030E36</NID>
-              <NAME>sceMgr_driver_81030E36</NAME>
+              <NAME>sceMgrAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3574,6 +3610,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84BD43D1</NID>
@@ -3597,7 +3634,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x852F2926</NID>
-              <NAME>sceMgr_driver_852F2926</NAME>
+              <NAME>sceMgrGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3614,10 +3651,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8573F3C1</NID>
-              <NAME>sceMgr_driver_8573F3C1</NAME>
+              <NAME>sceMgrRandom</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3634,10 +3672,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8637836B</NID>
-              <NAME>sceMgr_driver_8637836B</NAME>
+              <NAME>sceMgrMSGetLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3654,10 +3693,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87E52927</NID>
-              <NAME>sceMgr_driver_87E52927</NAME>
+              <NAME>sceMgrDecryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3674,10 +3714,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90D0A056</NID>
-              <NAME>sceMgr_driver_90D0A056</NAME>
+              <NAME>sceMgrDESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3694,6 +3735,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x918D3B6B</NID>
@@ -3717,7 +3759,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x926F941F</NID>
-              <NAME>sceMgr_driver_926F941F</NAME>
+              <NAME>sceMgrGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3734,10 +3776,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94ABDB7E</NID>
-              <NAME>sceMgr_driver_94ABDB7E</NAME>
+              <NAME>sceMgrMSReadSeqPage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3754,6 +3797,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95EDBCE3</NID>
@@ -3777,7 +3821,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9819F9C9</NID>
-              <NAME>sceMgr_driver_9819F9C9</NAME>
+              <NAME>sceMgrGetLeafID</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3794,10 +3838,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B30BDBC</NID>
-              <NAME>sceMgr_driver_9B30BDBC</NAME>
+              <NAME>sceMgrMSWriteICV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3814,10 +3859,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B82F011</NID>
-              <NAME>sceMgr_driver_9B82F011</NAME>
+              <NAME>sceMgrEncryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3834,10 +3880,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA13B5783</NID>
-              <NAME>sceMgr_driver_A13B5783</NAME>
+              <NAME>sceMgrAesInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3854,10 +3901,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA650D4DB</NID>
-              <NAME>sceMgr_driver_A650D4DB</NAME>
+              <NAME>sceMgrGenerateKse</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3874,10 +3922,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA93FBA81</NID>
-              <NAME>sceMgr_driver_A93FBA81</NAME>
+              <NAME>sceMgrMSSetMAC2d</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3894,10 +3943,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9537ADB</NID>
-              <NAME>sceMgr_driver_A9537ADB</NAME>
+              <NAME>sceMgrEncryptKicv</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3914,6 +3964,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD6096F7</NID>
@@ -3957,7 +4008,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5C1049E</NID>
-              <NAME>sceMgr_driver_B5C1049E</NAME>
+              <NAME>sceMgrUnLock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3974,10 +4025,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC496EEB</NID>
-              <NAME>sceMgr_driver_BC496EEB</NAME>
+              <NAME>sceMgrMSGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -3994,10 +4046,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3598D3E</NID>
-              <NAME>sceMgr_driver_C3598D3E</NAME>
+              <NAME>sceMgrFreeKeyReg</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4014,10 +4067,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC428AA66</NID>
-              <NAME>sceMgr_driver_C428AA66</NAME>
+              <NAME>sceMgrPollLock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4034,10 +4088,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC49732EF</NID>
-              <NAME>sceMgr_driver_C49732EF</NAME>
+              <NAME>sceMgrMSAuth</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4054,10 +4109,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6823D08</NID>
-              <NAME>sceMgr_driver_C6823D08</NAME>
+              <NAME>sceMgrInitSeed</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4074,6 +4130,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC778E87B</NID>
@@ -4097,7 +4154,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCAC10A70</NID>
-              <NAME>sceMgr_driver_CAC10A70</NAME>
+              <NAME>sceMgrDecryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4114,10 +4171,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBFB6703</NID>
-              <NAME>sceMgr_driver_CBFB6703</NAME>
+              <NAME>sceMgrMSWritePoolPage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4134,6 +4192,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4661E09</NID>
@@ -4157,7 +4216,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC2A59A1</NID>
-              <NAME>sceMgr_driver_DC2A59A1</NAME>
+              <NAME>sceMgrEncryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4174,10 +4233,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD017155</NID>
-              <NAME>sceMgr_driver_DD017155</NAME>
+              <NAME>sceMgrMSCompareICV</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4194,10 +4254,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2C86E09</NID>
-              <NAME>sceMgr_driver_E2C86E09</NAME>
+              <NAME>sceMgrNetDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4214,10 +4275,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE608F8D3</NID>
-              <NAME>sceMgr_driver_E608F8D3</NAME>
+              <NAME>sceMgrMSMount</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4234,10 +4296,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8A97D40</NID>
-              <NAME>sceMgr_driver_E8A97D40</NAME>
+              <NAME>sceMgrDESEncryptBlock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4254,10 +4317,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9475D28</NID>
-              <NAME>sceMgr_driver_E9475D28</NAME>
+              <NAME>sceMgrGenerateMAC1d</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4274,6 +4338,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEAA1BB9A</NID>
@@ -4297,7 +4362,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1A40FFD</NID>
-              <NAME>sceMgr_driver_F1A40FFD</NAME>
+              <NAME>sceMgrMSWriteSeqPage</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4314,10 +4379,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF26E17E5</NID>
-              <NAME>sceMgr_driver_F26E17E5</NAME>
+              <NAME>sceMgrDESDecryptBlock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4334,10 +4400,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2E1CAE0</NID>
-              <NAME>sceMgr_driver_F2E1CAE0</NAME>
+              <NAME>sceMgrGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4354,10 +4421,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF37C9D86</NID>
-              <NAME>sceMgr_driver_F37C9D86</NAME>
+              <NAME>sceMgrMSGetMediaID</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4374,10 +4442,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4E3BA6E</NID>
-              <NAME>sceMgr_driver_F4E3BA6E</NAME>
+              <NAME>sceMgrMSSetRd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4394,10 +4463,11 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCDA4E9C</NID>
-              <NAME>sceMgr_driver_FCDA4E9C</NAME>
+              <NAME>sceMgrMSReset</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
@@ -4414,6 +4484,7 @@
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01DEAD56</NID>
@@ -4431,7 +4502,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x01E72C94</NID>
-              <NAME>sceMgr_driver_01E72C94</NAME>
+              <NAME>sceMgrMSReadIBD</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4442,10 +4513,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x054F63E2</NID>
-              <NAME>sceMgr_driver_054F63E2</NAME>
+              <NAME>sceMgrAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4456,10 +4528,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05685918</NID>
-              <NAME>sceMgr_driver_05685918</NAME>
+              <NAME>sceMgrGetLeafID</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4470,10 +4543,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x076FB0CE</NID>
-              <NAME>sceMgr_driver_076FB0CE</NAME>
+              <NAME>sceMgrMSInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4484,10 +4558,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A325EC5</NID>
-              <NAME>sceMgr_driver_0A325EC5</NAME>
+              <NAME>sceMgrDESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4498,6 +4573,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F2F1CC6</NID>
@@ -4515,7 +4591,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FBDC1FA</NID>
-              <NAME>sceMgr_driver_0FBDC1FA</NAME>
+              <NAME>sceMgrDecryptKicv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4526,10 +4602,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x164D03B4</NID>
-              <NAME>sceMgr_driver_164D03B4</NAME>
+              <NAME>sceMgrEncryptKc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4540,10 +4617,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D9BE52A</NID>
-              <NAME>sceMgr_driver_1D9BE52A</NAME>
+              <NAME>sceMgrAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4554,10 +4632,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27B33014</NID>
-              <NAME>sceMgr_driver_27B33014</NAME>
+              <NAME>sceMgrGenerateMAC1d</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4568,10 +4647,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27DE929C</NID>
-              <NAME>sceMgr_driver_27DE929C</NAME>
+              <NAME>sceMgrAesEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4582,10 +4662,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x304CCB70</NID>
-              <NAME>sceMgr_driver_304CCB70</NAME>
+              <NAME>sceMgrEncryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4596,10 +4677,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33DB6E44</NID>
-              <NAME>sceMgr_driver_33DB6E44</NAME>
+              <NAME>sceMgrStartSession</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4610,10 +4692,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x356C0CB9</NID>
-              <NAME>sceMgr_driver_356C0CB9</NAME>
+              <NAME>sceMgrMSInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4624,10 +4707,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35D67BDD</NID>
-              <NAME>sceMgr_driver_35D67BDD</NAME>
+              <NAME>sceMgrGenerateMACWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4638,10 +4722,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3705320A</NID>
-              <NAME>sceMgr_driver_3705320A</NAME>
+              <NAME>sceMgrPollLock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4652,6 +4737,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x464F2E1D</NID>
@@ -4669,7 +4755,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x46AD8B0F</NID>
-              <NAME>sceMgr_driver_46AD8B0F</NAME>
+              <NAME>sceMgrMSCompareICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4680,10 +4766,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DC3C6CC</NID>
-              <NAME>sceMgr_driver_4DC3C6CC</NAME>
+              <NAME>sceMgrMSGetLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4694,10 +4781,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F4204C1</NID>
-              <NAME>sceMgr_driver_4F4204C1</NAME>
+              <NAME>sceMgrDESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4708,10 +4796,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F75E39B</NID>
-              <NAME>sceMgr_driver_4F75E39B</NAME>
+              <NAME>sceMgrAllocKeyReg</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4722,10 +4811,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FDD037A</NID>
-              <NAME>sceMgr_driver_4FDD037A</NAME>
+              <NAME>sceMgrCheckVCV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4736,10 +4826,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5082E805</NID>
-              <NAME>sceMgr_driver_5082E805</NAME>
+              <NAME>sceMgrAESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4750,10 +4841,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x510D5B9E</NID>
-              <NAME>sceMgr_driver_510D5B9E</NAME>
+              <NAME>sceMgrMSReset</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4764,10 +4856,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57B65AB6</NID>
-              <NAME>sceMgr_driver_57B65AB6</NAME>
+              <NAME>sceMgrRandom</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4778,10 +4871,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58D31BB9</NID>
-              <NAME>sceMgr_driver_58D31BB9</NAME>
+              <NAME>sceMgrGetHwVersion</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4792,10 +4886,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x594573CA</NID>
-              <NAME>sceMgr_driver_594573CA</NAME>
+              <NAME>sceMgrEncryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4806,10 +4901,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C6213D5</NID>
-              <NAME>sceMgr_driver_5C6213D5</NAME>
+              <NAME>sceMgrMSReadPoolPage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4820,10 +4916,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AD4FE1D</NID>
-              <NAME>sceMgr_driver_6AD4FE1D</NAME>
+              <NAME>sceMgrInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4834,10 +4931,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B50C252</NID>
-              <NAME>sceMgr_driver_6B50C252</NAME>
+              <NAME>sceMgrMSDeauth</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4848,10 +4946,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F587E7D</NID>
-              <NAME>sceMgr_driver_6F587E7D</NAME>
+              <NAME>sceMgrMSWriteIBD</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4862,10 +4961,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74EF7A0E</NID>
-              <NAME>sceMgr_driver_74EF7A0E</NAME>
+              <NAME>sceMgrGenerateKse</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4876,10 +4976,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x757C15C4</NID>
-              <NAME>sceMgr_driver_757C15C4</NAME>
+              <NAME>sceMgrMSGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4890,6 +4991,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x796A3F62</NID>
@@ -4921,7 +5023,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D8196B9</NID>
-              <NAME>sceMgr_driver_7D8196B9</NAME>
+              <NAME>sceMgrDecryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4932,10 +5034,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F6C102D</NID>
-              <NAME>sceMgr_driver_7F6C102D</NAME>
+              <NAME>sceMgrEncryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4946,10 +5049,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FB95549</NID>
-              <NAME>sceMgr_driver_7FB95549</NAME>
+              <NAME>sceMgrGenerateMACWithKseCBC</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4960,10 +5064,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80A246A2</NID>
-              <NAME>sceMgr_driver_80A246A2</NAME>
+              <NAME>sceMgrMSWriteICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4974,10 +5079,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A3CF4E1</NID>
-              <NAME>sceMgr_driver_8A3CF4E1</NAME>
+              <NAME>sceMgrMSAuth</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4988,10 +5094,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A832652</NID>
-              <NAME>sceMgr_driver_8A832652</NAME>
+              <NAME>sceMgrCreateKc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5002,10 +5109,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90C988D6</NID>
-              <NAME>sceMgr_driver_90C988D6</NAME>
+              <NAME>sceMgrGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5016,10 +5124,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9209A129</NID>
-              <NAME>sceMgr_driver_9209A129</NAME>
+              <NAME>sceMgrAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5030,10 +5139,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94C00AAB</NID>
-              <NAME>sceMgr_driver_94C00AAB</NAME>
+              <NAME>sceMgrMSSetLeafID</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5044,10 +5154,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95BBF694</NID>
-              <NAME>sceMgr_driver_95BBF694</NAME>
+              <NAME>sceMgrFreeKeyReg</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5058,6 +5169,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x97F30628</NID>
@@ -5089,7 +5201,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0789211</NID>
-              <NAME>sceMgr_driver_A0789211</NAME>
+              <NAME>sceMgrEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5100,10 +5212,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA106077B</NID>
-              <NAME>sceMgr_driver_A106077B</NAME>
+              <NAME>sceMgrDecryptLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5114,6 +5227,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA14FBE92</NID>
@@ -5145,7 +5259,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7F6CCD8</NID>
-              <NAME>sceMgr_driver_A7F6CCD8</NAME>
+              <NAME>sceMgrMSWriteSeqPage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5156,10 +5270,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA439A22</NID>
-              <NAME>sceMgr_driver_AA439A22</NAME>
+              <NAME>sceMgrMSMount</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5170,10 +5285,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACE78D6F</NID>
-              <NAME>sceMgr_driver_ACE78D6F</NAME>
+              <NAME>sceMgrMSSetRd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5184,10 +5300,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB07E8C53</NID>
-              <NAME>sceMgr_driver_B07E8C53</NAME>
+              <NAME>sceMgrGenerateKb</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5198,10 +5315,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1AF57D1</NID>
-              <NAME>sceMgr_driver_B1AF57D1</NAME>
+              <NAME>sceMgrMSSetMAC2d</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5212,10 +5330,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4C8FEB5</NID>
-              <NAME>sceMgr_driver_B4C8FEB5</NAME>
+              <NAME>sceMgrDecryptEKB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5226,10 +5345,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5B4E335</NID>
-              <NAME>sceMgr_driver_B5B4E335</NAME>
+              <NAME>sceMgrAESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5240,6 +5360,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB79BD248</NID>
@@ -5257,7 +5378,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB87800DA</NID>
-              <NAME>sceMgr_driver_B87800DA</NAME>
+              <NAME>sceMgrDecryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5268,10 +5389,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB1270CD</NID>
-              <NAME>sceMgr_driver_BB1270CD</NAME>
+              <NAME>sceMgrMSEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5282,10 +5404,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC92B05B</NID>
-              <NAME>sceMgr_driver_BC92B05B</NAME>
+              <NAME>sceMgrAesInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5296,10 +5419,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC33CA70B</NID>
-              <NAME>sceMgr_driver_C33CA70B</NAME>
+              <NAME>sceMgrDecryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5310,6 +5434,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4AA7461</NID>
@@ -5327,7 +5452,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5C67602</NID>
-              <NAME>sceMgr_driver_C5C67602</NAME>
+              <NAME>sceMgrDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5338,10 +5463,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1EEAB07</NID>
-              <NAME>sceMgr_driver_D1EEAB07</NAME>
+              <NAME>sceMgrMSWritePoolPage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5352,10 +5478,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1EF313E</NID>
-              <NAME>sceMgr_driver_D1EF313E</NAME>
+              <NAME>sceMgrInitSeed</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5366,6 +5493,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD41AD4BC</NID>
@@ -5383,7 +5511,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5608120</NID>
-              <NAME>sceMgr_driver_D5608120</NAME>
+              <NAME>sceMgrGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5394,10 +5522,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5BF2BB3</NID>
-              <NAME>sceMgr_driver_D5BF2BB3</NAME>
+              <NAME>sceMgrMSReadSeqPage</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5408,6 +5537,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFF163B7</NID>
@@ -5425,7 +5555,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE113B2D3</NID>
-              <NAME>sceMgr_driver_E113B2D3</NAME>
+              <NAME>sceMgrReset</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5436,10 +5566,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE1AEA6B1</NID>
-              <NAME>sceMgr_driver_E1AEA6B1</NAME>
+              <NAME>sceMgrAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5450,10 +5581,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8590C77</NID>
-              <NAME>sceMgr_driver_E8590C77</NAME>
+              <NAME>sceMgrGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5464,10 +5596,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBB44C3A</NID>
-              <NAME>sceMgr_driver_EBB44C3A</NAME>
+              <NAME>sceMgrMSCheckICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5478,10 +5611,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBB92432</NID>
-              <NAME>sceMgr_driver_EBB92432</NAME>
+              <NAME>sceMgrNetGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5492,10 +5626,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECA879A5</NID>
-              <NAME>sceMgr_driver_ECA879A5</NAME>
+              <NAME>sceMgrEncryptKicv</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5506,6 +5641,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF17B5583</NID>
@@ -5523,7 +5659,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2D3A11C</NID>
-              <NAME>sceMgr_driver_F2D3A11C</NAME>
+              <NAME>sceMgrLock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5534,10 +5670,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4C0A3BC</NID>
-              <NAME>sceMgr_driver_F4C0A3BC</NAME>
+              <NAME>sceMgrNetDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5548,10 +5685,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4E4462A</NID>
-              <NAME>sceMgr_driver_F4E4462A</NAME>
+              <NAME>sceMgrDESEncryptBlock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5562,10 +5700,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC99B617</NID>
-              <NAME>sceMgr_driver_FC99B617</NAME>
+              <NAME>sceMgrDESDecryptBlock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5576,10 +5715,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCB67E28</NID>
-              <NAME>sceMgr_driver_FCB67E28</NAME>
+              <NAME>sceMgrMSGetMediaID</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5590,10 +5730,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD4A2E5E</NID>
-              <NAME>sceMgr_driver_FD4A2E5E</NAME>
+              <NAME>sceMgrUnLock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5604,13 +5745,15 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06B00BD6</NID>
-              <NAME>sceMgr_driver_06B00BD6</NAME>
+              <NAME>sceMgrPollLock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BC5023B</NID>
@@ -5628,10 +5771,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x11939B4F</NID>
-              <NAME>sceMgr_driver_11939B4F</NAME>
+              <NAME>sceMgrMSEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12462650</NID>
@@ -5642,45 +5786,51 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x15F8980E</NID>
-              <NAME>sceMgr_driver_15F8980E</NAME>
+              <NAME>sceMgrAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17688BFE</NID>
-              <NAME>sceMgr_driver_17688BFE</NAME>
+              <NAME>sceMgrAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AD52CF1</NID>
-              <NAME>sceMgr_driver_1AD52CF1</NAME>
+              <NAME>sceMgrAesEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20F6B25A</NID>
-              <NAME>sceMgr_driver_20F6B25A</NAME>
+              <NAME>sceMgrDecryptKicv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24929871</NID>
-              <NAME>sceMgr_driver_24929871</NAME>
+              <NAME>sceMgrLock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2510B64E</NID>
-              <NAME>sceMgr_driver_2510B64E</NAME>
+              <NAME>sceMgrInitSeed</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x26F423D7</NID>
@@ -5691,24 +5841,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A1F3464</NID>
-              <NAME>sceMgr_driver_2A1F3464</NAME>
+              <NAME>sceMgrDESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A90867B</NID>
-              <NAME>sceMgr_driver_2A90867B</NAME>
+              <NAME>sceMgrMSGetLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C362926</NID>
-              <NAME>sceMgr_driver_2C362926</NAME>
+              <NAME>sceMgrMSAuth</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F2592A4</NID>
@@ -5719,101 +5872,115 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3417B07A</NID>
-              <NAME>sceMgr_driver_3417B07A</NAME>
+              <NAME>sceMgrReset</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35D46084</NID>
-              <NAME>sceMgr_driver_35D46084</NAME>
+              <NAME>sceMgrAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37CEA549</NID>
-              <NAME>sceMgr_driver_37CEA549</NAME>
+              <NAME>sceMgrDESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x399EE16B</NID>
-              <NAME>sceMgr_driver_399EE16B</NAME>
+              <NAME>sceMgrDecryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4626C20B</NID>
-              <NAME>sceMgr_driver_4626C20B</NAME>
+              <NAME>sceMgrMSReset</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B13B885</NID>
-              <NAME>sceMgr_driver_4B13B885</NAME>
+              <NAME>sceMgrNetGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C4BA32C</NID>
-              <NAME>sceMgr_driver_4C4BA32C</NAME>
+              <NAME>sceMgrMSMount</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DF96BE7</NID>
-              <NAME>sceMgr_driver_4DF96BE7</NAME>
+              <NAME>sceMgrGetHwVersion</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5061D461</NID>
-              <NAME>sceMgr_driver_5061D461</NAME>
+              <NAME>sceMgrCreateKc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5113F999</NID>
-              <NAME>sceMgr_driver_5113F999</NAME>
+              <NAME>sceMgrGenerateMACWithKseCBC</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51A8035A</NID>
-              <NAME>sceMgr_driver_51A8035A</NAME>
+              <NAME>sceMgrEncryptKicv</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x52650400</NID>
-              <NAME>sceMgr_driver_52650400</NAME>
+              <NAME>sceMgrCheckVCV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x526CDE77</NID>
-              <NAME>sceMgr_driver_526CDE77</NAME>
+              <NAME>sceMgrEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53A7F540</NID>
-              <NAME>sceMgr_driver_53A7F540</NAME>
+              <NAME>sceMgrAesInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54288044</NID>
@@ -5831,52 +5998,59 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x590DA887</NID>
-              <NAME>sceMgr_driver_590DA887</NAME>
+              <NAME>sceMgrAllocKeyReg</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5991B1FE</NID>
-              <NAME>sceMgr_driver_5991B1FE</NAME>
+              <NAME>sceMgrNetDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5ABB7FEC</NID>
-              <NAME>sceMgr_driver_5ABB7FEC</NAME>
+              <NAME>sceMgrMSWriteICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D5428EC</NID>
-              <NAME>sceMgr_driver_5D5428EC</NAME>
+              <NAME>sceMgrGenerateMAC1d</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E195524</NID>
-              <NAME>sceMgr_driver_5E195524</NAME>
+              <NAME>sceMgrGetLeafID</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F6D182F</NID>
-              <NAME>sceMgr_driver_5F6D182F</NAME>
+              <NAME>sceMgrMSGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x624AB437</NID>
-              <NAME>sceMgr_driver_624AB437</NAME>
+              <NAME>sceMgrGenerateMACWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x644F579A</NID>
@@ -5887,17 +6061,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AB7B4C2</NID>
-              <NAME>sceMgr_driver_6AB7B4C2</NAME>
+              <NAME>sceMgrMSWriteIBD</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FDC9F01</NID>
-              <NAME>sceMgr_driver_6FDC9F01</NAME>
+              <NAME>sceMgrEncryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FF1F0A3</NID>
@@ -5908,10 +6084,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71F86161</NID>
-              <NAME>sceMgr_driver_71F86161</NAME>
+              <NAME>sceMgrMSWritePoolPage</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73179FE7</NID>
@@ -5922,24 +6099,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x785C43E9</NID>
-              <NAME>sceMgr_driver_785C43E9</NAME>
+              <NAME>sceMgrMSCheckICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A514EF1</NID>
-              <NAME>sceMgr_driver_7A514EF1</NAME>
+              <NAME>sceMgrDecryptEKB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F5C4575</NID>
-              <NAME>sceMgr_driver_7F5C4575</NAME>
+              <NAME>sceMgrMSCompareICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FFA9241</NID>
@@ -5950,10 +6130,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8096A416</NID>
-              <NAME>sceMgr_driver_8096A416</NAME>
+              <NAME>sceMgrDecryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8126EEE1</NID>
@@ -5964,45 +6145,51 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8416AAA8</NID>
-              <NAME>sceMgr_driver_8416AAA8</NAME>
+              <NAME>sceMgrEncryptKc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x847B4BC8</NID>
-              <NAME>sceMgr_driver_847B4BC8</NAME>
+              <NAME>sceMgrMSSetLeafID</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8490EBDC</NID>
-              <NAME>sceMgr_driver_8490EBDC</NAME>
+              <NAME>sceMgrMSSetMAC2d</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x871C8B1F</NID>
-              <NAME>sceMgr_driver_871C8B1F</NAME>
+              <NAME>sceMgrDESDecryptBlock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87DB0F6E</NID>
-              <NAME>sceMgr_driver_87DB0F6E</NAME>
+              <NAME>sceMgrMSWriteSeqPage</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D3B1002</NID>
-              <NAME>sceMgr_driver_8D3B1002</NAME>
+              <NAME>sceMgrFreeKeyReg</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9135A17B</NID>
@@ -6013,17 +6200,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x93F6579A</NID>
-              <NAME>sceMgr_driver_93F6579A</NAME>
+              <NAME>sceMgrGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9921293D</NID>
-              <NAME>sceMgr_driver_9921293D</NAME>
+              <NAME>sceMgrDecryptLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B615AA4</NID>
@@ -6034,10 +6223,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0D4DCDF</NID>
-              <NAME>sceMgr_driver_A0D4DCDF</NAME>
+              <NAME>sceMgrDESEncryptBlock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5A7C1FF</NID>
@@ -6048,17 +6238,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8C16AB7</NID>
-              <NAME>sceMgr_driver_A8C16AB7</NAME>
+              <NAME>sceMgrRandom</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8D7EE96</NID>
-              <NAME>sceMgr_driver_A8D7EE96</NAME>
+              <NAME>sceMgrUnLock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABBD0FCB</NID>
@@ -6076,24 +6268,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7965B81</NID>
-              <NAME>sceMgr_driver_B7965B81</NAME>
+              <NAME>sceMgrEncryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC23A5F5</NID>
-              <NAME>sceMgr_driver_BC23A5F5</NAME>
+              <NAME>sceMgrAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC46BBAF</NID>
-              <NAME>sceMgr_driver_BC46BBAF</NAME>
+              <NAME>sceMgrMSInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDAA624F</NID>
@@ -6104,10 +6299,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFF80031</NID>
-              <NAME>sceMgr_driver_BFF80031</NAME>
+              <NAME>sceMgrInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8103B4F</NID>
@@ -6132,10 +6328,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD606F56</NID>
-              <NAME>sceMgr_driver_CD606F56</NAME>
+              <NAME>sceMgrDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFFD199C</NID>
@@ -6146,10 +6343,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1891DA8</NID>
-              <NAME>sceMgr_driver_D1891DA8</NAME>
+              <NAME>sceMgrGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2BC448B</NID>
@@ -6167,10 +6365,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3C0B5C7</NID>
-              <NAME>sceMgr_driver_D3C0B5C7</NAME>
+              <NAME>sceMgrMSDeauth</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD40CA068</NID>
@@ -6181,17 +6380,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD793B00C</NID>
-              <NAME>sceMgr_driver_D793B00C</NAME>
+              <NAME>sceMgrMSReadSeqPage</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD9ABFBE7</NID>
-              <NAME>sceMgr_driver_D9ABFBE7</NAME>
+              <NAME>sceMgrAESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD3C523D</NID>
@@ -6209,45 +6410,51 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF26995D</NID>
-              <NAME>sceMgr_driver_DF26995D</NAME>
+              <NAME>sceMgrMSInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0DBA75E</NID>
-              <NAME>sceMgr_driver_E0DBA75E</NAME>
+              <NAME>sceMgrMSSetRd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE1A732BA</NID>
-              <NAME>sceMgr_driver_E1A732BA</NAME>
+              <NAME>sceMgrMSReadPoolPage</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE1C2240F</NID>
-              <NAME>sceMgr_driver_E1C2240F</NAME>
+              <NAME>sceMgrMSReadIBD</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2018039</NID>
-              <NAME>sceMgr_driver_E2018039</NAME>
+              <NAME>sceMgrGenerateKb</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2D3F218</NID>
-              <NAME>sceMgr_driver_E2D3F218</NAME>
+              <NAME>sceMgrEncryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3CD2763</NID>
@@ -6258,38 +6465,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3CD3DAE</NID>
-              <NAME>sceMgr_driver_E3CD3DAE</NAME>
+              <NAME>sceMgrGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7740AE7</NID>
-              <NAME>sceMgr_driver_E7740AE7</NAME>
+              <NAME>sceMgrDecryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF15F9615</NID>
-              <NAME>sceMgr_driver_F15F9615</NAME>
+              <NAME>sceMgrAESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF21E4ED7</NID>
-              <NAME>sceMgr_driver_F21E4ED7</NAME>
+              <NAME>sceMgrMSGetMediaID</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF45E0E42</NID>
-              <NAME>sceMgr_driver_F45E0E42</NAME>
+              <NAME>sceMgrStartSession</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF47A3D89</NID>
@@ -6307,19 +6519,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFAD4666A</NID>
-              <NAME>sceMgr_driver_FAD4666A</NAME>
+              <NAME>sceMgrGenerateKse</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05BC0FA0</NID>
-              <NAME>sceMgr_driver_05BC0FA0</NAME>
+              <NAME>sceMgrMSGetMediaID</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x07D8E40E</NID>
@@ -6332,39 +6546,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x08561330</NID>
-              <NAME>sceMgr_driver_08561330</NAME>
+              <NAME>sceMgrMSDeauth</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B625EAA</NID>
-              <NAME>sceMgr_driver_0B625EAA</NAME>
+              <NAME>sceMgrAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BE5E339</NID>
-              <NAME>sceMgr_driver_0BE5E339</NAME>
+              <NAME>sceMgrUnLock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x102DBA4B</NID>
-              <NAME>sceMgr_driver_102DBA4B</NAME>
+              <NAME>sceMgrMSSetRd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10E75FD8</NID>
@@ -6377,30 +6595,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x11998EF2</NID>
-              <NAME>sceMgr_driver_11998EF2</NAME>
+              <NAME>sceMgrMSAuth</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1684119E</NID>
-              <NAME>sceMgr_driver_1684119E</NAME>
+              <NAME>sceMgrDESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x188D7E82</NID>
-              <NAME>sceMgr_driver_188D7E82</NAME>
+              <NAME>sceMgrGetLeafID</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B56A660</NID>
@@ -6431,21 +6652,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29D3B0BF</NID>
-              <NAME>sceMgr_driver_29D3B0BF</NAME>
+              <NAME>sceMgrEncryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DFDBC2C</NID>
-              <NAME>sceMgr_driver_2DFDBC2C</NAME>
+              <NAME>sceMgrEncryptKicv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32A73ECF</NID>
@@ -6458,21 +6681,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3ABF778E</NID>
-              <NAME>sceMgr_driver_3ABF778E</NAME>
+              <NAME>sceMgrMSSetLeafID</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C79BDA3</NID>
-              <NAME>sceMgr_driver_3C79BDA3</NAME>
+              <NAME>sceMgrNetGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D517F4A</NID>
@@ -6485,21 +6710,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DE389EE</NID>
-              <NAME>sceMgr_driver_3DE389EE</NAME>
+              <NAME>sceMgrCreateKc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x409B01C3</NID>
-              <NAME>sceMgr_driver_409B01C3</NAME>
+              <NAME>sceMgrRandom</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x411BAA1B</NID>
@@ -6512,39 +6739,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x420CA3A6</NID>
-              <NAME>sceMgr_driver_420CA3A6</NAME>
+              <NAME>sceMgrDESDecryptBlock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43ADD138</NID>
-              <NAME>sceMgr_driver_43ADD138</NAME>
+              <NAME>sceMgrCheckVCV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44BFC17E</NID>
-              <NAME>sceMgr_driver_44BFC17E</NAME>
+              <NAME>sceMgrDecryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47A55992</NID>
-              <NAME>sceMgr_driver_47A55992</NAME>
+              <NAME>sceMgrDecryptLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47CE6C92</NID>
@@ -6557,66 +6788,73 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4994A257</NID>
-              <NAME>sceMgr_driver_4994A257</NAME>
+              <NAME>sceMgrGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AC5675A</NID>
-              <NAME>sceMgr_driver_4AC5675A</NAME>
+              <NAME>sceMgrAllocKeyReg</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D13BBB1</NID>
-              <NAME>sceMgr_driver_4D13BBB1</NAME>
+              <NAME>sceMgrAESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DA4FBF8</NID>
-              <NAME>sceMgr_driver_4DA4FBF8</NAME>
+              <NAME>sceMgrMSWritePoolPage</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DC24724</NID>
-              <NAME>sceMgr_driver_4DC24724</NAME>
+              <NAME>sceMgrGenerateMACWithKseCBC</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x502B8283</NID>
-              <NAME>sceMgr_driver_502B8283</NAME>
+              <NAME>sceMgrMSMount</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x559FFE30</NID>
-              <NAME>sceMgr_driver_559FFE30</NAME>
+              <NAME>sceMgrMSCompareICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x560A7AD7</NID>
@@ -6638,12 +6876,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B87B7B5</NID>
-              <NAME>sceMgr_driver_5B87B7B5</NAME>
+              <NAME>sceMgrInitSeed</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C1164D2</NID>
@@ -6656,39 +6895,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E22F1BE</NID>
-              <NAME>sceMgr_driver_5E22F1BE</NAME>
+              <NAME>sceMgrMSCheckICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E708077</NID>
-              <NAME>sceMgr_driver_5E708077</NAME>
+              <NAME>sceMgrMSEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5FD52B9C</NID>
-              <NAME>sceMgr_driver_5FD52B9C</NAME>
+              <NAME>sceMgrAesInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x60C2C9F6</NID>
-              <NAME>sceMgr_driver_60C2C9F6</NAME>
+              <NAME>sceMgrEncryptKc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61500FF6</NID>
@@ -6701,21 +6944,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x627BD99B</NID>
-              <NAME>sceMgr_driver_627BD99B</NAME>
+              <NAME>sceMgrGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64D263EE</NID>
-              <NAME>sceMgr_driver_64D263EE</NAME>
+              <NAME>sceMgrAESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67C50E1C</NID>
@@ -6728,12 +6973,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x68AD3772</NID>
-              <NAME>sceMgr_driver_68AD3772</NAME>
+              <NAME>sceMgrEncryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72EA8DF7</NID>
@@ -6755,39 +7001,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x753A4D68</NID>
-              <NAME>sceMgr_driver_753A4D68</NAME>
+              <NAME>sceMgrMSReset</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x75446108</NID>
-              <NAME>sceMgr_driver_75446108</NAME>
+              <NAME>sceMgrNetDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x75CDE1D8</NID>
-              <NAME>sceMgr_driver_75CDE1D8</NAME>
+              <NAME>sceMgrMSReadSeqPage</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x76999D71</NID>
-              <NAME>sceMgr_driver_76999D71</NAME>
+              <NAME>sceMgrDecryptKicv</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C59C2B3</NID>
@@ -6800,66 +7050,73 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E3BED0A</NID>
-              <NAME>sceMgr_driver_7E3BED0A</NAME>
+              <NAME>sceMgrMSSetMAC2d</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EC95CD3</NID>
-              <NAME>sceMgr_driver_7EC95CD3</NAME>
+              <NAME>sceMgrDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8192D951</NID>
-              <NAME>sceMgr_driver_8192D951</NAME>
+              <NAME>sceMgrAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83EF752F</NID>
-              <NAME>sceMgr_driver_83EF752F</NAME>
+              <NAME>sceMgrDecryptEKB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84FEDE82</NID>
-              <NAME>sceMgr_driver_84FEDE82</NAME>
+              <NAME>sceMgrStartSession</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A955837</NID>
-              <NAME>sceMgr_driver_8A955837</NAME>
+              <NAME>sceMgrGenerateKb</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B12CCF3</NID>
-              <NAME>sceMgr_driver_8B12CCF3</NAME>
+              <NAME>sceMgrDecryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EC5DA35</NID>
@@ -6872,12 +7129,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x930E39BE</NID>
-              <NAME>sceMgr_driver_930E39BE</NAME>
+              <NAME>sceMgrDESEncryptBlock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x99B3EA65</NID>
@@ -6890,21 +7148,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C14DC97</NID>
-              <NAME>sceMgr_driver_9C14DC97</NAME>
+              <NAME>sceMgrMSWriteSeqPage</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C1BA5DC</NID>
-              <NAME>sceMgr_driver_9C1BA5DC</NAME>
+              <NAME>sceMgrMSReadPoolPage</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DA3820E</NID>
@@ -6917,39 +7177,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2F70C62</NID>
-              <NAME>sceMgr_driver_A2F70C62</NAME>
+              <NAME>sceMgrGenerateMACWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA770BB1F</NID>
-              <NAME>sceMgr_driver_A770BB1F</NAME>
+              <NAME>sceMgrDecryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8152DF7</NID>
-              <NAME>sceMgr_driver_A8152DF7</NAME>
+              <NAME>sceMgrReset</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE8ECD58</NID>
-              <NAME>sceMgr_driver_AE8ECD58</NAME>
+              <NAME>sceMgrDESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAECB4AD6</NID>
@@ -6971,21 +7235,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1078E07</NID>
-              <NAME>sceMgr_driver_B1078E07</NAME>
+              <NAME>sceMgrFreeKeyReg</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC831D8E</NID>
-              <NAME>sceMgr_driver_BC831D8E</NAME>
+              <NAME>sceMgrMSReadIBD</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD26E464</NID>
@@ -6998,93 +7264,103 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1641925</NID>
-              <NAME>sceMgr_driver_C1641925</NAME>
+              <NAME>sceMgrMSGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1AA23CE</NID>
-              <NAME>sceMgr_driver_C1AA23CE</NAME>
+              <NAME>sceMgrGenerateKse</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3C9ACA4</NID>
-              <NAME>sceMgr_driver_C3C9ACA4</NAME>
+              <NAME>sceMgrInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6A31659</NID>
-              <NAME>sceMgr_driver_C6A31659</NAME>
+              <NAME>sceMgrPollLock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC912720E</NID>
-              <NAME>sceMgr_driver_C912720E</NAME>
+              <NAME>sceMgrGetHwVersion</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCAA83330</NID>
-              <NAME>sceMgr_driver_CAA83330</NAME>
+              <NAME>sceMgrMSGetLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC59C78B</NID>
-              <NAME>sceMgr_driver_CC59C78B</NAME>
+              <NAME>sceMgrMSWriteIBD</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCCDF76BC</NID>
-              <NAME>sceMgr_driver_CCDF76BC</NAME>
+              <NAME>sceMgrGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF85227E</NID>
-              <NAME>sceMgr_driver_CF85227E</NAME>
+              <NAME>sceMgrAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3E1F11F</NID>
-              <NAME>sceMgr_driver_D3E1F11F</NAME>
+              <NAME>sceMgrGenerateMAC1d</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4E99FB2</NID>
@@ -7097,12 +7373,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7849A13</NID>
-              <NAME>sceMgr_driver_D7849A13</NAME>
+              <NAME>sceMgrMSInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8928402</NID>
@@ -7115,21 +7392,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF905879</NID>
-              <NAME>sceMgr_driver_DF905879</NAME>
+              <NAME>sceMgrMSInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0D621AA</NID>
-              <NAME>sceMgr_driver_E0D621AA</NAME>
+              <NAME>sceMgrEncryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3232958</NID>
@@ -7151,21 +7430,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF05E5D77</NID>
-              <NAME>sceMgr_driver_F05E5D77</NAME>
+              <NAME>sceMgrLock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF538C73F</NID>
-              <NAME>sceMgr_driver_F538C73F</NAME>
+              <NAME>sceMgrAesEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF65E8E77</NID>
@@ -7187,12 +7468,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA37094E</NID>
-              <NAME>sceMgr_driver_FA37094E</NAME>
+              <NAME>sceMgrEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC274F85</NID>
@@ -7205,25 +7487,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD667EE7</NID>
-              <NAME>sceMgr_driver_FD667EE7</NAME>
+              <NAME>sceMgrMSWriteICV</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDEC399A</NID>
-              <NAME>sceMgr_driver_FDEC399A</NAME>
+              <NAME>sceMgrAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x006BB7BD</NID>
-              <NAME>sceMgr_driver_006BB7BD</NAME>
+              <NAME>sceMgrUnLock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7233,10 +7517,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01335F26</NID>
-              <NAME>sceMgr_driver_01335F26</NAME>
+              <NAME>sceMgrMSInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7246,10 +7531,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x017DA933</NID>
-              <NAME>sceMgr_driver_017DA933</NAME>
+              <NAME>sceMgrMSGetMediaID</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7259,10 +7545,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02F1248D</NID>
-              <NAME>sceMgr_driver_02F1248D</NAME>
+              <NAME>sceMgrDESDecryptBlock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7272,10 +7559,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03852FE5</NID>
-              <NAME>sceMgr_driver_03852FE5</NAME>
+              <NAME>sceMgrEncryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7285,6 +7573,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0886D067</NID>
@@ -7301,7 +7590,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F966D29</NID>
-              <NAME>sceMgr_driver_0F966D29</NAME>
+              <NAME>sceMgrDecryptLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7311,10 +7600,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x104D53D2</NID>
-              <NAME>sceMgr_driver_104D53D2</NAME>
+              <NAME>sceMgrDecryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7324,10 +7614,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10E4E713</NID>
-              <NAME>sceMgr_driver_10E4E713</NAME>
+              <NAME>sceMgrNetGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7337,10 +7628,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10FD1140</NID>
-              <NAME>sceMgr_driver_10FD1140</NAME>
+              <NAME>sceMgrMSGetLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7350,10 +7642,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15DA3A10</NID>
-              <NAME>sceMgr_driver_15DA3A10</NAME>
+              <NAME>sceMgrEncryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7363,10 +7656,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B42043D</NID>
-              <NAME>sceMgr_driver_1B42043D</NAME>
+              <NAME>sceMgrDecryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7376,6 +7670,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BD93082</NID>
@@ -7392,7 +7687,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x21B0ACA8</NID>
-              <NAME>sceMgr_driver_21B0ACA8</NAME>
+              <NAME>sceMgrEncryptKicv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7402,6 +7697,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2280EF4F</NID>
@@ -7418,7 +7714,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x240FA169</NID>
-              <NAME>sceMgr_driver_240FA169</NAME>
+              <NAME>sceMgrMSCompareICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7428,10 +7724,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x26818BF8</NID>
-              <NAME>sceMgr_driver_26818BF8</NAME>
+              <NAME>sceMgrAESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7441,10 +7738,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x294A1598</NID>
-              <NAME>sceMgr_driver_294A1598</NAME>
+              <NAME>sceMgrGetHwVersion</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7454,10 +7752,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x294C4578</NID>
-              <NAME>sceMgr_driver_294C4578</NAME>
+              <NAME>sceMgrDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7467,10 +7766,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29829092</NID>
-              <NAME>sceMgr_driver_29829092</NAME>
+              <NAME>sceMgrAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7480,10 +7780,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B4F7E39</NID>
-              <NAME>sceMgr_driver_2B4F7E39</NAME>
+              <NAME>sceMgrEncryptKc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7493,6 +7794,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E6C28C3</NID>
@@ -7522,7 +7824,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DDC5CAE</NID>
-              <NAME>sceMgr_driver_3DDC5CAE</NAME>
+              <NAME>sceMgrMSWriteICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7532,6 +7834,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x416C4AC8</NID>
@@ -7561,7 +7864,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x41C2F979</NID>
-              <NAME>sceMgr_driver_41C2F979</NAME>
+              <NAME>sceMgrCreateKc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7571,10 +7874,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x423F4BE7</NID>
-              <NAME>sceMgr_driver_423F4BE7</NAME>
+              <NAME>sceMgrGenerateMACWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7584,10 +7888,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x435A3F50</NID>
-              <NAME>sceMgr_driver_435A3F50</NAME>
+              <NAME>sceMgrGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7597,6 +7902,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4656B871</NID>
@@ -7613,7 +7919,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D6F1870</NID>
-              <NAME>sceMgr_driver_4D6F1870</NAME>
+              <NAME>sceMgrGenerateKb</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7623,10 +7929,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FAE0061</NID>
-              <NAME>sceMgr_driver_4FAE0061</NAME>
+              <NAME>sceMgrMSSetMAC2d</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7636,6 +7943,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x525BBCEE</NID>
@@ -7652,7 +7960,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x545579E7</NID>
-              <NAME>sceMgr_driver_545579E7</NAME>
+              <NAME>sceMgrGenerateMAC1d</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7662,6 +7970,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x582D0D95</NID>
@@ -7717,7 +8026,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DEBAA35</NID>
-              <NAME>sceMgr_driver_5DEBAA35</NAME>
+              <NAME>sceMgrMSReadIBD</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7727,10 +8036,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F9DDE09</NID>
-              <NAME>sceMgr_driver_5F9DDE09</NAME>
+              <NAME>sceMgrStartSession</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7740,6 +8050,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x605ABF73</NID>
@@ -7756,7 +8067,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x632DDD34</NID>
-              <NAME>sceMgr_driver_632DDD34</NAME>
+              <NAME>sceMgrMSReadSeqPage</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7766,10 +8077,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67643803</NID>
-              <NAME>sceMgr_driver_67643803</NAME>
+              <NAME>sceMgrReset</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7779,6 +8091,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6821DCC9</NID>
@@ -7808,7 +8121,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C90A263</NID>
-              <NAME>sceMgr_driver_6C90A263</NAME>
+              <NAME>sceMgrGenerateMACWithKseCBC</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7818,6 +8131,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E4CFF3A</NID>
@@ -7834,7 +8148,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F50BD48</NID>
-              <NAME>sceMgr_driver_6F50BD48</NAME>
+              <NAME>sceMgrDecryptEKB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7844,6 +8158,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x700EB25E</NID>
@@ -7860,7 +8175,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7045459F</NID>
-              <NAME>sceMgr_driver_7045459F</NAME>
+              <NAME>sceMgrMSReset</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7870,6 +8185,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7190E431</NID>
@@ -7886,7 +8202,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72A664DA</NID>
-              <NAME>sceMgr_driver_72A664DA</NAME>
+              <NAME>sceMgrMSDeauth</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7896,10 +8212,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x782427E3</NID>
-              <NAME>sceMgr_driver_782427E3</NAME>
+              <NAME>sceMgrLock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7909,10 +8226,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C904AA6</NID>
-              <NAME>sceMgr_driver_7C904AA6</NAME>
+              <NAME>sceMgrGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7922,10 +8240,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F17FDC2</NID>
-              <NAME>sceMgr_driver_7F17FDC2</NAME>
+              <NAME>sceMgrAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7935,10 +8254,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FB29F79</NID>
-              <NAME>sceMgr_driver_7FB29F79</NAME>
+              <NAME>sceMgrAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7948,10 +8268,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x807CDC9A</NID>
-              <NAME>sceMgr_driver_807CDC9A</NAME>
+              <NAME>sceMgrMSReadPoolPage</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7961,10 +8282,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83E79BA0</NID>
-              <NAME>sceMgr_driver_83E79BA0</NAME>
+              <NAME>sceMgrNetDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7974,10 +8296,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83F351C6</NID>
-              <NAME>sceMgr_driver_83F351C6</NAME>
+              <NAME>sceMgrRandom</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7987,10 +8310,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x847F66BE</NID>
-              <NAME>sceMgr_driver_847F66BE</NAME>
+              <NAME>sceMgrInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8000,10 +8324,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x849AE826</NID>
-              <NAME>sceMgr_driver_849AE826</NAME>
+              <NAME>sceMgrAesEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8013,10 +8338,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8596BE34</NID>
-              <NAME>sceMgr_driver_8596BE34</NAME>
+              <NAME>sceMgrMSSetRd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8026,10 +8352,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8838D988</NID>
-              <NAME>sceMgr_driver_8838D988</NAME>
+              <NAME>sceMgrEncryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8039,10 +8366,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DE0CEEB</NID>
-              <NAME>sceMgr_driver_8DE0CEEB</NAME>
+              <NAME>sceMgrDecryptKicv</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8052,10 +8380,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F1A24B6</NID>
-              <NAME>sceMgr_driver_8F1A24B6</NAME>
+              <NAME>sceMgrDecryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8065,10 +8394,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F24C6E8</NID>
-              <NAME>sceMgr_driver_8F24C6E8</NAME>
+              <NAME>sceMgrAesInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8078,10 +8408,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F5AAA7C</NID>
-              <NAME>sceMgr_driver_8F5AAA7C</NAME>
+              <NAME>sceMgrInitSeed</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8091,6 +8422,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x932DBA5C</NID>
@@ -8107,7 +8439,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9351A3D4</NID>
-              <NAME>sceMgr_driver_9351A3D4</NAME>
+              <NAME>sceMgrMSCheckICV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8117,6 +8449,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93689F70</NID>
@@ -8133,7 +8466,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x94D7FD36</NID>
-              <NAME>sceMgr_driver_94D7FD36</NAME>
+              <NAME>sceMgrMSWriteIBD</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8143,10 +8476,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x97CE59DD</NID>
-              <NAME>sceMgr_driver_97CE59DD</NAME>
+              <NAME>sceMgrGetLeafID</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8156,6 +8490,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A61E760</NID>
@@ -8172,7 +8507,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C00FCDD</NID>
-              <NAME>sceMgr_driver_9C00FCDD</NAME>
+              <NAME>sceMgrCheckVCV</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8182,6 +8517,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C60F9A3</NID>
@@ -8224,7 +8560,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF763EE3</NID>
-              <NAME>sceMgr_driver_AF763EE3</NAME>
+              <NAME>sceMgrDESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8234,6 +8570,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1A42043</NID>
@@ -8263,7 +8600,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB62D9FA4</NID>
-              <NAME>sceMgr_driver_B62D9FA4</NAME>
+              <NAME>sceMgrMSAuth</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8273,10 +8610,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC67119AC</NID>
-              <NAME>sceMgr_driver_C67119AC</NAME>
+              <NAME>sceMgrMSInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8286,10 +8624,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7748C3C</NID>
-              <NAME>sceMgr_driver_C7748C3C</NAME>
+              <NAME>sceMgrGenerateKse</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8299,6 +8638,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC89DA8A5</NID>
@@ -8315,7 +8655,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDE62F00</NID>
-              <NAME>sceMgr_driver_CDE62F00</NAME>
+              <NAME>sceMgrGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8325,10 +8665,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFD82440</NID>
-              <NAME>sceMgr_driver_CFD82440</NAME>
+              <NAME>sceMgrMSGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8338,10 +8679,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFDFFD45</NID>
-              <NAME>sceMgr_driver_CFDFFD45</NAME>
+              <NAME>sceMgrFreeKeyReg</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8351,10 +8693,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD25B5CB0</NID>
-              <NAME>sceMgr_driver_D25B5CB0</NAME>
+              <NAME>sceMgrMSMount</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8364,10 +8707,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4F26930</NID>
-              <NAME>sceMgr_driver_D4F26930</NAME>
+              <NAME>sceMgrMSWritePoolPage</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8377,6 +8721,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6869178</NID>
@@ -8393,7 +8738,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6E39836</NID>
-              <NAME>sceMgr_driver_D6E39836</NAME>
+              <NAME>sceMgrEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8403,6 +8748,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8D409BD</NID>
@@ -8419,7 +8765,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0DCBA5B</NID>
-              <NAME>sceMgr_driver_E0DCBA5B</NAME>
+              <NAME>sceMgrMSWriteSeqPage</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8429,10 +8775,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0DEA1E3</NID>
-              <NAME>sceMgr_driver_E0DEA1E3</NAME>
+              <NAME>sceMgrMSSetLeafID</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8442,10 +8789,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBE6DDC8</NID>
-              <NAME>sceMgr_driver_EBE6DDC8</NAME>
+              <NAME>sceMgrAESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8455,10 +8803,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC4322AD</NID>
-              <NAME>sceMgr_driver_EC4322AD</NAME>
+              <NAME>sceMgrAllocKeyReg</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8468,10 +8817,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0E679DB</NID>
-              <NAME>sceMgr_driver_F0E679DB</NAME>
+              <NAME>sceMgrMSEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8481,10 +8831,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2357056</NID>
-              <NAME>sceMgr_driver_F2357056</NAME>
+              <NAME>sceMgrDESEncryptBlock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8494,10 +8845,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5B9E542</NID>
-              <NAME>sceMgr_driver_F5B9E542</NAME>
+              <NAME>sceMgrAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8507,10 +8859,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6381230</NID>
-              <NAME>sceMgr_driver_F6381230</NAME>
+              <NAME>sceMgrPollLock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8520,10 +8873,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB258901</NID>
-              <NAME>sceMgr_driver_FB258901</NAME>
+              <NAME>sceMgrDESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -8533,22 +8887,25 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02117F1E</NID>
-              <NAME>sceMgr_driver_02117F1E</NAME>
+              <NAME>sceMgrRandom</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04E263D8</NID>
-              <NAME>sceMgr_driver_04E263D8</NAME>
+              <NAME>sceMgrDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x071626A5</NID>
@@ -8576,11 +8933,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A0318FB</NID>
-              <NAME>sceMgr_driver_0A0318FB</NAME>
+              <NAME>sceMgrMSWritePoolPage</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C813CF1</NID>
@@ -8600,27 +8958,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FF20C84</NID>
-              <NAME>sceMgr_driver_0FF20C84</NAME>
+              <NAME>sceMgrMSReset</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1446C3F3</NID>
-              <NAME>sceMgr_driver_1446C3F3</NAME>
+              <NAME>sceMgrDecryptLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14C2F1B6</NID>
-              <NAME>sceMgr_driver_14C2F1B6</NAME>
+              <NAME>sceMgrGetHwVersion</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x156A83C3</NID>
@@ -8648,51 +9009,57 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E247081</NID>
-              <NAME>sceMgr_driver_1E247081</NAME>
+              <NAME>sceMgrGenerateMAC1d</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E718603</NID>
-              <NAME>sceMgr_driver_1E718603</NAME>
+              <NAME>sceMgrMSSetMAC2d</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E8D501F</NID>
-              <NAME>sceMgr_driver_1E8D501F</NAME>
+              <NAME>sceMgrReset</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20610CDF</NID>
-              <NAME>sceMgr_driver_20610CDF</NAME>
+              <NAME>sceMgrMSGetMediaType</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21341AE8</NID>
-              <NAME>sceMgr_driver_21341AE8</NAME>
+              <NAME>sceMgrGenerateMACWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25AB8D54</NID>
-              <NAME>sceMgr_driver_25AB8D54</NAME>
+              <NAME>sceMgrMSMount</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x273F0353</NID>
@@ -8704,35 +9071,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x275C6686</NID>
-              <NAME>sceMgr_driver_275C6686</NAME>
+              <NAME>sceMgrMSWriteIBD</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B68BFD5</NID>
-              <NAME>sceMgr_driver_2B68BFD5</NAME>
+              <NAME>sceMgrAesInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D1CB2B8</NID>
-              <NAME>sceMgr_driver_2D1CB2B8</NAME>
+              <NAME>sceMgrGetLeafID</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31C1B9CE</NID>
-              <NAME>sceMgr_driver_31C1B9CE</NAME>
+              <NAME>sceMgrAesCbcEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x39E49050</NID>
@@ -8752,83 +9123,93 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3CD69508</NID>
-              <NAME>sceMgr_driver_3CD69508</NAME>
+              <NAME>sceMgrDESEncryptBlock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x401F71DC</NID>
-              <NAME>sceMgr_driver_401F71DC</NAME>
+              <NAME>sceMgrUnLock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40976398</NID>
-              <NAME>sceMgr_driver_40976398</NAME>
+              <NAME>sceMgrAesCbcDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44F416FC</NID>
-              <NAME>sceMgr_driver_44F416FC</NAME>
+              <NAME>sceMgrCreateKc</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x45EA1DB5</NID>
-              <NAME>sceMgr_driver_45EA1DB5</NAME>
+              <NAME>sceMgrMSInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x466140C7</NID>
-              <NAME>sceMgr_driver_466140C7</NAME>
+              <NAME>sceMgrMSGetLocalEKB</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FD151B7</NID>
-              <NAME>sceMgr_driver_4FD151B7</NAME>
+              <NAME>sceMgrNetGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A63B6A4</NID>
-              <NAME>sceMgr_driver_5A63B6A4</NAME>
+              <NAME>sceMgrMSEnd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B14E2EE</NID>
-              <NAME>sceMgr_driver_5B14E2EE</NAME>
+              <NAME>sceMgrEncryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BABFFAE</NID>
-              <NAME>sceMgr_driver_5BABFFAE</NAME>
+              <NAME>sceMgrInitSeed</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C5AB33B</NID>
@@ -8840,11 +9221,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CEFAF53</NID>
-              <NAME>sceMgr_driver_5CEFAF53</NAME>
+              <NAME>sceMgrAESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6455A4D4</NID>
@@ -8856,11 +9238,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x685F2A81</NID>
-              <NAME>sceMgr_driver_685F2A81</NAME>
+              <NAME>sceMgrEncryptKicv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AE3A66A</NID>
@@ -8872,19 +9255,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B4C5BC5</NID>
-              <NAME>sceMgr_driver_6B4C5BC5</NAME>
+              <NAME>sceMgrMSAuth</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D2A7077</NID>
-              <NAME>sceMgr_driver_6D2A7077</NAME>
+              <NAME>sceMgrDESDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70801D29</NID>
@@ -8904,35 +9289,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x74707A0D</NID>
-              <NAME>sceMgr_driver_74707A0D</NAME>
+              <NAME>sceMgrMSCheckICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74E9E6A6</NID>
-              <NAME>sceMgr_driver_74E9E6A6</NAME>
+              <NAME>sceMgrMSSetLeafID</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7505C8FB</NID>
-              <NAME>sceMgr_driver_7505C8FB</NAME>
+              <NAME>sceMgrAesEcbDecrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B11D7AD</NID>
-              <NAME>sceMgr_driver_7B11D7AD</NAME>
+              <NAME>sceMgrInit</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DB1B0E5</NID>
@@ -8944,11 +9333,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EC9DF8B</NID>
-              <NAME>sceMgr_driver_7EC9DF8B</NAME>
+              <NAME>sceMgrMSReadIBD</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F37BECF</NID>
@@ -8960,51 +9350,57 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x831F92C7</NID>
-              <NAME>sceMgr_driver_831F92C7</NAME>
+              <NAME>sceMgrAesEcbEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84B044C7</NID>
-              <NAME>sceMgr_driver_84B044C7</NAME>
+              <NAME>sceMgrEnd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85F518AB</NID>
-              <NAME>sceMgr_driver_85F518AB</NAME>
+              <NAME>sceMgrCheckVCV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x864EA078</NID>
-              <NAME>sceMgr_driver_864EA078</NAME>
+              <NAME>sceMgrGetDefaultEKB</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87B14248</NID>
-              <NAME>sceMgr_driver_87B14248</NAME>
+              <NAME>sceMgrDESDecryptBlock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87DCEC52</NID>
-              <NAME>sceMgr_driver_87DCEC52</NAME>
+              <NAME>sceMgrGetInitialEKB</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8808E9AD</NID>
@@ -9016,11 +9412,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x90255422</NID>
-              <NAME>sceMgr_driver_90255422</NAME>
+              <NAME>sceMgrDecryptKcWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9315D849</NID>
@@ -9032,43 +9429,48 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9451F8F4</NID>
-              <NAME>sceMgr_driver_9451F8F4</NAME>
+              <NAME>sceMgrDecryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x949CAC22</NID>
-              <NAME>sceMgr_driver_949CAC22</NAME>
+              <NAME>sceMgrLock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95834506</NID>
-              <NAME>sceMgr_driver_95834506</NAME>
+              <NAME>sceMgrMSWriteICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95EFBD16</NID>
-              <NAME>sceMgr_driver_95EFBD16</NAME>
+              <NAME>sceMgrEncryptKc</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x97B245D5</NID>
-              <NAME>sceMgr_driver_97B245D5</NAME>
+              <NAME>sceMgrMSGetMediaID</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9973CD5B</NID>
@@ -9088,51 +9490,57 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B892F83</NID>
-              <NAME>sceMgr_driver_9B892F83</NAME>
+              <NAME>sceMgrDESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E403704</NID>
-              <NAME>sceMgr_driver_9E403704</NAME>
+              <NAME>sceMgrAESEncrypt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA329A73B</NID>
-              <NAME>sceMgr_driver_A329A73B</NAME>
+              <NAME>sceMgrGenerateICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3A302CC</NID>
-              <NAME>sceMgr_driver_A3A302CC</NAME>
+              <NAME>sceMgrNetDecryptKc</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8C272B7</NID>
-              <NAME>sceMgr_driver_A8C272B7</NAME>
+              <NAME>sceMgrStartSession</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB20F8A71</NID>
-              <NAME>sceMgr_driver_B20F8A71</NAME>
+              <NAME>sceMgrMSInvalidateICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB40FEAD1</NID>
@@ -9144,27 +9552,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB48B61CF</NID>
-              <NAME>sceMgr_driver_B48B61CF</NAME>
+              <NAME>sceMgrMSSetRd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB53B2B5B</NID>
-              <NAME>sceMgr_driver_B53B2B5B</NAME>
+              <NAME>sceMgrGenerateMACWithKseCBC</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8626BA2</NID>
-              <NAME>sceMgr_driver_B8626BA2</NAME>
+              <NAME>sceMgrMSDeauth</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBBF6C182</NID>
@@ -9176,19 +9587,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0B28CED</NID>
-              <NAME>sceMgr_driver_C0B28CED</NAME>
+              <NAME>sceMgrAllocKeyReg</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC22D72C4</NID>
-              <NAME>sceMgr_driver_C22D72C4</NAME>
+              <NAME>sceMgrEncryptWithKbCBC</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3C8C1FC</NID>
@@ -9200,19 +9613,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC882B140</NID>
-              <NAME>sceMgr_driver_C882B140</NAME>
+              <NAME>sceMgrPollLock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE3DDF6A</NID>
-              <NAME>sceMgr_driver_CE3DDF6A</NAME>
+              <NAME>sceMgrMSReadPoolPage</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEE87932</NID>
@@ -9224,35 +9639,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF1EC2ED</NID>
-              <NAME>sceMgr_driver_CF1EC2ED</NAME>
+              <NAME>sceMgrDecryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD37A53EB</NID>
-              <NAME>sceMgr_driver_D37A53EB</NAME>
+              <NAME>sceMgrGenerateKse</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD89D4C80</NID>
-              <NAME>sceMgr_driver_D89D4C80</NAME>
+              <NAME>sceMgrGenerateKb</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD9059D0E</NID>
-              <NAME>sceMgr_driver_D9059D0E</NAME>
+              <NAME>sceMgrAesEnd</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA7D8C82</NID>
@@ -9264,27 +9683,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE348BDC7</NID>
-              <NAME>sceMgr_driver_E348BDC7</NAME>
+              <NAME>sceMgrMSCompareICV</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4DCE4CD</NID>
-              <NAME>sceMgr_driver_E4DCE4CD</NAME>
+              <NAME>sceMgrMSWriteSeqPage</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6A203F8</NID>
-              <NAME>sceMgr_driver_E6A203F8</NAME>
+              <NAME>sceMgrFreeKeyReg</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEA241D32</NID>
@@ -9304,11 +9726,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDEAAA00</NID>
-              <NAME>sceMgr_driver_EDEAAA00</NAME>
+              <NAME>sceMgrDecryptEKB</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF066DF72</NID>
@@ -9320,27 +9743,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9A71E7C</NID>
-              <NAME>sceMgr_driver_F9A71E7C</NAME>
+              <NAME>sceMgrDecryptKicv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDF97B95</NID>
-              <NAME>sceMgr_driver_FDF97B95</NAME>
+              <NAME>sceMgrEncryptWithKse</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEA75D88</NID>
-              <NAME>sceMgr_driver_FEA75D88</NAME>
+              <NAME>sceMgrMSReadSeqPage</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

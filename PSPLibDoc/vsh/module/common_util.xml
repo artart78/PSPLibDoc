@@ -1469,13 +1469,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x094B0219</NID>
-              <NAME>sceVshCommonUtil_094B0219</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1817AFC5</NID>
@@ -1499,13 +1500,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x22EEE769</NID>
-              <NAME>sceVshCommonUtil_22EEE769</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25389354</NID>
@@ -1519,53 +1521,58 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B882B01</NID>
-              <NAME>sceVshCommonUtil_2B882B01</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2EC7AF24</NID>
-              <NAME>sceVshCommonUtil_2EC7AF24</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32F42552</NID>
-              <NAME>sceVshCommonUtil_32F42552</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34AC94F9</NID>
-              <NAME>sceVshCommonUtil_34AC94F9</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37525358</NID>
-              <NAME>sceVshCommonUtil_37525358</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F705408</NID>
@@ -1589,33 +1596,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x51084913</NID>
-              <NAME>sceVshCommonUtil_51084913</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5755E053</NID>
-              <NAME>sceVshCommonUtil_5755E053</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EF940FA</NID>
-              <NAME>sceVshCommonUtil_6EF940FA</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F2E2BDC</NID>
@@ -1659,13 +1669,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x89B0083D</NID>
-              <NAME>sceVshCommonUtil_89B0083D</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BC15F89</NID>
@@ -1689,13 +1700,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9480072F</NID>
-              <NAME>sceVshCommonUtil_9480072F</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x951BC384</NID>
@@ -1719,13 +1731,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1A8A946</NID>
-              <NAME>sceVshCommonUtil_A1A8A946</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2A69900</NID>
@@ -1759,13 +1772,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0429953</NID>
-              <NAME>sceVshCommonUtil_C0429953</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1CEB56C</NID>
@@ -1779,33 +1793,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD24DD449</NID>
-              <NAME>sceVshCommonUtil_D24DD449</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7C4266E</NID>
-              <NAME>sceVshCommonUtil_D7C4266E</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA1B9D51</NID>
-              <NAME>sceVshCommonUtil_DA1B9D51</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA88D006</NID>
@@ -1879,23 +1896,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF67C5B26</NID>
-              <NAME>sceVshCommonUtil_F67C5B26</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6D6730E</NID>
-              <NAME>sceVshCommonUtil_F6D6730E</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD6FC120</NID>
@@ -1909,13 +1928,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFCF4C5C</NID>
-              <NAME>sceVshCommonUtil_FFCF4C5C</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0910E414</NID>
@@ -1929,23 +1949,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0AC49F2B</NID>
-              <NAME>sceVshCommonUtil_0AC49F2B</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B8375CC</NID>
-              <NAME>sceVshCommonUtil_0B8375CC</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F339720</NID>
@@ -1959,13 +1981,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1FBDA04E</NID>
-              <NAME>sceVshCommonUtil_1FBDA04E</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21D664E2</NID>
@@ -1979,13 +2002,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x237B71E7</NID>
-              <NAME>sceVshCommonUtil_237B71E7</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27699F93</NID>
@@ -2019,13 +2043,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E9133FC</NID>
-              <NAME>sceVshCommonUtil_3E9133FC</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4211BEEF</NID>
@@ -2079,23 +2104,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x54132714</NID>
-              <NAME>sceVshCommonUtil_54132714</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5439EFE3</NID>
-              <NAME>sceVshCommonUtil_5439EFE3</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5498D776</NID>
@@ -2119,23 +2146,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6345A909</NID>
-              <NAME>sceVshCommonUtil_6345A909</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x66529DD4</NID>
-              <NAME>sceVshCommonUtil_66529DD4</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67CD74F4</NID>
@@ -2159,43 +2188,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x75BD73D5</NID>
-              <NAME>sceVshCommonUtil_75BD73D5</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x767DE1FB</NID>
-              <NAME>sceVshCommonUtil_767DE1FB</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x88500A31</NID>
-              <NAME>sceVshCommonUtil_88500A31</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A8121CF</NID>
-              <NAME>sceVshCommonUtil_8A8121CF</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ADDEBEC</NID>
@@ -2209,13 +2242,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x99A8838B</NID>
-              <NAME>sceVshCommonUtil_99A8838B</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DECF96C</NID>
@@ -2229,13 +2263,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1D8097F</NID>
-              <NAME>sceVshCommonUtil_B1D8097F</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4AB93E9</NID>
@@ -2279,43 +2314,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC85040BB</NID>
-              <NAME>sceVshCommonUtil_C85040BB</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA7E9C8D</NID>
-              <NAME>sceVshCommonUtil_CA7E9C8D</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDBA28D0</NID>
-              <NAME>sceVshCommonUtil_CDBA28D0</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD402A71F</NID>
-              <NAME>sceVshCommonUtil_D402A71F</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE300BC28</NID>
@@ -2359,13 +2398,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7FB0EF7</NID>
-              <NAME>sceVshCommonUtil_F7FB0EF7</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20C0ADDF</NID>
@@ -2387,12 +2427,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2ABF78D0</NID>
-              <NAME>sceVshCommonUtil_2ABF78D0</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FE2BA25</NID>
@@ -2414,12 +2455,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x454B7E0C</NID>
-              <NAME>sceVshCommonUtil_454B7E0C</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48B1E701</NID>
@@ -2450,12 +2492,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x53EA31AF</NID>
-              <NAME>sceVshCommonUtil_53EA31AF</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5982AD46</NID>
@@ -2468,12 +2511,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x687B1E25</NID>
-              <NAME>sceVshCommonUtil_687B1E25</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A5DDD8E</NID>
@@ -2495,12 +2539,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7661070B</NID>
-              <NAME>sceVshCommonUtil_7661070B</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x843D3F15</NID>
@@ -2513,12 +2558,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x87EEC47F</NID>
-              <NAME>sceVshCommonUtil_87EEC47F</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x88899E85</NID>
@@ -2531,12 +2577,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B54B638</NID>
-              <NAME>sceVshCommonUtil_8B54B638</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90375FF5</NID>
@@ -2567,12 +2614,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3970023</NID>
-              <NAME>sceVshCommonUtil_A3970023</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7791E42</NID>
@@ -2612,21 +2660,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC2BBD897</NID>
-              <NAME>sceVshCommonUtil_C2BBD897</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9C7B793</NID>
-              <NAME>sceVshCommonUtil_C9C7B793</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9D4402C</NID>
@@ -2657,12 +2707,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFA395FF</NID>
-              <NAME>sceVshCommonUtil_CFA395FF</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD341EF5C</NID>
@@ -2684,21 +2735,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB222F52</NID>
-              <NAME>sceVshCommonUtil_DB222F52</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD0EF50D</NID>
-              <NAME>sceVshCommonUtil_DD0EF50D</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE134B240</NID>
@@ -2729,48 +2782,53 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7D1EA44</NID>
-              <NAME>sceVshCommonUtil_E7D1EA44</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE4EC81C</NID>
-              <NAME>sceVshCommonUtil_EE4EC81C</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEED954E2</NID>
-              <NAME>sceVshCommonUtil_EED954E2</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0E92C29</NID>
-              <NAME>sceVshCommonUtil_F0E92C29</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF305AFDC</NID>
-              <NAME>sceVshCommonUtil_F305AFDC</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3B34794</NID>
@@ -2783,12 +2841,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF42B3551</NID>
-              <NAME>sceVshCommonUtil_F42B3551</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCC9FD20</NID>
@@ -2801,16 +2860,17 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD8EA964</NID>
-              <NAME>sceVshCommonUtil_FD8EA964</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03AFBC83</NID>
-              <NAME>sceVshCommonUtil_03AFBC83</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2818,6 +2878,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04F743FF</NID>
@@ -2832,7 +2893,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x051396DC</NID>
-              <NAME>sceVshCommonUtil_051396DC</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2840,10 +2901,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05A501B9</NID>
-              <NAME>sceVshCommonUtil_05A501B9</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2851,6 +2913,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x078E6BB5</NID>
@@ -2975,7 +3038,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x58CC208A</NID>
-              <NAME>sceVshCommonUtil_58CC208A</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2983,10 +3046,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x62431D27</NID>
-              <NAME>sceVshCommonUtil_62431D27</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -2994,6 +3058,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x66C4E667</NID>
@@ -3019,7 +3084,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x704CBFB8</NID>
-              <NAME>sceVshCommonUtil_704CBFB8</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3027,10 +3092,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77FDC982</NID>
-              <NAME>sceVshCommonUtil_77FDC982</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3038,6 +3104,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8133E2FA</NID>
@@ -3074,7 +3141,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x895AC0A2</NID>
-              <NAME>sceVshCommonUtil_895AC0A2</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3082,6 +3149,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91B826EE</NID>
@@ -3096,7 +3164,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x955F67D3</NID>
-              <NAME>sceVshCommonUtil_955F67D3</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3104,6 +3172,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x96A8C537</NID>
@@ -3162,7 +3231,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA77A23A8</NID>
-              <NAME>sceVshCommonUtil_A77A23A8</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3170,6 +3239,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2302766</NID>
@@ -3184,7 +3254,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBBA6D59D</NID>
-              <NAME>sceVshCommonUtil_BBA6D59D</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3192,10 +3262,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD4B9D3B</NID>
-              <NAME>sceVshCommonUtil_BD4B9D3B</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3203,6 +3274,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDA5DE2B</NID>
@@ -3217,7 +3289,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE31C74C</NID>
-              <NAME>sceVshCommonUtil_BE31C74C</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3225,10 +3297,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFE32CC9</NID>
-              <NAME>sceVshCommonUtil_BFE32CC9</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3236,10 +3309,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD40A732</NID>
-              <NAME>sceVshCommonUtil_CD40A732</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3247,10 +3321,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD23B1523</NID>
-              <NAME>sceVshCommonUtil_D23B1523</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3258,6 +3333,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD740C211</NID>
@@ -3283,7 +3359,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBAFCABA</NID>
-              <NAME>sceVshCommonUtil_DBAFCABA</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3291,6 +3367,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC5F5578</NID>
@@ -3305,7 +3382,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xED08FE83</NID>
-              <NAME>sceVshCommonUtil_ED08FE83</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3313,10 +3390,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6D9E055</NID>
-              <NAME>sceVshCommonUtil_F6D9E055</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3324,6 +3402,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF88A00A3</NID>
@@ -3338,7 +3417,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFED9AB30</NID>
-              <NAME>sceVshCommonUtil_FED9AB30</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3346,6 +3425,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x003C70C2</NID>
@@ -3365,11 +3445,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DB8FBB5</NID>
-              <NAME>sceVshCommonUtil_0DB8FBB5</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12897882</NID>
@@ -3381,11 +3462,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x16A5D946</NID>
-              <NAME>sceVshCommonUtil_16A5D946</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A0C463A</NID>
@@ -3437,11 +3519,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x445DB367</NID>
-              <NAME>sceVshCommonUtil_445DB367</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46A851A2</NID>
@@ -3477,43 +3560,48 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A8E4C5C</NID>
-              <NAME>sceVshCommonUtil_6A8E4C5C</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BBFCA5E</NID>
-              <NAME>sceVshCommonUtil_6BBFCA5E</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6ED8E8CB</NID>
-              <NAME>sceVshCommonUtil_6ED8E8CB</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7306692F</NID>
-              <NAME>sceVshCommonUtil_7306692F</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74572C08</NID>
-              <NAME>sceVshCommonUtil_74572C08</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x772590BD</NID>
@@ -3541,11 +3629,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B0E0034</NID>
-              <NAME>sceVshCommonUtil_8B0E0034</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E1B6E66</NID>
@@ -3557,19 +3646,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BE240DF</NID>
-              <NAME>sceVshCommonUtil_9BE240DF</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA937D245</NID>
-              <NAME>sceVshCommonUtil_A937D245</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAED23FB1</NID>
@@ -3597,19 +3688,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA56873F</NID>
-              <NAME>sceVshCommonUtil_BA56873F</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBCA9CB1C</NID>
-              <NAME>sceVshCommonUtil_BCA9CB1C</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC07E60D6</NID>
@@ -3637,27 +3730,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6D0213A</NID>
-              <NAME>sceVshCommonUtil_C6D0213A</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCABD2C4F</NID>
-              <NAME>sceVshCommonUtil_CABD2C4F</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCABD3D2E</NID>
-              <NAME>sceVshCommonUtil_CABD3D2E</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB4CC848</NID>
@@ -3669,11 +3765,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC7D0C53</NID>
-              <NAME>sceVshCommonUtil_DC7D0C53</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFF5CE55</NID>
@@ -3701,19 +3798,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF374B720</NID>
-              <NAME>sceVshCommonUtil_F374B720</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF71F5036</NID>
-              <NAME>sceVshCommonUtil_F71F5036</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD777800</NID>
@@ -3733,11 +3832,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFEFC0DF</NID>
-              <NAME>sceVshCommonUtil_FFEFC0DF</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x09877C70</NID>
@@ -3797,7 +3897,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3534ED82</NID>
-              <NAME>sceVshCommonUtil_3534ED82</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3808,10 +3908,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A1EA724</NID>
-              <NAME>sceVshCommonUtil_3A1EA724</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3822,10 +3923,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B58B559</NID>
-              <NAME>sceVshCommonUtil_3B58B559</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3836,6 +3938,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DCE48A0</NID>
@@ -3867,7 +3970,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x484CBCDA</NID>
-              <NAME>sceVshCommonUtil_484CBCDA</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3878,6 +3981,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5750B4DE</NID>
@@ -3895,7 +3999,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D587568</NID>
-              <NAME>sceVshCommonUtil_5D587568</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3906,6 +4010,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x625A9A5D</NID>
@@ -3923,7 +4028,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x652E90E0</NID>
-              <NAME>sceVshCommonUtil_652E90E0</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3934,6 +4039,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6581A92E</NID>
@@ -3965,7 +4071,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x687F4F5D</NID>
-              <NAME>sceVshCommonUtil_687F4F5D</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3976,10 +4082,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BC2A336</NID>
-              <NAME>sceVshCommonUtil_6BC2A336</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3990,6 +4097,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79ACE8F4</NID>
@@ -4021,7 +4129,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x80311468</NID>
-              <NAME>sceVshCommonUtil_80311468</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4032,10 +4140,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x88A2C0A2</NID>
-              <NAME>sceVshCommonUtil_88A2C0A2</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4046,6 +4155,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FEF9ABC</NID>
@@ -4077,7 +4187,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x938EABDC</NID>
-              <NAME>sceVshCommonUtil_938EABDC</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4088,10 +4198,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95B640ED</NID>
-              <NAME>sceVshCommonUtil_95B640ED</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4102,10 +4213,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95E3D9AF</NID>
-              <NAME>sceVshCommonUtil_95E3D9AF</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4116,10 +4228,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9ADE299B</NID>
-              <NAME>sceVshCommonUtil_9ADE299B</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4130,6 +4243,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BB3560B</NID>
@@ -4161,7 +4275,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAED013BF</NID>
-              <NAME>sceVshCommonUtil_AED013BF</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4172,6 +4286,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAFFAEAAD</NID>
@@ -4217,7 +4332,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5C86FBB</NID>
-              <NAME>sceVshCommonUtil_B5C86FBB</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4228,6 +4343,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBAE569C1</NID>
@@ -4273,7 +4389,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD515D288</NID>
-              <NAME>sceVshCommonUtil_D515D288</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4284,6 +4400,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD57C9103</NID>
@@ -4301,7 +4418,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD807816A</NID>
-              <NAME>sceVshCommonUtil_D807816A</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4312,6 +4429,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD87E8E2D</NID>
@@ -4357,7 +4475,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7B2A201</NID>
-              <NAME>sceVshCommonUtil_E7B2A201</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4368,6 +4486,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBA4F812</NID>
@@ -4413,7 +4532,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEC4598F</NID>
-              <NAME>sceVshCommonUtil_FEC4598F</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4424,20 +4543,23 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0098CD9F</NID>
-              <NAME>sceVshCommonUtil_0098CD9F</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01258EBC</NID>
-              <NAME>sceVshCommonUtil_01258EBC</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04350EDC</NID>
@@ -4469,31 +4591,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x191C5BBB</NID>
-              <NAME>sceVshCommonUtil_191C5BBB</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BA3634F</NID>
-              <NAME>sceVshCommonUtil_1BA3634F</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D1AACC1</NID>
-              <NAME>sceVshCommonUtil_1D1AACC1</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23E233B7</NID>
-              <NAME>sceVshCommonUtil_23E233B7</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2465E9EE</NID>
@@ -4504,10 +4630,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x291AEBAC</NID>
-              <NAME>sceVshCommonUtil_291AEBAC</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3076EDF9</NID>
@@ -4518,10 +4645,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3294F7C5</NID>
-              <NAME>sceVshCommonUtil_3294F7C5</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C49A4F2</NID>
@@ -4539,10 +4667,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x45E58078</NID>
-              <NAME>sceVshCommonUtil_45E58078</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DDB0D32</NID>
@@ -4553,10 +4682,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x51B03A84</NID>
-              <NAME>sceVshCommonUtil_51B03A84</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53141C68</NID>
@@ -4567,10 +4697,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x59B8E24F</NID>
-              <NAME>sceVshCommonUtil_59B8E24F</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EF0C86C</NID>
@@ -4595,10 +4726,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8497817D</NID>
-              <NAME>sceVshCommonUtil_8497817D</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85C11436</NID>
@@ -4644,17 +4776,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D89854D</NID>
-              <NAME>sceVshCommonUtil_8D89854D</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FE32E1A</NID>
-              <NAME>sceVshCommonUtil_8FE32E1A</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94FC6670</NID>
@@ -4707,24 +4841,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB21262A0</NID>
-              <NAME>sceVshCommonUtil_B21262A0</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2A3B08F</NID>
-              <NAME>sceVshCommonUtil_B2A3B08F</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB41D402</NID>
-              <NAME>sceVshCommonUtil_BB41D402</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE6A828A</NID>
@@ -4735,24 +4872,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0EC03D2</NID>
-              <NAME>sceVshCommonUtil_C0EC03D2</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC12A19A3</NID>
-              <NAME>sceVshCommonUtil_C12A19A3</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE08900B1</NID>
-              <NAME>sceVshCommonUtil_E08900B1</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED5DA811</NID>
@@ -4788,12 +4928,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x157E9635</NID>
-              <NAME>sceVshCommonUtil_157E9635</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B065FCC</NID>
@@ -4842,12 +4983,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x31E0D98F</NID>
-              <NAME>sceVshCommonUtil_31E0D98F</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3386D8B3</NID>
@@ -4887,12 +5029,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4380CC71</NID>
-              <NAME>sceVshCommonUtil_4380CC71</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E5062CE</NID>
@@ -4914,12 +5057,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6650C720</NID>
-              <NAME>sceVshCommonUtil_6650C720</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BF7B8F7</NID>
@@ -4968,21 +5112,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5FC4A9B</NID>
-              <NAME>sceVshCommonUtil_A5FC4A9B</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6E6A396</NID>
-              <NAME>sceVshCommonUtil_A6E6A396</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA90AFE8</NID>
@@ -5004,12 +5150,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEE4D775</NID>
-              <NAME>sceVshCommonUtil_AEE4D775</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7D4112B</NID>
@@ -5022,12 +5169,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5B040E3</NID>
-              <NAME>sceVshCommonUtil_C5B040E3</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7608D0C</NID>
@@ -5058,21 +5206,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8C844A0</NID>
-              <NAME>sceVshCommonUtil_C8C844A0</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9CBC095</NID>
-              <NAME>sceVshCommonUtil_C9CBC095</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEA09399</NID>
@@ -5085,12 +5235,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3AFD3D0</NID>
-              <NAME>sceVshCommonUtil_D3AFD3D0</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD474AB80</NID>
@@ -5112,48 +5263,53 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3C62071</NID>
-              <NAME>sceVshCommonUtil_E3C62071</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEEEF8D82</NID>
-              <NAME>sceVshCommonUtil_EEEF8D82</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF799589</NID>
-              <NAME>sceVshCommonUtil_EF799589</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF53DB4A7</NID>
-              <NAME>sceVshCommonUtil_F53DB4A7</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF581B85E</NID>
-              <NAME>sceVshCommonUtil_F581B85E</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF61EE275</NID>
@@ -5166,39 +5322,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF717CCF0</NID>
-              <NAME>sceVshCommonUtil_F717CCF0</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFAD843B1</NID>
-              <NAME>sceVshCommonUtil_FAD843B1</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFBC01B10</NID>
-              <NAME>sceVshCommonUtil_FBC01B10</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC105687</NID>
-              <NAME>sceVshCommonUtil_FC105687</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD78C6CA</NID>
@@ -5211,7 +5371,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x039406DD</NID>
-              <NAME>sceVshCommonUtil_039406DD</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5221,10 +5381,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06AC32DD</NID>
-              <NAME>sceVshCommonUtil_06AC32DD</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5234,10 +5395,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C233EB3</NID>
-              <NAME>sceVshCommonUtil_0C233EB3</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5247,6 +5409,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0CCC1473</NID>
@@ -5289,7 +5452,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E18697A</NID>
-              <NAME>sceVshCommonUtil_2E18697A</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5299,10 +5462,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2EC30FC1</NID>
-              <NAME>sceVshCommonUtil_2EC30FC1</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5312,10 +5476,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32C97769</NID>
-              <NAME>sceVshCommonUtil_32C97769</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5325,6 +5490,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37ADF2E1</NID>
@@ -5354,7 +5520,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EFC8E88</NID>
-              <NAME>sceVshCommonUtil_3EFC8E88</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5364,6 +5530,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A1EF55E</NID>
@@ -5393,7 +5560,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x57488718</NID>
-              <NAME>sceVshCommonUtil_57488718</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5403,6 +5570,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64AEBEC6</NID>
@@ -5419,7 +5587,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6552FFD8</NID>
-              <NAME>sceVshCommonUtil_6552FFD8</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5429,6 +5597,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A8FA6C8</NID>
@@ -5458,7 +5627,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CF928A8</NID>
-              <NAME>sceVshCommonUtil_6CF928A8</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5468,6 +5637,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x793F252D</NID>
@@ -5484,7 +5654,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C6367C1</NID>
-              <NAME>sceVshCommonUtil_7C6367C1</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5494,6 +5664,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D3EDA57</NID>
@@ -5549,7 +5720,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F2CC6DA</NID>
-              <NAME>sceVshCommonUtil_8F2CC6DA</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5559,10 +5730,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92C2FC5A</NID>
-              <NAME>sceVshCommonUtil_92C2FC5A</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5572,6 +5744,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93909D43</NID>
@@ -5588,7 +5761,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x93D39FF8</NID>
-              <NAME>sceVshCommonUtil_93D39FF8</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5598,10 +5771,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93FA179C</NID>
-              <NAME>sceVshCommonUtil_93FA179C</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5611,10 +5785,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C82A5BA</NID>
-              <NAME>sceVshCommonUtil_9C82A5BA</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5624,6 +5799,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E5844F3</NID>
@@ -5718,7 +5894,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC85DD7DF</NID>
-              <NAME>sceVshCommonUtil_C85DD7DF</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5728,10 +5904,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCAF42715</NID>
-              <NAME>sceVshCommonUtil_CAF42715</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5741,6 +5918,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFF3F574</NID>
@@ -5796,7 +5974,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFBA62EF</NID>
-              <NAME>sceVshCommonUtil_EFBA62EF</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5806,6 +5984,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4455719</NID>
@@ -5835,7 +6014,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE188A7D</NID>
-              <NAME>sceVshCommonUtil_FE188A7D</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5845,6 +6024,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x00CBB7B4</NID>
@@ -5962,7 +6142,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0EB3621B</NID>
-              <NAME>sceVshCommonUtil_0EB3621B</NAME>
+              <NAME>sceSystemFileLoadIndex</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6016,6 +6196,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BC70F77</NID>
@@ -6475,7 +6656,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C7772C5</NID>
-              <NAME>sceVshCommonUtil_3C7772C5</NAME>
+              <NAME>sceSystemFileGetValue</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6529,10 +6710,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3CA4266A</NID>
-              <NAME>sceVshCommonUtil_3CA4266A</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6586,10 +6768,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3ED711EB</NID>
-              <NAME>sceVshCommonUtil_3ED711EB</NAME>
+              <NAME>sceSystemFileLoadAll</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6643,6 +6826,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EF86514</NID>
@@ -6703,7 +6887,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F28E621</NID>
-              <NAME>sceVshCommonUtil_3F28E621</NAME>
+              <NAME>_ZN3vsh17FormatFreeSize_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6757,10 +6941,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FB13D15</NID>
-              <NAME>sceVshCommonUtil_3FB13D15</NAME>
+              <NAME>_ZN3vsh20FormatFileSizeStringEPwij</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6814,10 +6999,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x474949E5</NID>
-              <NAME>sceVshCommonUtil_474949E5</NAME>
+              <NAME>sceSystemFileAddIndexW</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6871,10 +7057,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47A5660E</NID>
-              <NAME>sceVshCommonUtil_47A5660E</NAME>
+              <NAME>_ZN3vsh23FormatFileSizeString_KBEPwij</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6928,6 +7115,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A92625E</NID>
@@ -7045,7 +7233,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A1359E0</NID>
-              <NAME>sceVshCommonUtil_5A1359E0</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7099,6 +7287,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x649C3568</NID>
@@ -7159,7 +7348,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B5D5028</NID>
-              <NAME>sceVshCommonUtil_6B5D5028</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7213,6 +7402,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BA07384</NID>
@@ -7444,7 +7634,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x91838DED</NID>
-              <NAME>sceVshCommonUtil_91838DED</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7498,10 +7688,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91B254B2</NID>
-              <NAME>sceVshCommonUtil_91B254B2</NAME>
+              <NAME>sceSystemFileFree</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7555,6 +7746,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x937E715D</NID>
@@ -7729,7 +7921,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9869763D</NID>
-              <NAME>sceVshCommonUtil_9869763D</NAME>
+              <NAME>sceSystemFileGetValuePtr</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7783,6 +7975,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA15EEE00</NID>
@@ -7957,7 +8150,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC01322B</NID>
-              <NAME>sceVshCommonUtil_BC01322B</NAME>
+              <NAME>sceSystemFileCalcSizeW</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8011,6 +8204,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBED2C19E</NID>
@@ -8071,7 +8265,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD15EDEC8</NID>
-              <NAME>sceVshCommonUtil_D15EDEC8</NAME>
+              <NAME>sceSystemFileGetIndex</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8125,6 +8319,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3253728</NID>
@@ -8356,7 +8551,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6C36E64</NID>
-              <NAME>sceVshCommonUtil_E6C36E64</NAME>
+              <NAME>sceSystemFileInitFormatW</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8410,10 +8605,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF08CFACA</NID>
-              <NAME>sceVshCommonUtil_F08CFACA</NAME>
+              <NAME>sceSystemFileLoadAll2</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8467,10 +8663,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9DB4018</NID>
-              <NAME>sceVshCommonUtil_F9DB4018</NAME>
+              <NAME>sceSystemFileSaveToMemW</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8524,10 +8721,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9E12DAA</NID>
-              <NAME>sceVshCommonUtil_F9E12DAA</NAME>
+              <NAME>sceSystemFileGetIndexInfo</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8581,10 +8779,11 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC3BC7EE</NID>
-              <NAME>sceVshCommonUtil_FC3BC7EE</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8638,6 +8837,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

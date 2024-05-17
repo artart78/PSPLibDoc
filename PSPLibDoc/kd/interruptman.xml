@@ -4144,93 +4144,103 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B907DBC</NID>
-              <NAME>InterruptManagerForKernel_0B907DBC</NAME>
+              <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1234EFF5</NID>
-              <NAME>InterruptManagerForKernel_1234EFF5</NAME>
+              <NAME>SupportIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B16BD19</NID>
-              <NAME>InterruptManagerForKernel_2B16BD19</NAME>
+              <NAME>sceKernelQueryIntrHandlerInfo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x301F5249</NID>
-              <NAME>InterruptManagerForKernel_301F5249</NAME>
+              <NAME>sceKernelSetIntrLevel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F59FE41</NID>
-              <NAME>InterruptManagerForKernel_3F59FE41</NAME>
+              <NAME>ReturnToThread</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40A4AF82</NID>
-              <NAME>InterruptManagerForKernel_40A4AF82</NAME>
+              <NAME>QueryInterruptManCB</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E9F704C</NID>
-              <NAME>InterruptManagerForKernel_4E9F704C</NAME>
+              <NAME>sceKernelRegisterSystemCallTable</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51C46A26</NID>
-              <NAME>InterruptManagerForKernel_51C46A26</NAME>
+              <NAME>sceKernelQuerySystemCall</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51C866EE</NID>
-              <NAME>InterruptManagerForKernel_51C866EE</NAME>
+              <NAME>sceKernelCallSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53E4A7A0</NID>
-              <NAME>InterruptManagerForKernel_53E4A7A0</NAME>
+              <NAME>_sceKernelGetCpuClockCounterLow</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54543A3D</NID>
@@ -4252,21 +4262,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B3F0220</NID>
-              <NAME>InterruptManagerForKernel_8B3F0220</NAME>
+              <NAME>sceKernelResumeIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9328737C</NID>
-              <NAME>InterruptManagerForKernel_9328737C</NAME>
+              <NAME>_sceKernelGetCpuClockCounterHigh</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9801DAFF</NID>
@@ -4279,30 +4291,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A265F8C</NID>
-              <NAME>InterruptManagerForKernel_9A265F8C</NAME>
+              <NAME>sceKernelRegisterSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A81B995</NID>
-              <NAME>InterruptManagerForKernel_9A81B995</NAME>
+              <NAME>sceKernelDisableSubIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA956049</NID>
-              <NAME>InterruptManagerForKernel_AA956049</NAME>
+              <NAME>sceKernelGetCpuClockCounterWide</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAEB2892</NID>
@@ -4324,30 +4339,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xACCCB980</NID>
-              <NAME>InterruptManagerForKernel_ACCCB980</NAME>
+              <NAME>sceKernelClearIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF30D0B0</NID>
-              <NAME>InterruptManagerForKernel_AF30D0B0</NAME>
+              <NAME>SaveThreadContext</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0539E88</NID>
-              <NAME>InterruptManagerForKernel_B0539E88</NAME>
+              <NAME>sceKernelGetUserIntrStack</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB585CE0B</NID>
@@ -4360,160 +4378,177 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB807843D</NID>
-              <NAME>InterruptManagerForKernel_B807843D</NAME>
+              <NAME>sceKernelGetSyscallRA</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD57D8DF</NID>
-              <NAME>InterruptManagerForKernel_BD57D8DF</NAME>
+              <NAME>sceKernelGetInterruptExitCount</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC24EEB37</NID>
-              <NAME>InterruptManagerForKernel_C24EEB37</NAME>
+              <NAME>ReleaseSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC485DED4</NID>
-              <NAME>InterruptManagerForKernel_C485DED4</NAME>
+              <NAME>sceKernelSetIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC920F878</NID>
-              <NAME>InterruptManagerForKernel_C920F878</NAME>
+              <NAME>UnSupportIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDC91EC7</NID>
-              <NAME>InterruptManagerForKernel_CDC91EC7</NAME>
+              <NAME>RegisterContextHooks</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD18DC66D</NID>
-              <NAME>InterruptManagerForKernel_D18DC66D</NAME>
+              <NAME>sceKernelCallUserIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD810929A</NID>
-              <NAME>InterruptManagerForKernel_D810929A</NAME>
+              <NAME>sceKernelSetUserModeIntrHanlerAcceptable</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8410DE6</NID>
-              <NAME>InterruptManagerForKernel_D8410DE6</NAME>
+              <NAME>sceKernelIsInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6D809BE</NID>
-              <NAME>InterruptManagerForKernel_E6D809BE</NAME>
+              <NAME>sceKernelResumeSubIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEA71700D</NID>
-              <NAME>InterruptManagerForKernel_EA71700D</NAME>
+              <NAME>sceKernelSuspendIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF09AC4B</NID>
-              <NAME>InterruptManagerForKernel_EF09AC4B</NAME>
+              <NAME>sceKernelSetPrimarySyscallHandler</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF97BD5A</NID>
-              <NAME>InterruptManagerForKernel_EF97BD5A</NAME>
+              <NAME>ReleaseContextHooks</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF562A281</NID>
-              <NAME>InterruptManagerForKernel_F562A281</NAME>
+              <NAME>sceKernelIsSubInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF56F1ACD</NID>
-              <NAME>InterruptManagerForKernel_F56F1ACD</NAME>
+              <NAME>RegisterSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7D2FF4B</NID>
-              <NAME>InterruptManagerForKernel_F7D2FF4B</NAME>
+              <NAME>sceKernelSuspendSubIntr</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF632732</NID>
-              <NAME>InterruptManagerForKernel_FF632732</NAME>
+              <NAME>sceKernelGetIntrSyscallFrame</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01E73DED</NID>
-              <NAME>InterruptManagerForKernel_01E73DED</NAME>
+              <NAME>sceKernelGetUserIntrStack</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4521,6 +4556,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04A98F3E</NID>
@@ -4535,7 +4571,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E2E4C8D</NID>
-              <NAME>InterruptManagerForKernel_0E2E4C8D</NAME>
+              <NAME>sceKernelIsInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4543,10 +4579,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x162C952B</NID>
-              <NAME>InterruptManagerForKernel_162C952B</NAME>
+              <NAME>sceKernelClearIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4554,6 +4591,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x169FC5A3</NID>
@@ -4568,7 +4606,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x209E1EBA</NID>
-              <NAME>InterruptManagerForKernel_209E1EBA</NAME>
+              <NAME>sceKernelSetIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4576,10 +4614,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21BB11E3</NID>
-              <NAME>InterruptManagerForKernel_21BB11E3</NAME>
+              <NAME>_sceKernelGetCpuClockCounterLow</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4587,10 +4626,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23893E86</NID>
-              <NAME>InterruptManagerForKernel_23893E86</NAME>
+              <NAME>sceKernelGetSyscallRA</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4598,6 +4638,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x298DCA53</NID>
@@ -4623,7 +4664,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4202203E</NID>
-              <NAME>InterruptManagerForKernel_4202203E</NAME>
+              <NAME>sceKernelGetIntrSyscallFrame</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4631,10 +4672,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x424F00D6</NID>
-              <NAME>InterruptManagerForKernel_424F00D6</NAME>
+              <NAME>sceKernelCallSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4642,10 +4684,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C2FFAAA</NID>
-              <NAME>InterruptManagerForKernel_4C2FFAAA</NAME>
+              <NAME>sceKernelResumeSubIntr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4653,10 +4696,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F7612D2</NID>
-              <NAME>InterruptManagerForKernel_4F7612D2</NAME>
+              <NAME>sceKernelQuerySystemCall</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4664,10 +4708,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54361924</NID>
-              <NAME>InterruptManagerForKernel_54361924</NAME>
+              <NAME>sceKernelSetUserModeIntrHanlerAcceptable</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4675,10 +4720,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74CFDAF9</NID>
-              <NAME>InterruptManagerForKernel_74CFDAF9</NAME>
+              <NAME>sceKernelSuspendIntr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4686,10 +4732,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C4BEAF7</NID>
-              <NAME>InterruptManagerForKernel_8C4BEAF7</NAME>
+              <NAME>ReleaseContextHooks</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4697,10 +4744,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D70708C</NID>
-              <NAME>InterruptManagerForKernel_8D70708C</NAME>
+              <NAME>ReturnToThread</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4708,10 +4756,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F1BAF45</NID>
-              <NAME>InterruptManagerForKernel_8F1BAF45</NAME>
+              <NAME>sceKernelSetIntrLevel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4719,10 +4768,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9465A066</NID>
-              <NAME>InterruptManagerForKernel_9465A066</NAME>
+              <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4730,10 +4780,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4A82E70</NID>
-              <NAME>InterruptManagerForKernel_A4A82E70</NAME>
+              <NAME>sceKernelSetPrimarySyscallHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4741,6 +4792,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA818FD49</NID>
@@ -4755,7 +4807,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA90D2604</NID>
-              <NAME>InterruptManagerForKernel_A90D2604</NAME>
+              <NAME>SaveThreadContext</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4763,10 +4815,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE5E1481</NID>
-              <NAME>InterruptManagerForKernel_AE5E1481</NAME>
+              <NAME>RegisterContextHooks</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4774,10 +4827,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB216E1DC</NID>
-              <NAME>InterruptManagerForKernel_B216E1DC</NAME>
+              <NAME>sceKernelGetInterruptExitCount</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4785,10 +4839,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5D3CD0F</NID>
-              <NAME>InterruptManagerForKernel_B5D3CD0F</NAME>
+              <NAME>sceKernelCallUserIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4796,10 +4851,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB940A5BF</NID>
-              <NAME>InterruptManagerForKernel_B940A5BF</NAME>
+              <NAME>sceKernelRegisterSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4807,10 +4863,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC18DD76D</NID>
-              <NAME>InterruptManagerForKernel_C18DD76D</NAME>
+              <NAME>sceKernelQueryIntrHandlerInfo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4818,10 +4875,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3ABE8D2</NID>
-              <NAME>InterruptManagerForKernel_C3ABE8D2</NAME>
+              <NAME>sceKernelSuspendSubIntr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4829,10 +4887,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC580347D</NID>
-              <NAME>InterruptManagerForKernel_C580347D</NAME>
+              <NAME>RegisterSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4840,6 +4899,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1F2492A</NID>
@@ -4854,7 +4914,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD495C262</NID>
-              <NAME>InterruptManagerForKernel_D495C262</NAME>
+              <NAME>_sceKernelGetCpuClockCounterHigh</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4862,10 +4922,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5ADDE65</NID>
-              <NAME>InterruptManagerForKernel_D5ADDE65</NAME>
+              <NAME>QueryInterruptManCB</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4873,10 +4934,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6C159AD</NID>
-              <NAME>InterruptManagerForKernel_D6C159AD</NAME>
+              <NAME>sceKernelRegisterSystemCallTable</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4884,10 +4946,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD920C330</NID>
-              <NAME>InterruptManagerForKernel_D920C330</NAME>
+              <NAME>UnSupportIntr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4895,10 +4958,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFA27217</NID>
-              <NAME>InterruptManagerForKernel_DFA27217</NAME>
+              <NAME>SupportIntr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4906,10 +4970,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE248F2A3</NID>
-              <NAME>InterruptManagerForKernel_E248F2A3</NAME>
+              <NAME>sceKernelGetCpuClockCounterWide</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4917,10 +4982,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE37994FE</NID>
-              <NAME>InterruptManagerForKernel_E37994FE</NAME>
+              <NAME>ReleaseSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4928,10 +4994,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8CC8261</NID>
-              <NAME>InterruptManagerForKernel_F8CC8261</NAME>
+              <NAME>sceKernelResumeIntr</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4939,6 +5006,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF91CAE6F</NID>
@@ -4953,7 +5021,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD7A6446</NID>
-              <NAME>InterruptManagerForKernel_FD7A6446</NAME>
+              <NAME>sceKernelIsSubInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -4961,22 +5029,25 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04F22FCE</NID>
-              <NAME>InterruptManagerForKernel_04F22FCE</NAME>
+              <NAME>sceKernelGetUserIntrStack</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x07A6F5EA</NID>
-              <NAME>InterruptManagerForKernel_07A6F5EA</NAME>
+              <NAME>sceKernelGetInterruptExitCount</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A6461BE</NID>
@@ -4988,11 +5059,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x123D0C70</NID>
-              <NAME>InterruptManagerForKernel_123D0C70</NAME>
+              <NAME>sceKernelQuerySystemCall</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x175C2DF6</NID>
@@ -5028,163 +5100,183 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D04F9B2</NID>
-              <NAME>InterruptManagerForKernel_1D04F9B2</NAME>
+              <NAME>_sceKernelGetCpuClockCounterHigh</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1FCD182B</NID>
-              <NAME>InterruptManagerForKernel_1FCD182B</NAME>
+              <NAME>sceKernelRegisterSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x200EAEAE</NID>
-              <NAME>InterruptManagerForKernel_200EAEAE</NAME>
+              <NAME>SaveThreadContext</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23539FDD</NID>
-              <NAME>InterruptManagerForKernel_23539FDD</NAME>
+              <NAME>UnSupportIntr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B86553F</NID>
-              <NAME>InterruptManagerForKernel_2B86553F</NAME>
+              <NAME>sceKernelSuspendSubIntr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E931C2F</NID>
-              <NAME>InterruptManagerForKernel_2E931C2F</NAME>
+              <NAME>sceKernelIsInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A31E05E</NID>
-              <NAME>InterruptManagerForKernel_3A31E05E</NAME>
+              <NAME>sceKernelSuspendIntr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F2E5EFC</NID>
-              <NAME>InterruptManagerForKernel_3F2E5EFC</NAME>
+              <NAME>sceKernelResumeSubIntr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43B9355F</NID>
-              <NAME>InterruptManagerForKernel_43B9355F</NAME>
+              <NAME>sceKernelResumeIntr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47998401</NID>
-              <NAME>InterruptManagerForKernel_47998401</NAME>
+              <NAME>sceKernelSetIntrLevel</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AB1F4A3</NID>
-              <NAME>InterruptManagerForKernel_5AB1F4A3</NAME>
+              <NAME>QueryInterruptManCB</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x60811279</NID>
-              <NAME>InterruptManagerForKernel_60811279</NAME>
+              <NAME>sceKernelRegisterSystemCallTable</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x651D8CC3</NID>
-              <NAME>InterruptManagerForKernel_651D8CC3</NAME>
+              <NAME>sceKernelGetCpuClockCounterWide</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x673D50DA</NID>
-              <NAME>InterruptManagerForKernel_673D50DA</NAME>
+              <NAME>ReleaseContextHooks</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B74EE1C</NID>
-              <NAME>InterruptManagerForKernel_6B74EE1C</NAME>
+              <NAME>ReleaseSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CA5B1A1</NID>
-              <NAME>InterruptManagerForKernel_6CA5B1A1</NAME>
+              <NAME>ReturnToThread</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D13521A</NID>
-              <NAME>InterruptManagerForKernel_6D13521A</NAME>
+              <NAME>_sceKernelGetCpuClockCounterLow</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x781BAD63</NID>
-              <NAME>InterruptManagerForKernel_781BAD63</NAME>
+              <NAME>sceKernelQueryIntrHandlerInfo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x847FD6AC</NID>
-              <NAME>InterruptManagerForKernel_847FD6AC</NAME>
+              <NAME>sceKernelCallSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A520318</NID>
-              <NAME>InterruptManagerForKernel_8A520318</NAME>
+              <NAME>sceKernelSetPrimarySyscallHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x962CAD7C</NID>
@@ -5196,51 +5288,57 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x99EE611B</NID>
-              <NAME>InterruptManagerForKernel_99EE611B</NAME>
+              <NAME>sceKernelIsSubInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1DE03E2</NID>
-              <NAME>InterruptManagerForKernel_A1DE03E2</NAME>
+              <NAME>sceKernelGetSyscallRA</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAFD72B40</NID>
-              <NAME>InterruptManagerForKernel_AFD72B40</NAME>
+              <NAME>RegisterContextHooks</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6B26B30</NID>
-              <NAME>InterruptManagerForKernel_B6B26B30</NAME>
+              <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC51C1DE2</NID>
-              <NAME>InterruptManagerForKernel_C51C1DE2</NAME>
+              <NAME>RegisterSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB426501</NID>
-              <NAME>InterruptManagerForKernel_CB426501</NAME>
+              <NAME>sceKernelGetIntrSyscallFrame</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD48D5654</NID>
@@ -5252,47 +5350,52 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4A18D1B</NID>
-              <NAME>InterruptManagerForKernel_D4A18D1B</NAME>
+              <NAME>sceKernelSetUserModeIntrHanlerAcceptable</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8E0F0BB</NID>
-              <NAME>InterruptManagerForKernel_D8E0F0BB</NAME>
+              <NAME>sceKernelClearIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC2D64F5</NID>
-              <NAME>InterruptManagerForKernel_DC2D64F5</NAME>
+              <NAME>sceKernelSetIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF39CF508</NID>
-              <NAME>InterruptManagerForKernel_F39CF508</NAME>
+              <NAME>SupportIntr</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF831235</NID>
-              <NAME>InterruptManagerForKernel_FF831235</NAME>
+              <NAME>sceKernelCallUserIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x060BEA41</NID>
-              <NAME>InterruptManagerForKernel_060BEA41</NAME>
+              <NAME>sceKernelQueryIntrHandlerInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5303,10 +5406,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06F3B421</NID>
-              <NAME>InterruptManagerForKernel_06F3B421</NAME>
+              <NAME>ReleaseContextHooks</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5317,6 +5421,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A8870FD</NID>
@@ -5334,7 +5439,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0CE5174E</NID>
-              <NAME>InterruptManagerForKernel_0CE5174E</NAME>
+              <NAME>sceKernelGetInterruptExitCount</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5345,10 +5450,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x119C5FDA</NID>
-              <NAME>InterruptManagerForKernel_119C5FDA</NAME>
+              <NAME>sceKernelResumeSubIntr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5359,6 +5465,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16591CFA</NID>
@@ -5390,7 +5497,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F205275</NID>
-              <NAME>InterruptManagerForKernel_1F205275</NAME>
+              <NAME>sceKernelIsSubInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5401,10 +5508,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x247EBFCB</NID>
-              <NAME>InterruptManagerForKernel_247EBFCB</NAME>
+              <NAME>_sceKernelGetCpuClockCounterHigh</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5415,10 +5523,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B590BE6</NID>
-              <NAME>InterruptManagerForKernel_2B590BE6</NAME>
+              <NAME>ReturnToThread</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5429,10 +5538,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35D318E9</NID>
-              <NAME>InterruptManagerForKernel_35D318E9</NAME>
+              <NAME>sceKernelRegisterSystemCallTable</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5443,10 +5553,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EFF2F49</NID>
-              <NAME>InterruptManagerForKernel_3EFF2F49</NAME>
+              <NAME>sceKernelSetIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5457,10 +5568,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x42C1F8BA</NID>
-              <NAME>InterruptManagerForKernel_42C1F8BA</NAME>
+              <NAME>QueryInterruptManCB</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5471,10 +5583,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B67E78E</NID>
-              <NAME>InterruptManagerForKernel_4B67E78E</NAME>
+              <NAME>sceKernelCallUserIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5485,10 +5598,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x50AF5AA5</NID>
-              <NAME>InterruptManagerForKernel_50AF5AA5</NAME>
+              <NAME>sceKernelGetUserIntrStack</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5499,10 +5613,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x528FD951</NID>
-              <NAME>InterruptManagerForKernel_528FD951</NAME>
+              <NAME>sceKernelClearIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5513,10 +5628,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D928BEA</NID>
-              <NAME>InterruptManagerForKernel_5D928BEA</NAME>
+              <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5527,10 +5643,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x619AF177</NID>
-              <NAME>InterruptManagerForKernel_619AF177</NAME>
+              <NAME>_sceKernelGetCpuClockCounterLow</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5541,6 +5658,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6246088A</NID>
@@ -5572,7 +5690,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x68C49DDF</NID>
-              <NAME>InterruptManagerForKernel_68C49DDF</NAME>
+              <NAME>sceKernelSuspendSubIntr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5583,10 +5701,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7291B768</NID>
-              <NAME>InterruptManagerForKernel_7291B768</NAME>
+              <NAME>sceKernelIsInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5597,10 +5716,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7527A9BA</NID>
-              <NAME>InterruptManagerForKernel_7527A9BA</NAME>
+              <NAME>sceKernelSetUserModeIntrHanlerAcceptable</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5611,10 +5731,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x772BDAD6</NID>
-              <NAME>InterruptManagerForKernel_772BDAD6</NAME>
+              <NAME>RegisterSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5625,10 +5746,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77535C3E</NID>
-              <NAME>InterruptManagerForKernel_77535C3E</NAME>
+              <NAME>SaveThreadContext</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5639,10 +5761,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A1D8CCA</NID>
-              <NAME>InterruptManagerForKernel_8A1D8CCA</NAME>
+              <NAME>sceKernelGetSyscallRA</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5653,10 +5776,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A5C8280</NID>
-              <NAME>InterruptManagerForKernel_8A5C8280</NAME>
+              <NAME>SupportIntr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5667,10 +5791,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BE96A2E</NID>
-              <NAME>InterruptManagerForKernel_8BE96A2E</NAME>
+              <NAME>sceKernelCallSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5681,10 +5806,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C57E272</NID>
-              <NAME>InterruptManagerForKernel_8C57E272</NAME>
+              <NAME>RegisterContextHooks</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5695,10 +5821,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FDB7CCF</NID>
-              <NAME>InterruptManagerForKernel_8FDB7CCF</NAME>
+              <NAME>sceKernelSetPrimarySyscallHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5709,10 +5836,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x923E248F</NID>
-              <NAME>InterruptManagerForKernel_923E248F</NAME>
+              <NAME>ReleaseSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5723,10 +5851,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x965FE22F</NID>
-              <NAME>InterruptManagerForKernel_965FE22F</NAME>
+              <NAME>sceKernelGetCpuClockCounterWide</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5737,6 +5866,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9918DEF9</NID>
@@ -5754,7 +5884,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x999606CD</NID>
-              <NAME>InterruptManagerForKernel_999606CD</NAME>
+              <NAME>sceKernelGetIntrSyscallFrame</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5765,10 +5895,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1EA05BA</NID>
-              <NAME>InterruptManagerForKernel_B1EA05BA</NAME>
+              <NAME>sceKernelResumeIntr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5779,10 +5910,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC34D4BFF</NID>
-              <NAME>InterruptManagerForKernel_C34D4BFF</NAME>
+              <NAME>sceKernelSuspendIntr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5793,10 +5925,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFFA1857</NID>
-              <NAME>InterruptManagerForKernel_CFFA1857</NAME>
+              <NAME>sceKernelRegisterSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5807,6 +5940,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE1E1B513</NID>
@@ -5824,7 +5958,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB988556</NID>
-              <NAME>InterruptManagerForKernel_EB988556</NAME>
+              <NAME>sceKernelQuerySystemCall</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5835,10 +5969,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED293043</NID>
-              <NAME>InterruptManagerForKernel_ED293043</NAME>
+              <NAME>sceKernelSetIntrLevel</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5849,10 +5984,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCC44635</NID>
-              <NAME>InterruptManagerForKernel_FCC44635</NAME>
+              <NAME>UnSupportIntr</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -5863,34 +5999,39 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01875A02</NID>
-              <NAME>InterruptManagerForKernel_01875A02</NAME>
+              <NAME>sceKernelSuspendSubIntr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06A89400</NID>
-              <NAME>InterruptManagerForKernel_06A89400</NAME>
+              <NAME>sceKernelClearIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B931498</NID>
-              <NAME>InterruptManagerForKernel_0B931498</NAME>
+              <NAME>sceKernelQueryIntrHandlerInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19DA2990</NID>
-              <NAME>InterruptManagerForKernel_19DA2990</NAME>
+              <NAME>sceKernelSetIntrLevel</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19F6A3EA</NID>
@@ -5901,38 +6042,43 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C529793</NID>
-              <NAME>InterruptManagerForKernel_1C529793</NAME>
+              <NAME>sceKernelIsSubInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C98124E</NID>
-              <NAME>InterruptManagerForKernel_1C98124E</NAME>
+              <NAME>sceKernelRegisterSystemCallTable</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x207AB515</NID>
-              <NAME>InterruptManagerForKernel_207AB515</NAME>
+              <NAME>sceKernelGetSyscallRA</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x233C96E7</NID>
-              <NAME>InterruptManagerForKernel_233C96E7</NAME>
+              <NAME>sceKernelSetUserModeIntrHanlerAcceptable</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C50A28C</NID>
-              <NAME>InterruptManagerForKernel_2C50A28C</NAME>
+              <NAME>sceKernelRegisterSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B40C569</NID>
@@ -5943,17 +6089,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D5EE53F</NID>
-              <NAME>InterruptManagerForKernel_3D5EE53F</NAME>
+              <NAME>sceKernelCpuResumeIntrWithSync</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4BC754D4</NID>
-              <NAME>InterruptManagerForKernel_4BC754D4</NAME>
+              <NAME>QueryInterruptManCB</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x50109863</NID>
@@ -5985,80 +6133,91 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x75BAED85</NID>
-              <NAME>InterruptManagerForKernel_75BAED85</NAME>
+              <NAME>sceKernelResumeIntr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D4F9B3B</NID>
-              <NAME>InterruptManagerForKernel_7D4F9B3B</NAME>
+              <NAME>sceKernelResumeSubIntr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E67BE6B</NID>
-              <NAME>InterruptManagerForKernel_7E67BE6B</NAME>
+              <NAME>sceKernelGetUserIntrStack</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84381079</NID>
-              <NAME>InterruptManagerForKernel_84381079</NAME>
+              <NAME>sceKernelIsInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x850BE6BF</NID>
-              <NAME>InterruptManagerForKernel_850BE6BF</NAME>
+              <NAME>_sceKernelGetCpuClockCounterHigh</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87D11A6F</NID>
-              <NAME>InterruptManagerForKernel_87D11A6F</NAME>
+              <NAME>UnSupportIntr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D4CE975</NID>
-              <NAME>InterruptManagerForKernel_8D4CE975</NAME>
+              <NAME>ReleaseSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x943C6584</NID>
-              <NAME>InterruptManagerForKernel_943C6584</NAME>
+              <NAME>sceKernelCallSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94BF9905</NID>
-              <NAME>InterruptManagerForKernel_94BF9905</NAME>
+              <NAME>RegisterContextHooks</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9ABECABB</NID>
-              <NAME>InterruptManagerForKernel_9ABECABB</NAME>
+              <NAME>sceKernelSetIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9EC1EB68</NID>
-              <NAME>InterruptManagerForKernel_9EC1EB68</NAME>
+              <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC8F3B58</NID>
@@ -6069,77 +6228,87 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD66EFBC</NID>
-              <NAME>InterruptManagerForKernel_AD66EFBC</NAME>
+              <NAME>sceKernelSetPrimarySyscallHandler</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1BC19E0</NID>
-              <NAME>InterruptManagerForKernel_B1BC19E0</NAME>
+              <NAME>ReleaseContextHooks</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA515354</NID>
-              <NAME>InterruptManagerForKernel_BA515354</NAME>
+              <NAME>sceKernelGetIntrSyscallFrame</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC18D0F52</NID>
-              <NAME>InterruptManagerForKernel_C18D0F52</NAME>
+              <NAME>sceKernelGetCpuClockCounterWide</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC91C9C56</NID>
-              <NAME>InterruptManagerForKernel_C91C9C56</NAME>
+              <NAME>sceKernelSuspendIntr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE8E3BE4</NID>
-              <NAME>InterruptManagerForKernel_CE8E3BE4</NAME>
+              <NAME>SupportIntr</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD82791FC</NID>
-              <NAME>InterruptManagerForKernel_D82791FC</NAME>
+              <NAME>RegisterSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC338F7B</NID>
-              <NAME>InterruptManagerForKernel_DC338F7B</NAME>
+              <NAME>_sceKernelGetCpuClockCounterLow</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6CE1E5A</NID>
-              <NAME>InterruptManagerForKernel_E6CE1E5A</NAME>
+              <NAME>SaveThreadContext</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEE0E96F</NID>
-              <NAME>InterruptManagerForKernel_FEE0E96F</NAME>
+              <NAME>sceKernelQuerySystemCall</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0371FA94</NID>
-              <NAME>InterruptManagerForKernel_0371FA94</NAME>
+              <NAME>sceKernelGetCpuClockCounterWide</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6148,6 +6317,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x114435E5</NID>
@@ -6163,7 +6333,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x14C3F806</NID>
-              <NAME>InterruptManagerForKernel_14C3F806</NAME>
+              <NAME>RegisterContextHooks</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6172,6 +6342,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x157ADE6A</NID>
@@ -6187,7 +6358,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x21883411</NID>
-              <NAME>InterruptManagerForKernel_21883411</NAME>
+              <NAME>_sceKernelGetCpuClockCounterHigh</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6196,10 +6367,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25F676D4</NID>
-              <NAME>InterruptManagerForKernel_25F676D4</NAME>
+              <NAME>sceKernelSuspendSubIntr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6208,10 +6380,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BF441EF</NID>
-              <NAME>InterruptManagerForKernel_2BF441EF</NAME>
+              <NAME>sceKernelQueryIntrHandlerInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6220,6 +6393,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D70650B</NID>
@@ -6247,7 +6421,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3AB4955A</NID>
-              <NAME>InterruptManagerForKernel_3AB4955A</NAME>
+              <NAME>SupportIntr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6256,10 +6430,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C161DFB</NID>
-              <NAME>InterruptManagerForKernel_3C161DFB</NAME>
+              <NAME>sceKernelRegisterSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6268,10 +6443,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47B6E6B7</NID>
-              <NAME>InterruptManagerForKernel_47B6E6B7</NAME>
+              <NAME>UnSupportIntr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6280,10 +6456,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53F5A3F8</NID>
-              <NAME>InterruptManagerForKernel_53F5A3F8</NAME>
+              <NAME>sceKernelGetIntrSyscallFrame</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6292,10 +6469,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54ACF6F8</NID>
-              <NAME>InterruptManagerForKernel_54ACF6F8</NAME>
+              <NAME>sceKernelSetIntrLevel</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6304,10 +6482,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x580DDADD</NID>
-              <NAME>InterruptManagerForKernel_580DDADD</NAME>
+              <NAME>sceKernelRegisterSystemCallTable</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6316,10 +6495,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F3525D5</NID>
-              <NAME>InterruptManagerForKernel_5F3525D5</NAME>
+              <NAME>QueryInterruptManCB</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6328,10 +6508,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x667D2693</NID>
-              <NAME>InterruptManagerForKernel_667D2693</NAME>
+              <NAME>sceKernelSetPrimarySyscallHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6340,10 +6521,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79EE281A</NID>
-              <NAME>InterruptManagerForKernel_79EE281A</NAME>
+              <NAME>sceKernelIsInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6352,10 +6534,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80EE1E2E</NID>
-              <NAME>InterruptManagerForKernel_80EE1E2E</NAME>
+              <NAME>RegisterSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6364,10 +6547,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x88F9909B</NID>
-              <NAME>InterruptManagerForKernel_88F9909B</NAME>
+              <NAME>sceKernelResumeSubIntr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6376,10 +6560,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89081386</NID>
-              <NAME>InterruptManagerForKernel_89081386</NAME>
+              <NAME>sceKernelClearIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6388,10 +6573,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B1CA91B</NID>
-              <NAME>InterruptManagerForKernel_8B1CA91B</NAME>
+              <NAME>sceKernelResumeIntr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6400,6 +6586,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A507C55</NID>
@@ -6427,7 +6614,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC9306F0</NID>
-              <NAME>InterruptManagerForKernel_AC9306F0</NAME>
+              <NAME>sceKernelCpuResumeIntrWithSync</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6436,10 +6623,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8D11C47</NID>
-              <NAME>InterruptManagerForKernel_B8D11C47</NAME>
+              <NAME>ReleaseSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6448,10 +6636,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBBE3C1A7</NID>
-              <NAME>InterruptManagerForKernel_BBE3C1A7</NAME>
+              <NAME>SaveThreadContext</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6460,10 +6649,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC03C8D51</NID>
-              <NAME>InterruptManagerForKernel_C03C8D51</NAME>
+              <NAME>sceKernelIsSubInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6472,10 +6662,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCCC5A332</NID>
-              <NAME>InterruptManagerForKernel_CCC5A332</NAME>
+              <NAME>sceKernelSetIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6484,10 +6675,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD157AF51</NID>
-              <NAME>InterruptManagerForKernel_D157AF51</NAME>
+              <NAME>sceKernelGetSyscallRA</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6496,10 +6688,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD16BF06B</NID>
-              <NAME>InterruptManagerForKernel_D16BF06B</NAME>
+              <NAME>sceKernelGetUserIntrStack</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6508,10 +6701,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2274728</NID>
-              <NAME>InterruptManagerForKernel_D2274728</NAME>
+              <NAME>sceKernelSetUserModeIntrHanlerAcceptable</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6520,10 +6714,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD24AE49D</NID>
-              <NAME>InterruptManagerForKernel_D24AE49D</NAME>
+              <NAME>ReleaseContextHooks</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6532,10 +6727,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDACE3CE1</NID>
-              <NAME>InterruptManagerForKernel_DACE3CE1</NAME>
+              <NAME>sceKernelQuerySystemCall</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6544,6 +6740,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3CDA797</NID>
@@ -6559,7 +6756,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC51802D</NID>
-              <NAME>InterruptManagerForKernel_EC51802D</NAME>
+              <NAME>sceKernelCallSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6568,10 +6765,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC5485ED</NID>
-              <NAME>InterruptManagerForKernel_EC5485ED</NAME>
+              <NAME>sceKernelSuspendIntr</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6580,10 +6778,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF952C56F</NID>
-              <NAME>InterruptManagerForKernel_F952C56F</NAME>
+              <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6592,10 +6791,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEE218CE</NID>
-              <NAME>InterruptManagerForKernel_FEE218CE</NAME>
+              <NAME>_sceKernelGetCpuClockCounterLow</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6604,10 +6804,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x077B9BEE</NID>
-              <NAME>InterruptManagerForKernel_077B9BEE</NAME>
+              <NAME>ReleaseSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6620,10 +6821,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F9D0289</NID>
-              <NAME>InterruptManagerForKernel_0F9D0289</NAME>
+              <NAME>RegisterContextHooks</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6636,10 +6838,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x11981C80</NID>
-              <NAME>InterruptManagerForKernel_11981C80</NAME>
+              <NAME>sceKernelIsInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6652,10 +6855,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12B95762</NID>
-              <NAME>InterruptManagerForKernel_12B95762</NAME>
+              <NAME>sceKernelSuspendSubIntr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6668,10 +6872,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1302C512</NID>
-              <NAME>InterruptManagerForKernel_1302C512</NAME>
+              <NAME>SaveThreadContext</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6684,6 +6889,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D70F254</NID>
@@ -6703,7 +6909,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x298C261F</NID>
-              <NAME>InterruptManagerForKernel_298C261F</NAME>
+              <NAME>UnSupportIntr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6716,10 +6922,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x352FB341</NID>
-              <NAME>InterruptManagerForKernel_352FB341</NAME>
+              <NAME>_sceKernelGetCpuClockCounterLow</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6732,10 +6939,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x359F6F5C</NID>
-              <NAME>InterruptManagerForKernel_359F6F5C</NAME>
+              <NAME>sceKernelIsSubInterruptOccurred</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6748,6 +6956,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37BD0C9C</NID>
@@ -6767,7 +6976,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x399FF74C</NID>
-              <NAME>InterruptManagerForKernel_399FF74C</NAME>
+              <NAME>sceKernelCpuResumeIntrWithSync</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6780,10 +6989,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E401A35</NID>
-              <NAME>InterruptManagerForKernel_4E401A35</NAME>
+              <NAME>sceKernelSetPrimarySyscallHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6796,10 +7006,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57AA9A29</NID>
-              <NAME>InterruptManagerForKernel_57AA9A29</NAME>
+              <NAME>sceKernelGetCpuClockCounterWide</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6812,10 +7023,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6301702D</NID>
-              <NAME>InterruptManagerForKernel_6301702D</NAME>
+              <NAME>RegisterSubIntrruptMonitor</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6828,10 +7040,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7539543F</NID>
-              <NAME>InterruptManagerForKernel_7539543F</NAME>
+              <NAME>sceKernelGetUserIntrStack</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6844,10 +7057,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78D8F74D</NID>
-              <NAME>InterruptManagerForKernel_78D8F74D</NAME>
+              <NAME>sceKernelGetIntrSyscallFrame</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6860,10 +7074,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x829AFF11</NID>
-              <NAME>InterruptManagerForKernel_829AFF11</NAME>
+              <NAME>ReleaseContextHooks</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6876,10 +7091,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85E7F044</NID>
-              <NAME>InterruptManagerForKernel_85E7F044</NAME>
+              <NAME>sceKernelResumeSubIntr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6892,10 +7108,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x867DEBD1</NID>
-              <NAME>InterruptManagerForKernel_867DEBD1</NAME>
+              <NAME>sceKernelSetIntrLevel</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6908,10 +7125,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x978DDCCD</NID>
-              <NAME>InterruptManagerForKernel_978DDCCD</NAME>
+              <NAME>sceKernelGetSyscallRA</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6924,10 +7142,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B434498</NID>
-              <NAME>InterruptManagerForKernel_9B434498</NAME>
+              <NAME>_sceKernelGetCpuClockCounterHigh</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6940,10 +7159,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E1C5490</NID>
-              <NAME>InterruptManagerForKernel_9E1C5490</NAME>
+              <NAME>sceKernelResumeIntr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6956,6 +7176,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FD93456</NID>
@@ -6975,7 +7196,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6A4981E</NID>
-              <NAME>InterruptManagerForKernel_A6A4981E</NAME>
+              <NAME>QueryInterruptManCB</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6988,6 +7209,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA811BAF2</NID>
@@ -7007,7 +7229,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA02AB07</NID>
-              <NAME>InterruptManagerForKernel_AA02AB07</NAME>
+              <NAME>sceKernelSuspendIntr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7020,10 +7242,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1F5E99B</NID>
-              <NAME>InterruptManagerForKernel_B1F5E99B</NAME>
+              <NAME>sceKernelQueryIntrHandlerInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7036,6 +7259,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC86AD90B</NID>
@@ -7055,7 +7279,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8E4FF67</NID>
-              <NAME>InterruptManagerForKernel_C8E4FF67</NAME>
+              <NAME>sceKernelSetUserModeIntrHanlerAcceptable</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7068,6 +7292,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA850281</NID>
@@ -7087,7 +7312,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBCBEF90</NID>
-              <NAME>InterruptManagerForKernel_CBCBEF90</NAME>
+              <NAME>sceKernelRegisterSystemCallTable</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7100,10 +7325,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD01EAA3F</NID>
-              <NAME>InterruptManagerForKernel_D01EAA3F</NAME>
+              <NAME>sceKernelSetIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7116,10 +7342,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD06AA711</NID>
-              <NAME>InterruptManagerForKernel_D06AA711</NAME>
+              <NAME>sceKernelRegisterSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7132,6 +7359,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5A13B4E</NID>
@@ -7151,7 +7379,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD88DD3B4</NID>
-              <NAME>InterruptManagerForKernel_D88DD3B4</NAME>
+              <NAME>sceKernelCallSubIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7164,10 +7392,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4B71544</NID>
-              <NAME>InterruptManagerForKernel_E4B71544</NAME>
+              <NAME>sceKernelClearIntrLogging</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7180,10 +7409,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFBCB2E5E</NID>
-              <NAME>InterruptManagerForKernel_FBCB2E5E</NAME>
+              <NAME>SupportIntr</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7196,10 +7426,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD524B3E</NID>
-              <NAME>InterruptManagerForKernel_FD524B3E</NAME>
+              <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7212,10 +7443,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD66372C</NID>
-              <NAME>InterruptManagerForKernel_FD66372C</NAME>
+              <NAME>sceKernelQuerySystemCall</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -7228,6 +7460,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02AC50D5</NID>
@@ -7848,7 +8081,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x551097F2</NID>
-              <NAME>InterruptManagerForKernel_551097F2</NAME>
+              <NAME>SaveThreadContext</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -7906,6 +8139,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55D18836</NID>
@@ -8157,7 +8391,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FCBA912</NID>
-              <NAME>InterruptManagerForKernel_6FCBA912</NAME>
+              <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8215,6 +8449,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8357E7FA</NID>
@@ -8280,7 +8515,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DFBD787</NID>
-              <NAME>InterruptManagerForKernel_8DFBD787</NAME>
+              <NAME>sceKernelGetUserIntrStack</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -8338,6 +8573,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0F88036</NID>
@@ -9084,7 +9320,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE526B767</NID>
-              <NAME>InterruptManagerForKernel_E526B767</NAME>
+              <NAME>sceKernelQuerySystemCall</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -9142,6 +9378,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6FB16E3</NID>
@@ -9207,7 +9444,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE790EAED</NID>
-              <NAME>InterruptManagerForKernel_E790EAED</NAME>
+              <NAME>RegisterContextHooks</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -9265,6 +9502,7 @@
                 <VERSION>vita-3.72</VERSION>
                 <VERSION>vita-3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF153B371</NID>

@@ -18417,7 +18417,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81579D36</NID>
-              <NAME>sceWlanDrv_driver_81579D36</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93440B11</NID>
@@ -18503,7 +18503,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81579D36</NID>
-              <NAME>sceWlanDrv_lib_81579D36</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9658C9F7</NID>

@@ -478,7 +478,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x28BC34E1</NID>
-              <NAME>sceMesgLed_driver_28BC34E1</NAME>
+              <NAME>sceUtilsGetLoadModuleNLength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -503,10 +503,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3702348B</NID>
-              <NAME>sceMesgLed_driver_3702348B</NAME>
+              <NAME>sceUtilsGetLoadModuleILength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -531,10 +532,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A680E6B</NID>
-              <NAME>sceMesgLed_driver_4A680E6B</NAME>
+              <NAME>sceUtilsGetLoadModuleKLength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -559,10 +561,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E139EE3</NID>
-              <NAME>sceMesgLed_driver_4E139EE3</NAME>
+              <NAME>sceUtilsGetLoadModuleKLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -587,10 +590,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55E4F665</NID>
-              <NAME>sceMesgLed_driver_55E4F665</NAME>
+              <NAME>sceUtilsGetLoadModuleCLength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -615,10 +619,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5FDB29F3</NID>
-              <NAME>sceMesgLed_driver_5FDB29F3</NAME>
+              <NAME>sceUtilsGetLoadModuleMLength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -643,10 +648,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B0310A0</NID>
-              <NAME>sceMesgLed_driver_8B0310A0</NAME>
+              <NAME>sceUtilsGetLoadModuleNLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -671,10 +677,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F096FEC</NID>
-              <NAME>sceMesgLed_driver_8F096FEC</NAME>
+              <NAME>sceUtilsGetLoadModuleJLength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -699,10 +706,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA59DE09</NID>
-              <NAME>sceMesgLed_driver_AA59DE09</NAME>
+              <NAME>sceUtilsGetLoadModuleLLength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -727,10 +735,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC15F737B</NID>
-              <NAME>sceMesgLed_driver_C15F737B</NAME>
+              <NAME>sceUtilsGetLoadModuleCLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -755,10 +764,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC40F29E2</NID>
-              <NAME>sceMesgLed_driver_C40F29E2</NAME>
+              <NAME>sceUtilsGetLoadModuleMLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -783,10 +793,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE7E00DF</NID>
-              <NAME>sceMesgLed_driver_CE7E00DF</NAME>
+              <NAME>sceUtilsGetLoadModuleILengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -811,10 +822,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4C47F58</NID>
-              <NAME>sceMesgLed_driver_D4C47F58</NAME>
+              <NAME>sceUtilsGetLoadModuleLLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -839,10 +851,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA8B5C2E</NID>
-              <NAME>sceMesgLed_driver_DA8B5C2E</NAME>
+              <NAME>sceUtilsGetLoadModuleJLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -867,10 +880,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFF0F308</NID>
-              <NAME>sceMesgLed_driver_DFF0F308</NAME>
+              <NAME>sceUtilsGetLoadModuleDLength</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -895,10 +909,11 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7275198</NID>
-              <NAME>sceMesgLed_driver_F7275198</NAME>
+              <NAME>sceUtilsGetLoadModuleDLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -923,6 +938,7 @@
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x739D8E56</NID>
@@ -1078,12 +1094,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x08070143</NID>
-              <NAME>sceMesgLed_driver_08070143</NAME>
+              <NAME>sceUtilsGetLoadModuleMLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15DD7DFF</NID>
@@ -1096,12 +1113,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AF9539C</NID>
-              <NAME>sceMesgLed_driver_1AF9539C</NAME>
+              <NAME>sceUtilsGetLoadModuleJLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25F2F405</NID>
@@ -1132,57 +1150,63 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x61AE1DE5</NID>
-              <NAME>sceMesgLed_driver_61AE1DE5</NAME>
+              <NAME>sceUtilsGetLoadModuleKLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70DB2F3E</NID>
-              <NAME>sceMesgLed_driver_70DB2F3E</NAME>
+              <NAME>sceUtilsGetLoadModuleDLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7248E5B5</NID>
-              <NAME>sceMesgLed_driver_7248E5B5</NAME>
+              <NAME>sceUtilsGetLoadModuleDLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x777C1527</NID>
-              <NAME>sceMesgLed_driver_777C1527</NAME>
+              <NAME>sceUtilsGetLoadModuleILengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80EDEBB0</NID>
-              <NAME>sceMesgLed_driver_80EDEBB0</NAME>
+              <NAME>sceUtilsGetLoadModuleLLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E017A54</NID>
-              <NAME>sceMesgLed_driver_8E017A54</NAME>
+              <NAME>sceUtilsGetLoadModuleCLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A1FCCDB</NID>
@@ -1195,21 +1219,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FE655EE</NID>
-              <NAME>sceMesgLed_driver_9FE655EE</NAME>
+              <NAME>sceUtilsGetLoadModuleKLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA9C9B9B</NID>
-              <NAME>sceMesgLed_driver_AA9C9B9B</NAME>
+              <NAME>sceUtilsGetLoadModuleCLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB212494F</NID>
@@ -1222,12 +1248,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB52C3711</NID>
-              <NAME>sceMesgLed_driver_B52C3711</NAME>
+              <NAME>sceUtilsGetLoadModuleLLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB90C9A11</NID>
@@ -1249,52 +1276,57 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC92CBFCB</NID>
-              <NAME>sceMesgLed_driver_C92CBFCB</NAME>
+              <NAME>sceUtilsGetLoadModuleJLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB8A7CDE</NID>
-              <NAME>sceMesgLed_driver_DB8A7CDE</NAME>
+              <NAME>sceUtilsGetLoadModuleNLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7185F8C</NID>
-              <NAME>sceMesgLed_driver_F7185F8C</NAME>
+              <NAME>sceUtilsGetLoadModuleNLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF94E7FE5</NID>
-              <NAME>sceMesgLed_driver_F94E7FE5</NAME>
+              <NAME>sceUtilsGetLoadModuleILength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCBD720F</NID>
-              <NAME>sceMesgLed_driver_FCBD720F</NAME>
+              <NAME>sceUtilsGetLoadModuleMLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01BFEF7E</NID>
-              <NAME>sceMesgLed_driver_01BFEF7E</NAME>
+              <NAME>sceUtilsGetLoadModuleILength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1302,10 +1334,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x087E6E52</NID>
-              <NAME>sceMesgLed_driver_087E6E52</NAME>
+              <NAME>sceUtilsGetLoadModuleKLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1313,6 +1346,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0CC8AF07</NID>
@@ -1327,7 +1361,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x26CDF1D4</NID>
-              <NAME>sceMesgLed_driver_26CDF1D4</NAME>
+              <NAME>sceUtilsGetLoadModuleLLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1335,6 +1369,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C691282</NID>
@@ -1349,7 +1384,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x479E93DE</NID>
-              <NAME>sceMesgLed_driver_479E93DE</NAME>
+              <NAME>sceUtilsGetLoadModuleLLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1357,10 +1392,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AA47071</NID>
-              <NAME>sceMesgLed_driver_4AA47071</NAME>
+              <NAME>sceUtilsGetLoadModuleDLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1368,10 +1404,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5288FBD6</NID>
-              <NAME>sceMesgLed_driver_5288FBD6</NAME>
+              <NAME>sceUtilsGetLoadModuleJLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1379,6 +1416,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6028B2EA</NID>
@@ -1393,7 +1431,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B4D9484</NID>
-              <NAME>sceMesgLed_driver_6B4D9484</NAME>
+              <NAME>sceUtilsGetLoadModuleCLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1401,6 +1439,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F8ED3FB</NID>
@@ -1415,7 +1454,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ADBED04</NID>
-              <NAME>sceMesgLed_driver_8ADBED04</NAME>
+              <NAME>sceUtilsGetLoadModuleJLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1423,6 +1462,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ECC7B36</NID>
@@ -1437,7 +1477,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x90755471</NID>
-              <NAME>sceMesgLed_driver_90755471</NAME>
+              <NAME>sceUtilsGetLoadModuleMLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1445,10 +1485,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0E8C646</NID>
-              <NAME>sceMesgLed_driver_A0E8C646</NAME>
+              <NAME>sceUtilsGetLoadModuleKLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1456,6 +1497,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABF4CBA4</NID>
@@ -1470,7 +1512,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2DEAC9C</NID>
-              <NAME>sceMesgLed_driver_B2DEAC9C</NAME>
+              <NAME>sceUtilsGetLoadModuleCLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1478,10 +1520,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA902BA0</NID>
-              <NAME>sceMesgLed_driver_CA902BA0</NAME>
+              <NAME>sceUtilsGetLoadModuleNLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1489,10 +1532,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCCAA822C</NID>
-              <NAME>sceMesgLed_driver_CCAA822C</NAME>
+              <NAME>sceUtilsGetLoadModuleILengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1500,10 +1544,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC3E40FA</NID>
-              <NAME>sceMesgLed_driver_DC3E40FA</NAME>
+              <NAME>sceUtilsGetLoadModuleDLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1511,6 +1556,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5BDD3CD</NID>
@@ -1525,7 +1571,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB656E70</NID>
-              <NAME>sceMesgLed_driver_EB656E70</NAME>
+              <NAME>sceUtilsGetLoadModuleNLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1533,10 +1579,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2A49A13</NID>
-              <NAME>sceMesgLed_driver_F2A49A13</NAME>
+              <NAME>sceUtilsGetLoadModuleMLengthByPolling</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -1544,6 +1591,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF919B53E</NID>

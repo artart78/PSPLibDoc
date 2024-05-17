@@ -36,6 +36,17 @@ def get_raw_functions(binary_path):
 def match_module_pair(path1, path2):
     funs1 = {k: v for k, v in get_raw_functions(path1).items() if not (k.startswith('sub_') or k.startswith('loc_') or k.startswith('module_'))}
     funs2 = {k: v for k, v in get_raw_functions(path2).items() if not (k.startswith('sub_') or k.startswith('loc_') or k.startswith('module_'))}
+    distances = defaultdict(dict)
+    print('computing distances...')
+    for (f1, c1) in funs1.items():
+        lib1 = f1[:-8]
+        for (f2, c2) in funs2.items():
+            lib2 = f2[:-8]
+            if lib1 != lib2:
+                continue
+            distances[f1][f2] = Levenshtein.distance(c1, c2)
+
+    print('associating functions...')
     result = {}
     while len(funs1) > 0 and len(funs2) > 0:
         closest_pair = None
@@ -46,7 +57,7 @@ def match_module_pair(path1, path2):
                 lib2 = f2[:-8]
                 if lib1 != lib2:
                     continue
-                cur_dist = Levenshtein.distance(c1, c2)
+                cur_dist = distances[f1][f2]
                 if min_dist is None or cur_dist < min_dist:
                     min_dist = cur_dist
                     closest_pair = (f1, f2)

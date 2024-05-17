@@ -4085,7 +4085,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x28D35634</NID>
-              <NAME>sceUtility_28D35634</NAME>
+              <NAME>sceUtilityGetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -4130,10 +4130,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70267ADF</NID>
-              <NAME>sceUtility_70267ADF</NAME>
+              <NAME>sceUtilityGetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -4178,10 +4179,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECE1D3E5</NID>
-              <NAME>sceUtility_ECE1D3E5</NAME>
+              <NAME>sceUtilityGetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -4226,10 +4228,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF3582B2</NID>
-              <NAME>sceUtility_EF3582B2</NAME>
+              <NAME>sceUtilityGetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -4274,6 +4277,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0251B134</NID>
@@ -5917,210 +5921,231 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3073F954</NID>
-              <NAME>sceUtility_netparam_internal_3073F954</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x636A8F8F</NID>
-              <NAME>sceUtility_netparam_internal_636A8F8F</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77859541</NID>
-              <NAME>sceUtility_netparam_internal_77859541</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x854ACDD6</NID>
-              <NAME>sceUtility_netparam_internal_854ACDD6</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6F3CC68</NID>
-              <NAME>sceUtility_netparam_internal_D6F3CC68</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7BB6FFA</NID>
-              <NAME>sceUtility_netparam_internal_D7BB6FFA</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF13EE50</NID>
-              <NAME>sceUtility_netparam_internal_FF13EE50</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E3D87A0</NID>
-              <NAME>sceUtility_netparam_internal_1E3D87A0</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E580C3C</NID>
-              <NAME>sceUtility_netparam_internal_1E580C3C</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B0AB938</NID>
-              <NAME>sceUtility_netparam_internal_4B0AB938</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DE59F1F</NID>
-              <NAME>sceUtility_netparam_internal_4DE59F1F</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DCBD306</NID>
-              <NAME>sceUtility_netparam_internal_6DCBD306</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE2027EA</NID>
-              <NAME>sceUtility_netparam_internal_AE2027EA</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD9AF57C6</NID>
-              <NAME>sceUtility_netparam_internal_D9AF57C6</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1DD02CE7</NID>
-              <NAME>sceUtility_netparam_internal_1DD02CE7</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2ED98100</NID>
-              <NAME>sceUtility_netparam_internal_2ED98100</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x852E0A50</NID>
-              <NAME>sceUtility_netparam_internal_852E0A50</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CB24205</NID>
-              <NAME>sceUtility_netparam_internal_9CB24205</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA809D346</NID>
-              <NAME>sceUtility_netparam_internal_A809D346</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB9D7792</NID>
-              <NAME>sceUtility_netparam_internal_BB9D7792</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD421B8D</NID>
-              <NAME>sceUtility_netparam_internal_FD421B8D</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05E1354C</NID>
-              <NAME>sceUtility_netparam_internal_05E1354C</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -6128,10 +6153,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x157244CD</NID>
-              <NAME>sceUtility_netparam_internal_157244CD</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -6139,10 +6165,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82B169DC</NID>
-              <NAME>sceUtility_netparam_internal_82B169DC</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -6150,10 +6177,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x983D06F3</NID>
-              <NAME>sceUtility_netparam_internal_983D06F3</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -6161,10 +6189,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2C6FD5D</NID>
-              <NAME>sceUtility_netparam_internal_B2C6FD5D</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -6172,10 +6201,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC15E5EC8</NID>
-              <NAME>sceUtility_netparam_internal_C15E5EC8</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -6183,10 +6213,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC43B42B7</NID>
-              <NAME>sceUtility_netparam_internal_C43B42B7</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -6194,66 +6225,74 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43C63E06</NID>
-              <NAME>sceUtility_netparam_internal_43C63E06</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA238BA4</NID>
-              <NAME>sceUtility_netparam_internal_AA238BA4</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAED4122D</NID>
-              <NAME>sceUtility_netparam_internal_AED4122D</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCAE957D8</NID>
-              <NAME>sceUtility_netparam_internal_CAE957D8</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFD5E921</NID>
-              <NAME>sceUtility_netparam_internal_DFD5E921</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4A52BA9</NID>
-              <NAME>sceUtility_netparam_internal_F4A52BA9</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCD6DB24</NID>
-              <NAME>sceUtility_netparam_internal_FCD6DB24</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BA36F3F</NID>
-              <NAME>sceUtility_netparam_internal_0BA36F3F</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -6264,10 +6303,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E244DD7</NID>
-              <NAME>sceUtility_netparam_internal_0E244DD7</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -6278,10 +6318,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4CBB0CA0</NID>
-              <NAME>sceUtility_netparam_internal_4CBB0CA0</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -6292,10 +6333,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEE92A0A</NID>
-              <NAME>sceUtility_netparam_internal_BEE92A0A</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -6306,10 +6348,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF161E17A</NID>
-              <NAME>sceUtility_netparam_internal_F161E17A</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -6320,10 +6363,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF547B8FC</NID>
-              <NAME>sceUtility_netparam_internal_F547B8FC</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -6334,10 +6378,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD539533</NID>
-              <NAME>sceUtility_netparam_internal_FD539533</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -6348,6 +6393,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x614AEDCA</NID>
@@ -6360,45 +6406,51 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1DBDE32A</NID>
-              <NAME>sceUtility_netparam_internal_1DBDE32A</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30C52604</NID>
-              <NAME>sceUtility_netparam_internal_30C52604</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57FCAF04</NID>
-              <NAME>sceUtility_netparam_internal_57FCAF04</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB05AF1F8</NID>
-              <NAME>sceUtility_netparam_internal_B05AF1F8</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3919B30</NID>
-              <NAME>sceUtility_netparam_internal_B3919B30</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB792E3C9</NID>
-              <NAME>sceUtility_netparam_internal_B792E3C9</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB88095B1</NID>
@@ -6409,14 +6461,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEBA68F8</NID>
-              <NAME>sceUtility_netparam_internal_FEBA68F8</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A08BAC3</NID>
-              <NAME>sceUtility_netparam_internal_1A08BAC3</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6425,10 +6478,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x381980A3</NID>
-              <NAME>sceUtility_netparam_internal_381980A3</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6437,10 +6491,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x571E7DD8</NID>
-              <NAME>sceUtility_netparam_internal_571E7DD8</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6449,10 +6504,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90B83B5C</NID>
-              <NAME>sceUtility_netparam_internal_90B83B5C</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6461,6 +6517,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8BA0187</NID>
@@ -6476,7 +6533,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE042EE9D</NID>
-              <NAME>sceUtility_netparam_internal_E042EE9D</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6485,10 +6542,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2AA9609</NID>
-              <NAME>sceUtility_netparam_internal_E2AA9609</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6497,10 +6555,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9A91104</NID>
-              <NAME>sceUtility_netparam_internal_E9A91104</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -6509,6 +6568,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF676A29D</NID>
@@ -6522,7 +6582,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x069F9E82</NID>
-              <NAME>sceUtility_netparam_internal_069F9E82</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6532,10 +6592,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x294F324E</NID>
-              <NAME>sceUtility_netparam_internal_294F324E</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6545,6 +6606,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4EBC4D2F</NID>
@@ -6561,7 +6623,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F05E7B5</NID>
-              <NAME>sceUtility_netparam_internal_4F05E7B5</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6571,10 +6633,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x710C338C</NID>
-              <NAME>sceUtility_netparam_internal_710C338C</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6584,6 +6647,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9E74ECA</NID>
@@ -6600,7 +6664,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2A93580</NID>
-              <NAME>sceUtility_netparam_internal_D2A93580</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6610,10 +6674,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE76A849A</NID>
-              <NAME>sceUtility_netparam_internal_E76A849A</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6623,10 +6688,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2C0AAF1</NID>
-              <NAME>sceUtility_netparam_internal_F2C0AAF1</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6636,6 +6702,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02598DB8</NID>
@@ -6655,59 +6722,66 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x239F260D</NID>
-              <NAME>sceUtility_netparam_internal_239F260D</NAME>
+              <NAME>sceUtilitySetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4CB183A4</NID>
-              <NAME>sceUtility_netparam_internal_4CB183A4</NAME>
+              <NAME>sceUtilityCopyNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D63AA06</NID>
-              <NAME>sceUtility_netparam_internal_5D63AA06</NAME>
+              <NAME>sceUtilitySetNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61D0686E</NID>
-              <NAME>sceUtility_netparam_internal_61D0686E</NAME>
+              <NAME>sceUtilityCreateNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67C2105B</NID>
-              <NAME>sceUtility_netparam_internal_67C2105B</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B1BC62C</NID>
-              <NAME>sceUtility_netparam_internal_6B1BC62C</NAME>
+              <NAME>sceUtilityDeleteNetParam</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D77B975</NID>
-              <NAME>sceUtility_netparam_internal_6D77B975</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -7748,23 +7822,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x07D9E317</NID>
-              <NAME>sceUtility_private_07D9E317</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C804C87</NID>
-              <NAME>sceUtility_private_0C804C87</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D7BB1A3</NID>
@@ -7778,13 +7854,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x167260AF</NID>
-              <NAME>sceUtility_private_167260AF</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x213DE03C</NID>
@@ -7808,13 +7885,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3187AC5B</NID>
-              <NAME>sceUtility_private_3187AC5B</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E4EF652</NID>
@@ -7828,63 +7906,69 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x412A1B40</NID>
-              <NAME>sceUtility_private_412A1B40</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F79BFF8</NID>
-              <NAME>sceUtility_private_4F79BFF8</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x514541CA</NID>
-              <NAME>sceUtility_private_514541CA</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56DD7BFE</NID>
-              <NAME>sceUtility_private_56DD7BFE</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57D704CB</NID>
-              <NAME>sceUtility_private_57D704CB</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BE976DE</NID>
-              <NAME>sceUtility_private_5BE976DE</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x62654471</NID>
@@ -7898,23 +7982,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x63015035</NID>
-              <NAME>sceUtility_private_63015035</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6324267B</NID>
-              <NAME>sceUtility_private_6324267B</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63AC185C</NID>
@@ -7928,13 +8014,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C606BFA</NID>
-              <NAME>sceUtility_private_6C606BFA</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D9C3C45</NID>
@@ -7958,13 +8045,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F86F49E</NID>
-              <NAME>sceUtility_private_6F86F49E</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80543CA4</NID>
@@ -7978,33 +8066,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x830ECEE0</NID>
-              <NAME>sceUtility_private_830ECEE0</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89556534</NID>
-              <NAME>sceUtility_private_89556534</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x971ADBF8</NID>
-              <NAME>sceUtility_private_971ADBF8</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA26593CA</NID>
@@ -8018,23 +8109,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA33569F5</NID>
-              <NAME>sceUtility_private_A33569F5</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA95C751D</NID>
-              <NAME>sceUtility_private_A95C751D</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB840FE8A</NID>
@@ -8068,13 +8161,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5570074</NID>
-              <NAME>sceUtility_private_C5570074</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6207959</NID>
@@ -8098,33 +8192,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4EC6727</NID>
-              <NAME>sceUtility_private_E4EC6727</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7B30D67</NID>
-              <NAME>sceUtility_private_F7B30D67</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF80A06D9</NID>
-              <NAME>sceUtility_private_F80A06D9</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA7677DA</NID>
@@ -8138,43 +8235,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB67A5F8</NID>
-              <NAME>sceUtility_private_FB67A5F8</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
                 <VERSION>3.52</VERSION>
                 <VERSION>3.60</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0AC84B53</NID>
-              <NAME>sceUtility_private_0AC84B53</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1073E85E</NID>
-              <NAME>sceUtility_private_1073E85E</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2078D328</NID>
-              <NAME>sceUtility_private_2078D328</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x237E89B0</NID>
@@ -8188,33 +8289,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B01EA18</NID>
-              <NAME>sceUtility_private_3B01EA18</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x439CD8C1</NID>
-              <NAME>sceUtility_private_439CD8C1</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x442C3B73</NID>
-              <NAME>sceUtility_private_442C3B73</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44975437</NID>
@@ -8228,23 +8332,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4559DE9A</NID>
-              <NAME>sceUtility_private_4559DE9A</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46CF3DFA</NID>
-              <NAME>sceUtility_private_46CF3DFA</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56EF7B33</NID>
@@ -8258,23 +8364,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6483C352</NID>
-              <NAME>sceUtility_private_6483C352</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x715A1340</NID>
-              <NAME>sceUtility_private_715A1340</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79E6E46E</NID>
@@ -8298,13 +8406,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F66DD28</NID>
-              <NAME>sceUtility_private_7F66DD28</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83C7ECFA</NID>
@@ -8318,13 +8427,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B29318D</NID>
-              <NAME>sceUtility_private_8B29318D</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92DEE9FE</NID>
@@ -8338,13 +8448,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA12B4F4F</NID>
-              <NAME>sceUtility_private_A12B4F4F</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5C9E480</NID>
@@ -8358,23 +8469,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA0E8A92</NID>
-              <NAME>sceUtility_private_AA0E8A92</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB4541D4</NID>
-              <NAME>sceUtility_private_AB4541D4</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABB4DA3F</NID>
@@ -8398,23 +8511,25 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEA296CA</NID>
-              <NAME>sceUtility_private_AEA296CA</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB160730A</NID>
-              <NAME>sceUtility_private_B160730A</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3989BAC</NID>
@@ -8468,13 +8583,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8630B95</NID>
-              <NAME>sceUtility_private_C8630B95</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC0C7B11</NID>
@@ -8488,33 +8604,36 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3D8F157</NID>
-              <NAME>sceUtility_private_D3D8F157</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3A07780</NID>
-              <NAME>sceUtility_private_E3A07780</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED67A23D</NID>
-              <NAME>sceUtility_private_ED67A23D</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF23B1812</NID>
@@ -8528,60 +8647,66 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF376C77A</NID>
-              <NAME>sceUtility_private_F376C77A</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9DD1C8A</NID>
-              <NAME>sceUtility_private_F9DD1C8A</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB4ACB75</NID>
-              <NAME>sceUtility_private_FB4ACB75</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x063BE0EF</NID>
-              <NAME>sceUtility_private_063BE0EF</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x11F6866E</NID>
-              <NAME>sceUtility_private_11F6866E</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1672AC88</NID>
-              <NAME>sceUtility_private_1672AC88</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17EB776B</NID>
@@ -8594,12 +8719,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x18C8DCDF</NID>
-              <NAME>sceUtility_private_18C8DCDF</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23128030</NID>
@@ -8630,30 +8756,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x28089B36</NID>
-              <NAME>sceUtility_private_28089B36</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3059D872</NID>
-              <NAME>sceUtility_private_3059D872</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x305D10A2</NID>
-              <NAME>sceUtility_private_305D10A2</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x347F44C5</NID>
@@ -8666,84 +8795,93 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A0A43E6</NID>
-              <NAME>sceUtility_private_3A0A43E6</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B3F5BDA</NID>
-              <NAME>sceUtility_private_3B3F5BDA</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E313547</NID>
-              <NAME>sceUtility_private_3E313547</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40A37FB0</NID>
-              <NAME>sceUtility_private_40A37FB0</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41C9FACF</NID>
-              <NAME>sceUtility_private_41C9FACF</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49792C61</NID>
-              <NAME>sceUtility_private_49792C61</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51365F1F</NID>
-              <NAME>sceUtility_private_51365F1F</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E656038</NID>
-              <NAME>sceUtility_private_5E656038</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EBE3A48</NID>
-              <NAME>sceUtility_private_5EBE3A48</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x628E6EA7</NID>
@@ -8765,12 +8903,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x77A96919</NID>
-              <NAME>sceUtility_private_77A96919</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77D3C25F</NID>
@@ -8783,21 +8922,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x799D42D5</NID>
-              <NAME>sceUtility_private_799D42D5</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79CB0033</NID>
-              <NAME>sceUtility_private_79CB0033</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CAB8509</NID>
@@ -8810,30 +8951,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9CCA123</NID>
-              <NAME>sceUtility_private_A9CCA123</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC316F1C</NID>
-              <NAME>sceUtility_private_AC316F1C</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1614D56</NID>
-              <NAME>sceUtility_private_B1614D56</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1C4DC69</NID>
@@ -8882,12 +9026,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF39C827</NID>
-              <NAME>sceUtility_private_CF39C827</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD53DE780</NID>
@@ -8918,12 +9063,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xED52CADD</NID>
-              <NAME>sceUtility_private_ED52CADD</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01B12627</NID>
@@ -8938,7 +9084,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E1AD00B</NID>
-              <NAME>sceUtility_private_1E1AD00B</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8946,6 +9092,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E6423F8</NID>
@@ -8960,7 +9107,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F8BC854</NID>
-              <NAME>sceUtility_private_3F8BC854</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8968,10 +9115,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4054D26D</NID>
-              <NAME>sceUtility_private_4054D26D</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8979,10 +9127,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44C20C8C</NID>
-              <NAME>sceUtility_private_44C20C8C</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -8990,10 +9139,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x475B36DA</NID>
-              <NAME>sceUtility_private_475B36DA</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9001,10 +9151,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47FAB771</NID>
-              <NAME>sceUtility_private_47FAB771</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9012,10 +9163,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C2ADD45</NID>
-              <NAME>sceUtility_private_4C2ADD45</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9023,10 +9175,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54741501</NID>
-              <NAME>sceUtility_private_54741501</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9034,6 +9187,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x60693A88</NID>
@@ -9048,7 +9202,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x62B5C919</NID>
-              <NAME>sceUtility_private_62B5C919</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9056,6 +9210,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7276BBA0</NID>
@@ -9070,7 +9225,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7583D9E9</NID>
-              <NAME>sceUtility_private_7583D9E9</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9078,10 +9233,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77838187</NID>
-              <NAME>sceUtility_private_77838187</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9089,10 +9245,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BDD300A</NID>
-              <NAME>sceUtility_private_7BDD300A</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9100,6 +9257,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E1AFAD3</NID>
@@ -9125,7 +9283,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CCCEBD6</NID>
-              <NAME>sceUtility_private_8CCCEBD6</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9133,10 +9291,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F0AF3E1</NID>
-              <NAME>sceUtility_private_8F0AF3E1</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9144,10 +9303,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92196CC6</NID>
-              <NAME>sceUtility_private_92196CC6</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9155,10 +9315,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x932B7564</NID>
-              <NAME>sceUtility_private_932B7564</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9166,10 +9327,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x971DCF39</NID>
-              <NAME>sceUtility_private_971DCF39</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9177,6 +9339,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9933E5A9</NID>
@@ -9191,7 +9354,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DA958A5</NID>
-              <NAME>sceUtility_private_9DA958A5</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9199,6 +9362,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0E9A35A</NID>
@@ -9224,7 +9388,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5EEF1CB</NID>
-              <NAME>sceUtility_private_A5EEF1CB</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9232,6 +9396,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD4039FA</NID>
@@ -9279,7 +9444,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD962AF65</NID>
-              <NAME>sceUtility_private_D962AF65</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9287,6 +9452,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD9E44CE2</NID>
@@ -9301,7 +9467,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB06D622</NID>
-              <NAME>sceUtility_private_DB06D622</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9309,6 +9475,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDDA4B08</NID>
@@ -9356,7 +9523,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8FBF0AC</NID>
-              <NAME>sceUtility_private_F8FBF0AC</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9364,10 +9531,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA8F6D15</NID>
-              <NAME>sceUtility_private_FA8F6D15</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9375,10 +9543,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC4074DB</NID>
-              <NAME>sceUtility_private_FC4074DB</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -9386,14 +9555,16 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1136B3A6</NID>
-              <NAME>sceUtility_private_1136B3A6</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D8BCDA1</NID>
@@ -9413,19 +9584,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x23862202</NID>
-              <NAME>sceUtility_private_23862202</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27352B93</NID>
-              <NAME>sceUtility_private_27352B93</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B1581C2</NID>
@@ -9437,11 +9610,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x30326638</NID>
-              <NAME>sceUtility_private_30326638</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3CB0D45B</NID>
@@ -9453,11 +9627,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x429B0A06</NID>
-              <NAME>sceUtility_private_429B0A06</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48A8527F</NID>
@@ -9485,27 +9660,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x63741537</NID>
-              <NAME>sceUtility_private_63741537</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63AD9CA9</NID>
-              <NAME>sceUtility_private_63AD9CA9</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6588F77E</NID>
-              <NAME>sceUtility_private_6588F77E</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DCAC6BD</NID>
@@ -9517,11 +9695,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x752A1EF4</NID>
-              <NAME>sceUtility_private_752A1EF4</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77F3E9BD</NID>
@@ -9541,27 +9720,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x83A0C87F</NID>
-              <NAME>sceUtility_private_83A0C87F</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E1A9E10</NID>
-              <NAME>sceUtility_private_8E1A9E10</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x963F0C71</NID>
-              <NAME>sceUtility_private_963F0C71</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D13BC16</NID>
@@ -9573,19 +9755,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAED4DD54</NID>
-              <NAME>sceUtility_private_AED4DD54</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3145368</NID>
-              <NAME>sceUtility_private_B3145368</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE03A868</NID>
@@ -9597,19 +9781,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC57800D3</NID>
-              <NAME>sceUtility_private_C57800D3</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8A689E8</NID>
-              <NAME>sceUtility_private_C8A689E8</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC992B5D1</NID>
@@ -9629,35 +9815,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1469046</NID>
-              <NAME>sceUtility_private_D1469046</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD28665BE</NID>
-              <NAME>sceUtility_private_D28665BE</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3E531AF</NID>
-              <NAME>sceUtility_private_D3E531AF</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4B6B680</NID>
-              <NAME>sceUtility_private_D4B6B680</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5924E51</NID>
@@ -9677,19 +9867,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3F9E3B0</NID>
-              <NAME>sceUtility_private_E3F9E3B0</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED281124</NID>
-              <NAME>sceUtility_private_ED281124</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2E40E9A</NID>
@@ -9701,11 +9893,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6C37BFF</NID>
-              <NAME>sceUtility_private_F6C37BFF</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB6C4A55</NID>
@@ -9717,11 +9910,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDED9B37</NID>
-              <NAME>sceUtility_private_FDED9B37</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03043DAF</NID>
@@ -9739,7 +9933,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0CF833E5</NID>
-              <NAME>sceUtility_private_0CF833E5</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9750,10 +9944,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x107CA63E</NID>
-              <NAME>sceUtility_private_107CA63E</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9764,6 +9959,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x11236637</NID>
@@ -9781,7 +9977,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1FD567D4</NID>
-              <NAME>sceUtility_private_1FD567D4</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9792,6 +9988,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23FE0D1B</NID>
@@ -9809,7 +10006,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x284DBC23</NID>
-              <NAME>sceUtility_private_284DBC23</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9820,10 +10017,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A9524EF</NID>
-              <NAME>sceUtility_private_2A9524EF</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9834,6 +10032,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F265D64</NID>
@@ -9865,7 +10064,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B76A6D0</NID>
-              <NAME>sceUtility_private_3B76A6D0</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9876,10 +10075,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EBDB7F6</NID>
-              <NAME>sceUtility_private_3EBDB7F6</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9890,6 +10090,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47FA0F9B</NID>
@@ -9907,7 +10108,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B069019</NID>
-              <NAME>sceUtility_private_4B069019</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9918,6 +10119,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B3C096F</NID>
@@ -9935,7 +10137,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6513E388</NID>
-              <NAME>sceUtility_private_6513E388</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -9946,6 +10148,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B0356F6</NID>
@@ -9991,7 +10194,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7139732A</NID>
-              <NAME>sceUtility_private_7139732A</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10002,10 +10205,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84A1E70F</NID>
-              <NAME>sceUtility_private_84A1E70F</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10016,10 +10220,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84FEFEAD</NID>
-              <NAME>sceUtility_private_84FEFEAD</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10030,10 +10235,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A80D4EE</NID>
-              <NAME>sceUtility_private_8A80D4EE</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10044,10 +10250,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E7B9318</NID>
-              <NAME>sceUtility_private_8E7B9318</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10058,6 +10265,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AEFABC9</NID>
@@ -10103,7 +10311,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1DF25E8</NID>
-              <NAME>sceUtility_private_A1DF25E8</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10114,6 +10322,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5D7DC3E</NID>
@@ -10159,7 +10368,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEADFF11</NID>
-              <NAME>sceUtility_private_AEADFF11</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10170,6 +10379,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAFC70B22</NID>
@@ -10187,7 +10397,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB06FE2AB</NID>
-              <NAME>sceUtility_private_B06FE2AB</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10198,10 +10408,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB618DCC7</NID>
-              <NAME>sceUtility_private_B618DCC7</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10212,10 +10423,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF218ECC</NID>
-              <NAME>sceUtility_private_BF218ECC</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10226,6 +10438,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5F825B6</NID>
@@ -10243,7 +10456,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC652A9B0</NID>
-              <NAME>sceUtility_private_C652A9B0</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10254,6 +10467,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF9DB393</NID>
@@ -10285,7 +10499,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDCCC4CE2</NID>
-              <NAME>sceUtility_private_DCCC4CE2</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10296,6 +10510,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE16F76D4</NID>
@@ -10313,7 +10528,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEAABCB99</NID>
-              <NAME>sceUtility_private_EAABCB99</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10324,10 +10539,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF6B75B3</NID>
-              <NAME>sceUtility_private_EF6B75B3</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10338,6 +10554,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFBCC79F8</NID>
@@ -10355,7 +10572,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC6A5184</NID>
-              <NAME>sceUtility_private_FC6A5184</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -10366,27 +10583,31 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x017AC1E8</NID>
-              <NAME>sceUtility_private_017AC1E8</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02EBB35C</NID>
-              <NAME>sceUtility_private_02EBB35C</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0743F855</NID>
-              <NAME>sceUtility_private_0743F855</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F8763DC</NID>
@@ -10397,10 +10618,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1099350D</NID>
-              <NAME>sceUtility_private_1099350D</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1526A673</NID>
@@ -10418,17 +10640,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C8FECD1</NID>
-              <NAME>sceUtility_private_1C8FECD1</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2202DE1F</NID>
-              <NAME>sceUtility_private_2202DE1F</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C616A37</NID>
@@ -10460,17 +10684,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x53ACFA1C</NID>
-              <NAME>sceUtility_private_53ACFA1C</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55839038</NID>
-              <NAME>sceUtility_private_55839038</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CDBA48D</NID>
@@ -10481,24 +10707,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x69CCCD4F</NID>
-              <NAME>sceUtility_private_69CCCD4F</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E4B843C</NID>
-              <NAME>sceUtility_private_6E4B843C</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E62893B</NID>
-              <NAME>sceUtility_private_6E62893B</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6ED27F49</NID>
@@ -10523,24 +10752,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A5EA423</NID>
-              <NAME>sceUtility_private_7A5EA423</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D6B73AC</NID>
-              <NAME>sceUtility_private_7D6B73AC</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DAA397B</NID>
-              <NAME>sceUtility_private_8DAA397B</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FD113AC</NID>
@@ -10558,10 +10790,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA64C74F6</NID>
-              <NAME>sceUtility_private_A64C74F6</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8E2D72E</NID>
@@ -10579,24 +10812,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB69352F</NID>
-              <NAME>sceUtility_private_BB69352F</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBCE32386</NID>
-              <NAME>sceUtility_private_BCE32386</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD691662</NID>
-              <NAME>sceUtility_private_BD691662</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC173DE65</NID>
@@ -10635,31 +10871,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE73EFD72</NID>
-              <NAME>sceUtility_private_E73EFD72</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECC5A6F6</NID>
-              <NAME>sceUtility_private_ECC5A6F6</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDDB24DB</NID>
-              <NAME>sceUtility_private_EDDB24DB</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDF6C501</NID>
-              <NAME>sceUtility_private_EDF6C501</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3CAEA15</NID>
@@ -10670,10 +10910,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5753B87</NID>
-              <NAME>sceUtility_private_F5753B87</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF62B4AE2</NID>
@@ -10698,10 +10939,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFB5A1EA</NID>
-              <NAME>sceUtility_private_FFB5A1EA</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04FD134C</NID>
@@ -10729,7 +10971,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x08AC201E</NID>
-              <NAME>sceUtility_private_08AC201E</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10738,10 +10980,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D0E260A</NID>
-              <NAME>sceUtility_private_0D0E260A</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10750,6 +10993,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E4EF76C</NID>
@@ -10765,7 +11009,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x12D2E9BD</NID>
-              <NAME>sceUtility_private_12D2E9BD</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10774,6 +11018,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1365F508</NID>
@@ -10861,7 +11106,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B0F0806</NID>
-              <NAME>sceUtility_private_2B0F0806</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10870,10 +11115,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BFB7885</NID>
-              <NAME>sceUtility_private_2BFB7885</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10882,10 +11128,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DC8380C</NID>
-              <NAME>sceUtility_private_2DC8380C</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10894,10 +11141,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E45A909</NID>
-              <NAME>sceUtility_private_3E45A909</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10906,6 +11154,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F5FB46A</NID>
@@ -10933,7 +11182,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4CE3DAC6</NID>
-              <NAME>sceUtility_private_4CE3DAC6</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10942,10 +11191,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5657D99A</NID>
-              <NAME>sceUtility_private_5657D99A</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10954,10 +11204,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5766ED33</NID>
-              <NAME>sceUtility_private_5766ED33</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10966,10 +11217,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B18F186</NID>
-              <NAME>sceUtility_private_5B18F186</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -10978,6 +11230,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6066CD1C</NID>
@@ -10993,7 +11246,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F978C57</NID>
-              <NAME>sceUtility_private_6F978C57</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11002,6 +11255,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x764F5A3C</NID>
@@ -11041,7 +11295,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8279ED2F</NID>
-              <NAME>sceUtility_private_8279ED2F</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11050,6 +11304,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82D05B75</NID>
@@ -11065,7 +11320,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D4102D4</NID>
-              <NAME>sceUtility_private_8D4102D4</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11074,6 +11329,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9429F78C</NID>
@@ -11089,7 +11345,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x96EC6F34</NID>
-              <NAME>sceUtility_private_96EC6F34</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11098,6 +11354,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0A3A575</NID>
@@ -11125,7 +11382,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4018A2A</NID>
-              <NAME>sceUtility_private_A4018A2A</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11134,6 +11391,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4AA73D6</NID>
@@ -11173,7 +11431,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB871F1DC</NID>
-              <NAME>sceUtility_private_B871F1DC</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11182,6 +11440,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC7AC14D</NID>
@@ -11197,7 +11456,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEAF5EBC</NID>
-              <NAME>sceUtility_private_CEAF5EBC</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11206,6 +11465,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD45C91F2</NID>
@@ -11221,7 +11481,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4C80B46</NID>
-              <NAME>sceUtility_private_D4C80B46</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11230,10 +11490,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4E669FC</NID>
-              <NAME>sceUtility_private_D4E669FC</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11242,6 +11503,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD60DEE8C</NID>
@@ -11281,7 +11543,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF245BAED</NID>
-              <NAME>sceUtility_private_F245BAED</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11290,10 +11552,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7840938</NID>
-              <NAME>sceUtility_private_F7840938</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11302,6 +11565,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9FA28A7</NID>
@@ -11317,7 +11581,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA08F189</NID>
-              <NAME>sceUtility_private_FA08F189</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11326,6 +11590,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDFB4753</NID>
@@ -11341,7 +11606,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE82E99B</NID>
-              <NAME>sceUtility_private_FE82E99B</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -11350,10 +11615,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x030CF51C</NID>
-              <NAME>sceUtility_private_030CF51C</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11363,10 +11629,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x156DB2E3</NID>
-              <NAME>sceUtility_private_156DB2E3</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11376,6 +11643,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19EAC583</NID>
@@ -11444,7 +11712,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x47AD81B5</NID>
-              <NAME>sceUtility_private_47AD81B5</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11454,10 +11722,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47D6BC47</NID>
-              <NAME>sceUtility_private_47D6BC47</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11467,10 +11736,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x495795AE</NID>
-              <NAME>sceUtility_private_495795AE</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11480,6 +11750,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x52D2B17C</NID>
@@ -11535,7 +11806,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CE276BD</NID>
-              <NAME>sceUtility_private_6CE276BD</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11545,6 +11816,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F75918C</NID>
@@ -11561,7 +11833,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x70BBDB98</NID>
-              <NAME>sceUtility_private_70BBDB98</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11571,10 +11843,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73E56E4F</NID>
-              <NAME>sceUtility_private_73E56E4F</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11584,6 +11857,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A27C58E</NID>
@@ -11613,7 +11887,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x89F9FA4D</NID>
-              <NAME>sceUtility_private_89F9FA4D</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11623,10 +11897,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A804E3A</NID>
-              <NAME>sceUtility_private_8A804E3A</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11636,6 +11911,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C496B0B</NID>
@@ -11665,7 +11941,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x97244E9A</NID>
-              <NAME>sceUtility_private_97244E9A</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11675,10 +11951,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A69B956</NID>
-              <NAME>sceUtility_private_9A69B956</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11688,10 +11965,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9ABAFCC5</NID>
-              <NAME>sceUtility_private_9ABAFCC5</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11701,6 +11979,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E0853BF</NID>
@@ -11717,7 +11996,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F1507F0</NID>
-              <NAME>sceUtility_private_9F1507F0</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11727,6 +12006,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5BB5589</NID>
@@ -11782,7 +12062,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBCB254AB</NID>
-              <NAME>sceUtility_private_BCB254AB</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11792,10 +12072,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD208F2E</NID>
-              <NAME>sceUtility_private_BD208F2E</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11805,10 +12086,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD5423A9</NID>
-              <NAME>sceUtility_private_BD5423A9</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11818,6 +12100,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD593503</NID>
@@ -11847,7 +12130,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC70BBB61</NID>
-              <NAME>sceUtility_private_C70BBB61</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11857,10 +12140,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC733E3A1</NID>
-              <NAME>sceUtility_private_C733E3A1</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11870,10 +12154,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD60E0DA</NID>
-              <NAME>sceUtility_private_CD60E0DA</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11883,6 +12168,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0B11550</NID>
@@ -11899,7 +12185,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD26295CF</NID>
-              <NAME>sceUtility_private_D26295CF</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11909,10 +12195,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8D6320A</NID>
-              <NAME>sceUtility_private_D8D6320A</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11922,6 +12209,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB118856</NID>
@@ -11951,7 +12239,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE65F37C8</NID>
-              <NAME>sceUtility_private_E65F37C8</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11961,10 +12249,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7C368AC</NID>
-              <NAME>sceUtility_private_E7C368AC</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -11974,6 +12263,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEEA74DCA</NID>
@@ -12063,19 +12353,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x031D0944</NID>
-              <NAME>sceUtility_private_031D0944</NAME>
+              <NAME>sceUtilityDialogPowerLock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x048BFC46</NID>
-              <NAME>sceUtility_private_048BFC46</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C0AE566</NID>
@@ -12095,11 +12387,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x10D1B3FF</NID>
-              <NAME>sceUtility_private_10D1B3FF</NAME>
+              <NAME>sceUtilityDialogGetType</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14E94D25</NID>
@@ -12127,11 +12420,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x26D0B065</NID>
-              <NAME>sceUtility_private_26D0B065</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29AFE096</NID>
@@ -12151,11 +12445,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x34340686</NID>
-              <NAME>sceUtility_private_34340686</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x363A12E2</NID>
@@ -12167,19 +12462,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x369D25E4</NID>
-              <NAME>sceUtility_private_369D25E4</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x39E7692B</NID>
-              <NAME>sceUtility_private_39E7692B</NAME>
+              <NAME>sceUtilityDialogSetStatus</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40FBA532</NID>
@@ -12199,19 +12496,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F6FFC7C</NID>
-              <NAME>sceUtility_private_4F6FFC7C</NAME>
+              <NAME>sceUtilityDialogPowerUnlock</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5809B44A</NID>
-              <NAME>sceUtility_private_5809B44A</NAME>
+              <NAME>sceUtilityDialogGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x59EB3A17</NID>
@@ -12223,11 +12522,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C494AC6</NID>
-              <NAME>sceUtility_private_5C494AC6</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DCBD3C0</NID>
@@ -12239,19 +12539,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5ED16EBA</NID>
-              <NAME>sceUtility_private_5ED16EBA</NAME>
+              <NAME>sceUtilityDialogLoadModule</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69AB28E8</NID>
-              <NAME>sceUtility_private_69AB28E8</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x756A93B3</NID>
@@ -12263,11 +12565,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A2FE0C</NID>
-              <NAME>sceUtility_private_78A2FE0C</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78EC982D</NID>
@@ -12303,11 +12606,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x86AA70BC</NID>
-              <NAME>sceUtility_private_86AA70BC</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D681EE0</NID>
@@ -12327,27 +12631,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x981FFD72</NID>
-              <NAME>sceUtility_private_981FFD72</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1348D82</NID>
-              <NAME>sceUtility_private_A1348D82</NAME>
+              <NAME>sceUtilityDialogSetThreadId</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA25E0194</NID>
-              <NAME>sceUtility_private_A25E0194</NAME>
+              <NAME>sceUtilityDialogGetParam</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6B323E1</NID>
@@ -12383,11 +12690,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9D9C78F</NID>
-              <NAME>sceUtility_private_B9D9C78F</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBAFFB9D5</NID>
@@ -12415,19 +12723,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7D5983F</NID>
-              <NAME>sceUtility_private_C7D5983F</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDEEBEE2</NID>
-              <NAME>sceUtility_private_CDEEBEE2</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE484145</NID>
@@ -12439,11 +12749,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF025E50</NID>
-              <NAME>sceUtility_private_DF025E50</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0F5DEC1</NID>
@@ -12463,27 +12774,30 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEA446CD5</NID>
-              <NAME>sceUtility_private_EA446CD5</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED4E37CA</NID>
-              <NAME>sceUtility_private_ED4E37CA</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC841AC3</NID>
-              <NAME>sceUtility_private_FC841AC3</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

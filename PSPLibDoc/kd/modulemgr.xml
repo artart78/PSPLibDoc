@@ -2912,48 +2912,53 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x121349C9</NID>
-              <NAME>ModuleMgrForKernel_121349C9</NAME>
+              <NAME>sceKernelSelfStopUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B03F834</NID>
-              <NAME>ModuleMgrForKernel_1B03F834</NAME>
+              <NAME>sceKernelSearchModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D313DE9</NID>
-              <NAME>ModuleMgrForKernel_1D313DE9</NAME>
+              <NAME>sceKernelStartModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F0F8DF2</NID>
-              <NAME>ModuleMgrForKernel_1F0F8DF2</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlan</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23FAE71A</NID>
-              <NAME>ModuleMgrForKernel_23FAE71A</NAME>
+              <NAME>sceKernelLoadModuleBufferVSH</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x245B698D</NID>
@@ -2966,30 +2971,33 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2531910F</NID>
-              <NAME>ModuleMgrForKernel_2531910F</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25EDFE8C</NID>
-              <NAME>ModuleMgrForKernel_25EDFE8C</NAME>
+              <NAME>sceKernelLoadModuleByID</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x288070CC</NID>
-              <NAME>ModuleMgrForKernel_288070CC</NAME>
+              <NAME>sceKernelLoadModuleBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BE2B17E</NID>
@@ -3002,102 +3010,113 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B33BC14</NID>
-              <NAME>ModuleMgrForKernel_3B33BC14</NAME>
+              <NAME>sceKernelLoadModuleVSHByID</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F92B3CA</NID>
-              <NAME>ModuleMgrForKernel_3F92B3CA</NAME>
+              <NAME>sceKernelLoadModuleByIDBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x42ED1407</NID>
-              <NAME>ModuleMgrForKernel_42ED1407</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs2</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4729151D</NID>
-              <NAME>ModuleMgrForKernel_4729151D</NAME>
+              <NAME>sceKernelQueryModuleInfo</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x494900F3</NID>
-              <NAME>ModuleMgrForKernel_494900F3</NAME>
+              <NAME>sceKernelLoadModuleBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F52F0D6</NID>
-              <NAME>ModuleMgrForKernel_4F52F0D6</NAME>
+              <NAME>sceKernelRebootBeforeForKernel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x50FD3802</NID>
-              <NAME>ModuleMgrForKernel_50FD3802</NAME>
+              <NAME>sceKernelLoadModuleDeci</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51512315</NID>
-              <NAME>ModuleMgrForKernel_51512315</NAME>
+              <NAME>sceKernelStopUnloadSelfModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51BC8985</NID>
-              <NAME>ModuleMgrForKernel_51BC8985</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecForUser</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BE741EE</NID>
-              <NAME>ModuleMgrForKernel_5BE741EE</NAME>
+              <NAME>sceKernelGetModuleIdByAddress</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x609FA413</NID>
-              <NAME>ModuleMgrForKernel_609FA413</NAME>
+              <NAME>sceKernelGetModuleIdList</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61129E61</NID>
@@ -3110,102 +3129,113 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x70DB8A38</NID>
-              <NAME>ModuleMgrForKernel_70DB8A38</NAME>
+              <NAME>sceKernelSearchModuleByName</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7190BEFB</NID>
-              <NAME>ModuleMgrForKernel_7190BEFB</NAME>
+              <NAME>sceKernelLoadModuleBufferForRebootKernel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x797989AF</NID>
-              <NAME>ModuleMgrForKernel_797989AF</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscUpdater</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x82E217DD</NID>
-              <NAME>ModuleMgrForKernel_82E217DD</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDisc</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FF98580</NID>
-              <NAME>ModuleMgrForKernel_8FF98580</NAME>
+              <NAME>sceKernelGetModuleId</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x931AE95E</NID>
-              <NAME>ModuleMgrForKernel_931AE95E</NAME>
+              <NAME>sceKernelRebootBeforeForUser</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x96817B71</NID>
-              <NAME>ModuleMgrForKernel_96817B71</NAME>
+              <NAME>sceKernelLoadModuleBuffer</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x984F84F4</NID>
-              <NAME>ModuleMgrForKernel_984F84F4</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHVSH</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA35EBDDF</NID>
-              <NAME>ModuleMgrForKernel_A35EBDDF</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE4F1DCF</NID>
-              <NAME>ModuleMgrForKernel_AE4F1DCF</NAME>
+              <NAME>sceKernelStopModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE802E8F</NID>
-              <NAME>ModuleMgrForKernel_AE802E8F</NAME>
+              <NAME>sceKernelLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4173233</NID>
@@ -3218,111 +3248,123 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB98CD891</NID>
-              <NAME>ModuleMgrForKernel_B98CD891</NAME>
+              <NAME>sceKernelUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDFEEC4F</NID>
-              <NAME>ModuleMgrForKernel_BDFEEC4F</NAME>
+              <NAME>sceKernelLoadModuleVSH</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC2EBF6EC</NID>
-              <NAME>ModuleMgrForKernel_C2EBF6EC</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs1</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8F0090D</NID>
-              <NAME>ModuleMgrForKernel_C8F0090D</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscDebug</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD543FAEB</NID>
-              <NAME>ModuleMgrForKernel_D543FAEB</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitGame</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE7EDA2C</NID>
-              <NAME>ModuleMgrForKernel_DE7EDA2C</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2E2C6C6</NID>
-              <NAME>ModuleMgrForKernel_E2E2C6C6</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4860ED1</NID>
-              <NAME>ModuleMgrForKernel_E4860ED1</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs3</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE88E4A10</NID>
-              <NAME>ModuleMgrForKernel_E88E4A10</NAME>
+              <NAME>sceKernelRebootPhaseForKernel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9048641</NID>
-              <NAME>ModuleMgrForKernel_E9048641</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF4B241D</NID>
-              <NAME>ModuleMgrForKernel_EF4B241D</NAME>
+              <NAME>sceKernelLoadModuleToBlock</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5FCCE17</NID>
-              <NAME>ModuleMgrForKernel_F5FCCE17</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHKernel</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7E46A72</NID>
@@ -3335,16 +3377,17 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD8B706F</NID>
-              <NAME>ModuleMgrForKernel_FD8B706F</NAME>
+              <NAME>sceKernelModuleMgrMode</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02CC86DC</NID>
-              <NAME>ModuleMgrForKernel_02CC86DC</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs3</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3352,6 +3395,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x051682F6</NID>
@@ -3366,7 +3410,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A296830</NID>
-              <NAME>ModuleMgrForKernel_0A296830</NAME>
+              <NAME>sceKernelQueryModuleInfo</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3374,10 +3418,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DFB5074</NID>
-              <NAME>ModuleMgrForKernel_0DFB5074</NAME>
+              <NAME>sceKernelGetModuleIdByAddress</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3385,10 +3430,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1104E6EC</NID>
-              <NAME>ModuleMgrForKernel_1104E6EC</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHKernel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3396,6 +3442,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1408D7CE</NID>
@@ -3410,7 +3457,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x24C5ABC2</NID>
-              <NAME>ModuleMgrForKernel_24C5ABC2</NAME>
+              <NAME>sceKernelLoadModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3418,10 +3465,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FB2D0DC</NID>
-              <NAME>ModuleMgrForKernel_2FB2D0DC</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecForUser</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3429,10 +3477,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x313F2757</NID>
-              <NAME>ModuleMgrForKernel_313F2757</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs2</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3440,10 +3489,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B90EC6C</NID>
-              <NAME>ModuleMgrForKernel_3B90EC6C</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDisc</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3451,10 +3501,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D1D39BB</NID>
-              <NAME>ModuleMgrForKernel_3D1D39BB</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3462,10 +3513,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x427FE5FC</NID>
-              <NAME>ModuleMgrForKernel_427FE5FC</NAME>
+              <NAME>sceKernelSearchModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3473,10 +3525,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x42A234F1</NID>
-              <NAME>ModuleMgrForKernel_42A234F1</NAME>
+              <NAME>sceKernelLoadModuleDeci</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3484,10 +3537,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A61F528</NID>
-              <NAME>ModuleMgrForKernel_4A61F528</NAME>
+              <NAME>sceKernelGetModuleIdList</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3495,10 +3549,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DCAEAA3</NID>
-              <NAME>ModuleMgrForKernel_4DCAEAA3</NAME>
+              <NAME>sceKernelLoadModuleVSHByID</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3506,6 +3561,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AC002EE</NID>
@@ -3520,7 +3576,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6042D238</NID>
-              <NAME>ModuleMgrForKernel_6042D238</NAME>
+              <NAME>sceKernelLoadModuleBufferForRebootKernel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3528,10 +3584,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63A3CAFB</NID>
-              <NAME>ModuleMgrForKernel_63A3CAFB</NAME>
+              <NAME>sceKernelStartModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3539,10 +3596,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64ED88CC</NID>
-              <NAME>ModuleMgrForKernel_64ED88CC</NAME>
+              <NAME>sceKernelModuleMgrMode</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3550,10 +3608,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6690F730</NID>
-              <NAME>ModuleMgrForKernel_6690F730</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs1</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3561,10 +3620,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68C61BDD</NID>
-              <NAME>ModuleMgrForKernel_68C61BDD</NAME>
+              <NAME>sceKernelLoadModuleBuffer</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3572,10 +3632,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7162E870</NID>
-              <NAME>ModuleMgrForKernel_7162E870</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3583,10 +3644,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D87BB19</NID>
-              <NAME>ModuleMgrForKernel_7D87BB19</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscUpdater</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3594,10 +3656,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83B28C87</NID>
-              <NAME>ModuleMgrForKernel_83B28C87</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscDebug</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3605,10 +3668,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EEB4576</NID>
-              <NAME>ModuleMgrForKernel_8EEB4576</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3616,10 +3680,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x959D45B6</NID>
-              <NAME>ModuleMgrForKernel_959D45B6</NAME>
+              <NAME>sceKernelSearchModuleByName</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3627,10 +3692,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BEE5167</NID>
-              <NAME>ModuleMgrForKernel_9BEE5167</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHVSH</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3638,10 +3704,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E67A826</NID>
-              <NAME>ModuleMgrForKernel_9E67A826</NAME>
+              <NAME>sceKernelLoadModuleBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3649,10 +3716,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA79ED2B0</NID>
-              <NAME>ModuleMgrForKernel_A79ED2B0</NAME>
+              <NAME>sceKernelLoadModuleByID</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3660,6 +3728,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB035F317</NID>
@@ -3674,7 +3743,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1C431DF</NID>
-              <NAME>ModuleMgrForKernel_B1C431DF</NAME>
+              <NAME>sceKernelSelfStopUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3682,10 +3751,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB25FFA4E</NID>
-              <NAME>ModuleMgrForKernel_B25FFA4E</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlan</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3693,10 +3763,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB363FDAD</NID>
-              <NAME>ModuleMgrForKernel_B363FDAD</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitGame</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3704,10 +3775,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB66B7D9E</NID>
-              <NAME>ModuleMgrForKernel_B66B7D9E</NAME>
+              <NAME>sceKernelStopUnloadSelfModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3715,10 +3787,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB691D96D</NID>
-              <NAME>ModuleMgrForKernel_B691D96D</NAME>
+              <NAME>sceKernelLoadModuleBufferVSH</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3726,10 +3799,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC66E99DE</NID>
-              <NAME>ModuleMgrForKernel_C66E99DE</NAME>
+              <NAME>sceKernelRebootPhaseForKernel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3737,10 +3811,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCECA0FFC</NID>
-              <NAME>ModuleMgrForKernel_CECA0FFC</NAME>
+              <NAME>sceKernelGetModuleId</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3748,10 +3823,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0F3018A</NID>
-              <NAME>ModuleMgrForKernel_D0F3018A</NAME>
+              <NAME>sceKernelLoadModuleToBlock</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3759,10 +3835,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD96453E2</NID>
-              <NAME>ModuleMgrForKernel_D96453E2</NAME>
+              <NAME>sceKernelLoadModuleByIDBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3770,10 +3847,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE02425E1</NID>
-              <NAME>ModuleMgrForKernel_E02425E1</NAME>
+              <NAME>sceKernelUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3781,10 +3859,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE98242CF</NID>
-              <NAME>ModuleMgrForKernel_E98242CF</NAME>
+              <NAME>sceKernelRebootBeforeForKernel</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3792,10 +3871,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC942565</NID>
-              <NAME>ModuleMgrForKernel_EC942565</NAME>
+              <NAME>sceKernelStopModule</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3803,10 +3883,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE72FDF7</NID>
-              <NAME>ModuleMgrForKernel_EE72FDF7</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3814,10 +3895,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4075C91</NID>
-              <NAME>ModuleMgrForKernel_F4075C91</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3825,10 +3907,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF83BCD69</NID>
-              <NAME>ModuleMgrForKernel_F83BCD69</NAME>
+              <NAME>sceKernelRebootBeforeForUser</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3836,6 +3919,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF89936FD</NID>
@@ -3850,7 +3934,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8BE2F4A</NID>
-              <NAME>ModuleMgrForKernel_F8BE2F4A</NAME>
+              <NAME>sceKernelLoadModuleBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3858,10 +3942,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE586962</NID>
-              <NAME>ModuleMgrForKernel_FE586962</NAME>
+              <NAME>sceKernelLoadModuleVSH</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3869,134 +3954,151 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01A40221</NID>
-              <NAME>ModuleMgrForKernel_01A40221</NAME>
+              <NAME>sceKernelGetModuleId</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01F0C349</NID>
-              <NAME>ModuleMgrForKernel_01F0C349</NAME>
+              <NAME>sceKernelStopModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x058202DB</NID>
-              <NAME>ModuleMgrForKernel_058202DB</NAME>
+              <NAME>sceKernelLoadModuleBufferForRebootKernel</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05F6A5B8</NID>
-              <NAME>ModuleMgrForKernel_05F6A5B8</NAME>
+              <NAME>sceKernelSearchModuleByName</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x08B3B762</NID>
-              <NAME>ModuleMgrForKernel_08B3B762</NAME>
+              <NAME>sceKernelSelfStopUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BEEF4B4</NID>
-              <NAME>ModuleMgrForKernel_0BEEF4B4</NAME>
+              <NAME>sceKernelLoadModuleBuffer</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C51CC76</NID>
-              <NAME>ModuleMgrForKernel_0C51CC76</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitGame</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C7A6F36</NID>
-              <NAME>ModuleMgrForKernel_0C7A6F36</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscUpdater</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0EED4F2D</NID>
-              <NAME>ModuleMgrForKernel_0EED4F2D</NAME>
+              <NAME>sceKernelRebootPhaseForKernel</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1479AD37</NID>
-              <NAME>ModuleMgrForKernel_1479AD37</NAME>
+              <NAME>sceKernelQueryModuleInfo</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15BDD18A</NID>
-              <NAME>ModuleMgrForKernel_15BDD18A</NAME>
+              <NAME>sceKernelLoadModuleByID</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AF57DCD</NID>
-              <NAME>ModuleMgrForKernel_1AF57DCD</NAME>
+              <NAME>sceKernelLoadModuleDeci</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31860FFC</NID>
-              <NAME>ModuleMgrForKernel_31860FFC</NAME>
+              <NAME>sceKernelLoadModuleBufferVSH</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x37A3A855</NID>
-              <NAME>ModuleMgrForKernel_37A3A855</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46238664</NID>
-              <NAME>ModuleMgrForKernel_46238664</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs3</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48471FFE</NID>
-              <NAME>ModuleMgrForKernel_48471FFE</NAME>
+              <NAME>sceKernelRebootBeforeForUser</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F1FF37B</NID>
@@ -4008,19 +4110,21 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x55A7D7C8</NID>
-              <NAME>ModuleMgrForKernel_55A7D7C8</NAME>
+              <NAME>sceKernelUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5685394B</NID>
-              <NAME>ModuleMgrForKernel_5685394B</NAME>
+              <NAME>sceKernelLoadModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A08B297</NID>
@@ -4032,91 +4136,102 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C5DB312</NID>
-              <NAME>ModuleMgrForKernel_5C5DB312</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61729689</NID>
-              <NAME>ModuleMgrForKernel_61729689</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63527600</NID>
-              <NAME>ModuleMgrForKernel_63527600</NAME>
+              <NAME>sceKernelStartModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B2EB943</NID>
-              <NAME>ModuleMgrForKernel_6B2EB943</NAME>
+              <NAME>sceKernelGetModuleIdByAddress</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B9C23E3</NID>
-              <NAME>ModuleMgrForKernel_6B9C23E3</NAME>
+              <NAME>sceKernelSearchModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E6628EB</NID>
-              <NAME>ModuleMgrForKernel_7E6628EB</NAME>
+              <NAME>sceKernelLoadModuleToBlock</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81EF5F84</NID>
-              <NAME>ModuleMgrForKernel_81EF5F84</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8560815C</NID>
-              <NAME>ModuleMgrForKernel_8560815C</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHVSH</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x88BF06A3</NID>
-              <NAME>ModuleMgrForKernel_88BF06A3</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDisc</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BB4C3D5</NID>
-              <NAME>ModuleMgrForKernel_8BB4C3D5</NAME>
+              <NAME>sceKernelGetModuleIdList</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EF6817C</NID>
-              <NAME>ModuleMgrForKernel_8EF6817C</NAME>
+              <NAME>sceKernelLoadModuleVSH</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x914EFF06</NID>
@@ -4128,91 +4243,102 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x92B3EE4F</NID>
-              <NAME>ModuleMgrForKernel_92B3EE4F</NAME>
+              <NAME>sceKernelStopUnloadSelfModule</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93CE0D0A</NID>
-              <NAME>ModuleMgrForKernel_93CE0D0A</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FED2A04</NID>
-              <NAME>ModuleMgrForKernel_9FED2A04</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs2</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4C05B89</NID>
-              <NAME>ModuleMgrForKernel_A4C05B89</NAME>
+              <NAME>sceKernelLoadModuleVSHByID</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5E768B1</NID>
-              <NAME>ModuleMgrForKernel_A5E768B1</NAME>
+              <NAME>sceKernelLoadModuleBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB310B1DA</NID>
-              <NAME>ModuleMgrForKernel_B310B1DA</NAME>
+              <NAME>sceKernelModuleMgrMode</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6269FEE</NID>
-              <NAME>ModuleMgrForKernel_C6269FEE</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscDebug</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD35C139B</NID>
-              <NAME>ModuleMgrForKernel_D35C139B</NAME>
+              <NAME>sceKernelRebootBeforeForKernel</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7C08831</NID>
-              <NAME>ModuleMgrForKernel_D7C08831</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs1</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD2ECFE1</NID>
-              <NAME>ModuleMgrForKernel_DD2ECFE1</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHKernel</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE1D3CE25</NID>
-              <NAME>ModuleMgrForKernel_E1D3CE25</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlan</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE69F1747</NID>
@@ -4232,31 +4358,34 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF00F333C</NID>
-              <NAME>ModuleMgrForKernel_F00F333C</NAME>
+              <NAME>sceKernelLoadModuleByIDBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF39DD8F8</NID>
-              <NAME>ModuleMgrForKernel_F39DD8F8</NAME>
+              <NAME>sceKernelLoadModuleBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF44D1313</NID>
-              <NAME>ModuleMgrForKernel_F44D1313</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecForUser</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06AD17A6</NID>
-              <NAME>ModuleMgrForKernel_06AD17A6</NAME>
+              <NAME>sceKernelRebootPhaseForKernel</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4267,10 +4396,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x087AE64D</NID>
-              <NAME>ModuleMgrForKernel_087AE64D</NAME>
+              <NAME>sceKernelLoadModuleByID</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4281,10 +4411,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DF55AD0</NID>
-              <NAME>ModuleMgrForKernel_0DF55AD0</NAME>
+              <NAME>sceKernelLoadModuleByIDBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4295,10 +4426,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D88EC2B</NID>
-              <NAME>ModuleMgrForKernel_1D88EC2B</NAME>
+              <NAME>sceKernelLoadModuleBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4309,10 +4441,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F4331CA</NID>
-              <NAME>ModuleMgrForKernel_1F4331CA</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4323,10 +4456,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1FA97F1C</NID>
-              <NAME>ModuleMgrForKernel_1FA97F1C</NAME>
+              <NAME>sceKernelRebootBeforeForUser</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4337,10 +4471,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x226EC35E</NID>
-              <NAME>ModuleMgrForKernel_226EC35E</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHKernel</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4351,10 +4486,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AFF3E70</NID>
-              <NAME>ModuleMgrForKernel_2AFF3E70</NAME>
+              <NAME>sceKernelUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4365,10 +4501,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x30309A5D</NID>
-              <NAME>ModuleMgrForKernel_30309A5D</NAME>
+              <NAME>sceKernelGetModuleIdList</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4379,10 +4516,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31757B4D</NID>
-              <NAME>ModuleMgrForKernel_31757B4D</NAME>
+              <NAME>sceKernelLoadModuleToBlock</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4393,6 +4531,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BBEEE95</NID>
@@ -4410,7 +4549,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x48B58E0A</NID>
-              <NAME>ModuleMgrForKernel_48B58E0A</NAME>
+              <NAME>sceKernelStopUnloadSelfModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4421,10 +4560,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D473652</NID>
-              <NAME>ModuleMgrForKernel_4D473652</NAME>
+              <NAME>sceKernelLoadModuleBuffer</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4435,10 +4575,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67FAF901</NID>
-              <NAME>ModuleMgrForKernel_67FAF901</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHVSH</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4449,10 +4590,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CC2321B</NID>
-              <NAME>ModuleMgrForKernel_6CC2321B</NAME>
+              <NAME>sceKernelLoadModuleVSHByID</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4463,10 +4605,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77EFBC3D</NID>
-              <NAME>ModuleMgrForKernel_77EFBC3D</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs3</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4477,10 +4620,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C8A2B62</NID>
-              <NAME>ModuleMgrForKernel_7C8A2B62</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscDebug</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4491,10 +4635,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83088631</NID>
-              <NAME>ModuleMgrForKernel_83088631</NAME>
+              <NAME>sceKernelSelfStopUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4505,10 +4650,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84DE067E</NID>
-              <NAME>ModuleMgrForKernel_84DE067E</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs1</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4519,10 +4665,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D5FA8C5</NID>
-              <NAME>ModuleMgrForKernel_8D5FA8C5</NAME>
+              <NAME>sceKernelRebootBeforeForKernel</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4533,10 +4680,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92DDCE6A</NID>
-              <NAME>ModuleMgrForKernel_92DDCE6A</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlan</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4547,10 +4695,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DC0EA88</NID>
-              <NAME>ModuleMgrForKernel_9DC0EA88</NAME>
+              <NAME>sceKernelGetModuleId</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4561,10 +4710,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA20013A4</NID>
-              <NAME>ModuleMgrForKernel_A20013A4</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4575,10 +4725,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA39E437E</NID>
-              <NAME>ModuleMgrForKernel_A39E437E</NAME>
+              <NAME>sceKernelLoadModuleBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4589,10 +4740,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6F0CC77</NID>
-              <NAME>ModuleMgrForKernel_A6F0CC77</NAME>
+              <NAME>sceKernelSearchModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4603,10 +4755,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD221172</NID>
-              <NAME>ModuleMgrForKernel_AD221172</NAME>
+              <NAME>sceKernelSearchModuleByName</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4617,10 +4770,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB082ED69</NID>
-              <NAME>ModuleMgrForKernel_B082ED69</NAME>
+              <NAME>sceKernelLoadModuleBufferForRebootKernel</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4631,10 +4785,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8E49712</NID>
-              <NAME>ModuleMgrForKernel_B8E49712</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs2</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4645,6 +4800,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA58DB7C</NID>
@@ -4662,7 +4818,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB8C8FDF</NID>
-              <NAME>ModuleMgrForKernel_BB8C8FDF</NAME>
+              <NAME>sceKernelStartModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4673,10 +4829,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBCE510D3</NID>
-              <NAME>ModuleMgrForKernel_BCE510D3</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4687,6 +4844,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD092977</NID>
@@ -4704,7 +4862,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE471B08</NID>
-              <NAME>ModuleMgrForKernel_BE471B08</NAME>
+              <NAME>sceKernelQueryModuleInfo</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4715,10 +4873,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5A281C5</NID>
-              <NAME>ModuleMgrForKernel_C5A281C5</NAME>
+              <NAME>sceKernelLoadModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4729,10 +4888,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6F4AF2A</NID>
-              <NAME>ModuleMgrForKernel_C6F4AF2A</NAME>
+              <NAME>sceKernelLoadModuleDeci</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4743,10 +4903,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7A4EA94</NID>
-              <NAME>ModuleMgrForKernel_C7A4EA94</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDisc</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4757,10 +4918,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBB6534C</NID>
-              <NAME>ModuleMgrForKernel_CBB6534C</NAME>
+              <NAME>sceKernelGetModuleIdByAddress</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4771,10 +4933,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCCDE84A8</NID>
-              <NAME>ModuleMgrForKernel_CCDE84A8</NAME>
+              <NAME>sceKernelLoadModuleVSH</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4785,10 +4948,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF5D5AC9</NID>
-              <NAME>ModuleMgrForKernel_CF5D5AC9</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4799,6 +4963,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7DDBD55</NID>
@@ -4816,7 +4981,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0D3F771</NID>
-              <NAME>ModuleMgrForKernel_E0D3F771</NAME>
+              <NAME>sceKernelStopModule</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4827,10 +4992,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE17533A3</NID>
-              <NAME>ModuleMgrForKernel_E17533A3</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscUpdater</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4841,10 +5007,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE44F8DA5</NID>
-              <NAME>ModuleMgrForKernel_E44F8DA5</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecForUser</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4855,10 +5022,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE886CFA0</NID>
-              <NAME>ModuleMgrForKernel_E886CFA0</NAME>
+              <NAME>sceKernelLoadModuleBufferVSH</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4869,10 +5037,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9B878BD</NID>
-              <NAME>ModuleMgrForKernel_E9B878BD</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4883,10 +5052,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEADBAF9E</NID>
-              <NAME>ModuleMgrForKernel_EADBAF9E</NAME>
+              <NAME>sceKernelModuleMgrMode</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4897,6 +5067,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5D1B71A</NID>
@@ -4914,7 +5085,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF635B09</NID>
-              <NAME>ModuleMgrForKernel_FF635B09</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitGame</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4925,6 +5096,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6325510</NID>
@@ -4937,66 +5109,75 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x017B273E</NID>
-              <NAME>ModuleMgrForKernel_017B273E</NAME>
+              <NAME>sceKernelLoadModuleBufferVSH</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01FBAB70</NID>
-              <NAME>ModuleMgrForKernel_01FBAB70</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1924A461</NID>
-              <NAME>ModuleMgrForKernel_1924A461</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscUpdater</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1987F9D7</NID>
-              <NAME>ModuleMgrForKernel_1987F9D7</NAME>
+              <NAME>sceKernelSearchModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BBB3809</NID>
-              <NAME>ModuleMgrForKernel_1BBB3809</NAME>
+              <NAME>sceKernelLoadModuleByID</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1DBF8027</NID>
-              <NAME>ModuleMgrForKernel_1DBF8027</NAME>
+              <NAME>sceKernelLoadModuleVSHByID</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2128E1A6</NID>
-              <NAME>ModuleMgrForKernel_2128E1A6</NAME>
+              <NAME>sceKernelSelfStopUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23916718</NID>
-              <NAME>ModuleMgrForKernel_23916718</NAME>
+              <NAME>sceKernelLoadModuleByIDBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23CA147C</NID>
-              <NAME>ModuleMgrForKernel_23CA147C</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23DE5C86</NID>
@@ -5007,31 +5188,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A9BC5FB</NID>
-              <NAME>ModuleMgrForKernel_2A9BC5FB</NAME>
+              <NAME>sceKernelLoadModuleBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B13EED5</NID>
-              <NAME>ModuleMgrForKernel_2B13EED5</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHVSH</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E91E896</NID>
-              <NAME>ModuleMgrForKernel_2E91E896</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscDebug</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DB107DB</NID>
-              <NAME>ModuleMgrForKernel_3DB107DB</NAME>
+              <NAME>sceKernelGetModuleId</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47E6DE21</NID>
@@ -5042,10 +5227,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AD41431</NID>
-              <NAME>ModuleMgrForKernel_4AD41431</NAME>
+              <NAME>sceKernelLoadModuleDeci</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D32BCB5</NID>
@@ -5056,122 +5242,139 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x51644689</NID>
-              <NAME>ModuleMgrForKernel_51644689</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDisc</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x558B2274</NID>
-              <NAME>ModuleMgrForKernel_558B2274</NAME>
+              <NAME>sceKernelLoadModuleToBlock</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6177BF35</NID>
-              <NAME>ModuleMgrForKernel_6177BF35</NAME>
+              <NAME>sceKernelRebootBeforeForKernel</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63440F98</NID>
-              <NAME>ModuleMgrForKernel_63440F98</NAME>
+              <NAME>sceKernelStopModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x66A879B4</NID>
-              <NAME>ModuleMgrForKernel_66A879B4</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecForUser</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x689305FA</NID>
-              <NAME>ModuleMgrForKernel_689305FA</NAME>
+              <NAME>sceKernelRebootBeforeForUser</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DE87BE1</NID>
-              <NAME>ModuleMgrForKernel_6DE87BE1</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHKernel</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x71EE26C6</NID>
-              <NAME>ModuleMgrForKernel_71EE26C6</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitGame</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x752C1F7C</NID>
-              <NAME>ModuleMgrForKernel_752C1F7C</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8339AD7A</NID>
-              <NAME>ModuleMgrForKernel_8339AD7A</NAME>
+              <NAME>sceKernelLoadModuleBuffer</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85BDF7C0</NID>
-              <NAME>ModuleMgrForKernel_85BDF7C0</NAME>
+              <NAME>sceKernelLoadModuleBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8640D69F</NID>
-              <NAME>ModuleMgrForKernel_8640D69F</NAME>
+              <NAME>sceKernelSearchModuleByName</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87104F4E</NID>
-              <NAME>ModuleMgrForKernel_87104F4E</NAME>
+              <NAME>sceKernelLoadModuleVSH</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9652CC97</NID>
-              <NAME>ModuleMgrForKernel_9652CC97</NAME>
+              <NAME>sceKernelStopUnloadSelfModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9976E1DB</NID>
-              <NAME>ModuleMgrForKernel_9976E1DB</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlan</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F7C9E34</NID>
-              <NAME>ModuleMgrForKernel_9F7C9E34</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs2</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6674AD3</NID>
-              <NAME>ModuleMgrForKernel_A6674AD3</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs1</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB6E5D00</NID>
@@ -5182,10 +5385,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF4748A1</NID>
-              <NAME>ModuleMgrForKernel_AF4748A1</NAME>
+              <NAME>sceKernelRebootPhaseForKernel</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5ED8B7F</NID>
@@ -5196,66 +5400,75 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD5F5F22</NID>
-              <NAME>ModuleMgrForKernel_CD5F5F22</NAME>
+              <NAME>sceKernelUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7B69988</NID>
-              <NAME>ModuleMgrForKernel_D7B69988</NAME>
+              <NAME>sceKernelQueryModuleInfo</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA59C81E</NID>
-              <NAME>ModuleMgrForKernel_DA59C81E</NAME>
+              <NAME>sceKernelGetModuleIdByAddress</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBF07EE0</NID>
-              <NAME>ModuleMgrForKernel_DBF07EE0</NAME>
+              <NAME>sceKernelModuleMgrMode</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDCD2E7D3</NID>
-              <NAME>ModuleMgrForKernel_DCD2E7D3</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs3</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDCC9529</NID>
-              <NAME>ModuleMgrForKernel_DDCC9529</NAME>
+              <NAME>sceKernelLoadModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEABD3D28</NID>
-              <NAME>ModuleMgrForKernel_EABD3D28</NAME>
+              <NAME>sceKernelGetModuleIdList</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECCF1A38</NID>
-              <NAME>ModuleMgrForKernel_ECCF1A38</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED45C046</NID>
-              <NAME>ModuleMgrForKernel_ED45C046</NAME>
+              <NAME>sceKernelStartModule</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1E0F5A0</NID>
@@ -5266,21 +5479,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF479EFD8</NID>
-              <NAME>ModuleMgrForKernel_F479EFD8</NAME>
+              <NAME>sceKernelLoadModuleBufferForRebootKernel</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEA867E4</NID>
-              <NAME>ModuleMgrForKernel_FEA867E4</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x07290699</NID>
-              <NAME>ModuleMgrForKernel_07290699</NAME>
+              <NAME>sceKernelLoadModuleToBlock</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5289,10 +5504,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D4B0221</NID>
-              <NAME>ModuleMgrForKernel_0D4B0221</NAME>
+              <NAME>sceKernelRebootPhaseForKernel</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5301,10 +5517,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F3F0B4C</NID>
-              <NAME>ModuleMgrForKernel_0F3F0B4C</NAME>
+              <NAME>sceKernelGetModuleIdByAddress</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5313,10 +5530,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2124FEC7</NID>
-              <NAME>ModuleMgrForKernel_2124FEC7</NAME>
+              <NAME>sceKernelLoadModuleBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5325,10 +5543,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x329C89DB</NID>
-              <NAME>ModuleMgrForKernel_329C89DB</NAME>
+              <NAME>sceKernelLoadModuleVSH</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5337,10 +5556,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E9AA3D1</NID>
-              <NAME>ModuleMgrForKernel_3E9AA3D1</NAME>
+              <NAME>sceKernelLoadModuleByID</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5349,6 +5569,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x42C48848</NID>
@@ -5376,7 +5597,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4392903C</NID>
-              <NAME>ModuleMgrForKernel_4392903C</NAME>
+              <NAME>sceKernelGetModuleIdList</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5385,10 +5606,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5226F362</NID>
-              <NAME>ModuleMgrForKernel_5226F362</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5397,10 +5619,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5352C26C</NID>
-              <NAME>ModuleMgrForKernel_5352C26C</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHVSH</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5409,10 +5632,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EBE54F1</NID>
-              <NAME>ModuleMgrForKernel_5EBE54F1</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlan</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5421,10 +5645,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6100F075</NID>
-              <NAME>ModuleMgrForKernel_6100F075</NAME>
+              <NAME>sceKernelRebootBeforeForUser</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5433,10 +5658,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6620C340</NID>
-              <NAME>ModuleMgrForKernel_6620C340</NAME>
+              <NAME>sceKernelSearchModuleByName</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5445,10 +5671,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x748EC4A6</NID>
-              <NAME>ModuleMgrForKernel_748EC4A6</NAME>
+              <NAME>sceKernelLoadModuleByIDBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5457,10 +5684,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x75ECB8BA</NID>
-              <NAME>ModuleMgrForKernel_75ECB8BA</NAME>
+              <NAME>sceKernelSelfStopUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5469,10 +5697,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x76D0B981</NID>
-              <NAME>ModuleMgrForKernel_76D0B981</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHKernel</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5481,6 +5710,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7933CC33</NID>
@@ -5496,7 +5726,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F9670CF</NID>
-              <NAME>ModuleMgrForKernel_7F9670CF</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscDebug</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5505,10 +5735,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E9C873C</NID>
-              <NAME>ModuleMgrForKernel_8E9C873C</NAME>
+              <NAME>sceKernelLoadModuleBufferForRebootKernel</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5517,10 +5748,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F38EBE9</NID>
-              <NAME>ModuleMgrForKernel_8F38EBE9</NAME>
+              <NAME>sceKernelQueryModuleInfo</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5529,10 +5761,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90F5533C</NID>
-              <NAME>ModuleMgrForKernel_90F5533C</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitGame</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5541,10 +5774,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CEB18C4</NID>
-              <NAME>ModuleMgrForKernel_9CEB18C4</NAME>
+              <NAME>sceKernelUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5553,10 +5787,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D790CD9</NID>
-              <NAME>ModuleMgrForKernel_9D790CD9</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs2</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5565,10 +5800,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E4C362D</NID>
-              <NAME>ModuleMgrForKernel_9E4C362D</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5577,10 +5813,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA035AADA</NID>
-              <NAME>ModuleMgrForKernel_A035AADA</NAME>
+              <NAME>sceKernelLoadModuleDeci</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5589,6 +5826,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA63A565A</NID>
@@ -5604,7 +5842,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAFA90C2</NID>
-              <NAME>ModuleMgrForKernel_AAFA90C2</NAME>
+              <NAME>sceKernelStopModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5613,10 +5851,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xADAE7610</NID>
-              <NAME>ModuleMgrForKernel_ADAE7610</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs3</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5625,6 +5864,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAFAEAE14</NID>
@@ -5640,7 +5880,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB029065E</NID>
-              <NAME>ModuleMgrForKernel_B029065E</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs1</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5649,10 +5889,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0752D7D</NID>
-              <NAME>ModuleMgrForKernel_B0752D7D</NAME>
+              <NAME>sceKernelLoadModuleVSHByID</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5661,10 +5902,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB490529C</NID>
-              <NAME>ModuleMgrForKernel_B490529C</NAME>
+              <NAME>sceKernelSearchModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5673,10 +5915,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB691CB9F</NID>
-              <NAME>ModuleMgrForKernel_B691CB9F</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecForUser</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5685,10 +5928,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB751A9DE</NID>
-              <NAME>ModuleMgrForKernel_B751A9DE</NAME>
+              <NAME>sceKernelStopUnloadSelfModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5697,10 +5941,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7CFD5AD</NID>
-              <NAME>ModuleMgrForKernel_B7CFD5AD</NAME>
+              <NAME>sceKernelGetModuleId</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5709,6 +5954,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9FAD518</NID>
@@ -5724,7 +5970,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB6E2BCA</NID>
-              <NAME>ModuleMgrForKernel_BB6E2BCA</NAME>
+              <NAME>sceKernelLoadModuleBufferVSH</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5733,6 +5979,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFECA5F5</NID>
@@ -5748,7 +5995,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE234D4A</NID>
-              <NAME>ModuleMgrForKernel_CE234D4A</NAME>
+              <NAME>sceKernelRebootBeforeForKernel</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5757,10 +6004,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD293E707</NID>
-              <NAME>ModuleMgrForKernel_D293E707</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDisc</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5769,10 +6017,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2FB2722</NID>
-              <NAME>ModuleMgrForKernel_D2FB2722</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscUpdater</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5781,10 +6030,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD87F08E4</NID>
-              <NAME>ModuleMgrForKernel_D87F08E4</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5793,10 +6043,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDAC8A7B3</NID>
-              <NAME>ModuleMgrForKernel_DAC8A7B3</NAME>
+              <NAME>sceKernelLoadModuleBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5805,10 +6056,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBE7524B</NID>
-              <NAME>ModuleMgrForKernel_DBE7524B</NAME>
+              <NAME>sceKernelModuleMgrMode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5817,10 +6069,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEE14448</NID>
-              <NAME>ModuleMgrForKernel_DEE14448</NAME>
+              <NAME>sceKernelLoadModuleBuffer</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5829,10 +6082,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF8FFFAB</NID>
-              <NAME>ModuleMgrForKernel_DF8FFFAB</NAME>
+              <NAME>sceKernelStartModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5841,10 +6095,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3CCC6EA</NID>
-              <NAME>ModuleMgrForKernel_E3CCC6EA</NAME>
+              <NAME>sceKernelLoadModule</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5853,10 +6108,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED5094E2</NID>
-              <NAME>ModuleMgrForKernel_ED5094E2</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5865,10 +6121,11 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4B7909C</NID>
-              <NAME>ModuleMgrForKernel_F4B7909C</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -5877,6 +6134,7 @@
                 <VERSION>vita-0.940</VERSION>
                 <VERSION>vita-0.945</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8CA0D9D</NID>
@@ -5892,7 +6150,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0208316C</NID>
-              <NAME>ModuleMgrForKernel_0208316C</NAME>
+              <NAME>sceKernelRebootBeforeForKernel</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5905,10 +6163,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x057BEB8E</NID>
-              <NAME>ModuleMgrForKernel_057BEB8E</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs1</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5921,10 +6180,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0CD9ED84</NID>
-              <NAME>ModuleMgrForKernel_0CD9ED84</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHKernel</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5937,10 +6197,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D053026</NID>
-              <NAME>ModuleMgrForKernel_0D053026</NAME>
+              <NAME>sceKernelUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5953,10 +6214,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10FBC063</NID>
-              <NAME>ModuleMgrForKernel_10FBC063</NAME>
+              <NAME>sceKernelLoadModuleBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5969,10 +6231,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x143BCF21</NID>
-              <NAME>ModuleMgrForKernel_143BCF21</NAME>
+              <NAME>sceKernelLoadModuleBufferVSH</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5985,6 +6248,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15285C57</NID>
@@ -6004,7 +6268,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x15544725</NID>
-              <NAME>ModuleMgrForKernel_15544725</NAME>
+              <NAME>sceKernelLoadModuleBufferForRebootKernel</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6017,10 +6281,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19344DBF</NID>
-              <NAME>ModuleMgrForKernel_19344DBF</NAME>
+              <NAME>sceKernelRebootPhaseForKernel</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6033,10 +6298,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1FB2C01C</NID>
-              <NAME>ModuleMgrForKernel_1FB2C01C</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6049,10 +6315,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x207EDD42</NID>
-              <NAME>ModuleMgrForKernel_207EDD42</NAME>
+              <NAME>sceKernelLoadModuleBuffer</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6065,10 +6332,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x291CF03E</NID>
-              <NAME>ModuleMgrForKernel_291CF03E</NAME>
+              <NAME>sceKernelStopUnloadSelfModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6081,10 +6349,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32292450</NID>
-              <NAME>ModuleMgrForKernel_32292450</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecForUser</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6097,10 +6366,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36353292</NID>
-              <NAME>ModuleMgrForKernel_36353292</NAME>
+              <NAME>sceKernelLoadModuleByIDBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6113,10 +6383,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x391F0224</NID>
-              <NAME>ModuleMgrForKernel_391F0224</NAME>
+              <NAME>sceKernelSearchModuleByName</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6129,6 +6400,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EC76FD3</NID>
@@ -6148,7 +6420,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x412D6ECC</NID>
-              <NAME>ModuleMgrForKernel_412D6ECC</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitVSHVSH</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6161,10 +6433,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41F2E840</NID>
-              <NAME>ModuleMgrForKernel_41F2E840</NAME>
+              <NAME>sceKernelRebootBeforeForUser</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6177,10 +6450,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x449CF94D</NID>
-              <NAME>ModuleMgrForKernel_449CF94D</NAME>
+              <NAME>sceKernelLoadModuleVSHByID</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6193,6 +6467,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4535F1C2</NID>
@@ -6228,7 +6503,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4848E645</NID>
-              <NAME>ModuleMgrForKernel_4848E645</NAME>
+              <NAME>sceKernelStopModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6241,10 +6516,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4986499C</NID>
-              <NAME>ModuleMgrForKernel_4986499C</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscDebug</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6257,10 +6533,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x511DAF88</NID>
-              <NAME>ModuleMgrForKernel_511DAF88</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlan</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6273,10 +6550,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67DAD165</NID>
-              <NAME>ModuleMgrForKernel_67DAD165</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitConfig</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6289,10 +6567,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EF2EC4B</NID>
-              <NAME>ModuleMgrForKernel_6EF2EC4B</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDisc</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6305,10 +6584,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CBD9F9B</NID>
-              <NAME>ModuleMgrForKernel_7CBD9F9B</NAME>
+              <NAME>sceKernelLoadModuleDeci</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6321,6 +6601,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86597F48</NID>
@@ -6340,7 +6621,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8909A807</NID>
-              <NAME>ModuleMgrForKernel_8909A807</NAME>
+              <NAME>sceKernelLoadModuleVSH</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6353,10 +6634,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B19C181</NID>
-              <NAME>ModuleMgrForKernel_8B19C181</NAME>
+              <NAME>sceKernelGetModuleId</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6369,10 +6651,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA84CDD60</NID>
-              <NAME>ModuleMgrForKernel_A84CDD60</NAME>
+              <NAME>sceKernelLoadModuleByID</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6385,6 +6668,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8D1F46E</NID>
@@ -6404,7 +6688,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA95C26C8</NID>
-              <NAME>ModuleMgrForKernel_A95C26C8</NAME>
+              <NAME>sceKernelGetModuleIdList</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6417,10 +6701,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD633D71</NID>
-              <NAME>ModuleMgrForKernel_AD633D71</NAME>
+              <NAME>sceKernelGetModuleIdByAddress</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6433,10 +6718,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAFBC3911</NID>
-              <NAME>ModuleMgrForKernel_AFBC3911</NAME>
+              <NAME>sceKernelLoadModuleToBlock</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6449,10 +6735,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB38D9EB8</NID>
-              <NAME>ModuleMgrForKernel_B38D9EB8</NAME>
+              <NAME>sceKernelModuleMgrMode</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6465,10 +6752,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB39242D0</NID>
-              <NAME>ModuleMgrForKernel_B39242D0</NAME>
+              <NAME>sceKernelLoadModuleBufferBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6481,6 +6769,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC19E5ABE</NID>
@@ -6500,7 +6789,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC350D8D6</NID>
-              <NAME>ModuleMgrForKernel_C350D8D6</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs2</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6513,10 +6802,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC77F137</NID>
-              <NAME>ModuleMgrForKernel_CC77F137</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs3</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6529,10 +6819,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD162C43D</NID>
-              <NAME>ModuleMgrForKernel_D162C43D</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6545,10 +6836,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1F71B4D</NID>
-              <NAME>ModuleMgrForKernel_D1F71B4D</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHDiscUpdater</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6561,10 +6853,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4A6A37F</NID>
-              <NAME>ModuleMgrForKernel_D4A6A37F</NAME>
+              <NAME>sceKernelLoadModuleBufferForExitGame</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6577,10 +6870,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD699583C</NID>
-              <NAME>ModuleMgrForKernel_D699583C</NAME>
+              <NAME>sceKernelSelfStopUnloadModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6593,10 +6887,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC196103</NID>
-              <NAME>ModuleMgrForKernel_DC196103</NAME>
+              <NAME>sceKernelLoadModuleBootInitBtcnf</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6609,6 +6904,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE11DF6A</NID>
@@ -6628,7 +6924,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6BF3960</NID>
-              <NAME>ModuleMgrForKernel_E6BF3960</NAME>
+              <NAME>sceKernelStartModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6641,10 +6937,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9F43201</NID>
-              <NAME>ModuleMgrForKernel_E9F43201</NAME>
+              <NAME>sceKernelSearchModuleByAddress</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6657,10 +6954,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE3176DD</NID>
-              <NAME>ModuleMgrForKernel_EE3176DD</NAME>
+              <NAME>sceKernelQueryModuleInfo</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6673,10 +6971,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE5B7EB3</NID>
-              <NAME>ModuleMgrForKernel_FE5B7EB3</NAME>
+              <NAME>sceKernelLoadModuleForLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6689,10 +6988,11 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFB9B760</NID>
-              <NAME>ModuleMgrForKernel_FFB9B760</NAME>
+              <NAME>sceKernelLoadModule</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -6705,6 +7005,7 @@
                 <VERSION>vita-0.995</VERSION>
                 <VERSION>vita-0.996</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12F99392</NID>

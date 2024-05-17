@@ -27,16 +27,8 @@
               <NAME>sceDrmBBMacUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x9227EA79</NID>
-              <NAME>sceAmctrl_driver_9227EA79</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9951C50F</NID>
               <NAME>sceDrmBBCipherFinal</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xE04ADD4C</NID>
-              <NAME>sceAmctrl_driver_E04ADD4C</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF95A213</NID>
@@ -45,6 +37,14 @@
             <FUNCTION>
               <NID>0xF5186D8E</NID>
               <NAME>sceDrmBBMacFinal2</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x9227EA79</NID>
+              <NAME>sceAmctrl_driver_9227EA79</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xE04ADD4C</NID>
+              <NAME>sceAmctrl_driver_E04ADD4C</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -63,16 +63,8 @@
               <NAME>sceKernelDmaExit</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x1FC036B7</NID>
-              <NAME>sceKernelDmaOpLLIConcatenate</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x2E3BC333</NID>
               <NAME>sceKernelDmaChReserve</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x32757C57</NID>
-              <NAME>sceKernelDmaRegisterDdrFlush</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BDEA96C</NID>
@@ -142,6 +134,14 @@
               <NID>0xF64BAB99</NID>
               <NAME>sceKernelDmaOpAssign</NAME>
             </FUNCTION>
+            <FUNCTION>
+              <NID>0x1FC036B7</NID>
+              <NAME>sceKernelDmaOpLLIConcatenate</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x32757C57</NID>
+              <NAME>sceKernelDmaRegisterDdrFlush</NAME>
+            </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
       </LIBRARIES>
@@ -155,12 +155,16 @@
           <FLAGS>0x00010000</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x0A998599</NID>
-              <NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x15ADC862</NID>
               <NAME>sceKernelRegisterNmiHandler</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB15357C9</NID>
+              <NAME>sceKernelReleaseNmiHandler</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x0A998599</NID>
+              <NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27E6A663</NID>
@@ -185,10 +189,6 @@
             <FUNCTION>
               <NID>0x96D47F7E</NID>
               <NAME>ExceptionManagerForKernel_96D47F7E</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xB15357C9</NID>
-              <NAME>sceKernelReleaseNmiHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFBC2353A</NID>
@@ -511,12 +511,52 @@
               <NAME>sceKernelCpuEnableIntr</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x02AC50D5</NID>
-              <NAME>InterruptManagerForKernel_02AC50D5</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x092968F4</NID>
               <NAME>sceKernelCpuSuspendIntr</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x30C08374</NID>
+              <NAME>sceKernelGetCpuClockCounter</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x3B84732D</NID>
+              <NAME>sceKernelCpuResumeIntrWithSync</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4D6E7305</NID>
+              <NAME>sceKernelEnableIntr</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x58DD8978</NID>
+              <NAME>sceKernelRegisterIntrHandler</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5F10D406</NID>
+              <NAME>sceKernelCpuResumeIntr</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD61E6961</NID>
+              <NAME>sceKernelReleaseSubIntrHandler</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD774BA45</NID>
+              <NAME>sceKernelDisableIntr</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF987B1F0</NID>
+              <NAME>sceKernelReleaseIntrHandler</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xFB8E22EC</NID>
+              <NAME>sceKernelEnableSubIntr</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xFE28C6D9</NID>
+              <NAME>sceKernelIsIntrContext</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x02AC50D5</NID>
+              <NAME>InterruptManagerForKernel_02AC50D5</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C5F7AE3</NID>
@@ -547,14 +587,6 @@
               <NAME>InterruptManagerForKernel_2F3C4DCD</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x30C08374</NID>
-              <NAME>sceKernelGetCpuClockCounter</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x3B84732D</NID>
-              <NAME>sceKernelCpuResumeIntrWithSync</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x4023E1A7</NID>
               <NAME>sceKernelDisableSubIntr</NAME>
             </FUNCTION>
@@ -563,24 +595,12 @@
               <NAME>sceKernelIsSubInterruptOccured</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x4D6E7305</NID>
-              <NAME>sceKernelEnableIntr</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x551097F2</NID>
-              <NAME>InterruptManagerForKernel_551097F2</NAME>
+              <NAME>SaveThreadContext</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55D18836</NID>
               <NAME>sceKernelSetPrimarySyscallHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x58DD8978</NID>
-              <NAME>sceKernelRegisterIntrHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x5F10D406</NID>
-              <NAME>sceKernelCpuResumeIntr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6042AEE0</NID>
@@ -596,7 +616,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FCBA912</NID>
-              <NAME>InterruptManagerForKernel_6FCBA912</NAME>
+              <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8357E7FA</NID>
@@ -604,7 +624,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DFBD787</NID>
-              <NAME>InterruptManagerForKernel_8DFBD787</NAME>
+              <NAME>sceKernelGetUserIntrStack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0F88036</NID>
@@ -643,14 +663,6 @@
               <NAME>sceKernelGetUserIntrStack</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xD61E6961</NID>
-              <NAME>sceKernelReleaseSubIntrHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xD774BA45</NID>
-              <NAME>sceKernelDisableIntr</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xDB14CBE0</NID>
               <NAME>sceKernelResumeIntr</NAME>
             </FUNCTION>
@@ -664,7 +676,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE526B767</NID>
-              <NAME>InterruptManagerForKernel_E526B767</NAME>
+              <NAME>sceKernelQuerySystemCall</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6FB16E3</NID>
@@ -672,7 +684,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE790EAED</NID>
-              <NAME>InterruptManagerForKernel_E790EAED</NAME>
+              <NAME>RegisterContextHooks</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF153B371</NID>
@@ -683,20 +695,8 @@
               <NAME>sceKernelIsInterruptOccurred</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF987B1F0</NID>
-              <NAME>sceKernelReleaseIntrHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xF9E06DF1</NID>
               <NAME>sceKernelGetCpuClockCounterWide</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xFB8E22EC</NID>
-              <NAME>sceKernelEnableSubIntr</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xFE28C6D9</NID>
-              <NAME>sceKernelIsIntrContext</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFA8B183</NID>
@@ -735,28 +735,12 @@
               <NAME>sceIoRmdir</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x18881E58</NID>
-              <NAME>sceIoGetFdDebugInfo</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x1B385D8F</NID>
               <NAME>sceIoLseek32Async</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x1FC0620B</NID>
-              <NAME>sceIoGetThreadCwd</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x22F15793</NID>
-              <NAME>sceIoAddHook</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x27EB27B8</NID>
               <NAME>sceIoLseek</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x2B6A9B21</NID>
-              <NAME>sceIoValidateFd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3251EA56</NID>
@@ -771,20 +755,12 @@
               <NAME>sceIoWrite</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x49356C12</NID>
-              <NAME>sceIoGetIobUserLevel</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x54F5FB11</NID>
               <NAME>sceIoDevctl</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55F4717D</NID>
               <NAME>sceIoChdir</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x5C2BE2CC</NID>
-              <NAME>sceIoGetFdList</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63632449</NID>
@@ -807,10 +783,6 @@
               <NAME>sceIoLseekAsync</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x76DA16E3</NID>
-              <NAME>sceIoTerminateFd</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x779103A0</NID>
               <NAME>sceIoRename</NAME>
             </FUNCTION>
@@ -825,10 +797,6 @@
             <FUNCTION>
               <NID>0x8E982A74</NID>
               <NAME>sceIoAddDrv</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x947D7A06</NID>
-              <NAME>sceIoReopen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0B5A7C2</NID>
@@ -863,24 +831,12 @@
               <NAME>sceIoChstat</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xC30581F4</NID>
-              <NAME>sceIoChangeThreadCwd</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xC658603A</NID>
-              <NAME>sceIoCloseAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xC7F35804</NID>
               <NAME>sceIoDelDrv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB05F8D6</NID>
               <NAME>sceIoGetAsyncStat</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xDCCD6185</NID>
-              <NAME>sceIoGetUID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE23EEC33</NID>
@@ -891,20 +847,12 @@
               <NAME>sceIoDread</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xE5323C5B</NID>
-              <NAME>IoFileMgrForKernel_E5323C5B</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xE8BC6571</NID>
               <NAME>sceIoCancel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE95A012B</NID>
               <NAME>sceIoIoctlAsync</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xE972F70B</NID>
-              <NAME>IoFileMgrForKernel_E972F70B</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB092469</NID>
@@ -917,6 +865,58 @@
             <FUNCTION>
               <NID>0xFF5940B6</NID>
               <NAME>sceIoCloseAsync</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5C2BE2CC</NID>
+              <NAME>sceIoGetFdList</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x18881E58</NID>
+              <NAME>sceIoGetFdDebugInfo</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1FC0620B</NID>
+              <NAME>sceIoGetThreadCwd</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x22F15793</NID>
+              <NAME>sceIoAddHook</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x2B6A9B21</NID>
+              <NAME>sceIoValidateFd</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x49356C12</NID>
+              <NAME>sceIoGetIobUserLevel</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x76DA16E3</NID>
+              <NAME>sceIoTerminateFd</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x947D7A06</NID>
+              <NAME>sceIoReopen</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xC30581F4</NID>
+              <NAME>sceIoChangeThreadCwd</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xC658603A</NID>
+              <NAME>sceIoCloseAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xDCCD6185</NID>
+              <NAME>sceIoGetUID</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xE5323C5B</NID>
+              <NAME>IoFileMgrForKernel_E5323C5B</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xE972F70B</NID>
+              <NAME>IoFileMgrForKernel_E972F70B</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -973,10 +973,6 @@
               <NAME>sceIoChdir</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x5C2BE2CC</NID>
-              <NAME>sceIoGetFdList</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x63632449</NID>
               <NAME>sceIoIoctl</NAME>
             </FUNCTION>
@@ -1071,6 +1067,10 @@
             <FUNCTION>
               <NID>0xFF5940B6</NID>
               <NAME>sceIoCloseAsync</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5C2BE2CC</NID>
+              <NAME>sceIoGetFdList</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -1217,20 +1217,20 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x2CB23ED7</NID>
-              <NAME>sceKermit_driver_2CB23ED7</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x9160841C</NID>
-              <NAME>sceKermit_driver_9160841C</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9EDB1390</NID>
               <NAME>sceKermit_driver_9EDB1390</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF0CA60E</NID>
               <NAME>sceKermit_driver_DF0CA60E</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x2CB23ED7</NID>
+              <NAME>sceKermit_driver_2CB23ED7</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x9160841C</NID>
+              <NAME>sceKermit_driver_9160841C</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -1831,16 +1831,36 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
+              <NID>0x0E20F177</NID>
+              <NAME>sceDisplaySetMode</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x206276C2</NID>
+              <NAME>sceDisplayInit</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7A10289D</NID>
+              <NAME>sceDisplayEnd</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x96CFAC38</NID>
+              <NAME>sceDisplayGetBacklightSel</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xDEA197D4</NID>
+              <NAME>sceDisplayGetMode</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xE55F0D50</NID>
+              <NAME>sceDisplaySetBacklightSel</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x0043973F</NID>
               <NAME>sceDisplayGetBrightness</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03F16FD4</NID>
               <NAME>sceDisplaySetResumeMode</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x0E20F177</NID>
-              <NAME>sceDisplaySetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x113958AE</NID>
@@ -1857,10 +1877,6 @@
             <FUNCTION>
               <NID>0x1FBE8856</NID>
               <NAME>sceDisplayGetVcount</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x206276C2</NID>
-              <NAME>sceDisplayInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33B620AF</NID>
@@ -1907,10 +1923,6 @@
               <NAME>sceDisplay_driver_78AF29C6</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x7A10289D</NID>
-              <NAME>sceDisplayEnd</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x7DF044BA</NID>
               <NAME>sceDisplay_driver_7DF044BA</NAME>
             </FUNCTION>
@@ -1921,10 +1933,6 @@
             <FUNCTION>
               <NID>0x8475E040</NID>
               <NAME>sceDisplay_driver_8475E040</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x96CFAC38</NID>
-              <NAME>sceDisplayGetBacklightSel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x996881D2</NID>
@@ -1971,16 +1979,8 @@
               <NAME>sceDisplay_driver_D94EB277</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xDEA197D4</NID>
-              <NAME>sceDisplayGetMode</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xE38CA615</NID>
               <NAME>sceDisplayWaitVblankStartCB</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xE55F0D50</NID>
-              <NAME>sceDisplaySetBacklightSel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7397E7A</NID>
@@ -2323,6 +2323,26 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
+              <NID>0x1910B327</NID>
+              <NAME>sceHprmPeekCurrentKey</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1C5BC5A0</NID>
+              <NAME>sceHprmInit</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x2C7B8B05</NID>
+              <NAME>sceHprmResume</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x526BB7F4</NID>
+              <NAME>sceHprmSuspend</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x588845DA</NID>
+              <NAME>sceHprmEnd</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x06C478D4</NID>
               <NAME>sceHprm_driver_06C478D4</NAME>
             </FUNCTION>
@@ -2331,16 +2351,8 @@
               <NAME>sceHprm_driver_0B83352B</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x1910B327</NID>
-              <NAME>sceHprmPeekCurrentKey</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x1C3525DD</NID>
               <NAME>sceHprm_driver_1C3525DD</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x1C5BC5A0</NID>
-              <NAME>sceHprmInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F64B227</NID>
@@ -2349,10 +2361,6 @@
             <FUNCTION>
               <NID>0x2903130A</NID>
               <NAME>sceHprm_driver_2903130A</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x2C7B8B05</NID>
-              <NAME>sceHprmResume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E1A7B7C</NID>
@@ -2369,14 +2377,6 @@
             <FUNCTION>
               <NID>0x370DDC12</NID>
               <NAME>sceHprm_driver_370DDC12</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x526BB7F4</NID>
-              <NAME>sceHprmSuspend</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x588845DA</NID>
-              <NAME>sceHprmEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x602D5955</NID>
@@ -2543,6 +2543,10 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
+              <NID>0x87D86769</NID>
+              <NAME>sceDdrFlush</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x00E36648</NID>
               <NAME>sceDdrGetPowerDownCounter</NAME>
             </FUNCTION>
@@ -2573,10 +2577,6 @@
             <FUNCTION>
               <NID>0x77CD1FB3</NID>
               <NAME>sceDdr_driver_77CD1FB3</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x87D86769</NID>
-              <NAME>sceDdrFlush</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95B9A692</NID>
@@ -2809,6 +2809,94 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
+              <NID>0x16909002</NID>
+              <NAME>sceSysregAtaBusClockEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1C4C4C7A</NID>
+              <NAME>sceSysregEmcsmIoDisable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x20388C9E</NID>
+              <NAME>sceSysregSircsClkDisable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x26FA0928</NID>
+              <NAME>sceSysregSircsIoDisable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x2D0F7755</NID>
+              <NAME>sceSysregEmcsmBusClockDisable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4C49A8BC</NID>
+              <NAME>sceSysregSircsIoEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4F46EEDE</NID>
+              <NAME>sceSysregGetFuseId</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x6417CDD6</NID>
+              <NAME>sceSysregSircsClkEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7725CA08</NID>
+              <NAME>sceSysregUartClkEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7FD7A631</NID>
+              <NAME>sceSysregUartIoEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8835D1E1</NID>
+              <NAME>sceSysregSpiClkEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8B90B8B5</NID>
+              <NAME>sceSysregSpiClkDisable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8C5C53DE</NID>
+              <NAME>sceSysregSpiIoEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8F4F4E96</NID>
+              <NAME>sceSysregGetFuseConfig</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x9DD1F821</NID>
+              <NAME>sceSysregEmcsmIoEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA16E55F4</NID>
+              <NAME>sceSysregSpiIoDisable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA3E4154C</NID>
+              <NAME>sceSysregUartClkDisable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB6C10DF0</NID>
+              <NAME>sceSysregAtaBusClockDisable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBB823481</NID>
+              <NAME>sceSysregUartIoDisable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD6628A48</NID>
+              <NAME>sceSysregSpiClkSelect</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xE2A5D1EE</NID>
+              <NAME>sceSysregGetTachyonVersion</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF97D9D73</NID>
+              <NAME>sceSysregEmcsmBusClockEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x0143E8A8</NID>
               <NAME>sceSysregSemaTryLock</NAME>
             </FUNCTION>
@@ -2857,10 +2945,6 @@
               <NAME>sceSysregGpioIoDisable</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x16909002</NID>
-              <NAME>sceSysregAtaBusClockEnable</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x176E590A</NID>
               <NAME>sceSysregMsifIoDisable</NAME>
             </FUNCTION>
@@ -2885,10 +2969,6 @@
               <NAME>sceSysregVmeResetEnable</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x1C4C4C7A</NID>
-              <NAME>sceSysregEmcsmIoDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x1D233EF9</NID>
               <NAME>sceSysregUsbBusClockDisable</NAME>
             </FUNCTION>
@@ -2903,10 +2983,6 @@
             <FUNCTION>
               <NID>0x1E881843</NID>
               <NAME>sceSysregIntrInit</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x20388C9E</NID>
-              <NAME>sceSysregSircsClkDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20B1D0A9</NID>
@@ -2929,16 +3005,8 @@
               <NAME>sceSysregAwEdramBusClockDisable</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x26FA0928</NID>
-              <NAME>sceSysregSircsIoDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x283D7A95</NID>
               <NAME>sceSysregGpioClkEnable</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x2D0F7755</NID>
-              <NAME>sceSysregEmcsmBusClockDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F9B03E0</NID>
@@ -3045,20 +3113,12 @@
               <NAME>sceSysreg_driver_4C0BED71</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x4C49A8BC</NID>
-              <NAME>sceSysregSircsIoEnable</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x4DB0C55D</NID>
               <NAME>sceSysregMsifClkEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E5C86AA</NID>
               <NAME>sceSysreg_driver_4E5C86AA</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x4F46EEDE</NID>
-              <NAME>sceSysregGetFuseId</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51571E8F</NID>
@@ -3103,10 +3163,6 @@
             <FUNCTION>
               <NID>0x63E1EE9C</NID>
               <NAME>sceClkcSetBusGear</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x6417CDD6</NID>
-              <NAME>sceSysregSircsClkEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64C8E8DD</NID>
@@ -3173,10 +3229,6 @@
               <NAME>sceSysreg_driver_76E57DC6</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x7725CA08</NID>
-              <NAME>sceSysregUartClkEnable</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x7AA8A8BE</NID>
               <NAME>sceSysregIntrEnd</NAME>
             </FUNCTION>
@@ -3191,10 +3243,6 @@
             <FUNCTION>
               <NID>0x7E1B1F28</NID>
               <NAME>sceSysregAwRegBBusClockDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x7FD7A631</NID>
-              <NAME>sceSysregUartIoEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x803E5F37</NID>
@@ -3233,28 +3281,12 @@
               <NAME>sceSysreg_driver_87B61303</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x8835D1E1</NID>
-              <NAME>sceSysregSpiClkEnable</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x8B1DD83A</NID>
               <NAME>sceSysregAudioBusClockEnable</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x8B90B8B5</NID>
-              <NAME>sceSysregSpiClkDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x8C5C53DE</NID>
-              <NAME>sceSysregSpiIoEnable</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x8CFD0DCA</NID>
               <NAME>sceSysregAtaResetDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x8F4F4E96</NID>
-              <NAME>sceSysregGetFuseConfig</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9057C9E2</NID>
@@ -3305,24 +3337,12 @@
               <NAME>sceSysregSetMasterPriv</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x9DD1F821</NID>
-              <NAME>sceSysregEmcsmIoEnable</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9E2F8FD5</NID>
               <NAME>sceSysreg_driver_9E2F8FD5</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9EB8C49E</NID>
               <NAME>sceSysregAtahddResetDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xA16E55F4</NID>
-              <NAME>sceSysregSpiIoDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xA3E4154C</NID>
-              <NAME>sceSysregUartClkDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4706857</NID>
@@ -3369,20 +3389,12 @@
               <NAME>sceSysreg_driver_B6296512</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xB6C10DF0</NID>
-              <NAME>sceSysregAtaBusClockDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xB73D3619</NID>
               <NAME>sceSysregVmeResetDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB6BAA00</NID>
               <NAME>sceSysregMsifQueryConnectIntr</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xBB823481</NID>
-              <NAME>sceSysregUartIoDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBBC721EA</NID>
@@ -3449,10 +3461,6 @@
               <NAME>sceSysregAudioClkoutClkDisable</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xD6628A48</NID>
-              <NAME>sceSysregSpiClkSelect</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xD7AD9705</NID>
               <NAME>sceSysregUsbBusClockEnable</NAME>
             </FUNCTION>
@@ -3471,10 +3479,6 @@
             <FUNCTION>
               <NID>0xDED12806</NID>
               <NAME>sceSysregApbTimerClkDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xE2A5D1EE</NID>
-              <NAME>sceSysregGetTachyonVersion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5764EAC</NID>
@@ -3499,10 +3503,6 @@
             <FUNCTION>
               <NID>0xF4A3C03A</NID>
               <NAME>sceSysregAtahddIoDisable</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF97D9D73</NID>
-              <NAME>sceSysregEmcsmBusClockEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9C93DD4</NID>
@@ -3767,12 +3767,12 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x1A4DC9B7</NID>
-              <NAME>sceKermitMsfs_driver_1A4DC9B7</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xEAD1D2C6</NID>
               <NAME>sceKermitMsfs_driver_EAD1D2C6</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1A4DC9B7</NID>
+              <NAME>sceKermitMsfs_driver_1A4DC9B7</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -3791,28 +3791,28 @@
               <NAME>sceKermitPeripheral_driver_1613D306</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x1764B6CF</NID>
-              <NAME>sceKermitPeripheral_driver_1764B6CF</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x7AB9BFE5</NID>
-              <NAME>sceKermitPeripheral_driver_7AB9BFE5</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xA5395F0F</NID>
               <NAME>sceKermitPeripheral_driver_A5395F0F</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xCD59C607</NID>
+              <NAME>sceKermitPeripheral_driver_CD59C607</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1764B6CF</NID>
+              <NAME>sceKermitPeripheral_driver_1764B6CF</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEC83435</NID>
               <NAME>sceKermitPeripheral_driver_AEC83435</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xC0A9FA80</NID>
-              <NAME>sceKermitPeripheral_driver_C0A9FA80</NAME>
+              <NID>0x7AB9BFE5</NID>
+              <NAME>sceKermitPeripheral_driver_7AB9BFE5</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xCD59C607</NID>
-              <NAME>sceKermitPeripheral_driver_CD59C607</NAME>
+              <NID>0xC0A9FA80</NID>
+              <NAME>sceKermitPeripheral_driver_C0A9FA80</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB84BCDD</NID>
@@ -4077,6 +4077,34 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
+              <NID>0x1BA2FCAE</NID>
+              <NAME>scePowerSetIdleCallback</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x469989AD</NID>
+              <NAME>scePowerSetClockFrequency</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x9CE06934</NID>
+              <NAME>scePowerInit</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xAD5BB433</NID>
+              <NAME>scePowerEnd</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xDB62C9CF</NID>
+              <NAME>scePowerCancelRequest</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xEBD177D6</NID>
+              <NAME>scePower_driver_EBD177D6</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xFDB5BFE9</NID>
+              <NAME>scePowerGetCpuClockFrequencyInt</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x003B1E03</NID>
               <NAME>scePowerGetBatteryFullCapacity</NAME>
             </FUNCTION>
@@ -4133,10 +4161,6 @@
               <NAME>scePowerGetCallbackMode</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x1BA2FCAE</NID>
-              <NAME>scePowerSetIdleCallback</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x1E3B1FAE</NID>
               <NAME>scePowerIdleTimerEnable</NAME>
             </FUNCTION>
@@ -4183,10 +4207,6 @@
             <FUNCTION>
               <NID>0x41ADFF48</NID>
               <NAME>scePowerGetBatteryRemainCapacity</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x469989AD</NID>
-              <NAME>scePowerSetClockFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E32E9B8</NID>
@@ -4297,10 +4317,6 @@
               <NAME>scePowerRequestStandby</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x9CE06934</NID>
-              <NAME>scePowerInit</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9DAF25A0</NID>
               <NAME>scePowerRequestColdReset</NAME>
             </FUNCTION>
@@ -4311,10 +4327,6 @@
             <FUNCTION>
               <NID>0xA882AEB7</NID>
               <NAME>scePowerVolatileMemTryLock</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xAD5BB433</NID>
-              <NAME>scePowerEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB45C9066</NID>
@@ -4381,10 +4393,6 @@
               <NAME>scePowerGetCurrentTachyonVoltage</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xDB62C9CF</NID>
-              <NAME>scePowerCancelRequest</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xDC4395E2</NID>
               <NAME>scePowerGetCpuClockFrequencyFloat</NAME>
             </FUNCTION>
@@ -4405,10 +4413,6 @@
               <NAME>scePowerCheckWlanCondition</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xEBD177D6</NID>
-              <NAME>scePower_driver_EBD177D6</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xEEFB2ACF</NID>
               <NAME>scePowerLimitScBusClock</NAME>
             </FUNCTION>
@@ -4423,10 +4427,6 @@
             <FUNCTION>
               <NID>0xFA651CE1</NID>
               <NAME>scePowerIsLowBattery</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xFDB5BFE9</NID>
-              <NAME>scePowerGetCpuClockFrequencyInt</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -4519,10 +4519,6 @@
             <FUNCTION>
               <NID>0x4CFA57B0</NID>
               <NAME>sceRtcGetCurrentClock</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x508BA64B</NID>
-              <NAME>sceRtc_508BA64B</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57726BC1</NID>
@@ -4628,6 +4624,10 @@
               <NID>0xFB3B18CD</NID>
               <NAME>sceRtcRegisterCallback</NAME>
             </FUNCTION>
+            <FUNCTION>
+              <NID>0x508BA64B</NID>
+              <NAME>sceRtc_508BA64B</NAME>
+            </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
         <LIBRARY>
@@ -4635,16 +4635,72 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x00F66D06</NID>
-              <NAME>sceRtc_driver_00F66D06</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x011F03C1</NID>
               <NAME>sceRtcGetAccumulativeTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17C26C00</NID>
               <NAME>sceRtcSetCurrentSecureTick</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x3F7AD767</NID>
+              <NAME>sceRtcGetCurrentTick</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x44F45E05</NID>
+              <NAME>sceRtcTickAddTicks</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x48D07D70</NID>
+              <NAME>sceRtcResume</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4B1B5E82</NID>
+              <NAME>sceRtcCheckValid</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4CFA57B0</NID>
+              <NAME>sceRtcGetCurrentClock</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x6FF40ACC</NID>
+              <NAME>sceRtcGetTick</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7ED29E40</NID>
+              <NAME>sceRtcSetTick</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x912BEE56</NID>
+              <NAME>sceRtcInit</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x9763C138</NID>
+              <NAME>sceRtcSetCurrentTick</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x9CC2797E</NID>
+              <NAME>sceRtcSuspend</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB44BDAED</NID>
+              <NAME>sceRtcGetCurrentSecureTick</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xC41C2853</NID>
+              <NAME>sceRtcGetTickResolution</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xCE27DE2F</NID>
+              <NAME>sceRtcEnd</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF2A4AFE5</NID>
+              <NAME>sceRtcTickAddSeconds</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x00F66D06</NID>
+              <NAME>sceRtc_driver_00F66D06</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A86F5FD</NID>
@@ -4683,28 +4739,8 @@
               <NAME>sceRtc_driver_3E66CB7E</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x3F7AD767</NID>
-              <NAME>sceRtcGetCurrentTick</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x40B07E72</NID>
               <NAME>sceRtc_driver_40B07E72</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x44F45E05</NID>
-              <NAME>sceRtcTickAddTicks</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x48D07D70</NID>
-              <NAME>sceRtcResume</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x4B1B5E82</NID>
-              <NAME>sceRtcCheckValid</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x4CFA57B0</NID>
-              <NAME>sceRtcGetCurrentClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E267E02</NID>
@@ -4723,10 +4759,6 @@
               <NAME>sceRtc_driver_66054C2A</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x6FF40ACC</NID>
-              <NAME>sceRtcGetTick</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x74772CCC</NID>
               <NAME>sceRtc_driver_74772CCC</NAME>
             </FUNCTION>
@@ -4741,10 +4773,6 @@
             <FUNCTION>
               <NID>0x7D8E37E1</NID>
               <NAME>sceRtc_driver_7D8E37E1</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x7ED29E40</NID>
-              <NAME>sceRtcSetTick</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80F21937</NID>
@@ -4771,24 +4799,12 @@
               <NAME>sceRtc_driver_9012B140</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x912BEE56</NID>
-              <NAME>sceRtcInit</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x929620CE</NID>
               <NAME>sceRtc_driver_929620CE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94225550</NID>
               <NAME>sceRtc_driver_94225550</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x9763C138</NID>
-              <NAME>sceRtcSetCurrentTick</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x9CC2797E</NID>
-              <NAME>sceRtcSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4A5BF1B</NID>
@@ -4801,10 +4817,6 @@
             <FUNCTION>
               <NID>0xB2B6578C</NID>
               <NAME>sceRtc_driver_B2B6578C</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xB44BDAED</NID>
-              <NAME>sceRtcGetCurrentSecureTick</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB84AC7D7</NID>
@@ -4823,20 +4835,12 @@
               <NAME>sceRtc_driver_C3A806EE</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xC41C2853</NID>
-              <NAME>sceRtcGetTickResolution</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xC66D9686</NID>
               <NAME>sceRtc_driver_C66D9686</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB0538FD</NID>
               <NAME>sceRtc_driver_CB0538FD</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xCE27DE2F</NID>
-              <NAME>sceRtcEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEEF238F</NID>
@@ -4881,10 +4885,6 @@
             <FUNCTION>
               <NID>0xED15334F</NID>
               <NAME>sceRtc_driver_ED15334F</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF2A4AFE5</NID>
-              <NAME>sceRtcTickAddSeconds</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -5899,6 +5899,10 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
+              <NID>0x19E51F54</NID>
+              <NAME>sceWlanDevGetMacAddr</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x02E66C38</NID>
               <NAME>sceWlanDrv_driver_02E66C38</NAME>
             </FUNCTION>
@@ -5917,10 +5921,6 @@
             <FUNCTION>
               <NID>0x0CAB500F</NID>
               <NAME>sceWlanDrv_driver_0CAB500F</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x19E51F54</NID>
-              <NAME>sceWlanDevGetMacAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AE1B369</NID>
@@ -6033,10 +6033,6 @@
           <FLAGS>0x40010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x0308B66B</NID>
-              <NAME>sceWlanDrv_lib_0308B66B</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x05FE320C</NID>
               <NAME>sceWlanDevGetStateGPIO</NAME>
             </FUNCTION>
@@ -6045,28 +6041,8 @@
               <NAME>sceWlanDevGetMacAddr</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x1AE1B369</NID>
-              <NAME>sceWlanDrv_lib_1AE1B369</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x2133EAA9</NID>
-              <NAME>sceWlanDrv_lib_2133EAA9</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x2D0FAE4E</NID>
               <NAME>sceWlanDrv_lib_2D0FAE4E</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x2F0129E5</NID>
-              <NAME>sceWlanDrv_lib_2F0129E5</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x320E1611</NID>
-              <NAME>sceWlanDrv_lib_320E1611</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x354D5D6B</NID>
-              <NAME>sceWlanDrv_lib_354D5D6B</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40B0AA4A</NID>
@@ -6077,20 +6053,12 @@
               <NAME>sceWlanDevAttach</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x4ADEA1CF</NID>
-              <NAME>sceWlanDrv_lib_4ADEA1CF</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x4C14BACA</NID>
               <NAME>sceWlanDrv_lib_4C14BACA</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C7F62E0</NID>
               <NAME>sceWlanGPUnRegisterCallback</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x51B0BBB8</NID>
-              <NAME>sceWlanDrv_lib_51B0BBB8</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56F467CA</NID>
@@ -6105,16 +6073,8 @@
               <NAME>sceWlanDevIsGameMode</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x5E9A217A</NID>
-              <NAME>sceWlanDrv_lib_5E9A217A</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x5ED4049A</NID>
               <NAME>sceWlanGPPrevEstablishActive</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x638DF9C8</NID>
-              <NAME>sceWlanDrv_lib_638DF9C8</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D5C839E</NID>
@@ -6123,10 +6083,6 @@
             <FUNCTION>
               <NID>0x749B813A</NID>
               <NAME>sceWlanSetHostDiscover</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x76789E67</NID>
-              <NAME>sceWlanDrv_lib_76789E67</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FF54BD2</NID>
@@ -6141,20 +6097,76 @@
               <NAME>sceWlanDrv_lib_8D5F551B</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x950F4C6E</NID>
-              <NAME>sceWlanDrv_lib_950F4C6E</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9658C9F7</NID>
               <NAME>sceWlanGPRegisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x9E00AA04</NID>
-              <NAME>sceWlanDrv_lib_9E00AA04</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xA447103A</NID>
               <NAME>sceWlanGPRecv</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB4D7CB74</NID>
+              <NAME>sceWlanGPSend</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xC9A8CAB7</NID>
+              <NAME>sceWlanDevDetach</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xFE8A0B46</NID>
+              <NAME>sceWlanSetWakeUp</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x0308B66B</NID>
+              <NAME>sceWlanDrv_lib_0308B66B</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1AE1B369</NID>
+              <NAME>sceWlanDrv_lib_1AE1B369</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x2133EAA9</NID>
+              <NAME>sceWlanDrv_lib_2133EAA9</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x2F0129E5</NID>
+              <NAME>sceWlanDrv_lib_2F0129E5</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x320E1611</NID>
+              <NAME>sceWlanDrv_lib_320E1611</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x354D5D6B</NID>
+              <NAME>sceWlanDrv_lib_354D5D6B</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4ADEA1CF</NID>
+              <NAME>sceWlanDrv_lib_4ADEA1CF</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x51B0BBB8</NID>
+              <NAME>sceWlanDrv_lib_51B0BBB8</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5E9A217A</NID>
+              <NAME>sceWlanDrv_lib_5E9A217A</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x638DF9C8</NID>
+              <NAME>sceWlanDrv_lib_638DF9C8</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x76789E67</NID>
+              <NAME>sceWlanDrv_lib_76789E67</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x950F4C6E</NID>
+              <NAME>sceWlanDrv_lib_950F4C6E</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x9E00AA04</NID>
+              <NAME>sceWlanDrv_lib_9E00AA04</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xADF2A522</NID>
@@ -6165,16 +6177,8 @@
               <NAME>sceWlanDrv_lib_AE8D779A</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xB4D7CB74</NID>
-              <NAME>sceWlanGPSend</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xB5E7B187</NID>
               <NAME>sceWlanDrv_lib_B5E7B187</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xC9A8CAB7</NID>
-              <NAME>sceWlanDevDetach</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF1A87D8</NID>
@@ -6191,10 +6195,6 @@
             <FUNCTION>
               <NID>0xF6D0B576</NID>
               <NAME>sceWlanDrv_lib_F6D0B576</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xFE8A0B46</NID>
-              <NAME>sceWlanSetWakeUp</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -6789,12 +6789,12 @@
           <FLAGS>0x40090011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x98B83B5D</NID>
-              <NAME>scePauth_98B83B5D</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xF7AA47F6</NID>
               <NAME>scePauth_F7AA47F6</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x98B83B5D</NID>
+              <NAME>scePauth_98B83B5D</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -6803,12 +6803,12 @@
           <FLAGS>0x00090011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x98B83B5D</NID>
-              <NAME>scePauth_driver_98B83B5D</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xF7AA47F6</NID>
               <NAME>scePauth_driver_F7AA47F6</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x98B83B5D</NID>
+              <NAME>scePauth_driver_98B83B5D</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -6831,12 +6831,12 @@
           <FLAGS>0x40090011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x8E6C62C8</NID>
-              <NAME>sceResmgr_8E6C62C8</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9DC14891</NID>
               <NAME>sceResmgr_9DC14891</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8E6C62C8</NID>
+              <NAME>sceResmgr_8E6C62C8</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -6845,12 +6845,12 @@
           <FLAGS>0x00090011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x8E6C62C8</NID>
-              <NAME>sceResmgr_driver_8E6C62C8</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9DC14891</NID>
               <NAME>sceResmgr_driver_9DC14891</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8E6C62C8</NID>
+              <NAME>sceResmgr_driver_8E6C62C8</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -6895,14 +6895,6 @@
               <NAME>sceKernelGetChunk</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x3ACCCD7E</NID>
-              <NAME>sceKernelShowIntrHandlerInfo</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x5238F4CC</NID>
-              <NAME>sceKernelInitLptSummary</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x7233B5BC</NID>
               <NAME>sceKernelApplicationType</NAME>
             </FUNCTION>
@@ -6911,28 +6903,36 @@
               <NAME>sceKernelInitApitype</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x9D33A110</NID>
-              <NAME>InitForKernel_9D33A110</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9F9AE99C</NID>
               <NAME>sceKernelSetInitCallback</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xA18A4A8B</NID>
-              <NAME>sceKernelInitDiscImage</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6E71B93</NID>
               <NAME>sceKernelInitFileName</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xCB837AC5</NID>
-              <NAME>sceKernelShowIntrMaskTime</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xCE88E870</NID>
               <NAME>sceKernelReleaseChunk</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x3ACCCD7E</NID>
+              <NAME>sceKernelShowIntrHandlerInfo</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5238F4CC</NID>
+              <NAME>sceKernelInitLptSummary</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x9D33A110</NID>
+              <NAME>InitForKernel_9D33A110</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA18A4A8B</NID>
+              <NAME>sceKernelInitDiscImage</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xCB837AC5</NID>
+              <NAME>sceKernelShowIntrMaskTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD83A9BD7</NID>
@@ -7159,14 +7159,6 @@
           <FLAGS>0x40010000</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x1196472E</NID>
-              <NAME>sceKernelLoadModuleBufferMs</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x24EC0641</NID>
-              <NAME>sceKernelLoadModuleBufferApp</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x2E0911AA</NID>
               <NAME>sceKernelUnloadModule</NAME>
             </FUNCTION>
@@ -7175,20 +7167,8 @@
               <NAME>sceKernelStartModule</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x644395E2</NID>
-              <NAME>sceKernelGetModuleIdList</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x710F61B5</NID>
-              <NAME>sceKernelLoadModuleMs</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x748CBED9</NID>
               <NAME>sceKernelQueryModuleInfo</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x8F2DF740</NID>
-              <NAME>sceKernelStopUnloadSelfModule</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x977DE386</NID>
@@ -7203,48 +7183,68 @@
               <NAME>sceKernelStopUnloadSelfModule</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xCDE1C1FE</NID>
-              <NAME>sceKernelCheckTextSegment</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xD1FF982A</NID>
               <NAME>sceKernelStopModule</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xD2FBC957</NID>
-              <NAME>sceKernelGetModuleGPByAddress</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD675EBB8</NID>
               <NAME>sceKernelSelfStopUnloadModule</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xD8B73127</NID>
-              <NAME>sceKernelGetModuleIdByAddress</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xE4C4211C</NID>
-              <NAME>sceKernelLoadModuleWithBlockOffset</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF0A26395</NID>
-              <NAME>sceKernelGetModuleId</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF2D8D1B4</NID>
-              <NAME>sceKernelLoadModuleNpDrm</NAME>
+              <NID>0x710F61B5</NID>
+              <NAME>sceKernelLoadModuleMs</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9275D98</NID>
               <NAME>sceKernelLoadModuleBufferUsbWlan</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xFBE27467</NID>
-              <NAME>sceKernelLoadModuleByIDWithBlockOffset</NAME>
+              <NID>0x644395E2</NID>
+              <NAME>sceKernelGetModuleIdList</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD8B73127</NID>
+              <NAME>sceKernelGetModuleIdByAddress</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF0A26395</NID>
+              <NAME>sceKernelGetModuleId</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD2FBC957</NID>
+              <NAME>sceKernelGetModuleGPByAddress</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1196472E</NID>
+              <NAME>sceKernelLoadModuleBufferMs</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8F2DF740</NID>
+              <NAME>sceKernelStopUnloadSelfModule</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEF27DC1</NID>
               <NAME>sceKernelLoadModuleDNAS</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x24EC0641</NID>
+              <NAME>sceKernelLoadModuleBufferApp</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xE4C4211C</NID>
+              <NAME>sceKernelLoadModuleWithBlockOffset</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xFBE27467</NID>
+              <NAME>sceKernelLoadModuleByIDWithBlockOffset</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF2D8D1B4</NID>
+              <NAME>sceKernelLoadModuleNpDrm</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xCDE1C1FE</NID>
+              <NAME>sceKernelCheckTextSegment</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -7277,68 +7277,8 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x040A7090</NID>
-              <NAME>sceUmd_040A7090</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x07E98AF8</NID>
-              <NAME>sceUmd_07E98AF8</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x0B14CE61</NID>
-              <NAME>sceUmd_0B14CE61</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x18E225C8</NID>
-              <NAME>sceUmd_18E225C8</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x4F017CDE</NID>
-              <NAME>sceUmd_4F017CDE</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x598EC4DC</NID>
-              <NAME>sceUmd_598EC4DC</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x5EBB491F</NID>
-              <NAME>sceUmd_5EBB491F</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x666580EA</NID>
-              <NAME>sceUmd_666580EA</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x6EDF57F1</NID>
-              <NAME>sceUmd_6EDF57F1</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x8DCFBA06</NID>
-              <NAME>sceUmd_8DCFBA06</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x8EF08FCE</NID>
               <NAME>sceUmdWaitDriveStat</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x982272FE</NID>
-              <NAME>sceUmd_982272FE</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x98AFBD10</NID>
-              <NAME>sceUmd_98AFBD10</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xA9B5B972</NID>
-              <NAME>sceUmd_A9B5B972</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xB7BF4C31</NID>
-              <NAME>sceUmd_B7BF4C31</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xBA3D2A5F</NID>
-              <NAME>sceUmd_BA3D2A5F</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6183D47</NID>
@@ -7347,6 +7287,66 @@
             <FUNCTION>
               <NID>0xE83742BA</NID>
               <NAME>sceUmdDeactivate</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x040A7090</NID>
+              <NAME>sceUmd_040A7090</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x07E98AF8</NID>
+              <NAME>sceUmdSetErrorStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x0B14CE61</NID>
+              <NAME>sceUmdCheckMedium</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x18E225C8</NID>
+              <NAME>sceUmdCancelWaitDriveStat</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4F017CDE</NID>
+              <NAME>sceUmdReplacePermit</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x598EC4DC</NID>
+              <NAME>sceUmdUnRegisterUMDCallBack</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5EBB491F</NID>
+              <NAME>sceUmdRegisterUMDCallBack</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x666580EA</NID>
+              <NAME>sceUmdGetErrorStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x6EDF57F1</NID>
+              <NAME>sceUmdClearDriveStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8DCFBA06</NID>
+              <NAME>sceUmdWaitDriveStatWithTimer</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x982272FE</NID>
+              <NAME>sceUmdSetDriveStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x98AFBD10</NID>
+              <NAME>sceUmdWaitDriveStatCB</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA9B5B972</NID>
+              <NAME>sceUmdReplaceProhibit</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB7BF4C31</NID>
+              <NAME>sceUmdGetDriveStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBA3D2A5F</NID>
+              <NAME>sceUmdGetDiscInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -7382,23 +7382,23 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x34375DB0</NID>
-              <NAME>sceUmdMan_driver_34375DB0</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C8C523D</NID>
-              <NAME>sceUmdMan_driver_3C8C523D</NAME>
+              <NAME>sceUmdManRegisterInsertEjectUMDCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65E2B3E0</NID>
-              <NAME>sceUmdMan_driver_65E2B3E0</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80D31D5D</NID>
-              <NAME>sceUmdMan_driver_80D31D5D</NAME>
+              <NAME>sceUmdManRegisterImposeCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7536109</NID>
-              <NAME>sceUmdMan_driver_A7536109</NAME>
+              <NAME>sceUmdManUnRegisterInsertEjectUMDCallBack</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -7475,56 +7475,52 @@
           <FLAGS>0x00010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x00AD67F8</NID>
-              <NAME>sceNpDrmGetFixedKey</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x04618D16</NID>
               <NAME>sceNpDrmGetIDps</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x08D98894</NID>
-              <NAME>sceNpDrmEdataSetupKey</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x0F9547E6</NID>
-              <NAME>sceNpDrmGetVersionKey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17E3F4BB</NID>
               <NAME>sceNpDrmVerifyAct</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x219EF5CC</NID>
-              <NAME>sceNpDrmEdataGetDataSize</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x275987D1</NID>
-              <NAME>sceNpDrmRenameCheck</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x2D88879A</NID>
-              <NAME>sceNpDrmSetDebugMode</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x3554E328</NID>
-              <NAME>sceNpDrmSetRifDevice</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x37B9B10D</NID>
               <NAME>sceNpDrmVerifyRif</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x4478C033</NID>
-              <NAME>sceNpDrmVerifyRifById</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5667B7B9</NID>
               <NAME>sceNpDrmGetContentKey</NAME>
             </FUNCTION>
             <FUNCTION>
+              <NID>0x0F9547E6</NID>
+              <NAME>sceNpDrmGetVersionKey</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xEBB198ED</NID>
+              <NAME>sceNpDrmDecActivation</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x08D98894</NID>
+              <NAME>sceNpDrmEdataSetupKey</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x219EF5CC</NID>
+              <NAME>sceNpDrmEdataGetDataSize</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4478C033</NID>
+              <NAME>sceNpDrmVerifyRifById</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x9A34AC9F</NID>
               <NAME>sceNpDrmCheckRifTimeLimit</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD19E6E28</NID>
+              <NAME>sceNpDrmCheckRifTimeLimitById</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x275987D1</NID>
+              <NAME>sceNpDrmRenameCheck</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B745542</NID>
@@ -7535,16 +7531,20 @@
               <NAME>sceNpDrmSetLicenseeKey</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xD19E6E28</NID>
-              <NAME>sceNpDrmCheckRifTimeLimitById</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xD36B4E6D</NID>
               <NAME>sceNpDrmGetModuleKey</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xEBB198ED</NID>
-              <NAME>sceNpDrmDecActivation</NAME>
+              <NID>0x00AD67F8</NID>
+              <NAME>sceNpDrmGetFixedKey</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x2D88879A</NID>
+              <NAME>sceNpDrmSetDebugMode</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x3554E328</NID>
+              <NAME>sceNpDrmSetRifDevice</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -7651,16 +7651,16 @@
           <FLAGS>0x40010000</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0xAE6DD68C</NID>
-              <NAME>sceOpenPSID_AE6DD68C</NAME>
+              <NID>0xC69BEBCE</NID>
+              <NAME>sceOpenPSIDGetOpenPSID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB29330DE</NID>
               <NAME>sceOpenPSIDGetProductCode</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xC69BEBCE</NID>
-              <NAME>sceOpenPSIDGetOpenPSID</NAME>
+              <NID>0xAE6DD68C</NID>
+              <NAME>sceOpenPSID_AE6DD68C</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -7669,16 +7669,16 @@
           <FLAGS>0x00010000</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
+              <NID>0xC69BEBCE</NID>
+              <NAME>sceOpenPSIDGetOpenPSID</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x19D579F0</NID>
               <NAME>sceOpenPSIDGetPSID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8546569E</NID>
               <NAME>sceOpenPSID_driver_8546569E</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xC69BEBCE</NID>
-              <NAME>sceOpenPSIDGetOpenPSID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8316C16</NID>
@@ -7759,20 +7759,12 @@
               <NAME>sceRegCreateKey</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x835ECE6F</NID>
-              <NAME>sceRegGetCategoryListAtRoot</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x92E41280</NID>
               <NAME>sceRegOpenRegistry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B25EDF1</NID>
               <NAME>sceRegExit</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xBE8C1263</NID>
-              <NAME>sceRegGetCategoryNumAtRoot</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5768D02</NID>
@@ -7790,6 +7782,14 @@
               <NID>0xFA8A5739</NID>
               <NAME>sceRegCloseRegistry</NAME>
             </FUNCTION>
+            <FUNCTION>
+              <NID>0x835ECE6F</NID>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBE8C1263</NID>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
+            </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
         <LIBRARY>
@@ -7798,87 +7798,87 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x30E567D5</NID>
-              <NAME>sceReg_driver_30E567D5</NAME>
+              <NAME>sceRegInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38415B9F</NID>
-              <NAME>sceReg_driver_38415B9F</NAME>
+              <NAME>sceRegGetKeyValueByName</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B6CA1E6</NID>
-              <NAME>sceReg_driver_3B6CA1E6</NAME>
+              <NAME>sceRegCreateKey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x405D36C3</NID>
-              <NAME>sceReg_driver_405D36C3</NAME>
+              <NAME>sceRegRemoveKey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49C70163</NID>
-              <NAME>sceReg_driver_49C70163</NAME>
+              <NAME>sceRegSetKeyValue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49D77D65</NID>
-              <NAME>sceReg_driver_49D77D65</NAME>
+              <NAME>sceRegCloseRegistry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F471457</NID>
-              <NAME>sceReg_driver_4F471457</NAME>
+              <NAME>sceRegOpenCategory</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5FD4764A</NID>
-              <NAME>sceReg_driver_5FD4764A</NAME>
+              <NAME>sceRegFlushRegistry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61DB9D06</NID>
-              <NAME>sceReg_driver_61DB9D06</NAME>
+              <NAME>sceRegRemoveCategory</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6328E4C6</NID>
-              <NAME>sceReg_driver_6328E4C6</NAME>
+              <NAME>sceRegGetCategoryListAtRoot</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90AA3904</NID>
-              <NAME>sceReg_driver_90AA3904</NAME>
+              <NAME>sceRegGetCategoryNumAtRoot</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9980519F</NID>
-              <NAME>sceReg_driver_9980519F</NAME>
+              <NAME>sceRegGetKeyInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBAE3371A</NID>
-              <NAME>sceReg_driver_BAE3371A</NAME>
+              <NAME>sceRegGetKeys</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDE681CF</NID>
-              <NAME>sceReg_driver_BDE681CF</NAME>
+              <NAME>sceRegExit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3DEEBC6</NID>
-              <NAME>sceReg_driver_C3DEEBC6</NAME>
+              <NAME>sceRegRemoveRegistry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD323FC94</NID>
-              <NAME>sceReg_driver_D323FC94</NAME>
+              <NAME>sceRegGetKeysNum</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD743A608</NID>
-              <NAME>sceReg_driver_D743A608</NAME>
+              <NAME>sceRegFlushCategory</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBA46704</NID>
-              <NAME>sceReg_driver_DBA46704</NAME>
+              <NAME>sceRegOpenRegistry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2619407</NID>
-              <NAME>sceReg_driver_F2619407</NAME>
+              <NAME>sceRegGetKeyInfoByName</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4A3E396</NID>
-              <NAME>sceReg_driver_F4A3E396</NAME>
+              <NAME>sceRegGetKeyValue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC742751</NID>
-              <NAME>sceReg_driver_FC742751</NAME>
+              <NAME>sceRegCloseCategory</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -7892,6 +7892,18 @@
           <NAME>KDebugForKernel</NAME>
           <FLAGS>0x00010000</FLAGS>
           <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x84F370BC</NID>
+              <NAME>Kprintf</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD636B827</NID>
+              <NAME>sceKernelDipswAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xE892D9A1</NID>
+              <NAME>sceKernelSm1ReferOperations</NAME>
+            </FUNCTION>
             <FUNCTION>
               <NID>0x01FFE328</NID>
               <NAME>sceKernelRegisterDebugPutchar</NAME>
@@ -7949,10 +7961,6 @@
               <NAME>sceKernelDipswHigh32</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x84F370BC</NID>
-              <NAME>Kprintf</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x86010FCB</NID>
               <NAME>sceKernelDipsw</NAME>
             </FUNCTION>
@@ -7985,16 +7993,8 @@
               <NAME>sceKernelDebugRead</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xD636B827</NID>
-              <NAME>sceKernelDipswAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xE201A0D8</NID>
               <NAME>sceKernelRegisterKprintfHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xE892D9A1</NID>
-              <NAME>sceKernelSm1ReferOperations</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8FE3EE3</NID>
@@ -8204,7 +8204,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FF2F35A</NID>
-              <NAME>SysMemForKernel_7FF2F35A</NAME>
+              <NAME>sceKernelSetUmdData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x807179E7</NID>
@@ -8256,7 +8256,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA03CB480</NID>
-              <NAME>SysMemForKernel_A03CB480</NAME>
+              <NAME>sceKernelSetQTGP2</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0A9185A</NID>
@@ -8316,7 +8316,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC31DEAD</NID>
-              <NAME>SysMemForKernel_CC31DEAD</NAME>
+              <NAME>sceKernelMemset</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0C1460D</NID>
@@ -8384,7 +8384,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3BDB718</NID>
-              <NAME>SysMemForKernel_F3BDB718</NAME>
+              <NAME>sceKernelSetParamSfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5153060</NID>
@@ -8441,112 +8441,112 @@
           <FLAGS>0x40000000</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x057E7380</NID>
-              <NAME>sceKernelSetCompiledSdkVersion410_420</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x13A5ABEF</NID>
-              <NAME>sceKernelPrintf</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x1B4217BC</NID>
-              <NAME>sceKernelSetCompiledSdkVersion630_650</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x237DBD4F</NID>
               <NAME>sceKernelAllocPartitionMemory</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x2A3E5280</NID>
-              <NAME>sceKernelQueryMemoryInfo</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x315AD3A0</NID>
-              <NAME>sceKernelSetCompiledSdkVersion380_390</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x342061E5</NID>
-              <NAME>sceKernelSetCompiledSdkVersion370</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x35669D4C</NID>
-              <NAME>sceKernelSetCompiledSdkVersion600_620</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x358CA1BB</NID>
-              <NAME>sceKernelSetCompiledSdkVersion660</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x3FC9AE6A</NID>
-              <NAME>sceKernelDevkitVersion</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x50F61D8A</NID>
-              <NAME>sceKernelFreeMemoryBlock</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x7591C7DB</NID>
-              <NAME>sceKernelSetCompiledSdkVersion</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x7893F79A</NID>
-              <NAME>sceKernelSetCompiledSdkVersion570</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x91DE343C</NID>
-              <NAME>sceKernelSetCompiledSdkVersion500_550</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x945E45DA</NID>
-              <NAME>SysMemUserForUser_945E45DA</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D9A5BA1</NID>
               <NAME>sceKernelGetBlockHeadAddr</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xA291F107</NID>
-              <NAME>sceKernelMaxFreeMemSize</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xA6848DF8</NID>
-              <NAME>sceKernelSetUsersystemLibWork</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xACBD88CA</NID>
-              <NAME>sceKernelTotalMemSize</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xB6D61D02</NID>
               <NAME>sceKernelFreePartitionMemory</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xD8DE5C1E</NID>
-              <NAME>SysMemUserForUser_D8DE5C1E</NAME>
+              <NID>0x3FC9AE6A</NID>
+              <NAME>sceKernelDevkitVersion</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xDB83A952</NID>
-              <NAME>sceKernelGetMemoryBlockAddr</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xEBD5C3E6</NID>
-              <NAME>sceKernelSetCompiledSdkVersion395</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF77D77CB</NID>
-              <NAME>sceKernelSetCompilerVersion</NAME>
+              <NID>0xA291F107</NID>
+              <NAME>sceKernelMaxFreeMemSize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF919F628</NID>
               <NAME>sceKernelTotalFreeMemSize</NAME>
             </FUNCTION>
             <FUNCTION>
+              <NID>0x13A5ABEF</NID>
+              <NAME>sceKernelPrintf</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7591C7DB</NID>
+              <NAME>sceKernelSetCompiledSdkVersion</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA6848DF8</NID>
+              <NAME>sceKernelSetUsersystemLibWork</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF77D77CB</NID>
+              <NAME>sceKernelSetCompilerVersion</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0xFC114573</NID>
               <NAME>sceKernelGetCompiledSdkVersion</NAME>
             </FUNCTION>
             <FUNCTION>
+              <NID>0x2A3E5280</NID>
+              <NAME>sceKernelQueryMemoryInfo</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x50F61D8A</NID>
+              <NAME>sceKernelFreeMemoryBlock</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xACBD88CA</NID>
+              <NAME>sceKernelTotalMemSize</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xDB83A952</NID>
+              <NAME>sceKernelGetMemoryBlockAddr</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0xFE707FDF</NID>
               <NAME>sceKernelAllocMemoryBlock</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x342061E5</NID>
+              <NAME>sceKernelSetCompiledSdkVersion370</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x315AD3A0</NID>
+              <NAME>sceKernelSetCompiledSdkVersion380_390</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xEBD5C3E6</NID>
+              <NAME>sceKernelSetCompiledSdkVersion395</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x057E7380</NID>
+              <NAME>sceKernelSetCompiledSdkVersion410_420</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x91DE343C</NID>
+              <NAME>sceKernelSetCompiledSdkVersion500_550</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD8DE5C1E</NID>
+              <NAME>SysMemUserForUser_D8DE5C1E</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7893F79A</NID>
+              <NAME>sceKernelSetCompiledSdkVersion570</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x35669D4C</NID>
+              <NAME>sceKernelSetCompiledSdkVersion600_620</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x945E45DA</NID>
+              <NAME>SysMemUserForUser_945E45DA</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1B4217BC</NID>
+              <NAME>sceKernelSetCompiledSdkVersion630_650</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x358CA1BB</NID>
+              <NAME>sceKernelSetCompiledSdkVersion660</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -8667,10 +8667,6 @@
               <NAME>strcmp</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xC2145E80</NID>
-              <NAME>snprintf</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xCE2F7487</NID>
               <NAME>toupper</NAME>
             </FUNCTION>
@@ -8686,6 +8682,10 @@
               <NID>0xEC6F1CF2</NID>
               <NAME>strcpy</NAME>
             </FUNCTION>
+            <FUNCTION>
+              <NID>0xC2145E80</NID>
+              <NAME>snprintf</NAME>
+            </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
         <LIBRARY>
@@ -8693,24 +8693,8 @@
           <FLAGS>0x00090011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x004D4DEE</NID>
-              <NAME>sceKernelL1DcacheWritebackRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x06FB8A63</NID>
               <NAME>sceKernelUtilsMt19937UInt</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x0939D45C</NID>
-              <NAME>sceKernelL2cacheWritebackAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x136F2419</NID>
-              <NAME>sceKernelSetPTRIGMask</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x157A383A</NID>
-              <NAME>sceKernelL1DcacheInvalidateRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16641D70</NID>
@@ -8721,24 +8705,12 @@
               <NAME>sceKernelSetGPIMask</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x1B0592A3</NID>
-              <NAME>sceKernelL1DcacheWritebackInvalidateRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x23A0C5BA</NID>
-              <NAME>sceKernelRegisterRtcFunc</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x23FFC828</NID>
               <NAME>sceKernelGzipGetCompressedData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27CC57F0</NID>
               <NAME>sceKernelLibcTime</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x2F80288E</NID>
-              <NAME>sceKernelL2cacheProbeRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x346F6DA8</NID>
@@ -8753,84 +8725,28 @@
               <NAME>sceKernelGetGPI</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x39F49610</NID>
-              <NAME>sceKernelGetPTRIG</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x39FFB756</NID>
-              <NAME>UtilsForKernel_39FFB756</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x3EE30821</NID>
               <NAME>sceKernelDcacheWritebackRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x3FD3D324</NID>
-              <NAME>sceKernelL1DcacheWritebackAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x41887EF4</NID>
-              <NAME>sceKernelReleaseRtcFunc</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x43C9A8DB</NID>
-              <NAME>sceKernelL1IcacheInvalidateRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x485E430A</NID>
-              <NAME>sceKernelL2cacheWritebackInvalidateAll</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FD31C9D</NID>
               <NAME>sceKernelIcacheProbe</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x515B4FAF</NID>
-              <NAME>sceKernelL1DcacheReadTag</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x585F1C09</NID>
               <NAME>sceKernelUtilsSha1BlockResult</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x5C7F2B1A</NID>
-              <NAME>sceKernelL1IcacheReadTag</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x601E43E6</NID>
-              <NAME>sceKernelL2cacheWritebackRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61E1E525</NID>
               <NAME>sceKernelUtilsMd5BlockUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x6231A71D</NID>
-              <NAME>sceKernelSetPTRIG</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x66463BEC</NID>
-              <NAME>UtilsForKernel_66463BEC</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x6AD345D7</NID>
               <NAME>sceKernelSetGPO</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x6C6887EE</NID>
-              <NAME>UtilsForKernel_6C6887EE</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x71EC4271</NID>
               <NAME>sceKernelLibcGettimeofday</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x7333E539</NID>
-              <NAME>sceKernelL1IcacheInvalidateAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x740DF7F0</NID>
-              <NAME>sceKernelL1DcacheProbe</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77DFF087</NID>
@@ -8845,10 +8761,6 @@
               <NAME>sceKernelDcacheWritebackAll</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x7C5DC253</NID>
-              <NAME>sceKernelL2cacheWritebackInvalidateRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x80001C4C</NID>
               <NAME>sceKernelDcacheProbe</NAME>
             </FUNCTION>
@@ -8859,10 +8771,6 @@
             <FUNCTION>
               <NID>0x864A9D72</NID>
               <NAME>sceKernelDcacheInvalidateAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x87E81561</NID>
-              <NAME>sceKernelPutUserLog</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C1FBE04</NID>
@@ -8877,40 +8785,12 @@
               <NAME>sceKernelIcacheInvalidateAll</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x92282A47</NID>
-              <NAME>sceKernelRegisterUserLogHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x95035FEF</NID>
               <NAME>sceKernelSetGPOMask</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x99134C3F</NID>
-              <NAME>sceKernelL1DcachePurgeRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9E5C5086</NID>
               <NAME>sceKernelUtilsMd5BlockInit</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xA6B0A6B8</NID>
-              <NAME>UtilsForKernel_A6B0A6B8</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xAA9AF5CF</NID>
-              <NAME>sceKernelL1DcacheInvalidateAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xAF0C0173</NID>
-              <NAME>sceKernelL2cacheInvalidateAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xAF3616C0</NID>
-              <NAME>sceKernelGetGPO</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xAF3766BB</NID>
-              <NAME>sceKernelL1DcacheWritebackInvalidateAll</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0E9C31F</NID>
@@ -8921,16 +8801,8 @@
               <NAME>sceKernelDcacheWritebackInvalidateAll</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xB83A1E76</NID>
-              <NAME>sceKernelDcachePurgeRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xB8D24E78</NID>
               <NAME>sceKernelUtilsMd5BlockResult</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xBDBFCA89</NID>
-              <NAME>sceKernelRtcGetTick</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFA98062</NID>
@@ -8943,10 +8815,6 @@
             <FUNCTION>
               <NID>0xC8186A58</NID>
               <NAME>sceKernelUtilsMd5Digest</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xDBBE9A46</NID>
-              <NAME>sceKernelL1DcacheProbeRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0CE3E29</NID>
@@ -8965,24 +8833,156 @@
               <NAME>sceKernelDeflateDecompress</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xEC86074D</NID>
-              <NAME>sceKernelL2cacheProbe</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF0155BCA</NID>
-              <NAME>sceKernelL1IcacheProbe</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF192F2EC</NID>
-              <NAME>sceKernelL2cacheInvalidateRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xF8FCD5BA</NID>
               <NAME>sceKernelUtilsSha1BlockInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB05FAD0</NID>
               <NAME>sceKernelIcacheReadTag</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xAF3616C0</NID>
+              <NAME>sceKernelGetGPO</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB83A1E76</NID>
+              <NAME>sceKernelDcachePurgeRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x136F2419</NID>
+              <NAME>sceKernelSetPTRIGMask</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x23A0C5BA</NID>
+              <NAME>sceKernelRegisterRtcFunc</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x39F49610</NID>
+              <NAME>sceKernelGetPTRIG</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x41887EF4</NID>
+              <NAME>sceKernelReleaseRtcFunc</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x6231A71D</NID>
+              <NAME>sceKernelSetPTRIG</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x87E81561</NID>
+              <NAME>sceKernelPutUserLog</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x92282A47</NID>
+              <NAME>sceKernelRegisterUserLogHandler</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBDBFCA89</NID>
+              <NAME>sceKernelRtcGetTick</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x6C6887EE</NID>
+              <NAME>sceKernelLzrcDecode</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x004D4DEE</NID>
+              <NAME>sceKernelL1DcacheWritebackRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x157A383A</NID>
+              <NAME>sceKernelL1DcacheInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1B0592A3</NID>
+              <NAME>sceKernelL1DcacheWritebackInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x3FD3D324</NID>
+              <NAME>sceKernelL1DcacheWritebackAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x43C9A8DB</NID>
+              <NAME>sceKernelL1IcacheInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x515B4FAF</NID>
+              <NAME>sceKernelL1DcacheReadTag</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5C7F2B1A</NID>
+              <NAME>sceKernelL1IcacheReadTag</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7333E539</NID>
+              <NAME>sceKernelL1IcacheInvalidateAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x740DF7F0</NID>
+              <NAME>sceKernelL1DcacheProbe</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x99134C3F</NID>
+              <NAME>sceKernelL1DcachePurgeRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xAA9AF5CF</NID>
+              <NAME>sceKernelL1DcacheInvalidateAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xAF3766BB</NID>
+              <NAME>sceKernelL1DcacheWritebackInvalidateAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xDBBE9A46</NID>
+              <NAME>sceKernelL1DcacheProbeRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF0155BCA</NID>
+              <NAME>sceKernelL1IcacheProbe</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x0939D45C</NID>
+              <NAME>sceKernelL2cacheWritebackAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x2F80288E</NID>
+              <NAME>sceKernelL2cacheProbeRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x39FFB756</NID>
+              <NAME>sceKernelIcacheInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x485E430A</NID>
+              <NAME>sceKernelL2cacheWritebackInvalidateAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x601E43E6</NID>
+              <NAME>sceKernelL2cacheWritebackRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7C5DC253</NID>
+              <NAME>sceKernelL2cacheWritebackInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA6B0A6B8</NID>
+              <NAME>UtilsForKernel_A6B0A6B8</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xAF0C0173</NID>
+              <NAME>sceKernelL2cacheInvalidateAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xEC86074D</NID>
+              <NAME>sceKernelL2cacheProbe</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF192F2EC</NID>
+              <NAME>sceKernelL2cacheInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x66463BEC</NID>
+              <NAME>UtilsForKernel_66463BEC</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -8991,28 +8991,12 @@
           <FLAGS>0x40010011</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x004D4DEE</NID>
-              <NAME>sceKernelL1DcacheWritebackRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x06FB8A63</NID>
               <NAME>sceKernelUtilsMt19937UInt</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x0939D45C</NID>
-              <NAME>sceKernelL2cacheWritebackAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x157A383A</NID>
-              <NAME>sceKernelL1DcacheInvalidateRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x16641D70</NID>
               <NAME>sceKernelDcacheReadTag</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x1B0592A3</NID>
-              <NAME>sceKernelL1DcacheWritebackInvalidateRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27CC57F0</NID>
@@ -9031,52 +9015,20 @@
               <NAME>sceKernelGetGPI</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x39F49610</NID>
-              <NAME>sceKernelGetPTRIG</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x3EE30821</NID>
               <NAME>sceKernelDcacheWritebackRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x3FD3D324</NID>
-              <NAME>sceKernelL1DcacheWritebackAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x43C9A8DB</NID>
-              <NAME>sceKernelL1IcacheInvalidateRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x485E430A</NID>
-              <NAME>sceKernelL2cacheWritebackInvalidateAll</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FD31C9D</NID>
               <NAME>sceKernelIcacheProbe</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x515B4FAF</NID>
-              <NAME>sceKernelL1DcacheReadTag</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x585F1C09</NID>
               <NAME>sceKernelUtilsSha1BlockResult</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x5C7F2B1A</NID>
-              <NAME>sceKernelL1IcacheReadTag</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x601E43E6</NID>
-              <NAME>sceKernelL2cacheWritebackRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x61E1E525</NID>
               <NAME>sceKernelUtilsMd5BlockUpdate</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x6231A71D</NID>
-              <NAME>sceKernelSetPTRIG</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AD345D7</NID>
@@ -9087,24 +9039,12 @@
               <NAME>sceKernelLibcGettimeofday</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x7333E539</NID>
-              <NAME>sceKernelL1IcacheInvalidateAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x740DF7F0</NID>
-              <NAME>sceKernelL1DcacheProbe</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x77DFF087</NID>
               <NAME>sceKernelDcacheProbeRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79D1C3FA</NID>
               <NAME>sceKernelDcacheWritebackAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x7C5DC253</NID>
-              <NAME>sceKernelL2cacheWritebackInvalidateRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80001C4C</NID>
@@ -9115,10 +9055,6 @@
               <NAME>sceKernelUtilsSha1Digest</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x87E81561</NID>
-              <NAME>sceKernelPutUserLog</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x91E4F6A7</NID>
               <NAME>sceKernelLibcClock</NAME>
             </FUNCTION>
@@ -9127,24 +9063,12 @@
               <NAME>sceKernelIcacheInvalidateAll</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x99134C3F</NID>
-              <NAME>sceKernelL1DcachePurgeRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x9E5C5086</NID>
               <NAME>sceKernelUtilsMd5BlockInit</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xAF3766BB</NID>
-              <NAME>sceKernelL1DcacheWritebackInvalidateAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xB435DEC5</NID>
               <NAME>sceKernelDcacheWritebackInvalidateAll</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xB83A1E76</NID>
-              <NAME>sceKernelDcachePurgeRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8D24E78</NID>
@@ -9163,16 +9087,8 @@
               <NAME>sceKernelUtilsMd5Digest</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xDBBE9A46</NID>
-              <NAME>sceKernelL1DcacheProbeRange</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xE860E75E</NID>
               <NAME>sceKernelUtilsMt19937Init</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF0155BCA</NID>
-              <NAME>sceKernelL1IcacheProbe</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8FCD5BA</NID>
@@ -9181,6 +9097,90 @@
             <FUNCTION>
               <NID>0xFB05FAD0</NID>
               <NAME>sceKernelIcacheReadTag</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB83A1E76</NID>
+              <NAME>sceKernelDcachePurgeRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x87E81561</NID>
+              <NAME>sceKernelPutUserLog</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x004D4DEE</NID>
+              <NAME>sceKernelL1DcacheWritebackRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x157A383A</NID>
+              <NAME>sceKernelL1DcacheInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1B0592A3</NID>
+              <NAME>sceKernelL1DcacheWritebackInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x39F49610</NID>
+              <NAME>sceKernelGetPTRIG</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x3FD3D324</NID>
+              <NAME>sceKernelL1DcacheWritebackAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x43C9A8DB</NID>
+              <NAME>sceKernelL1IcacheInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x515B4FAF</NID>
+              <NAME>sceKernelL1DcacheReadTag</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5C7F2B1A</NID>
+              <NAME>sceKernelL1IcacheReadTag</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x6231A71D</NID>
+              <NAME>sceKernelSetPTRIG</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7333E539</NID>
+              <NAME>sceKernelL1IcacheInvalidateAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x740DF7F0</NID>
+              <NAME>sceKernelL1DcacheProbe</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x99134C3F</NID>
+              <NAME>sceKernelL1DcachePurgeRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xAF3766BB</NID>
+              <NAME>sceKernelL1DcacheWritebackInvalidateAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xDBBE9A46</NID>
+              <NAME>sceKernelL1DcacheProbeRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF0155BCA</NID>
+              <NAME>sceKernelL1IcacheProbe</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x0939D45C</NID>
+              <NAME>sceKernelL2cacheWritebackAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x485E430A</NID>
+              <NAME>sceKernelL2cacheWritebackInvalidateAll</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x601E43E6</NID>
+              <NAME>sceKernelL2cacheWritebackRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7C5DC253</NID>
+              <NAME>sceKernelL2cacheWritebackInvalidateRange</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -9201,10 +9201,6 @@
               <NAME>sceKernelPowerUnlock</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x3E0271D3</NID>
-              <NAME>sceKernelVolatileMemLock</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x67B59042</NID>
               <NAME>sceSuspendForKernel_67B59042</NAME>
             </FUNCTION>
@@ -9215,18 +9211,6 @@
             <FUNCTION>
               <NID>0x91A77137</NID>
               <NAME>sceKernelRegisterSuspendHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x98A1D061</NID>
-              <NAME>sceKernelPowerRebootStart</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xA14F40B2</NID>
-              <NAME>sceKernelVolatileMemTryLock</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xA569E425</NID>
-              <NAME>sceKernelVolatileMemUnlock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2C9640B</NID>
@@ -9252,6 +9236,22 @@
               <NID>0xEADB1BD7</NID>
               <NAME>sceKernelPowerLock</NAME>
             </FUNCTION>
+            <FUNCTION>
+              <NID>0x98A1D061</NID>
+              <NAME>sceKernelPowerRebootStart</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x3E0271D3</NID>
+              <NAME>sceKernelVolatileMemLock</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA14F40B2</NID>
+              <NAME>sceKernelVolatileMemTryLock</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA569E425</NID>
+              <NAME>sceKernelVolatileMemUnlock</NAME>
+            </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
         <LIBRARY>
@@ -9267,6 +9267,10 @@
               <NAME>sceKernelPowerUnlock</NAME>
             </FUNCTION>
             <FUNCTION>
+              <NID>0xEADB1BD7</NID>
+              <NAME>sceKernelPowerLock</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0x3E0271D3</NID>
               <NAME>sceKernelVolatileMemLock</NAME>
             </FUNCTION>
@@ -9277,10 +9281,6 @@
             <FUNCTION>
               <NID>0xA569E425</NID>
               <NAME>sceKernelVolatileMemUnlock</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xEADB1BD7</NID>
-              <NAME>sceKernelPowerLock</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -9293,10 +9293,6 @@
               <NAME>sceKernelSysEventDispatch</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x68D55505</NID>
-              <NAME>sceKernelReferSysEventHandlers</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xAEB300AE</NID>
               <NAME>sceKernelIsRegisterSysEventHandler</NAME>
             </FUNCTION>
@@ -9307,6 +9303,10 @@
             <FUNCTION>
               <NID>0xD7D3FDCD</NID>
               <NAME>sceKernelUnregisterSysEventHandler</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x68D55505</NID>
+              <NAME>sceKernelReferSysEventHandlers</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -9385,10 +9385,6 @@
               <NAME>sceKernelPollMbx</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x0DDCD2C9</NID>
-              <NAME>sceKernelTryLockMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x110DEC9A</NID>
               <NAME>sceKernelUSec2SysClock</NAME>
             </FUNCTION>
@@ -9403,10 +9399,6 @@
             <FUNCTION>
               <NID>0x18260574</NID>
               <NAME>sceKernelReceiveMbx</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x1AF94D03</NID>
-              <NAME>sceKernelDonateWakeupThread</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D371B8A</NID>
@@ -9513,10 +9505,6 @@
               <NAME>sceKernelCreateThread</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x4C145944</NID>
-              <NAME>sceKernelReferLwMutexStatusByID</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x4E3A1105</NID>
               <NAME>sceKernelWaitSema</NAME>
             </FUNCTION>
@@ -9553,10 +9541,6 @@
               <NAME>sceKernelPollSema</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x5BF4DD27</NID>
-              <NAME>sceKernelLockMutexCB</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x5F32BEAA</NID>
               <NAME>sceKernelReferVTimerStatus</NAME>
             </FUNCTION>
@@ -9581,20 +9565,12 @@
               <NAME>sceKernelDelayThreadCB</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x6B30100F</NID>
-              <NAME>sceKernelUnlockMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x6D212BAC</NID>
               <NAME>sceKernelWaitSemaCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x71BC9871</NID>
               <NAME>sceKernelChangeThreadPriority</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x721067F3</NID>
-              <NAME>sceKernelReferTlsplStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72F3C145</NID>
@@ -9629,10 +9605,6 @@
               <NAME>sceKernelExitDeleteThread</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x80CA77BA</NID>
-              <NAME>sceKernelRegisterDeadThreadHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x812346E4</NID>
               <NAME>sceKernelClearEventFlag</NAME>
             </FUNCTION>
@@ -9661,20 +9633,12 @@
               <NAME>sceKernelDeleteMbx</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x8672E3D0</NID>
-              <NAME>ThreadManForKernel_8672E3D0</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x876DBFAD</NID>
               <NAME>sceKernelSendMsgPipe</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87D4DD36</NID>
               <NAME>sceKernelCancelReceiveMbx</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x87D9223C</NID>
-              <NAME>sceKernelCancelMutex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x884C9F90</NID>
@@ -9733,20 +9697,12 @@
               <NAME>sceKernelReferMbxStatus</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xA9C2CB9A</NID>
-              <NAME>sceKernelReferMutexStatus</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xAA73C935</NID>
               <NAME>sceKernelExitThread</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF36D708</NID>
               <NAME>sceKernelTryAllocateVpl</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xB011B11F</NID>
-              <NAME>sceKernelLockMutex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2C25152</NID>
@@ -9767,10 +9723,6 @@
             <FUNCTION>
               <NID>0xB7C18B77</NID>
               <NAME>sceKernelGetVTimerBaseWide</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xB7D098C6</NID>
-              <NAME>sceKernelCreateMutex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA4051D6</NID>
@@ -9817,10 +9769,6 @@
               <NAME>sceKernelUSec2SysClockWide</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xC9BBE9A2</NID>
-              <NAME>sceKernelGetThreadmanIdOwner</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xCD203292</NID>
               <NAME>sceKernelCancelEventFlag</NAME>
             </FUNCTION>
@@ -9843,10 +9791,6 @@
             <FUNCTION>
               <NID>0xD2D615EF</NID>
               <NAME>sceKernelCancelVTimerHandler</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xD366D35A</NID>
-              <NAME>ThreadManForKernel_D366D35A</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD59EAD2F</NID>
@@ -9941,10 +9885,6 @@
               <NAME>sceKernelGetUserLevel</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF8170FBE</NID>
-              <NAME>sceKernelDeleteMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xFB6425C3</NID>
               <NAME>sceKernelSetVTimerTimeWide</NAME>
             </FUNCTION>
@@ -9963,6 +9903,66 @@
             <FUNCTION>
               <NID>0xFFC36A14</NID>
               <NAME>sceKernelReferThreadRunStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x80CA77BA</NID>
+              <NAME>sceKernelRegisterDeadThreadHandler</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x0DDCD2C9</NID>
+              <NAME>sceKernelTryLockMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5BF4DD27</NID>
+              <NAME>sceKernelLockMutexCB</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x6B30100F</NID>
+              <NAME>sceKernelUnlockMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x87D9223C</NID>
+              <NAME>sceKernelCancelMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA9C2CB9A</NID>
+              <NAME>sceKernelReferMutexStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB011B11F</NID>
+              <NAME>sceKernelLockMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB7D098C6</NID>
+              <NAME>sceKernelCreateMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF8170FBE</NID>
+              <NAME>sceKernelDeleteMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1AF94D03</NID>
+              <NAME>sceKernelDonateWakeupThread</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xC9BBE9A2</NID>
+              <NAME>sceKernelGetThreadmanIdOwner</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4C145944</NID>
+              <NAME>sceKernelReferLwMutexStatusByID</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8672E3D0</NID>
+              <NAME>ThreadManForKernel_8672E3D0</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x721067F3</NID>
+              <NAME>sceKernelReferTlsplStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD366D35A</NID>
+              <NAME>ThreadManForKernel_D366D35A</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -9983,10 +9983,6 @@
               <NAME>sceKernelPollMbx</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x0DDCD2C9</NID>
-              <NAME>sceKernelTryLockMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x0E927AED</NID>
               <NAME>_sceKernelReturnFromTimerHandler</NAME>
             </FUNCTION>
@@ -10005,14 +10001,6 @@
             <FUNCTION>
               <NID>0x18260574</NID>
               <NAME>sceKernelReceiveMbx</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x19CFF145</NID>
-              <NAME>sceKernelCreateLwMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x1AF94D03</NID>
-              <NAME>sceKernelDonateWakeupThread</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D371B8A</NID>
@@ -10039,10 +10027,6 @@
               <NAME>sceKernelDeleteSema</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x28BFD974</NID>
-              <NAME>ThreadManForUser_28BFD974</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x293B45B8</NID>
               <NAME>sceKernelGetThreadId</NAME>
             </FUNCTION>
@@ -10059,20 +10043,12 @@
               <NAME>sceKernelPollEventFlag</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x31327F19</NID>
-              <NAME>_sceKernelLockLwMutexCB</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x328C546A</NID>
               <NAME>sceKernelWaitEventFlagCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x328F9E52</NID>
               <NAME>sceKernelDeleteVTimer</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x32BF938E</NID>
-              <NAME>sceKernelDeleteTlspl</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33BE4024</NID>
@@ -10123,14 +10099,6 @@
               <NAME>sceKernelCreateThread</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x4A719FB2</NID>
-              <NAME>sceKernelFreeTlspl</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x4C145944</NID>
-              <NAME>sceKernelReferLwMutexStatusByID</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x4E3A1105</NID>
               <NAME>sceKernelWaitSema</NAME>
             </FUNCTION>
@@ -10167,16 +10135,8 @@
               <NAME>sceKernelPollSema</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x5BF4DD27</NID>
-              <NAME>sceKernelLockMutexCB</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x5F32BEAA</NID>
               <NAME>sceKernelReferVTimerStatus</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x60107536</NID>
-              <NAME>sceKernelDeleteLwMutex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x616403BA</NID>
@@ -10195,20 +10155,12 @@
               <NAME>sceKernelReferThreadProfiler</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x65F54FFB</NID>
-              <NAME>_sceKernelAllocateTlspl</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x6652B8CA</NID>
               <NAME>sceKernelSetAlarm</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68DA9E36</NID>
               <NAME>sceKernelDelayThreadCB</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x6B30100F</NID>
-              <NAME>sceKernelUnlockMutex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D212BAC</NID>
@@ -10219,16 +10171,8 @@
               <NAME>_sceKernelReturnFromCallback</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x71040D5C</NID>
-              <NAME>_sceKernelTryLockLwMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x71BC9871</NID>
               <NAME>sceKernelChangeThreadPriority</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x721067F3</NID>
-              <NAME>sceKernelReferTlsplStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72F3C145</NID>
@@ -10253,10 +10197,6 @@
             <FUNCTION>
               <NID>0x7C41F2C2</NID>
               <NAME>sceKernelSendMsgPipeCB</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x7CFF8CF3</NID>
-              <NAME>_sceKernelLockLwMutex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E65B999</NID>
@@ -10295,10 +10235,6 @@
               <NAME>sceKernelDeleteMbx</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x8672E3D0</NID>
-              <NAME>ThreadManForUser_8672E3D0</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x876DBFAD</NID>
               <NAME>sceKernelSendMsgPipe</NAME>
             </FUNCTION>
@@ -10307,20 +10243,12 @@
               <NAME>sceKernelCancelReceiveMbx</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x87D9223C</NID>
-              <NAME>sceKernelCancelMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x884C9F90</NID>
               <NAME>sceKernelTrySendMsgPipe</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89B3D48C</NID>
               <NAME>sceKernelDeleteVpl</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x8DAFF657</NID>
-              <NAME>sceKernelCreateTlspl</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FFDF9A2</NID>
@@ -10351,10 +10279,6 @@
               <NAME>sceKernelDeleteThread</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xA1F78052</NID>
-              <NAME>_sceKernelReturnFromChangeStack</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xA66B0120</NID>
               <NAME>sceKernelReferEventFlagStatus</NAME>
             </FUNCTION>
@@ -10367,20 +10291,12 @@
               <NAME>sceKernelReferMbxStatus</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xA9C2CB9A</NID>
-              <NAME>sceKernelReferMutexStatus</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xAA73C935</NID>
               <NAME>sceKernelExitThread</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF36D708</NID>
               <NAME>sceKernelTryAllocateVpl</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xB011B11F</NID>
-              <NAME>sceKernelLockMutex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2C25152</NID>
@@ -10399,10 +10315,6 @@
               <NAME>sceKernelGetVTimerBaseWide</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xB7D098C6</NID>
-              <NAME>sceKernelCreateMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xBA4051D6</NID>
               <NAME>sceKernelCancelCallback</NAME>
             </FUNCTION>
@@ -10415,20 +10327,12 @@
               <NAME>sceKernelReferSemaStatus</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xBC80EC7C</NID>
-              <NAME>sceKernelExtendThreadStack</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xBD123D9E</NID>
               <NAME>sceKernelDelaySysClockThread</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBED27435</NID>
               <NAME>sceKernelAllocateVpl</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xBEED3A47</NID>
-              <NAME>_sceKernelUnlockLwMutex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC07BB470</NID>
@@ -10555,10 +10459,6 @@
               <NAME>sceKernelFreeFpl</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF8170FBE</NID>
-              <NAME>sceKernelDeleteMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xFB6425C3</NID>
               <NAME>sceKernelSetVTimerTimeWide</NAME>
             </FUNCTION>
@@ -10573,6 +10473,106 @@
             <FUNCTION>
               <NID>0xFFC36A14</NID>
               <NAME>sceKernelReferThreadRunStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x0DDCD2C9</NID>
+              <NAME>sceKernelTryLockMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x5BF4DD27</NID>
+              <NAME>sceKernelLockMutexCB</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x6B30100F</NID>
+              <NAME>sceKernelUnlockMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x87D9223C</NID>
+              <NAME>sceKernelCancelMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA9C2CB9A</NID>
+              <NAME>sceKernelReferMutexStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB011B11F</NID>
+              <NAME>sceKernelLockMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB7D098C6</NID>
+              <NAME>sceKernelCreateMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xF8170FBE</NID>
+              <NAME>sceKernelDeleteMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1AF94D03</NID>
+              <NAME>sceKernelDonateWakeupThread</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x19CFF145</NID>
+              <NAME>sceKernelCreateLwMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x31327F19</NID>
+              <NAME>_sceKernelLockLwMutexCB</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4C145944</NID>
+              <NAME>sceKernelReferLwMutexStatusByID</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x60107536</NID>
+              <NAME>sceKernelDeleteLwMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x71040D5C</NID>
+              <NAME>_sceKernelTryLockLwMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7CFF8CF3</NID>
+              <NAME>_sceKernelLockLwMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBEED3A47</NID>
+              <NAME>_sceKernelUnlockLwMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8672E3D0</NID>
+              <NAME>ThreadManForUser_8672E3D0</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x28BFD974</NID>
+              <NAME>ThreadManForUser_28BFD974</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x32BF938E</NID>
+              <NAME>sceKernelDeleteTlspl</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4A719FB2</NID>
+              <NAME>sceKernelFreeTlspl</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x65F54FFB</NID>
+              <NAME>_sceKernelAllocateTlspl</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x721067F3</NID>
+              <NAME>sceKernelReferTlsplStatus</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x8DAFF657</NID>
+              <NAME>sceKernelCreateTlspl</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA1F78052</NID>
+              <NAME>_sceKernelReturnFromChangeStack</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBC80EC7C</NID>
+              <NAME>sceKernelExtendThreadStack</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -10591,30 +10591,6 @@
               <NAME>sceKernelCpuSuspendIntr</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x15B6446B</NID>
-              <NAME>sceKernelUnlockLwMutex</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x1839852A</NID>
-              <NAME>sceKernelMemcpy</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x1FC64E09</NID>
-              <NAME>sceKernelLockLwMutexCB</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x293B45B8</NID>
-              <NAME>sceKernelGetThreadId</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x37431849</NID>
-              <NAME>sceKernelTryLockLwMutex_600</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x3AD10D4D</NID>
-              <NAME>Kernel_Library_3AD10D4D</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x3B84732D</NID>
               <NAME>sceKernelCpuResumeIntrWithSync</NAME>
             </FUNCTION>
@@ -10627,12 +10603,16 @@
               <NAME>sceKernelCpuResumeIntr</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xA089ECA4</NID>
-              <NAME>sceKernelMemset</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xB55249D2</NID>
               <NAME>sceKernelIsCpuIntrEnable</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x15B6446B</NID>
+              <NAME>sceKernelUnlockLwMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1FC64E09</NID>
+              <NAME>sceKernelLockLwMutexCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA46419</NID>
@@ -10643,16 +10623,36 @@
               <NAME>sceKernelReferLwMutexStatus</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xD13BDE95</NID>
-              <NAME>sceKernelCheckThreadStack</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xDC692EE3</NID>
               <NAME>sceKernelTryLockLwMutex</NAME>
             </FUNCTION>
             <FUNCTION>
+              <NID>0x293B45B8</NID>
+              <NAME>sceKernelGetThreadId</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD13BDE95</NID>
+              <NAME>sceKernelCheckThreadStack</NAME>
+            </FUNCTION>
+            <FUNCTION>
               <NID>0xFA835CDE</NID>
               <NAME>sceKernelGetTlsAddr</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1839852A</NID>
+              <NAME>sceKernelMemcpy</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x37431849</NID>
+              <NAME>sceKernelTryLockLwMutex_600</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x3AD10D4D</NID>
+              <NAME>Kernel_Library_3AD10D4D</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xA089ECA4</NID>
+              <NAME>sceKernelMemset</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

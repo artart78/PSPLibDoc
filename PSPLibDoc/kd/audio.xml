@@ -2696,345 +2696,380 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x035C14C6</NID>
-              <NAME>sceAudio_driver_035C14C6</NAME>
+              <NAME>sceAudioOutput</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x138A70F1</NID>
-              <NAME>sceAudio_driver_138A70F1</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A223275</NID>
-              <NAME>sceAudio_driver_1A223275</NAME>
+              <NAME>sceAudioWaitInputEnd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D4B75F7</NID>
-              <NAME>sceAudio_driver_3D4B75F7</NAME>
+              <NAME>sceAudioInput</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43645E69</NID>
-              <NAME>sceAudio_driver_43645E69</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x442588EB</NID>
-              <NAME>sceAudio_driver_442588EB</NAME>
+              <NAME>sceAudioSetFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47D06FE6</NID>
-              <NAME>sceAudio_driver_47D06FE6</NAME>
+              <NAME>sceAudioOutputPanned</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5140D94F</NID>
-              <NAME>sceAudio_driver_5140D94F</NAME>
+              <NAME>sceAudioOutputPannedBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63BBD850</NID>
-              <NAME>sceAudio_driver_63BBD850</NAME>
+              <NAME>sceAudioInputInitEx</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x669D93E4</NID>
-              <NAME>sceAudio_driver_669D93E4</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7222BC76</NID>
-              <NAME>sceAudio_driver_7222BC76</NAME>
+              <NAME>sceAudioGetInputLength</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x798FB2A3</NID>
-              <NAME>sceAudio_driver_798FB2A3</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BCD60A5</NID>
-              <NAME>sceAudio_driver_8BCD60A5</NAME>
+              <NAME>sceAudioInputBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA17F55D7</NID>
-              <NAME>sceAudio_driver_A17F55D7</NAME>
+              <NAME>sceAudioSetChannelDataLen</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB282F4B2</NID>
-              <NAME>sceAudio_driver_B282F4B2</NAME>
+              <NAME>sceAudioGetChannelRestLength</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBED111E5</NID>
-              <NAME>sceAudio_driver_BED111E5</NAME>
+              <NAME>sceAudioInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC2031226</NID>
-              <NAME>sceAudio_driver_C2031226</NAME>
+              <NAME>sceAudioChRelease</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC966C3A</NID>
-              <NAME>sceAudio_driver_CC966C3A</NAME>
+              <NAME>sceAudioInputInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6620E8E</NID>
-              <NAME>sceAudio_driver_D6620E8E</NAME>
+              <NAME>sceAudioOneshotOutput</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD81BCF3F</NID>
-              <NAME>sceAudio_driver_D81BCF3F</NAME>
+              <NAME>sceAudioGetChannelRestLen</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDB4EFE9</NID>
-              <NAME>sceAudio_driver_DDB4EFE9</NAME>
+              <NAME>sceAudioSetVolumeOffset</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE4A9D621</NID>
-              <NAME>sceAudio_driver_E4A9D621</NAME>
+              <NAME>sceAudioChReserve</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE73CE6EE</NID>
-              <NAME>sceAudio_driver_E73CE6EE</NAME>
+              <NAME>sceAudioChangeChannelConfig</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF42AAEFB</NID>
-              <NAME>sceAudio_driver_F42AAEFB</NAME>
+              <NAME>sceAudioPollInputEnd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9504CA4</NID>
-              <NAME>sceAudio_driver_F9504CA4</NAME>
+              <NAME>sceAudioChangeChannelVolume</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC67A110</NID>
-              <NAME>sceAudio_driver_FC67A110</NAME>
+              <NAME>sceAudioLoopbackTest</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC7AA255</NID>
-              <NAME>sceAudio_driver_FC7AA255</NAME>
+              <NAME>sceAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>
                 <VERSION>3.72</VERSION>
                 <VERSION>3.73</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B61478E</NID>
-              <NAME>sceAudio_driver_0B61478E</NAME>
+              <NAME>sceAudioOutputPannedBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B74AAA2</NID>
-              <NAME>sceAudio_driver_0B74AAA2</NAME>
+              <NAME>sceAudioInput</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2047EAD8</NID>
-              <NAME>sceAudio_driver_2047EAD8</NAME>
+              <NAME>sceAudioOutput</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20856A07</NID>
-              <NAME>sceAudio_driver_20856A07</NAME>
+              <NAME>sceAudioChangeChannelVolume</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2533CE02</NID>
-              <NAME>sceAudio_driver_2533CE02</NAME>
+              <NAME>sceAudioInit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E087113</NID>
-              <NAME>sceAudio_driver_3E087113</NAME>
+              <NAME>sceAudioWaitInputEnd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E3C44F1</NID>
-              <NAME>sceAudio_driver_3E3C44F1</NAME>
+              <NAME>sceAudioChRelease</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4036F0AE</NID>
-              <NAME>sceAudio_driver_4036F0AE</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4754D283</NID>
@@ -3047,178 +3082,197 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6985717B</NID>
-              <NAME>sceAudio_driver_6985717B</NAME>
+              <NAME>sceAudioChReserve</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6ACDCBB3</NID>
-              <NAME>sceAudio_driver_6ACDCBB3</NAME>
+              <NAME>sceAudioPollInputEnd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80BCF50C</NID>
-              <NAME>sceAudio_driver_80BCF50C</NAME>
+              <NAME>sceAudioGetChannelRestLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x837D3DF8</NID>
-              <NAME>sceAudio_driver_837D3DF8</NAME>
+              <NAME>sceAudioInputBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94E28BDD</NID>
-              <NAME>sceAudio_driver_94E28BDD</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A34BC0D</NID>
-              <NAME>sceAudio_driver_9A34BC0D</NAME>
+              <NAME>sceAudioSetFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BD06636</NID>
-              <NAME>sceAudio_driver_9BD06636</NAME>
+              <NAME>sceAudioInputInitEx</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C56FF57</NID>
-              <NAME>sceAudio_driver_9C56FF57</NAME>
+              <NAME>sceAudioInputInit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DA39F69</NID>
-              <NAME>sceAudio_driver_9DA39F69</NAME>
+              <NAME>sceAudioOneshotOutput</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DF11DD1</NID>
-              <NAME>sceAudio_driver_9DF11DD1</NAME>
+              <NAME>sceAudioSetChannelDataLen</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1B19554</NID>
-              <NAME>sceAudio_driver_A1B19554</NAME>
+              <NAME>sceAudioLoopbackTest</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8B12BF0</NID>
-              <NAME>sceAudio_driver_A8B12BF0</NAME>
+              <NAME>sceAudioSetVolumeOffset</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD7A0669</NID>
-              <NAME>sceAudio_driver_AD7A0669</NAME>
+              <NAME>sceAudioGetChannelRestLen</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6E3C6DB</NID>
-              <NAME>sceAudio_driver_B6E3C6DB</NAME>
+              <NAME>sceAudioChangeChannelConfig</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE6F1721</NID>
-              <NAME>sceAudio_driver_BE6F1721</NAME>
+              <NAME>sceAudioOutputPanned</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC66BDCA1</NID>
-              <NAME>sceAudio_driver_C66BDCA1</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4828217</NID>
-              <NAME>sceAudio_driver_D4828217</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5CE71B8</NID>
-              <NAME>sceAudio_driver_D5CE71B8</NAME>
+              <NAME>sceAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE170A13</NID>
-              <NAME>sceAudio_driver_EE170A13</NAME>
+              <NAME>sceAudioGetInputLength</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>
                 <VERSION>3.93</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x027E9E8B</NID>
-              <NAME>sceAudio_driver_027E9E8B</NAME>
+              <NAME>sceAudioChangeChannelConfig</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3226,10 +3280,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16B6C3AC</NID>
-              <NAME>sceAudio_driver_16B6C3AC</NAME>
+              <NAME>sceAudioChReserve</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3237,10 +3292,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27EBE3E3</NID>
-              <NAME>sceAudio_driver_27EBE3E3</NAME>
+              <NAME>sceAudioGetInputLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3248,10 +3304,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31D13EBD</NID>
-              <NAME>sceAudio_driver_31D13EBD</NAME>
+              <NAME>sceAudioSetVolumeOffset</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3259,10 +3316,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32228C37</NID>
-              <NAME>sceAudio_driver_32228C37</NAME>
+              <NAME>sceAudioChRelease</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3270,10 +3328,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34C66B17</NID>
-              <NAME>sceAudio_driver_34C66B17</NAME>
+              <NAME>sceAudioLoopbackTest</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3281,10 +3340,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47A07980</NID>
-              <NAME>sceAudio_driver_47A07980</NAME>
+              <NAME>sceAudioGetChannelRestLen</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3292,10 +3352,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x52E455A3</NID>
-              <NAME>sceAudio_driver_52E455A3</NAME>
+              <NAME>sceAudioSetChannelDataLen</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3303,10 +3364,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61BBE62D</NID>
-              <NAME>sceAudio_driver_61BBE62D</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3314,10 +3376,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EE7810A</NID>
-              <NAME>sceAudio_driver_6EE7810A</NAME>
+              <NAME>sceAudioInputInitEx</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3325,10 +3388,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F45A811</NID>
-              <NAME>sceAudio_driver_6F45A811</NAME>
+              <NAME>sceAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3336,10 +3400,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x850A552B</NID>
-              <NAME>sceAudio_driver_850A552B</NAME>
+              <NAME>sceAudioOutputPanned</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3347,10 +3412,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x93C9D895</NID>
-              <NAME>sceAudio_driver_93C9D895</NAME>
+              <NAME>sceAudioWaitInputEnd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3358,10 +3424,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x98C058AE</NID>
-              <NAME>sceAudio_driver_98C058AE</NAME>
+              <NAME>sceAudioPollInputEnd</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3369,10 +3436,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8F8D96F</NID>
-              <NAME>sceAudio_driver_A8F8D96F</NAME>
+              <NAME>sceAudioInputBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3380,6 +3448,7 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB90DB3A0</NID>
@@ -3394,7 +3463,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB99D064F</NID>
-              <NAME>sceAudio_driver_B99D064F</NAME>
+              <NAME>sceAudioChangeChannelVolume</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3402,10 +3471,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBCD3344C</NID>
-              <NAME>sceAudio_driver_BCD3344C</NAME>
+              <NAME>sceAudioOneshotOutput</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3413,10 +3483,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC15BE9A3</NID>
-              <NAME>sceAudio_driver_C15BE9A3</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3424,10 +3495,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3C2C4B4</NID>
-              <NAME>sceAudio_driver_C3C2C4B4</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3435,10 +3507,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4839793</NID>
-              <NAME>sceAudio_driver_C4839793</NAME>
+              <NAME>sceAudioOutputPannedBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3446,10 +3519,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC92E4507</NID>
-              <NAME>sceAudio_driver_C92E4507</NAME>
+              <NAME>sceAudioInit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3457,10 +3531,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD272A5D</NID>
-              <NAME>sceAudio_driver_CD272A5D</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3468,10 +3543,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1B9083A</NID>
-              <NAME>sceAudio_driver_D1B9083A</NAME>
+              <NAME>sceAudioSetFrequency</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3479,10 +3555,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE560A6B3</NID>
-              <NAME>sceAudio_driver_E560A6B3</NAME>
+              <NAME>sceAudioInputInit</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3490,10 +3567,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7083625</NID>
-              <NAME>sceAudio_driver_F7083625</NAME>
+              <NAME>sceAudioOutput</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3501,10 +3579,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9426C14</NID>
-              <NAME>sceAudio_driver_F9426C14</NAME>
+              <NAME>sceAudioInput</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3512,10 +3591,11 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCC526B7</NID>
-              <NAME>sceAudio_driver_FCC526B7</NAME>
+              <NAME>sceAudioGetChannelRestLength</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>
@@ -3523,102 +3603,115 @@
                 <VERSION>4.01</VERSION>
                 <VERSION>4.05</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04D5E360</NID>
-              <NAME>sceAudio_driver_04D5E360</NAME>
+              <NAME>sceAudioOutputPanned</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x096DDD84</NID>
-              <NAME>sceAudio_driver_096DDD84</NAME>
+              <NAME>sceAudioSetVolumeOffset</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C6E0800</NID>
-              <NAME>sceAudio_driver_0C6E0800</NAME>
+              <NAME>sceAudioGetInputLength</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0CCCF5A6</NID>
-              <NAME>sceAudio_driver_0CCCF5A6</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DA27FDC</NID>
-              <NAME>sceAudio_driver_0DA27FDC</NAME>
+              <NAME>sceAudioInit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12454D49</NID>
-              <NAME>sceAudio_driver_12454D49</NAME>
+              <NAME>sceAudioInputInit</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2175E3D7</NID>
-              <NAME>sceAudio_driver_2175E3D7</NAME>
+              <NAME>sceAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24AD0624</NID>
-              <NAME>sceAudio_driver_24AD0624</NAME>
+              <NAME>sceAudioChRelease</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2986A38D</NID>
-              <NAME>sceAudio_driver_2986A38D</NAME>
+              <NAME>sceAudioWaitInputEnd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x415C02D3</NID>
-              <NAME>sceAudio_driver_415C02D3</NAME>
+              <NAME>sceAudioGetChannelRestLen</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x675AB56E</NID>
-              <NAME>sceAudio_driver_675AB56E</NAME>
+              <NAME>sceAudioLoopbackTest</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D47BCCE</NID>
-              <NAME>sceAudio_driver_7D47BCCE</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x872B085E</NID>
@@ -3630,59 +3723,66 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8809D0CD</NID>
-              <NAME>sceAudio_driver_8809D0CD</NAME>
+              <NAME>sceAudioGetChannelRestLength</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B78CE95</NID>
-              <NAME>sceAudio_driver_8B78CE95</NAME>
+              <NAME>sceAudioChangeChannelConfig</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C5C6807</NID>
-              <NAME>sceAudio_driver_8C5C6807</NAME>
+              <NAME>sceAudioSetChannelDataLen</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E573FC5</NID>
-              <NAME>sceAudio_driver_8E573FC5</NAME>
+              <NAME>sceAudioInput</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E86E0CF</NID>
-              <NAME>sceAudio_driver_8E86E0CF</NAME>
+              <NAME>sceAudioSetFrequency</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x960A4530</NID>
-              <NAME>sceAudio_driver_960A4530</NAME>
+              <NAME>sceAudioOutput</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F452049</NID>
-              <NAME>sceAudio_driver_9F452049</NAME>
+              <NAME>sceAudioOneshotOutput</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FC0FD4F</NID>
@@ -3694,11 +3794,12 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9170B12</NID>
-              <NAME>sceAudio_driver_A9170B12</NAME>
+              <NAME>sceAudioPollInputEnd</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB803D548</NID>
@@ -3710,63 +3811,70 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF50BB5B</NID>
-              <NAME>sceAudio_driver_BF50BB5B</NAME>
+              <NAME>sceAudioOutputPannedBlocking</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC08F9F54</NID>
-              <NAME>sceAudio_driver_C08F9F54</NAME>
+              <NAME>sceAudioChReserve</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD42588C3</NID>
-              <NAME>sceAudio_driver_D42588C3</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA9B8B7A</NID>
-              <NAME>sceAudio_driver_DA9B8B7A</NAME>
+              <NAME>sceAudioChangeChannelVolume</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD7D024E</NID>
-              <NAME>sceAudio_driver_DD7D024E</NAME>
+              <NAME>sceAudioInputInitEx</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE525C8F9</NID>
-              <NAME>sceAudio_driver_E525C8F9</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC314534</NID>
-              <NAME>sceAudio_driver_FC314534</NAME>
+              <NAME>sceAudioInputBlocking</NAME>
               <VERSIONS>
                 <VERSION>4.20</VERSION>
                 <VERSION>4.21</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A730BAB</NID>
-              <NAME>sceAudio_driver_0A730BAB</NAME>
+              <NAME>sceAudioLoopbackTest</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3777,10 +3885,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10E94C2E</NID>
-              <NAME>sceAudio_driver_10E94C2E</NAME>
+              <NAME>sceAudioChReserve</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3791,10 +3900,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1408111C</NID>
-              <NAME>sceAudio_driver_1408111C</NAME>
+              <NAME>sceAudioPollInputEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3805,10 +3915,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A7526DD</NID>
-              <NAME>sceAudio_driver_1A7526DD</NAME>
+              <NAME>sceAudioOneshotOutput</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3819,10 +3930,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31DB12BC</NID>
-              <NAME>sceAudio_driver_31DB12BC</NAME>
+              <NAME>sceAudioChRelease</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3833,10 +3945,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x322078A5</NID>
-              <NAME>sceAudio_driver_322078A5</NAME>
+              <NAME>sceAudioGetChannelRestLength</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3847,10 +3960,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x324BA73D</NID>
-              <NAME>sceAudio_driver_324BA73D</NAME>
+              <NAME>sceAudioOutput</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3861,10 +3975,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E3FAE75</NID>
-              <NAME>sceAudio_driver_3E3FAE75</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3875,10 +3990,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49DA05AF</NID>
-              <NAME>sceAudio_driver_49DA05AF</NAME>
+              <NAME>sceAudioInput</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3889,10 +4005,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56F2651B</NID>
-              <NAME>sceAudio_driver_56F2651B</NAME>
+              <NAME>sceAudioSetVolumeOffset</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3903,10 +4020,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6BA2DA38</NID>
-              <NAME>sceAudio_driver_6BA2DA38</NAME>
+              <NAME>sceAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3917,10 +4035,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7404CF0E</NID>
-              <NAME>sceAudio_driver_7404CF0E</NAME>
+              <NAME>sceAudioChangeChannelConfig</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3931,10 +4050,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83ABA7A8</NID>
-              <NAME>sceAudio_driver_83ABA7A8</NAME>
+              <NAME>sceAudioGetInputLength</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3945,10 +4065,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x909092AB</NID>
-              <NAME>sceAudio_driver_909092AB</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3959,10 +4080,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DB844C6</NID>
-              <NAME>sceAudio_driver_9DB844C6</NAME>
+              <NAME>sceAudioSetFrequency</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3973,10 +4095,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3A683FC</NID>
-              <NAME>sceAudio_driver_A3A683FC</NAME>
+              <NAME>sceAudioInputInitEx</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -3987,6 +4110,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB19D83B8</NID>
@@ -4004,7 +4128,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFC404F6</NID>
-              <NAME>sceAudio_driver_BFC404F6</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4015,10 +4139,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7A7DBB0</NID>
-              <NAME>sceAudio_driver_C7A7DBB0</NAME>
+              <NAME>sceAudioInputInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4029,10 +4154,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7D0C9AA</NID>
-              <NAME>sceAudio_driver_C7D0C9AA</NAME>
+              <NAME>sceAudioGetChannelRestLen</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4043,10 +4169,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9DEA954</NID>
-              <NAME>sceAudio_driver_C9DEA954</NAME>
+              <NAME>sceAudioSetChannelDataLen</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4057,6 +4184,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD260D956</NID>
@@ -4074,7 +4202,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD364E583</NID>
-              <NAME>sceAudio_driver_D364E583</NAME>
+              <NAME>sceAudioWaitInputEnd</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4085,10 +4213,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC34AC20</NID>
-              <NAME>sceAudio_driver_DC34AC20</NAME>
+              <NAME>sceAudioOutputPannedBlocking</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4099,10 +4228,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEF3E3AF</NID>
-              <NAME>sceAudio_driver_DEF3E3AF</NAME>
+              <NAME>sceAudioChangeChannelVolume</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4113,6 +4243,7 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF6CBA44</NID>
@@ -4130,7 +4261,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8D4EE26</NID>
-              <NAME>sceAudio_driver_E8D4EE26</NAME>
+              <NAME>sceAudioOutputPanned</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4141,10 +4272,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9254026</NID>
-              <NAME>sceAudio_driver_E9254026</NAME>
+              <NAME>sceAudioInputBlocking</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4155,10 +4287,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF10C4F08</NID>
-              <NAME>sceAudio_driver_F10C4F08</NAME>
+              <NAME>sceAudioInit</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4169,10 +4302,11 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF355A263</NID>
-              <NAME>sceAudio_driver_F355A263</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>5.00</VERSION>
                 <VERSION>5.01</VERSION>
@@ -4183,69 +4317,79 @@
                 <VERSION>5.51</VERSION>
                 <VERSION>5.55</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x00079C75</NID>
-              <NAME>sceAudio_driver_00079C75</NAME>
+              <NAME>sceAudioInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01F64F89</NID>
-              <NAME>sceAudio_driver_01F64F89</NAME>
+              <NAME>sceAudioPollInputEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0363F674</NID>
-              <NAME>sceAudio_driver_0363F674</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A4450DB</NID>
-              <NAME>sceAudio_driver_0A4450DB</NAME>
+              <NAME>sceAudioOutput</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DF5B339</NID>
-              <NAME>sceAudio_driver_2DF5B339</NAME>
+              <NAME>sceAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BC80CF6</NID>
-              <NAME>sceAudio_driver_3BC80CF6</NAME>
+              <NAME>sceAudioSetFrequency</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DD1B4BE</NID>
-              <NAME>sceAudio_driver_3DD1B4BE</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4440159E</NID>
-              <NAME>sceAudio_driver_4440159E</NAME>
+              <NAME>sceAudioInput</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47160DBA</NID>
-              <NAME>sceAudio_driver_47160DBA</NAME>
+              <NAME>sceAudioInputBlocking</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AD79389</NID>
@@ -4256,24 +4400,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67FD980D</NID>
-              <NAME>sceAudio_driver_67FD980D</NAME>
+              <NAME>sceAudioInputInit</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8785EFE0</NID>
-              <NAME>sceAudio_driver_8785EFE0</NAME>
+              <NAME>sceAudioOneshotOutput</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D8D8D28</NID>
-              <NAME>sceAudio_driver_8D8D8D28</NAME>
+              <NAME>sceAudioGetChannelRestLen</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x920B8B3B</NID>
@@ -4284,87 +4431,99 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x990745DE</NID>
-              <NAME>sceAudio_driver_990745DE</NAME>
+              <NAME>sceAudioLoopbackTest</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB212064D</NID>
-              <NAME>sceAudio_driver_B212064D</NAME>
+              <NAME>sceAudioSetChannelDataLen</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB70C9449</NID>
-              <NAME>sceAudio_driver_B70C9449</NAME>
+              <NAME>sceAudioChRelease</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA830657</NID>
-              <NAME>sceAudio_driver_BA830657</NAME>
+              <NAME>sceAudioOutputPannedBlocking</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD58E6BC</NID>
-              <NAME>sceAudio_driver_BD58E6BC</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD758B3B</NID>
-              <NAME>sceAudio_driver_BD758B3B</NAME>
+              <NAME>sceAudioChReserve</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD353E4E8</NID>
-              <NAME>sceAudio_driver_D353E4E8</NAME>
+              <NAME>sceAudioGetInputLength</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3D66AB8</NID>
-              <NAME>sceAudio_driver_D3D66AB8</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA692AA3</NID>
-              <NAME>sceAudio_driver_DA692AA3</NAME>
+              <NAME>sceAudioChangeChannelConfig</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE13F276D</NID>
-              <NAME>sceAudio_driver_E13F276D</NAME>
+              <NAME>sceAudioSetVolumeOffset</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE39449B6</NID>
-              <NAME>sceAudio_driver_E39449B6</NAME>
+              <NAME>sceAudioGetChannelRestLength</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0A71012</NID>
-              <NAME>sceAudio_driver_F0A71012</NAME>
+              <NAME>sceAudioChangeChannelVolume</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4F443A2</NID>
@@ -4375,17 +4534,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF66A2442</NID>
-              <NAME>sceAudio_driver_F66A2442</NAME>
+              <NAME>sceAudioOutputPanned</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF882B0E9</NID>
-              <NAME>sceAudio_driver_F882B0E9</NAME>
+              <NAME>sceAudioWaitInputEnd</NAME>
               <VERSIONS>
                 <VERSION>5.70</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03E95C61</NID>
@@ -4398,147 +4559,163 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C4213E3</NID>
-              <NAME>sceAudio_driver_0C4213E3</NAME>
+              <NAME>sceAudioInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23F19798</NID>
-              <NAME>sceAudio_driver_23F19798</NAME>
+              <NAME>sceAudioOutputPannedBlocking</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FD643D0</NID>
-              <NAME>sceAudio_driver_2FD643D0</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3076A373</NID>
-              <NAME>sceAudio_driver_3076A373</NAME>
+              <NAME>sceAudioPollInputEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C20F1F3</NID>
-              <NAME>sceAudio_driver_3C20F1F3</NAME>
+              <NAME>sceAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x45457EE5</NID>
-              <NAME>sceAudio_driver_45457EE5</NAME>
+              <NAME>sceAudioOneshotOutput</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x45543440</NID>
-              <NAME>sceAudio_driver_45543440</NAME>
+              <NAME>sceAudioSetFrequency</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x548EEFD1</NID>
-              <NAME>sceAudio_driver_548EEFD1</NAME>
+              <NAME>sceAudioOutputPanned</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57AB835D</NID>
-              <NAME>sceAudio_driver_57AB835D</NAME>
+              <NAME>sceAudioChangeChannelVolume</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6354634C</NID>
-              <NAME>sceAudio_driver_6354634C</NAME>
+              <NAME>sceAudioLoopbackTest</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64B9E089</NID>
-              <NAME>sceAudio_driver_64B9E089</NAME>
+              <NAME>sceAudioChReserve</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6B9C59FE</NID>
-              <NAME>sceAudio_driver_6B9C59FE</NAME>
+              <NAME>sceAudioWaitInputEnd</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F968893</NID>
-              <NAME>sceAudio_driver_6F968893</NAME>
+              <NAME>sceAudioSetChannelDataLen</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77EBE4A2</NID>
-              <NAME>sceAudio_driver_77EBE4A2</NAME>
+              <NAME>sceAudioGetChannelRestLength</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79AF2DA3</NID>
-              <NAME>sceAudio_driver_79AF2DA3</NAME>
+              <NAME>sceAudioGetChannelRestLen</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F93FE1C</NID>
-              <NAME>sceAudio_driver_7F93FE1C</NAME>
+              <NAME>sceAudioInputBlocking</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86CBB0B9</NID>
@@ -4551,12 +4728,13 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA05BAA21</NID>
-              <NAME>sceAudio_driver_A05BAA21</NAME>
+              <NAME>sceAudioChRelease</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA500F7F2</NID>
@@ -4569,21 +4747,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA502088E</NID>
-              <NAME>sceAudio_driver_A502088E</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5C0603B</NID>
-              <NAME>sceAudio_driver_A5C0603B</NAME>
+              <NAME>sceAudioOutput</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF713B0E</NID>
@@ -4596,70 +4776,77 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB82D416A</NID>
-              <NAME>sceAudio_driver_B82D416A</NAME>
+              <NAME>sceAudioInputInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF1E8C42</NID>
-              <NAME>sceAudio_driver_BF1E8C42</NAME>
+              <NAME>sceAudioSetVolumeOffset</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD62C216</NID>
-              <NAME>sceAudio_driver_CD62C216</NAME>
+              <NAME>sceAudioChangeChannelConfig</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE26E49E7</NID>
-              <NAME>sceAudio_driver_E26E49E7</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC8B87CD</NID>
-              <NAME>sceAudio_driver_EC8B87CD</NAME>
+              <NAME>sceAudioInput</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF462A7B9</NID>
-              <NAME>sceAudio_driver_F462A7B9</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA700131</NID>
-              <NAME>sceAudio_driver_FA700131</NAME>
+              <NAME>sceAudioGetInputLength</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
                 <VERSION>6.20</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0399579B</NID>
-              <NAME>sceAudio_driver_0399579B</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4669,10 +4856,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BF0FA03</NID>
-              <NAME>sceAudio_driver_0BF0FA03</NAME>
+              <NAME>sceAudioSetFrequency</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4682,6 +4870,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x250F4101</NID>
@@ -4698,7 +4887,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E5E3227</NID>
-              <NAME>sceAudio_driver_2E5E3227</NAME>
+              <NAME>sceAudioInputInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4708,6 +4897,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x306D18F1</NID>
@@ -4737,7 +4927,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F4D81C1</NID>
-              <NAME>sceAudio_driver_3F4D81C1</NAME>
+              <NAME>sceAudioSetChannelDataLen</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4747,10 +4937,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x459D3B55</NID>
-              <NAME>sceAudio_driver_459D3B55</NAME>
+              <NAME>sceAudioInputBlocking</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4760,10 +4951,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x475F41FE</NID>
-              <NAME>sceAudio_driver_475F41FE</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4773,10 +4965,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FFADD67</NID>
-              <NAME>sceAudio_driver_4FFADD67</NAME>
+              <NAME>sceAudioLoopbackTest</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4786,10 +4979,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x52F5804E</NID>
-              <NAME>sceAudio_driver_52F5804E</NAME>
+              <NAME>sceAudioGetChannelRestLen</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4799,10 +4993,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A0397C5</NID>
-              <NAME>sceAudio_driver_5A0397C5</NAME>
+              <NAME>sceAudioChangeChannelConfig</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4812,10 +5007,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65BED4D9</NID>
-              <NAME>sceAudio_driver_65BED4D9</NAME>
+              <NAME>sceAudioInit</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4825,10 +5021,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x686AC4F4</NID>
-              <NAME>sceAudio_driver_686AC4F4</NAME>
+              <NAME>sceAudioOneshotOutput</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4838,10 +5035,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83C00002</NID>
-              <NAME>sceAudio_driver_83C00002</NAME>
+              <NAME>sceAudioPollInputEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4851,10 +5049,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84FA80C4</NID>
-              <NAME>sceAudio_driver_84FA80C4</NAME>
+              <NAME>sceAudioInput</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4864,10 +5063,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FB1537B</NID>
-              <NAME>sceAudio_driver_8FB1537B</NAME>
+              <NAME>sceAudioWaitInputEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4877,10 +5077,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA25A3346</NID>
-              <NAME>sceAudio_driver_A25A3346</NAME>
+              <NAME>sceAudioChangeChannelVolume</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4890,10 +5091,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA388ABDB</NID>
-              <NAME>sceAudio_driver_A388ABDB</NAME>
+              <NAME>sceAudioGetChannelRestLength</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4903,10 +5105,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6FD1A21</NID>
-              <NAME>sceAudio_driver_A6FD1A21</NAME>
+              <NAME>sceAudioChRelease</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4916,10 +5119,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA906D208</NID>
-              <NAME>sceAudio_driver_A906D208</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4929,10 +5133,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB29D727F</NID>
-              <NAME>sceAudio_driver_B29D727F</NAME>
+              <NAME>sceAudioOutputPannedBlocking</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4942,10 +5147,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC847973E</NID>
-              <NAME>sceAudio_driver_C847973E</NAME>
+              <NAME>sceAudioOutputPanned</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4955,10 +5161,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD35EFCD9</NID>
-              <NAME>sceAudio_driver_D35EFCD9</NAME>
+              <NAME>sceAudioOutput</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4968,10 +5175,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE071AB41</NID>
-              <NAME>sceAudio_driver_E071AB41</NAME>
+              <NAME>sceAudioGetInputLength</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4981,10 +5189,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9BCD519</NID>
-              <NAME>sceAudio_driver_E9BCD519</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -4994,10 +5203,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED4A5679</NID>
-              <NAME>sceAudio_driver_ED4A5679</NAME>
+              <NAME>sceAudioSetVolumeOffset</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5007,10 +5217,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF84226FB</NID>
-              <NAME>sceAudio_driver_F84226FB</NAME>
+              <NAME>sceAudioChReserve</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5020,10 +5231,11 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFADC7CBB</NID>
-              <NAME>sceAudio_driver_FADC7CBB</NAME>
+              <NAME>sceAudioEnd</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -5033,6 +5245,7 @@
                 <VERSION>6.38</VERSION>
                 <VERSION>6.39</VERSION>
               </VERSIONS>
+              <SOURCE>previous version (automated)</SOURCE>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE5A8DD1</NID>
