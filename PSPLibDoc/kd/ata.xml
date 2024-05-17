@@ -214,7 +214,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F05F48C</NID>
-              <NAME>sceAta_driver_1F05F48C</NAME>
+              <NAME>sceAtaCheckXferReady</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -979,7 +979,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x84E14690</NID>
-              <NAME>sceAta_driver_84E14690</NAME>
+              <NAME>sceAtaCheckPacketCmdComplete</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
